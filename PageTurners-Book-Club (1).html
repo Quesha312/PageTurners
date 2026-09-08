@@ -1,0 +1,1238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script data-cochat-failure-overlay="true">
+(function () {
+  function show(msg) {
+    var el = document.getElementById('cc-fail');
+    if (!el) {
+      el = document.createElement('div'); el.id = 'cc-fail';
+      el.style.cssText = 'position:fixed;inset:12px;z-index:2147483647;background:#fff;'
+        + 'border:1px solid #d4d4d8;border-radius:12px;padding:20px;overflow:auto;'
+        + 'font-family:system-ui,-apple-system,sans-serif;color:#27272a;'
+        + 'box-shadow:0 4px 16px rgba(0,0,0,.08)';
+      el.innerHTML = '<h2 style="margin:0 0 6px;font-size:16px;font-weight:600">'
+        + 'This app stopped running</h2>'
+        + '<p style="margin:0 0 12px;font-size:14px;color:#52525b">'
+        + 'Share the details below in the chat and the assistant can fix it.</p>'
+        + '<pre style="white-space:pre-wrap;background:#f4f4f5;border:1px solid #e4e4e7;'
+        + 'padding:10px;border-radius:8px;font-size:12px;line-height:1.5;margin:0"></pre>';
+      (document.body || document.documentElement).appendChild(el);
+    }
+    el.querySelector('pre').textContent += msg + '\n';
+  }
+  window.__ccFail = show;
+  window.addEventListener('error', function (e) {
+    if (e.target && (e.target.src || e.target.href)) {
+      show('Could not load: ' + (e.target.src || e.target.href));
+    } else {
+      show((e.message || 'Unknown error') + (e.lineno ? ' (line ' + e.lineno + ')' : ''));
+    }
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) {
+    show('Promise error: ' + (e.reason && e.reason.message ? e.reason.message : e.reason));
+  });
+})();
+</script>
+<script data-cochat-helper="true">
+// Dark mode sync from parent
+window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'darkMode') {
+        document.documentElement.classList.toggle('dark', e.data.dark);
+    }
+});
+
+// CoChat helpers — bridge to the parent window for authenticated calls.
+// The artifact iframe has no ``allow-same-origin``, so localStorage and
+// direct same-origin fetches with auth do not work here. The parent
+// attaches the user's token, picks a model (preferring the active chat's
+// selection over a platform default), and proxies to an allow-listed
+// endpoint. If your caller wants to pin a specific model id, set
+// ``window._cochatModel = '<model-id>'`` before invoking ``cochat.ask``.
+(function() {
+    // An artifact that ships its own bridge object keeps it; the host's copy
+    // only fills the gap.
+    if (window.cochat) { return; }
+    var _pending = {};
+    var _seq = 0;
+    var _BRIDGE_TIMEOUT_MS = 30000;
+
+    function _newRequestId() {
+        _seq += 1;
+        return 'cochat-' + Date.now().toString(36) + '-' + _seq.toString(36);
+    }
+
+    window.addEventListener('message', function(e) {
+        var data = e.data;
+        if (!data || data.type !== 'cochat:bridge:response') return;
+        var pending = _pending[data.requestId];
+        if (!pending) return;
+        delete _pending[data.requestId];
+        clearTimeout(pending.timer);
+        if (data.error) {
+            pending.reject(new Error(data.error));
+        } else {
+            pending.resolve(data);
+        }
+    });
+
+    function _bridge(message) {
+        return new Promise(function(resolve, reject) {
+            if (!window.parent || window.parent === window) {
+                reject(new Error('CoChat bridge unavailable: no parent window'));
+                return;
+            }
+            var requestId = _newRequestId();
+            var timer = setTimeout(function() {
+                if (_pending[requestId]) {
+                    delete _pending[requestId];
+                    reject(new Error('CoChat bridge timed out after 30s'));
+                }
+            }, _BRIDGE_TIMEOUT_MS);
+            _pending[requestId] = { resolve: resolve, reject: reject, timer: timer };
+            try {
+                window.parent.postMessage(
+                    Object.assign({ requestId: requestId }, message),
+                    '*'
+                );
+            } catch (err) {
+                delete _pending[requestId];
+                clearTimeout(timer);
+                reject(err);
+            }
+        });
+    }
+
+    window.cochat = {
+        // Call the LLM. The parent attaches auth and uses the current chat's model.
+        // Usage: const reply = await cochat.ask("What is 2+2?", {system: "..."});
+        ask: async function(prompt, options) {
+            options = options || {};
+            var model = (options && options.model) || window._cochatModel || '';
+            var resp = await _bridge({
+                type: 'cochat:ask',
+                prompt: prompt,
+                system: options.system || '',
+                model: model
+            });
+            if (resp && typeof resp.content === 'string') return resp.content;
+            return '';
+        },
+
+        // Proxied external HTTP call. Goes through /api/proxy parent-side.
+        // Usage: const r = await cochat.fetch({method:'GET', url:'https://api.example.com/x'});
+        fetch: async function(opts) {
+            opts = opts || {};
+            var resp = await _bridge({
+                type: 'cochat:proxy',
+                method: opts.method || 'GET',
+                url: opts.url || '',
+                headers: opts.headers || {},
+                body: typeof opts.body === 'string' ? opts.body : (opts.body == null ? '' : JSON.stringify(opts.body))
+            });
+            return {
+                ok: !!resp.ok,
+                status: resp.status || 0,
+                headers: resp.headers || {},
+                body: resp.body || '',
+                json: function() {
+                    try { return JSON.parse(resp.body || ''); } catch (e) { return null; }
+                }
+            };
+        }
+    };
+})();
+</script>
+<style data-cochat-base="true">
+/*
+ * CoChat artifact base theme.
+ *
+ * Inlined by `html_document.py:_artifact_renderer` into every HTML artifact's
+ * <head>. The variables are always defined (harmless), the opinionated styles
+ * are gated under `.cochat-base` so they only apply when the LLM opts in by
+ * adding ``class="cochat-base"`` to <body>.
+ *
+ * Sources of truth (kept in sync with):
+ *   src/app.css        — the `.cochat-artifact`-scoped --cc-* tokens
+ *   tailwind.config.js — the cochat color scale
+ *
+ * Dark mode contract:
+ *   The parent posts {type:'darkMode', dark} on iframe load and toggles
+ *   `html.dark` via the listener injected by `_artifact_renderer`. We key the
+ *   dark variables off `html.dark` (authoritative), plus a `prefers-color-
+ *   scheme` fallback for the standalone /artifacts/[id] viewer and the brief
+ *   pre-postMessage window.
+ */
+
+:root {
+    /* Brand */
+    --cc-primary: #811a71;
+    --cc-primary-light: #9e3d8e;
+    --cc-primary-dark: #5e1252;
+    --cc-primary-subtle: rgba(129, 26, 113, 0.08);
+    --cc-secondary: #450077;
+    --cc-accent: #0ea371;
+    --cc-accent-light: #12c98a;
+    --cc-accent-subtle: rgba(14, 163, 113, 0.1);
+
+    /* Neutrals */
+    --cc-gray-50: #f9fafb;
+    --cc-gray-100: #f3f4f6;
+    --cc-gray-200: #e5e7eb;
+    --cc-gray-300: #d1d5db;
+    --cc-gray-400: #9ca3af;
+    --cc-gray-500: #6b7280;
+    --cc-gray-600: #4b5563;
+    --cc-gray-700: #374151;
+    --cc-gray-800: #1f2937;
+    --cc-gray-900: #111827;
+
+    /* Surfaces & text */
+    --cc-surface: #ffffff;
+    --cc-surface-soft: #fafafa;
+    --cc-surface-muted: #f3f4f6;
+    --cc-border: #e5e7eb;
+    --cc-border-strong: #d1d5db;
+    --cc-text: #111827;
+    --cc-text-soft: #4b5563;
+    --cc-text-muted: #6b7280;
+
+    /* Semantic */
+    --cc-success: #16a34a;
+    --cc-warning: #d97706;
+    --cc-danger: #dc2626;
+    --cc-info: #2563eb;
+
+    /* Radius */
+    --cc-radius-xs: 4px;
+    --cc-radius-sm: 6px;
+    --cc-radius-md: 8px;
+    --cc-radius-lg: 12px;
+    --cc-radius-xl: 16px;
+    --cc-radius-pill: 999px;
+
+    /* Shadows */
+    --cc-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --cc-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --cc-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --cc-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --cc-shadow-focus: 0 0 0 3px rgba(129, 26, 113, 0.25);
+
+    /* Typography */
+    --cc-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif;
+    --cc-font-mono: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo,
+        Consolas, monospace;
+}
+
+/* Dark mode — authoritative, driven by parent's html.dark toggle */
+html.dark {
+    --cc-primary: #d43ea6;
+    --cc-primary-light: #e87bc5;
+    --cc-primary-dark: #811a71;
+    --cc-primary-subtle: rgba(212, 62, 166, 0.14);
+    --cc-secondary: #9e3d8e;
+    --cc-accent: #12c98a;
+    --cc-accent-light: #34d399;
+    --cc-accent-subtle: rgba(18, 201, 138, 0.14);
+
+    --cc-gray-50: #171717;
+    --cc-gray-100: #262626;
+    --cc-gray-200: #333333;
+    --cc-gray-300: #4e4e4e;
+    --cc-gray-400: #676767;
+    --cc-gray-500: #9b9b9b;
+    --cc-gray-600: #b4b4b4;
+    --cc-gray-700: #cdcdcd;
+    --cc-gray-800: #ececec;
+    --cc-gray-900: #f9f9f9;
+
+    --cc-surface: #262626;
+    --cc-surface-soft: #1f1f1f;
+    --cc-surface-muted: #333333;
+    --cc-border: #2a2a2a;
+    --cc-border-strong: #4e4e4e;
+    --cc-text: #eeeeee;
+    --cc-text-soft: #cdcdcd;
+    --cc-text-muted: #9b9b9b;
+
+    --cc-success: #4ade80;
+    --cc-warning: #fbbf24;
+    --cc-danger: #f87171;
+    --cc-info: #60a5fa;
+
+    --cc-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --cc-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+    --cc-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --cc-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --cc-shadow-focus: 0 0 0 3px rgba(212, 62, 166, 0.35);
+}
+
+/*
+ * System-preference fallback for contexts where the parent hasn't (yet)
+ * posted darkMode — e.g. the standalone /artifacts/[id] viewer or the
+ * first paint before the load handler fires. `html.light` (if ever set)
+ * pins light; `html.dark` (above) pins dark and wins via specificity.
+ */
+@media (prefers-color-scheme: dark) {
+    :root:not(.light):not(.dark) {
+        --cc-primary: #d43ea6;
+        --cc-primary-light: #e87bc5;
+        --cc-primary-dark: #811a71;
+        --cc-primary-subtle: rgba(212, 62, 166, 0.14);
+        --cc-secondary: #9e3d8e;
+        --cc-accent: #12c98a;
+        --cc-accent-light: #34d399;
+        --cc-accent-subtle: rgba(18, 201, 138, 0.14);
+
+        --cc-gray-50: #171717;
+        --cc-gray-100: #262626;
+        --cc-gray-200: #333333;
+        --cc-gray-300: #4e4e4e;
+        --cc-gray-400: #676767;
+        --cc-gray-500: #9b9b9b;
+        --cc-gray-600: #b4b4b4;
+        --cc-gray-700: #cdcdcd;
+        --cc-gray-800: #ececec;
+        --cc-gray-900: #f9f9f9;
+
+        --cc-surface: #262626;
+        --cc-surface-soft: #1f1f1f;
+        --cc-surface-muted: #333333;
+        --cc-border: #2a2a2a;
+        --cc-border-strong: #4e4e4e;
+        --cc-text: #eeeeee;
+        --cc-text-soft: #cdcdcd;
+        --cc-text-muted: #9b9b9b;
+
+        --cc-success: #4ade80;
+        --cc-warning: #fbbf24;
+        --cc-danger: #f87171;
+        --cc-info: #60a5fa;
+    }
+}
+
+/* ============================================================ *
+ *  Opt-in opinionated styles                                   *
+ *  Apply ONLY when <body class="cochat-base"> is present.      *
+ *  Without the class, only the CSS variables above exist —     *
+ *  zero visual effect on styled mockups.                       *
+ * ============================================================ */
+
+.cochat-base,
+.cochat-base *,
+.cochat-base *::before,
+.cochat-base *::after {
+    box-sizing: border-box;
+}
+
+.cochat-base {
+    margin: 0;
+    background: var(--cc-surface);
+    color: var(--cc-text);
+    font-family: var(--cc-font-sans);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    accent-color: var(--cc-primary);
+}
+
+/* Headings */
+.cochat-base h1,
+.cochat-base h2,
+.cochat-base h3,
+.cochat-base h4,
+.cochat-base h5,
+.cochat-base h6 {
+    margin: 0 0 0.5em;
+    color: var(--cc-text);
+    font-weight: 600;
+    line-height: 1.25;
+}
+.cochat-base h1 { font-size: 1.5rem; }
+.cochat-base h2 { font-size: 1.25rem; }
+.cochat-base h3 { font-size: 1.125rem; }
+.cochat-base h4 { font-size: 1rem; }
+
+.cochat-base p { margin: 0 0 0.75em; }
+.cochat-base small { color: var(--cc-text-muted); font-size: 0.875em; }
+
+/* Links */
+.cochat-base a {
+    color: var(--cc-primary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+.cochat-base a:hover { color: var(--cc-primary-light); text-decoration: underline; }
+
+/* Horizontal rule */
+.cochat-base hr {
+    border: 0;
+    border-top: 1px solid var(--cc-border);
+    margin: 1rem 0;
+}
+
+/* Buttons */
+.cochat-base .cc-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--cc-border-strong);
+    border-radius: var(--cc-radius-md);
+    background: var(--cc-surface-soft);
+    color: var(--cc-text);
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+.cochat-base .cc-btn:hover { background: var(--cc-surface-muted); border-color: var(--cc-primary); }
+.cochat-base .cc-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.cochat-base .cc-btn-primary {
+    background: var(--cc-primary);
+    border-color: var(--cc-primary);
+    color: #fff;
+}
+.cochat-base .cc-btn-primary:hover {
+    background: var(--cc-primary-light);
+    border-color: var(--cc-primary-light);
+    color: #fff;
+}
+
+.cochat-base .cc-btn-ghost {
+    background: transparent;
+    border-color: transparent;
+    color: var(--cc-text-soft);
+}
+.cochat-base .cc-btn-ghost:hover {
+    background: var(--cc-primary-subtle);
+    color: var(--cc-primary);
+}
+
+/* Cards & panels */
+.cochat-base .cc-card {
+    background: var(--cc-surface);
+    border: 1px solid var(--cc-border);
+    border-radius: var(--cc-radius-lg);
+    padding: 1rem;
+    box-shadow: var(--cc-shadow-sm);
+}
+.cochat-base .cc-panel {
+    background: var(--cc-surface-soft);
+    border: 1px solid var(--cc-border);
+    border-radius: var(--cc-radius-md);
+    padding: 0.75rem;
+}
+
+/* Inputs */
+.cochat-base .cc-input,
+.cochat-base .cc-select,
+.cochat-base .cc-textarea {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    background: var(--cc-surface);
+    color: var(--cc-text);
+    border: 1px solid var(--cc-border-strong);
+    border-radius: var(--cc-radius-md);
+    font: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.cochat-base .cc-input:focus,
+.cochat-base .cc-select:focus,
+.cochat-base .cc-textarea:focus {
+    outline: none;
+    border-color: var(--cc-primary);
+    box-shadow: var(--cc-shadow-focus);
+}
+.cochat-base .cc-textarea { min-height: 5rem; resize: vertical; }
+.cochat-base label { display: inline-block; margin-bottom: 0.25rem; color: var(--cc-text-soft); font-size: 0.875em; }
+
+/* Range slider — brand-tinted thumb in all browsers that support accent-color */
+.cochat-base input[type='range'] { accent-color: var(--cc-primary); }
+
+/* Tables */
+.cochat-base table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375em;
+}
+.cochat-base th,
+.cochat-base td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--cc-border);
+    text-align: left;
+    vertical-align: top;
+}
+.cochat-base th { color: var(--cc-text-soft); font-weight: 600; background: var(--cc-surface-soft); }
+
+/* Code */
+.cochat-base code,
+.cochat-base pre {
+    font-family: var(--cc-font-mono);
+    font-size: 0.875em;
+}
+.cochat-base code {
+    background: var(--cc-surface-muted);
+    color: var(--cc-text);
+    padding: 0.1em 0.35em;
+    border-radius: var(--cc-radius-xs);
+}
+.cochat-base pre {
+    background: var(--cc-surface-muted);
+    color: var(--cc-text);
+    padding: 0.75rem 1rem;
+    border-radius: var(--cc-radius-md);
+    overflow-x: auto;
+}
+.cochat-base pre code { background: transparent; padding: 0; }
+
+/* Focus ring for keyboard users (interactive elements not already covered) */
+.cochat-base :focus-visible {
+    outline: none;
+    box-shadow: var(--cc-shadow-focus);
+    border-radius: var(--cc-radius-sm);
+}
+
+/* Selection */
+.cochat-base ::selection {
+    background: var(--cc-primary-subtle);
+    color: var(--cc-text);
+}
+
+/* Scrollbars (WebKit) — subtle, brand-tinted */
+.cochat-base ::-webkit-scrollbar { width: 10px; height: 10px; }
+.cochat-base ::-webkit-scrollbar-track { background: transparent; }
+.cochat-base ::-webkit-scrollbar-thumb {
+    background: var(--cc-border-strong);
+    border-radius: var(--cc-radius-pill);
+}
+.cochat-base ::-webkit-scrollbar-thumb:hover { background: var(--cc-primary); }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .cochat-base *,
+    .cochat-base *::before,
+    .cochat-base *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { darkMode: 'class', theme: { extend: { colors: { cochat: {"50": "#fdf2f9", "100": "#fae6f4", "200": "#f5ccea", "300": "#efa5db", "400": "#e46dc2", "500": "#d43ea6", "600": "#b82488", "700": "#811A71", "800": "#6b1760", "900": "#5a1952", "950": "#370a31"}, primary: '#811A71', accent: '#0ea371' } } } };</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>📚 PageTurners Book Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f0ebe3; --surface:#fff; --primary:#5c4f8a; --pdark:#3d2f6b;
+  --plight:#7b6fb0; --accent:#e8825c; --gold:#f5c842; --green:#3db87a;
+  --red:#e94560; --text:#2d2327; --muted:#7a6e7e;
+  --shadow:0 4px 20px rgba(0,0,0,.12); --shadowlg:0 8px 32px rgba(0,0,0,.18);
+  --r:20px; --rs:12px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:'Nunito','Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;}
+
+/* ── SCREENS ── */
+.screen{position:fixed;inset:0;overflow-y:auto;display:none;flex-direction:column;background:var(--bg);}
+.screen.active{display:flex;}
+
+/* ── WELCOME ── */
+#sw{background:linear-gradient(160deg,var(--primary) 0%,var(--pdark) 100%);align-items:center;justify-content:center;padding:32px 24px;gap:18px;color:#fff;text-align:center;}
+.w-title{font-size:2.4rem;font-weight:800;text-shadow:0 3px 16px rgba(0,0,0,.3);letter-spacing:-.5px;}
+.w-sub{font-size:.97rem;opacity:.8;font-style:italic;margin-top:-6px;}
+.w-card{background:rgba(255,255,255,.13);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:26px 22px;width:100%;max-width:360px;display:flex;flex-direction:column;gap:13px;}
+.w-card label{font-size:.92rem;font-weight:700;opacity:.9;text-align:left;}
+.w-input{width:100%;padding:14px 16px;border-radius:var(--rs);border:2px solid rgba(255,255,255,.25);background:rgba(255,255,255,.93);font-size:1.05rem;color:var(--text);font-family:inherit;font-weight:700;outline:none;transition:border-color .2s,box-shadow .2s;}
+.w-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(245,200,66,.3);}
+.btn-go{background:var(--gold);color:#2d1f00;border:none;border-radius:var(--rs);padding:16px 28px;font-size:1.1rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:0 4px 16px rgba(245,200,66,.5);transition:transform .15s;}
+.btn-go:active{transform:scale(.97);}
+
+/* ── HOME ── */
+#sh{padding-bottom:72px;}
+.h-header{background:linear-gradient(135deg,var(--primary),var(--pdark));padding:max(52px,env(safe-area-inset-top,0px) + 28px) 22px 26px;color:#fff;border-radius:0 0 30px 30px;position:relative;overflow:hidden;}
+.h-header::after{content:'';position:absolute;top:-60px;right:-50px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%;pointer-events:none;}
+.h-greet{font-size:1.55rem;font-weight:800;line-height:1.2;}
+.h-sub{font-size:.86rem;opacity:.78;font-style:italic;margin-top:4px;}
+.streak-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.17);border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:7px 17px;margin-top:15px;font-size:.93rem;font-weight:700;}
+.streak-badge .fl{font-size:1.2rem;}
+.sdots{display:flex;gap:7px;margin-top:11px;}
+.sdot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.28);}
+.sdot.on{background:var(--gold);}
+.h-body{padding:16px 16px 0;display:flex;flex-direction:column;gap:13px;}
+.today-card{background:var(--surface);border-radius:var(--r);padding:17px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;}
+.t-icon{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.55rem;flex-shrink:0;}
+.t-icon.p{background:#fff3e8;}.t-icon.d{background:#d4f5e9;}
+.t-info{flex:1;min-width:0;}
+.t-title{font-size:.93rem;font-weight:700;}
+.t-detail{font-size:.76rem;color:var(--muted);margin-top:3px;}
+.miniprog{height:5px;background:#ede8e2;border-radius:3px;margin-top:8px;overflow:hidden;}
+.miniprog-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:3px;transition:width 1s linear;}
+.sec-label{font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;}
+.cont-card{background:var(--surface);border-radius:var(--r);padding:14px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;cursor:pointer;transition:transform .15s;-webkit-tap-highlight-color:transparent;}
+.cont-card:active{transform:scale(.98);}
+.cont-cover{width:48px;height:68px;border-radius:7px;flex-shrink:0;background:var(--plight);display:flex;align-items:center;justify-content:center;font-size:1.5rem;overflow:hidden;}
+.cont-cover img{width:100%;height:100%;object-fit:cover;border-radius:7px;}
+.cont-info{flex:1;min-width:0;}
+.cont-title{font-size:.9rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cont-auth{font-size:.76rem;color:var(--muted);margin-top:2px;}
+.prog-bar{height:4px;background:#ede8e2;border-radius:2px;margin-top:7px;overflow:hidden;}
+.prog-fill{height:100%;background:var(--primary);border-radius:2px;transition:width .5s;}
+.prog-txt{font-size:.7rem;color:var(--muted);margin-top:4px;}
+.browse-btn{width:100%;background:linear-gradient(135deg,var(--primary),var(--plight));color:#fff;border:none;border-radius:var(--r);padding:19px;font-size:1.1rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:var(--shadowlg);display:flex;align-items:center;justify-content:center;gap:10px;transition:transform .15s;-webkit-tap-highlight-color:transparent;}
+.browse-btn:active{transform:scale(.98);}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #ede8e2;display:flex;padding:7px 0 max(18px,env(safe-area-inset-bottom,7px));z-index:80;}
+.nbtn{flex:1;background:none;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;padding:5px;font-size:.63rem;font-weight:700;color:var(--muted);font-family:inherit;-webkit-tap-highlight-color:transparent;}
+.nbtn .ni{font-size:1.35rem;line-height:1;}
+.nbtn.on{color:var(--primary);}
+
+/* ── SHELF ── */
+#sshelf{padding-bottom:20px;}
+.shelf-hdr{background:linear-gradient(135deg,var(--primary),var(--pdark));padding:max(52px,env(safe-area-inset-top,0px) + 28px) 20px 20px;color:#fff;display:flex;align-items:center;gap:12px;}
+.back-btn{background:rgba(255,255,255,.2);border:none;border-radius:50%;width:40px;height:40px;color:#fff;font-size:1.4rem;font-weight:bold;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:inherit;-webkit-tap-highlight-color:transparent;}
+.shelf-hdr h1{font-size:1.3rem;font-weight:800;}
+.shelf-sub{font-size:.8rem;opacity:.73;margin-top:3px;}
+.book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;padding:17px 13px;}
+.bcard{cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s;}
+.bcard:active{transform:scale(.93);}
+.bcover{position:relative;aspect-ratio:2/3;border-radius:8px;overflow:hidden;box-shadow:3px 4px 14px rgba(0,0,0,.3);}
+.bcover img{width:100%;height:100%;object-fit:cover;display:block;}
+.bfallback{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;padding:8px;text-align:center;}
+.bfallback .be{font-size:2rem;margin-bottom:5px;}
+.bfallback .bt{font-size:.6rem;font-weight:700;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5);line-height:1.25;}
+.bpill{position:absolute;bottom:5px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.62);color:#fff;font-size:.58rem;padding:2px 8px;border-radius:10px;white-space:nowrap;font-weight:700;}
+.btitle{margin-top:6px;font-size:.68rem;font-weight:700;color:var(--text);text-align:center;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.bauth{font-size:.6rem;color:var(--muted);text-align:center;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/* ── READER ── */
+#sreader{background:#faf7f2;overflow:hidden;}
+.r-topbar{background:#fff;padding:max(44px,env(safe-area-inset-top,0px)+12px) 15px 9px;box-shadow:0 2px 10px rgba(0,0,0,.08);flex-shrink:0;z-index:10;}
+.r-toprow{display:flex;align-items:center;gap:10px;margin-bottom:7px;}
+.r-back{background:#f0ede8;border:none;border-radius:8px;padding:6px 10px;font-size:.82rem;font-weight:700;color:var(--primary);cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:4px;-webkit-tap-highlight-color:transparent;}
+.r-back:active{background:#e0dcf8;}
+.r-booktitle{flex:1;font-size:.8rem;font-weight:700;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.r-timer{font-size:.95rem;font-weight:800;color:var(--primary);font-variant-numeric:tabular-nums;letter-spacing:.4px;}
+.r-ttrack{height:5px;background:#ede8e2;border-radius:3px;overflow:hidden;}
+.r-tfill{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:3px;transition:width 1s linear;width:0%;}
+.r-body{flex:1;overflow:hidden;position:relative;}
+.r-pgwrap{position:absolute;inset:0;padding:26px 24px 14px;overflow-y:auto;}
+.r-pgtext{font-family:'Georgia','Times New Roman',serif;font-size:1.05rem;line-height:1.9;color:#3a2f35;white-space:pre-wrap;}
+@keyframes sRight{from{opacity:0;transform:translateX(22px)}to{opacity:1;transform:translateX(0)}}
+@keyframes sLeft{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:translateX(0)}}
+.aR{animation:sRight .26s ease-out forwards;}
+.aL{animation:sLeft  .26s ease-out forwards;}
+.loader{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;height:100%;padding:40px;}
+.spinner{width:48px;height:48px;border:4px solid #ede8e2;border-top-color:var(--primary);border-radius:50%;animation:spin .75s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader p{color:var(--muted);font-style:italic;font-size:.88rem;text-align:center;line-height:1.55;}
+.err-state{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;height:100%;padding:40px;text-align:center;}
+.err-state .ee{font-size:3rem;}
+.err-state h3{font-size:1rem;font-weight:700;}
+.err-state p{font-size:.8rem;color:var(--muted);}
+.btn-retry{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:12px 24px;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;}
+.r-botbar{background:#fff;padding:10px 18px max(22px,env(safe-area-inset-bottom,10px));box-shadow:0 -2px 10px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;}
+.r-nav{background:var(--bg);border:2px solid #ddd;border-radius:12px;width:52px;height:52px;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--primary);transition:all .15s;-webkit-tap-highlight-color:transparent;}
+.r-nav:active:not(:disabled){background:#ede9f8;border-color:var(--primary);}
+.r-nav:disabled{opacity:.28;cursor:not-allowed;}
+.r-pginfo{flex:1;text-align:center;font-size:.8rem;color:var(--muted);font-weight:600;}
+
+/* ── DEWEY ── */
+#dewey-wrap{position:fixed;bottom:78px;right:15px;z-index:90;display:flex;flex-direction:column;align-items:flex-end;gap:8px;pointer-events:none;}
+#dewey-bubble{background:#fff;border-radius:16px 16px 4px 16px;padding:9px 13px;max-width:210px;font-size:.79rem;line-height:1.45;font-weight:600;color:var(--text);box-shadow:var(--shadowlg);opacity:0;transform:scale(.85) translateY(8px);transition:opacity .25s,transform .25s;}
+#dewey-bubble.vis{opacity:1;transform:scale(1) translateY(0);}
+.owl-btn{width:64px;height:72px;cursor:pointer;pointer-events:auto;animation:owlBob 3s ease-in-out infinite;filter:drop-shadow(0 4px 10px rgba(0,0,0,.22));}
+@keyframes owlBob{0%,100%{transform:translateY(0) rotate(0)}33%{transform:translateY(-5px) rotate(-2deg)}66%{transform:translateY(-3px) rotate(2deg)}}
+@keyframes owlDance{0%,100%{transform:rotate(0) scale(1)}25%{transform:rotate(-14deg) scale(1.1)}75%{transform:rotate(14deg) scale(1.1)}}
+.owl-btn.dancing{animation:owlDance .35s ease-in-out infinite;}
+#r-dewey{position:fixed;bottom:70px;right:14px;width:44px;height:50px;z-index:50;cursor:pointer;animation:owlBob 3s ease-in-out infinite;filter:drop-shadow(0 3px 8px rgba(0,0,0,.2));display:none;}
+
+/* ── CELEBRATION ── */
+#cel-overlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:200;display:none;align-items:center;justify-content:center;padding:24px;}
+#cel-overlay.on{display:flex;}
+.cel-card{background:#fff;border-radius:28px;padding:34px 26px;max-width:340px;width:100%;text-align:center;animation:popIn .4s cubic-bezier(.34,1.56,.64,1) forwards;}
+@keyframes popIn{from{transform:scale(.5);opacity:0}to{transform:scale(1);opacity:1}}
+.cel-title{font-size:1.85rem;font-weight:800;color:var(--primary);margin:10px 0 5px;}
+.cel-msg{font-size:.93rem;color:var(--muted);margin-bottom:10px;}
+.cel-streak{font-size:2.8rem;font-weight:800;color:var(--accent);margin:6px 0;}
+.cel-lbl{font-size:.97rem;font-weight:700;color:var(--muted);margin-bottom:18px;}
+.btn-cel{width:100%;background:linear-gradient(135deg,var(--primary),var(--plight));color:#fff;border:none;border-radius:14px;padding:17px;font-size:1.05rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(92,79,138,.4);}
+.conf{position:fixed;animation:confFall linear forwards;pointer-events:none;z-index:199;border-radius:2px;}
+@keyframes confFall{0%{transform:translateY(-10px) rotate(0);opacity:1}100%{transform:translateY(105vh) rotate(800deg);opacity:0}}
+.hidden{display:none!important;}
+</style>
+</head>
+<body>
+
+<!-- ═══ WELCOME ═══ -->
+<div class="screen" id="sw">
+  <p class="w-title">📚 PageTurners</p>
+  <p class="w-sub">Your 5th Grade Book Club</p>
+  <svg id="w-owl" class="owl-svg" width="110" height="122" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg"
+       style="filter:drop-shadow(0 8px 20px rgba(0,0,0,.35))"></svg>
+  <div class="w-card">
+    <label for="ninput">What's your name, reader? 👇</label>
+    <input class="w-input" type="text" id="ninput" placeholder="Type your first name…"
+           maxlength="24" autocomplete="off" autocorrect="off"
+           onkeydown="if(event.key==='Enter')go()">
+    <button class="btn-go" onclick="go()">Let's Read! 🚀</button>
+  </div>
+  <p style="color:rgba(255,255,255,.42);font-size:.7rem;font-style:italic;">
+    Free public domain books · Timer &amp; streaks included
+  </p>
+</div>
+
+<!-- ═══ HOME ═══ -->
+<div class="screen" id="sh">
+  <div class="h-header">
+    <div class="h-greet" id="hgreet">Hi, Reader! 👋</div>
+    <div class="h-sub" id="hsub">Ready for today's adventure?</div>
+    <div class="streak-badge"><span class="fl">🔥</span><span id="hstreak">Start your streak!</span></div>
+    <div class="sdots" id="hsdots"></div>
+  </div>
+  <div class="h-body">
+    <div class="today-card">
+      <div class="t-icon p" id="hticon">📖</div>
+      <div class="t-info">
+        <div class="t-title" id="httitle">Read for 20 minutes today</div>
+        <div class="t-detail" id="htdetail">Pick a book and start your session!</div>
+        <div class="miniprog"><div class="miniprog-fill" id="hmpfill" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div id="hcont" class="hidden">
+      <div class="sec-label" style="margin-bottom:6px;">Continue Reading</div>
+      <div class="cont-card" onclick="handleCont()">
+        <div class="cont-cover" id="hccover">📖</div>
+        <div class="cont-info">
+          <div class="cont-title" id="hctitle">Book Title</div>
+          <div class="cont-auth"  id="hcauth">Author</div>
+          <div class="prog-bar"><div class="prog-fill" id="hcprog" style="width:5%"></div></div>
+          <div class="prog-txt"  id="hcprogtxt">Page 1</div>
+        </div>
+      </div>
+    </div>
+    <button class="browse-btn" onclick="showS('sshelf')">📚 Browse All Books</button>
+  </div>
+  <nav class="bnav">
+    <button class="nbtn on" onclick="showS('sh')"><span class="ni">🏠</span>Home</button>
+    <button class="nbtn"    onclick="showS('sshelf')"><span class="ni">📚</span>Books</button>
+    <button class="nbtn"    onclick="showStats()"><span class="ni">⭐</span>Stats</button>
+  </nav>
+</div>
+
+<!-- ═══ SHELF ═══ -->
+<div class="screen" id="sshelf">
+  <div class="shelf-hdr">
+    <button class="back-btn" onclick="showS('sh')">‹</button>
+    <div><h1>Choose Your Book</h1><div class="shelf-sub">Dinosaurs, detectives, wizards &amp; more — all free!</div></div>
+  </div>
+  <div class="book-grid" id="bgrid"></div>
+</div>
+
+<!-- ═══ READER ═══ -->
+<div class="screen" id="sreader">
+  <div class="r-topbar">
+    <div class="r-toprow">
+      <button class="r-back" onclick="leaveR()">‹ Back</button>
+      <div class="r-booktitle" id="rtitle">Loading…</div>
+      <div class="r-timer" id="rtimer">20:00</div>
+    </div>
+    <div class="r-ttrack"><div class="r-tfill" id="rtfill"></div></div>
+  </div>
+  <div class="r-body" id="rbody">
+    <div class="loader" id="rloader">
+      <div class="spinner"></div>
+      <p>Fetching your book…<br>First open takes 5–10 seconds. Hang tight! 📖</p>
+    </div>
+    <div class="r-pgwrap hidden" id="rpgwrap">
+      <div class="r-pgtext" id="rpgtext"></div>
+    </div>
+    <div class="err-state hidden" id="rerr">
+      <div class="ee">📵</div>
+      <h3>Couldn't Load Book</h3>
+      <p>Check your connection and tap Try Again.</p>
+      <button class="btn-retry" onclick="retryB()">Try Again</button>
+    </div>
+  </div>
+  <div class="r-botbar">
+    <button class="r-nav" id="rprev" onclick="prevPg()" disabled>‹</button>
+    <div class="r-pginfo" id="rpginfo">Page — of —</div>
+    <button class="r-nav" id="rnext" onclick="nextPg()">›</button>
+  </div>
+  <svg id="r-dewey" class="owl-svg" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg" onclick="deweyTap()" title="Tap Dewey!"></svg>
+</div>
+
+<!-- ═══ DEWEY MASCOT ═══ -->
+<div id="dewey-wrap">
+  <div id="dewey-bubble"></div>
+  <svg id="dewey-avatar" class="owl-btn owl-svg" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg" onclick="deweyTap()" title="Tap Dewey!"></svg>
+</div>
+
+<!-- ═══ CELEBRATION ═══ -->
+<div id="cel-overlay">
+  <div class="cel-card">
+    <svg id="cel-owl" class="owl-svg" width="90" height="100" viewBox="0 0 80 90"
+         xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;"></svg>
+    <div class="cel-title">You Did It! 🎉</div>
+    <div class="cel-msg"  id="celmsg">Amazing reading session!</div>
+    <div class="cel-streak" id="celstreak">🔥 1</div>
+    <div class="cel-lbl"   id="cellbl">day streak!</div>
+    <button class="btn-cel" onclick="closeCel()">Awesome — Keep Reading! 📚</button>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+// ════════ BOOKS ════════
+const BOOKS = [
+  {id:55,   t:"The Wonderful Wizard of Oz",         a:"L. Frank Baum",            e:"🌪️", c:"#e8825c"},
+  {id:11,   t:"Alice in Wonderland",                 a:"Lewis Carroll",             e:"🐇", c:"#9b59b6"},
+  {id:120,  t:"Treasure Island",                     a:"Robert Louis Stevenson",    e:"🏴‍☠️", c:"#d35400"},
+  {id:139,  t:"The Lost World",                      a:"Arthur Conan Doyle",        e:"🦕", c:"#5d8a3c"},
+  {id:1661, t:"Sherlock Holmes Adventures",           a:"Arthur Conan Doyle",        e:"🔍", c:"#34495e"},
+  {id:3748, t:"Journey to the Center of the Earth",  a:"Jules Verne",               e:"🌋", c:"#c0392b"},
+  {id:16,   t:"Peter Pan",                           a:"J.M. Barrie",               e:"✨", c:"#16a085"},
+  {id:501,  t:"The Story of Doctor Dolittle",        a:"Hugh Lofting",              e:"🦜", c:"#27ae60"},
+  {id:113,  t:"The Secret Garden",                   a:"Frances H. Burnett",        e:"🌸", c:"#2980b9"},
+  {id:146,  t:"A Little Princess",                   a:"Frances H. Burnett",        e:"👑", c:"#8e44ad"},
+  {id:77,   t:"The Adventures of Tom Sawyer",        a:"Mark Twain",                e:"🎣", c:"#e67e22"},
+  {id:514,  t:"Little Women",                        a:"Louisa May Alcott",         e:"✏️", c:"#c0392b"},
+];
+const WPP = 280, SESSEC = 1200;
+
+// ════════ STATE ════════
+const S = {
+  name:'', streak:{count:0,lastDate:null}, prog:{}, lastBk:null,
+  sessSec:0, sessDone:false, timerOn:false, timerH:null,
+  bkId:null, pages:[], pg:0,
+};
+
+// ════════ LOCALSTORAGE ════════
+const LS = {
+  save(){
+    const t=isoToday();
+    try{
+      set('n',S.name); set('str',JSON.stringify(S.streak));
+      set('prg',JSON.stringify(S.prog)); set('lbk',String(S.lastBk||''));
+      set('ses',JSON.stringify({d:t,s:S.sessSec,done:S.sessDone}));
+    }catch(_){}
+  },
+  load(){
+    try{
+      S.name=get('n')||'';
+      S.streak=JSON.parse(get('str')||'{"count":0,"lastDate":null}');
+      S.prog=JSON.parse(get('prg')||'{}');
+      S.lastBk=Number(get('lbk'))||null;
+      const sess=JSON.parse(get('ses')||'{}'),t=isoToday();
+      if(sess.d===t){S.sessSec=sess.s||0;S.sessDone=sess.done||false;}
+    }catch(_){}
+  },
+  cachePages(id,pages){
+    try{set('pg_'+id,JSON.stringify(pages));}
+    catch(_){
+      for(const b of BOOKS){if(get('pg_'+b.id)&&b.id!==id){rm('pg_'+b.id);break;}}
+      try{set('pg_'+id,JSON.stringify(pages));}catch(_2){}
+    }
+  },
+  getPages(id){try{const r=get('pg_'+id);return r?JSON.parse(r):null;}catch(_){return null;}}
+};
+const get=k=>localStorage.getItem(k);
+const set=(k,v)=>localStorage.setItem(k,v);
+const rm=k=>localStorage.removeItem(k);
+
+// ════════ DATE ════════
+function isoToday(){return new Date().toISOString().slice(0,10);}
+function isoYest(){const d=new Date();d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);}
+function last7(){return Array.from({length:7},(_,i)=>{const d=new Date();d.setDate(d.getDate()-(6-i));return d.toISOString().slice(0,10);});}
+
+// ════════ STREAK ════════
+function applyStreak(){
+  const t=isoToday(),y=isoYest(),{lastDate:ld}=S.streak;
+  if(ld===t)return;
+  S.streak={count:ld===y?S.streak.count+1:1,lastDate:t};
+  LS.save();
+}
+
+// ════════ DEWEY ════════
+const DM={
+  w:["Hi! I'm Dewey! 🦉 Ready to explore some amazing books?","Books are like magic doors — let's open one! ✨","Welcome to PageTurners! I've been waiting! 📚"],
+  h0:["Start your streak today — just 20 minutes! 🔥","A great adventure is waiting for you!","Every book is a new world to explore! 🌍"],
+  hs:["You're on a streak — keep it going! 🔥","Your brain is leveling up! 🧠","You're a true bookworm! 📚"],
+  s:["Your 20-minute adventure begins NOW! ⏱️","Time to get lost in a great story! ✨","Reading mode: ON! Let's go! 🚀"],
+  m10:["Halfway there — you're doing GREAT! ⭐","10 minutes down! The story's getting good, right?","Keep going — you're crushing it! 💪"],
+  m18:["Just 2 more minutes! Almost done! 🎯","So close! Finish strong! 🌟","Almost there — you've got this! ✨"],
+  done:["AMAZING! 20-minute session complete! 🎉","Reading champion! 🏆","Streak updated! See you tomorrow! 📚"],
+  tap:["Hoo hoo! Keep reading! 🦉","I'm Dewey, your reading buddy! 📖","You're doing so well! ⭐","Books are the best! 🌟","Page by page, you're getting there! 📚"],
+};
+let dT=null;
+function deweySpeak(msg,ms=4400){
+  const b=document.getElementById('dewey-bubble');
+  if(!b)return;
+  if(dT)clearTimeout(dT);
+  b.textContent=msg;b.classList.add('vis');
+  dT=setTimeout(()=>b.classList.remove('vis'),ms);
+}
+function rnd(k){const a=DM[k]||DM.tap;return a[Math.floor(Math.random()*a.length)];}
+function deweyTap(){
+  deweySpeak(rnd('tap'),3200);
+  ['dewey-avatar','r-dewey'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el&&el.style.display!=='none'){el.style.animation='none';void el.offsetWidth;el.style.animation='';}
+  });
+}
+
+// ════════ SCREENS ════════
+let _scr='sw';
+function showS(name){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  const el=document.getElementById(name);
+  if(el){el.classList.add('active');_scr=name;}
+  const dw=document.getElementById('dewey-wrap');
+  if(dw)dw.style.display=name==='sreader'?'none':'flex';
+  if(name!=='sreader')pauseTimer();
+  if(name==='sh')renderHome();
+  if(name==='sshelf')renderShelf();
+}
+
+// ════════ WELCOME ════════
+function go(){
+  const inp=document.getElementById('ninput');
+  const name=(inp?.value||'').trim();
+  if(!name){
+    if(inp){inp.style.borderColor='var(--red)';setTimeout(()=>{inp.style.borderColor='';},1600);}
+    deweySpeak("Tell me your name first! 🦉",2200);return;
+  }
+  S.name=name;LS.save();
+  showS('sh');
+  setTimeout(()=>deweySpeak(rnd('w'),5000),450);
+}
+
+// ════════ HOME ════════
+function renderHome(){
+  const $=id=>document.getElementById(id);
+  $('hgreet').textContent=`Hi, ${S.name||'Reader'}! 👋`;
+  $('hsub').textContent=S.sessDone?"You read today — you're amazing! ✅":"Ready for today's adventure?";
+  const c=S.streak.count;
+  $('hstreak').textContent=c===0?'Start your streak today!':`${c}-day streak`;
+  // dots
+  const days=last7(),rd=new Set();
+  if(S.streak.lastDate){
+    for(let i=0;i<Math.min(c,7);i++){
+      const d=new Date(S.streak.lastDate);d.setDate(d.getDate()-i);
+      rd.add(d.toISOString().slice(0,10));
+    }
+  }
+  $('hsdots').innerHTML=days.map(d=>`<div class="sdot ${rd.has(d)?'on':''}"></div>`).join('');
+  // today card
+  const pct=Math.min(100,(S.sessSec/SESSEC)*100);
+  $('hmpfill').style.width=pct+'%';
+  if(S.sessDone){
+    $('hticon').textContent='✅';$('hticon').className='t-icon d';
+    $('httitle').textContent='Reading complete for today! 🎉';
+    $('htdetail').textContent='Come back tomorrow to keep your streak!';
+  } else if(S.sessSec>0){
+    const rem=SESSEC-S.sessSec,m=Math.floor(rem/60),s=rem%60;
+    $('hticon').textContent='⏱️';$('hticon').className='t-icon p';
+    $('httitle').textContent=`${m}:${String(s).padStart(2,'0')} left in today's session`;
+    $('htdetail').textContent="Keep going — almost at your goal!";
+  } else {
+    $('hticon').textContent='📖';$('hticon').className='t-icon p';
+    $('httitle').textContent='Read for 20 minutes today';
+    $('htdetail').textContent='Pick a book from the shelf and start!';
+  }
+  // continue card
+  const csec=$('hcont');
+  if(S.lastBk&&S.prog[S.lastBk]){
+    const bk=BOOKS.find(b=>b.id===S.lastBk);
+    if(bk){
+      csec.classList.remove('hidden');
+      $('hctitle').textContent=bk.t;
+      $('hcauth').textContent=bk.a;
+      const p=S.prog[S.lastBk],fp=p.tot>0?Math.round((p.pg/p.tot)*100):0;
+      $('hcprog').style.width=fp+'%';
+      $('hcprogtxt').textContent=`Page ${p.pg+1}${p.tot?' of '+p.tot:''}`;
+      const cov=$('hccover');
+      if(cov){
+        cov.innerHTML='';
+        const img=document.createElement('img');
+        img.src=covUrl(bk.id);img.alt=bk.t;
+        img.onerror=()=>{cov.innerHTML=bk.e;};
+        cov.appendChild(img);
+      }
+    } else {csec.classList.add('hidden');}
+  } else {csec.classList.add('hidden');}
+  setTimeout(()=>deweySpeak(rnd(c>0?'hs':'h0'),5000),700);
+}
+function handleCont(){if(S.lastBk)openBook(S.lastBk);}
+
+// ════════ SHELF ════════
+function renderShelf(){
+  const g=document.getElementById('bgrid');
+  if(!g)return;
+  g.innerHTML=BOOKS.map(bk=>{
+    const p=S.prog[bk.id];
+    const pill=p?.tot?`<div class="bpill">p.${p.pg+1}/${p.tot}</div>`:'';
+    return `<div class="bcard" onclick="openBook(${bk.id})">
+      <div class="bcover" style="background:${bk.c}">
+        <img src="${covUrl(bk.id)}" alt="${bk.t}"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="bfallback"><div class="be">${bk.e}</div><div class="bt">${bk.t}</div></div>
+        ${pill}
+      </div>
+      <div class="btitle">${bk.t}</div>
+      <div class="bauth">${bk.a}</div>
+    </div>`;
+  }).join('');
+}
+function covUrl(id){return `https://www.gutenberg.org/cache/epub/${id}/pg${id}.cover.medium.jpg`;}
+
+// ════════ OPEN BOOK ════════
+let _retryId=null;
+async function openBook(id){
+  _retryId=id;S.bkId=id;S.lastBk=id;LS.save();
+  const bk=BOOKS.find(b=>b.id===id);
+  document.getElementById('rtitle').textContent=bk?.t||'Reading…';
+  showS('sreader');
+  setRS('loading');
+  let pages=LS.getPages(id);
+  if(!pages){pages=await fetchPages(id);if(pages)LS.cachePages(id,pages);}
+  if(!pages?.length){setRS('error');return;}
+  S.pages=pages;
+  if(!S.prog[id])S.prog[id]={pg:0,tot:pages.length};
+  else S.prog[id].tot=pages.length;
+  S.pg=S.prog[id].pg||0;
+  setRS('reading');
+  renderPg('next');
+  if(!S.sessDone){
+    startTimer();
+    setTimeout(()=>deweySpeak(rnd('s'),4200),400);
+  } else {
+    setTimeout(()=>deweySpeak("Just browsing? Great taste in books! 📚",3500),400);
+  }
+}
+function retryB(){if(_retryId)openBook(_retryId);}
+function setRS(state){
+  const ldr=$('rloader'),pg=$('rpgwrap'),err=$('rerr'),rd=$('r-dewey');
+  [ldr,pg,err].forEach(e=>e?.classList.add('hidden'));
+  if(rd)rd.style.display='none';
+  if(state==='loading')ldr?.classList.remove('hidden');
+  if(state==='reading'){pg?.classList.remove('hidden');if(rd)rd.style.display='block';}
+  if(state==='error')err?.classList.remove('hidden');
+}
+const $=id=>document.getElementById(id);
+
+// ════════ FETCH + PARSE ════════
+async function fetchPages(id){
+  const base=[
+    `https://www.gutenberg.org/cache/epub/${id}/pg${id}.txt`,
+    `https://www.gutenberg.org/files/${id}/${id}-0.txt`,
+    `https://www.gutenberg.org/files/${id}/${id}.txt`,
+  ];
+  // CORS proxy fallbacks for GitHub Pages / school networks
+  const px1=base.map(u=>`https://corsproxy.io/?${encodeURIComponent(u)}`);
+  const px2=[`https://api.allorigins.win/raw?url=${encodeURIComponent(base[0])}`];
+  const allUrls=[...base,...px1,...px2];
+  let txt=null;
+  for(const url of allUrls){
+    try{
+      const ctrl=new AbortController();
+      const t=setTimeout(()=>ctrl.abort(),13000);
+      const r=await fetch(url,{signal:ctrl.signal});
+      clearTimeout(t);
+      if(r.ok){txt=await r.text();break;}
+    }catch(_){}
+  }
+  if(!txt||txt.length<500)return null;
+  txt=stripGB(txt);
+  if(!txt||txt.length<300)return null;
+  return paginate(txt);
+}
+function stripGB(raw){
+  const U=raw.toUpperCase();
+  const sp=['*** START OF THE PROJECT GUTENBERG','***START OF THE PROJECT GUTENBERG','*** START OF THIS PROJECT GUTENBERG'];
+  const ep=['*** END OF THE PROJECT GUTENBERG','***END OF THE PROJECT GUTENBERG','*** END OF THIS PROJECT GUTENBERG'];
+  let s=0,e=raw.length;
+  for(const p of sp){const i=U.indexOf(p);if(i!==-1){s=raw.indexOf('\n',i)+1;break;}}
+  for(const p of ep){const i=U.indexOf(p);if(i!==-1){e=i;break;}}
+  return raw.slice(s,e).trim();
+}
+function paginate(txt){
+  const paras=txt.split(/\n{2,}/)
+    .map(p=>p.replace(/[\r\n]+/g,' ').replace(/\s{2,}/g,' ').trim())
+    .filter(p=>p.length>12);
+  const pages=[];let cur=[],wc=0;
+  for(const p of paras){
+    const w=p.split(/\s+/).length;
+    if(wc+w>WPP&&cur.length){pages.push(cur.join('\n\n'));cur=[p];wc=w;}
+    else{cur.push(p);wc+=w;}
+  }
+  if(cur.length)pages.push(cur.join('\n\n'));
+  return pages;
+}
+
+// ════════ PAGE NAV ════════
+function renderPg(dir='next'){
+  const tEl=$('rpgtext'),iEl=$('rpginfo');
+  if(!tEl||!S.pages.length)return;
+  tEl.className='r-pgtext';
+  tEl.textContent=S.pages[S.pg]||'';
+  void tEl.offsetWidth;
+  tEl.classList.add(dir==='next'?'aR':'aL');
+  if(iEl)iEl.textContent=`Page ${S.pg+1} of ${S.pages.length}`;
+  const pv=$('rprev'),nx=$('rnext');
+  if(pv)pv.disabled=S.pg===0;
+  if(nx)nx.disabled=S.pg===S.pages.length-1;
+  const wrap=$('rpgwrap');if(wrap)wrap.scrollTop=0;
+  if(S.bkId){S.prog[S.bkId]={pg:S.pg,tot:S.pages.length};LS.save();}
+}
+function nextPg(){if(S.pg<S.pages.length-1){S.pg++;renderPg('next');}}
+function prevPg(){if(S.pg>0){S.pg--;renderPg('prev');}}
+function leaveR(){pauseTimer();showS('sh');}
+
+// swipe
+let _tx=0;
+document.addEventListener('touchstart',e=>{if(_scr==='sreader')_tx=e.touches[0].clientX;},{passive:true});
+document.addEventListener('touchend',e=>{
+  if(_scr!=='sreader')return;
+  const dx=e.changedTouches[0].clientX-_tx;
+  if(Math.abs(dx)>54){if(dx<0)nextPg();else prevPg();}
+},{passive:true});
+
+// ════════ TIMER ════════
+function startTimer(){
+  if(S.timerOn||S.sessDone)return;
+  S.timerOn=true;
+  S.timerH=setInterval(tick,1000);
+  updTimer();
+}
+function pauseTimer(){
+  if(!S.timerOn)return;
+  S.timerOn=false;
+  clearInterval(S.timerH);S.timerH=null;
+  LS.save();
+}
+function tick(){
+  S.sessSec=Math.min(SESSEC,S.sessSec+1);
+  updTimer();LS.save();
+  if(S.sessSec===600) deweySpeak(rnd('m10'),4200);
+  if(S.sessSec===1080)deweySpeak(rnd('m18'),4200);
+  if(S.sessSec>=SESSEC)finishSess();
+}
+function updTimer(){
+  const rem=SESSEC-S.sessSec,m=Math.floor(rem/60),s=rem%60;
+  const pct=Math.min(100,(S.sessSec/SESSEC)*100);
+  const disp=$('rtimer'),fill=$('rtfill');
+  if(disp){
+    disp.textContent=`${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    disp.style.color=rem<=120?'var(--accent)':'var(--primary)';
+  }
+  if(fill)fill.style.width=pct+'%';
+}
+function finishSess(){
+  pauseTimer();S.sessDone=true;
+  applyStreak();LS.save();
+  showCel();
+}
+
+// ════════ CELEBRATION ════════
+function showCel(){
+  const ov=$('cel-overlay');if(ov)ov.classList.add('on');
+  const cOwl=$('cel-owl');if(cOwl)cOwl.classList.add('dancing');
+  $('celstreak').textContent=`🔥 ${S.streak.count}`;
+  $('cellbl').textContent=S.streak.count===1?'day streak — keep going!':'day streak!';
+  $('celmsg').textContent=rnd('done');
+  launchConfetti();
+}
+function closeCel(){
+  $('cel-overlay').classList.remove('on');
+  const cOwl=$('cel-owl');if(cOwl)cOwl.classList.remove('dancing');
+  showS('sh');
+}
+function launchConfetti(){
+  const cols=['#f5c842','#e8825c','#5c4f8a','#27ae60','#e74c3c','#3498db','#fff'];
+  for(let i=0;i<34;i++){
+    const d=document.createElement('div');
+    d.className='conf';
+    const sz=8+Math.random()*8;
+    d.style.cssText=[
+      `left:${Math.random()*100}vw`,
+      `width:${sz}px`,`height:${sz}px`,
+      `background:${cols[Math.floor(Math.random()*cols.length)]}`,
+      `border-radius:${Math.random()>.5?'50%':'3px'}`,
+      `animation-duration:${2+Math.random()*1.6}s`,
+      `animation-delay:${Math.random()*.6}s`,
+    ].join(';');
+    document.body.appendChild(d);
+    setTimeout(()=>d.remove(),4800);
+  }
+}
+
+// ════════ STATS ════════
+function showStats(){
+  const pages=Object.values(S.prog).reduce((a,p)=>a+(p.pg||0),0);
+  const books=Object.keys(S.prog).length;
+  const streak=S.streak.count;
+  deweySpeak(
+    `${streak>0?`🔥 ${streak}-day streak! `:''}${pages} page${pages!==1?'s':''} read across ${books} book${books!==1?'s':''}! 📚 Keep it up!`,
+    7000
+  );
+}
+
+// ════════ OWL SVG ════════
+function buildOwl(){
+  return `
+    <ellipse cx="40" cy="68" rx="26" ry="22" fill="#C8A96E"/>
+    <circle  cx="40" cy="36" r="24"  fill="#C8A96E"/>
+    <polygon points="29,15 24,3 34,11"  fill="#7a5a10"/>
+    <polygon points="51,15 56,3 46,11"  fill="#7a5a10"/>
+    <ellipse cx="40" cy="38" rx="17" ry="15" fill="#E8D5A3"/>
+    <circle  cx="31" cy="33" r="9"   fill="white"/>
+    <circle  cx="49" cy="33" r="9"   fill="white"/>
+    <circle  cx="32" cy="34" r="5.5" fill="#1a0a00"/>
+    <circle  cx="50" cy="34" r="5.5" fill="#1a0a00"/>
+    <circle  cx="34" cy="32" r="2"   fill="white"/>
+    <circle  cx="52" cy="32" r="2"   fill="white"/>
+    <polygon points="40,43 36,51 44,51" fill="#E67E22"/>
+    <ellipse cx="17" cy="67" rx="10" ry="19" fill="#7a5a10" transform="rotate(-8 17 67)"/>
+    <ellipse cx="63" cy="67" rx="10" ry="19" fill="#7a5a10" transform="rotate(8 63 67)"/>
+    <ellipse cx="40" cy="73" rx="16" ry="14" fill="#E8D5A3"/>
+    <rect    x="22"  y="13"  width="36" height="5" fill="#5c4f8a" rx="2.5"/>
+    <polygon points="40,4 22,14 58,14" fill="#5c4f8a"/>
+    <line x1="58" y1="14" x2="64" y2="23" stroke="#f5c842" stroke-width="2.5" stroke-linecap="round"/>
+    <circle  cx="64" cy="24" r="3.5" fill="#f5c842"/>
+    <line x1="33" y1="88" x2="27" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="33" y1="88" x2="33" y2="94" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="33" y1="88" x2="39" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="41" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="47" y2="94" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="53" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>`;
+}
+
+// ════════ INIT ════════
+function init(){
+  const owlHTML=buildOwl();
+  document.querySelectorAll('.owl-svg').forEach(el=>{el.innerHTML=owlHTML;});
+  LS.load();
+  if(S.name){showS('sh');}
+  else{showS('sw');setTimeout(()=>deweySpeak(rnd('w'),5500),800);}
+}
+
+init();
+</script>
+</body>
+</html>
