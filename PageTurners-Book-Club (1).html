@@ -1,0 +1,2241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script data-cochat-failure-overlay="true">
+(function () {
+  function show(msg) {
+    var el = document.getElementById('cc-fail');
+    if (!el) {
+      el = document.createElement('div'); el.id = 'cc-fail';
+      el.style.cssText = 'position:fixed;inset:12px;z-index:2147483647;background:#fff;'
+        + 'border:1px solid #d4d4d8;border-radius:12px;padding:20px;overflow:auto;'
+        + 'font-family:system-ui,-apple-system,sans-serif;color:#27272a;'
+        + 'box-shadow:0 4px 16px rgba(0,0,0,.08)';
+      el.innerHTML = '<h2 style="margin:0 0 6px;font-size:16px;font-weight:600">'
+        + 'This app stopped running</h2>'
+        + '<p style="margin:0 0 12px;font-size:14px;color:#52525b">'
+        + 'Share the details below in the chat and the assistant can fix it.</p>'
+        + '<pre style="white-space:pre-wrap;background:#f4f4f5;border:1px solid #e4e4e7;'
+        + 'padding:10px;border-radius:8px;font-size:12px;line-height:1.5;margin:0"></pre>';
+      (document.body || document.documentElement).appendChild(el);
+    }
+    el.querySelector('pre').textContent += msg + '\n';
+  }
+  window.__ccFail = show;
+  window.addEventListener('error', function (e) {
+    if (e.target && (e.target.src || e.target.href)) {
+      show('Could not load: ' + (e.target.src || e.target.href));
+    } else {
+      show((e.message || 'Unknown error') + (e.lineno ? ' (line ' + e.lineno + ')' : ''));
+    }
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) {
+    show('Promise error: ' + (e.reason && e.reason.message ? e.reason.message : e.reason));
+  });
+})();
+</script>
+<script data-cochat-helper="true">
+// Dark mode sync from parent
+window.addEventListener('message', function(e) {
+    if (e.data && e.data.type === 'darkMode') {
+        document.documentElement.classList.toggle('dark', e.data.dark);
+    }
+});
+
+// CoChat helpers — bridge to the parent window for authenticated calls.
+// The artifact iframe has no ``allow-same-origin``, so localStorage and
+// direct same-origin fetches with auth do not work here. The parent
+// attaches the user's token, picks a model (preferring the active chat's
+// selection over a platform default), and proxies to an allow-listed
+// endpoint. If your caller wants to pin a specific model id, set
+// ``window._cochatModel = '<model-id>'`` before invoking ``cochat.ask``.
+(function() {
+    // An artifact that ships its own bridge object keeps it; the host's copy
+    // only fills the gap.
+    if (window.cochat) { return; }
+    var _pending = {};
+    var _seq = 0;
+    var _BRIDGE_TIMEOUT_MS = 30000;
+
+    function _newRequestId() {
+        _seq += 1;
+        return 'cochat-' + Date.now().toString(36) + '-' + _seq.toString(36);
+    }
+
+    window.addEventListener('message', function(e) {
+        var data = e.data;
+        if (!data || data.type !== 'cochat:bridge:response') return;
+        var pending = _pending[data.requestId];
+        if (!pending) return;
+        delete _pending[data.requestId];
+        clearTimeout(pending.timer);
+        if (data.error) {
+            pending.reject(new Error(data.error));
+        } else {
+            pending.resolve(data);
+        }
+    });
+
+    function _bridge(message) {
+        return new Promise(function(resolve, reject) {
+            if (!window.parent || window.parent === window) {
+                reject(new Error('CoChat bridge unavailable: no parent window'));
+                return;
+            }
+            var requestId = _newRequestId();
+            var timer = setTimeout(function() {
+                if (_pending[requestId]) {
+                    delete _pending[requestId];
+                    reject(new Error('CoChat bridge timed out after 30s'));
+                }
+            }, _BRIDGE_TIMEOUT_MS);
+            _pending[requestId] = { resolve: resolve, reject: reject, timer: timer };
+            try {
+                window.parent.postMessage(
+                    Object.assign({ requestId: requestId }, message),
+                    '*'
+                );
+            } catch (err) {
+                delete _pending[requestId];
+                clearTimeout(timer);
+                reject(err);
+            }
+        });
+    }
+
+    window.cochat = {
+        // Call the LLM. The parent attaches auth and uses the current chat's model.
+        // Usage: const reply = await cochat.ask("What is 2+2?", {system: "..."});
+        ask: async function(prompt, options) {
+            options = options || {};
+            var model = (options && options.model) || window._cochatModel || '';
+            var resp = await _bridge({
+                type: 'cochat:ask',
+                prompt: prompt,
+                system: options.system || '',
+                model: model
+            });
+            if (resp && typeof resp.content === 'string') return resp.content;
+            return '';
+        },
+
+        // Proxied external HTTP call. Goes through /api/proxy parent-side.
+        // Usage: const r = await cochat.fetch({method:'GET', url:'https://api.example.com/x'});
+        fetch: async function(opts) {
+            opts = opts || {};
+            var resp = await _bridge({
+                type: 'cochat:proxy',
+                method: opts.method || 'GET',
+                url: opts.url || '',
+                headers: opts.headers || {},
+                body: typeof opts.body === 'string' ? opts.body : (opts.body == null ? '' : JSON.stringify(opts.body))
+            });
+            return {
+                ok: !!resp.ok,
+                status: resp.status || 0,
+                headers: resp.headers || {},
+                body: resp.body || '',
+                json: function() {
+                    try { return JSON.parse(resp.body || ''); } catch (e) { return null; }
+                }
+            };
+        }
+    };
+})();
+</script>
+<style data-cochat-base="true">
+/*
+ * CoChat artifact base theme.
+ *
+ * Inlined by `html_document.py:_artifact_renderer` into every HTML artifact's
+ * <head>. The variables are always defined (harmless), the opinionated styles
+ * are gated under `.cochat-base` so they only apply when the LLM opts in by
+ * adding ``class="cochat-base"`` to <body>.
+ *
+ * Sources of truth (kept in sync with):
+ *   src/app.css        — the `.cochat-artifact`-scoped --cc-* tokens
+ *   tailwind.config.js — the cochat color scale
+ *
+ * Dark mode contract:
+ *   The parent posts {type:'darkMode', dark} on iframe load and toggles
+ *   `html.dark` via the listener injected by `_artifact_renderer`. We key the
+ *   dark variables off `html.dark` (authoritative), plus a `prefers-color-
+ *   scheme` fallback for the standalone /artifacts/[id] viewer and the brief
+ *   pre-postMessage window.
+ */
+
+:root {
+    /* Brand */
+    --cc-primary: #811a71;
+    --cc-primary-light: #9e3d8e;
+    --cc-primary-dark: #5e1252;
+    --cc-primary-subtle: rgba(129, 26, 113, 0.08);
+    --cc-secondary: #450077;
+    --cc-accent: #0ea371;
+    --cc-accent-light: #12c98a;
+    --cc-accent-subtle: rgba(14, 163, 113, 0.1);
+
+    /* Neutrals */
+    --cc-gray-50: #f9fafb;
+    --cc-gray-100: #f3f4f6;
+    --cc-gray-200: #e5e7eb;
+    --cc-gray-300: #d1d5db;
+    --cc-gray-400: #9ca3af;
+    --cc-gray-500: #6b7280;
+    --cc-gray-600: #4b5563;
+    --cc-gray-700: #374151;
+    --cc-gray-800: #1f2937;
+    --cc-gray-900: #111827;
+
+    /* Surfaces & text */
+    --cc-surface: #ffffff;
+    --cc-surface-soft: #fafafa;
+    --cc-surface-muted: #f3f4f6;
+    --cc-border: #e5e7eb;
+    --cc-border-strong: #d1d5db;
+    --cc-text: #111827;
+    --cc-text-soft: #4b5563;
+    --cc-text-muted: #6b7280;
+
+    /* Semantic */
+    --cc-success: #16a34a;
+    --cc-warning: #d97706;
+    --cc-danger: #dc2626;
+    --cc-info: #2563eb;
+
+    /* Radius */
+    --cc-radius-xs: 4px;
+    --cc-radius-sm: 6px;
+    --cc-radius-md: 8px;
+    --cc-radius-lg: 12px;
+    --cc-radius-xl: 16px;
+    --cc-radius-pill: 999px;
+
+    /* Shadows */
+    --cc-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+    --cc-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --cc-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --cc-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --cc-shadow-focus: 0 0 0 3px rgba(129, 26, 113, 0.25);
+
+    /* Typography */
+    --cc-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, sans-serif;
+    --cc-font-mono: ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo,
+        Consolas, monospace;
+}
+
+/* Dark mode — authoritative, driven by parent's html.dark toggle */
+html.dark {
+    --cc-primary: #d43ea6;
+    --cc-primary-light: #e87bc5;
+    --cc-primary-dark: #811a71;
+    --cc-primary-subtle: rgba(212, 62, 166, 0.14);
+    --cc-secondary: #9e3d8e;
+    --cc-accent: #12c98a;
+    --cc-accent-light: #34d399;
+    --cc-accent-subtle: rgba(18, 201, 138, 0.14);
+
+    --cc-gray-50: #171717;
+    --cc-gray-100: #262626;
+    --cc-gray-200: #333333;
+    --cc-gray-300: #4e4e4e;
+    --cc-gray-400: #676767;
+    --cc-gray-500: #9b9b9b;
+    --cc-gray-600: #b4b4b4;
+    --cc-gray-700: #cdcdcd;
+    --cc-gray-800: #ececec;
+    --cc-gray-900: #f9f9f9;
+
+    --cc-surface: #262626;
+    --cc-surface-soft: #1f1f1f;
+    --cc-surface-muted: #333333;
+    --cc-border: #2a2a2a;
+    --cc-border-strong: #4e4e4e;
+    --cc-text: #eeeeee;
+    --cc-text-soft: #cdcdcd;
+    --cc-text-muted: #9b9b9b;
+
+    --cc-success: #4ade80;
+    --cc-warning: #fbbf24;
+    --cc-danger: #f87171;
+    --cc-info: #60a5fa;
+
+    --cc-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --cc-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.35);
+    --cc-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --cc-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --cc-shadow-focus: 0 0 0 3px rgba(212, 62, 166, 0.35);
+}
+
+/*
+ * System-preference fallback for contexts where the parent hasn't (yet)
+ * posted darkMode — e.g. the standalone /artifacts/[id] viewer or the
+ * first paint before the load handler fires. `html.light` (if ever set)
+ * pins light; `html.dark` (above) pins dark and wins via specificity.
+ */
+@media (prefers-color-scheme: dark) {
+    :root:not(.light):not(.dark) {
+        --cc-primary: #d43ea6;
+        --cc-primary-light: #e87bc5;
+        --cc-primary-dark: #811a71;
+        --cc-primary-subtle: rgba(212, 62, 166, 0.14);
+        --cc-secondary: #9e3d8e;
+        --cc-accent: #12c98a;
+        --cc-accent-light: #34d399;
+        --cc-accent-subtle: rgba(18, 201, 138, 0.14);
+
+        --cc-gray-50: #171717;
+        --cc-gray-100: #262626;
+        --cc-gray-200: #333333;
+        --cc-gray-300: #4e4e4e;
+        --cc-gray-400: #676767;
+        --cc-gray-500: #9b9b9b;
+        --cc-gray-600: #b4b4b4;
+        --cc-gray-700: #cdcdcd;
+        --cc-gray-800: #ececec;
+        --cc-gray-900: #f9f9f9;
+
+        --cc-surface: #262626;
+        --cc-surface-soft: #1f1f1f;
+        --cc-surface-muted: #333333;
+        --cc-border: #2a2a2a;
+        --cc-border-strong: #4e4e4e;
+        --cc-text: #eeeeee;
+        --cc-text-soft: #cdcdcd;
+        --cc-text-muted: #9b9b9b;
+
+        --cc-success: #4ade80;
+        --cc-warning: #fbbf24;
+        --cc-danger: #f87171;
+        --cc-info: #60a5fa;
+    }
+}
+
+/* ============================================================ *
+ *  Opt-in opinionated styles                                   *
+ *  Apply ONLY when <body class="cochat-base"> is present.      *
+ *  Without the class, only the CSS variables above exist —     *
+ *  zero visual effect on styled mockups.                       *
+ * ============================================================ */
+
+.cochat-base,
+.cochat-base *,
+.cochat-base *::before,
+.cochat-base *::after {
+    box-sizing: border-box;
+}
+
+.cochat-base {
+    margin: 0;
+    background: var(--cc-surface);
+    color: var(--cc-text);
+    font-family: var(--cc-font-sans);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    accent-color: var(--cc-primary);
+}
+
+/* Headings */
+.cochat-base h1,
+.cochat-base h2,
+.cochat-base h3,
+.cochat-base h4,
+.cochat-base h5,
+.cochat-base h6 {
+    margin: 0 0 0.5em;
+    color: var(--cc-text);
+    font-weight: 600;
+    line-height: 1.25;
+}
+.cochat-base h1 { font-size: 1.5rem; }
+.cochat-base h2 { font-size: 1.25rem; }
+.cochat-base h3 { font-size: 1.125rem; }
+.cochat-base h4 { font-size: 1rem; }
+
+.cochat-base p { margin: 0 0 0.75em; }
+.cochat-base small { color: var(--cc-text-muted); font-size: 0.875em; }
+
+/* Links */
+.cochat-base a {
+    color: var(--cc-primary);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+.cochat-base a:hover { color: var(--cc-primary-light); text-decoration: underline; }
+
+/* Horizontal rule */
+.cochat-base hr {
+    border: 0;
+    border-top: 1px solid var(--cc-border);
+    margin: 1rem 0;
+}
+
+/* Buttons */
+.cochat-base .cc-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 0.5rem 0.9rem;
+    border: 1px solid var(--cc-border-strong);
+    border-radius: var(--cc-radius-md);
+    background: var(--cc-surface-soft);
+    color: var(--cc-text);
+    font: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+.cochat-base .cc-btn:hover { background: var(--cc-surface-muted); border-color: var(--cc-primary); }
+.cochat-base .cc-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.cochat-base .cc-btn-primary {
+    background: var(--cc-primary);
+    border-color: var(--cc-primary);
+    color: #fff;
+}
+.cochat-base .cc-btn-primary:hover {
+    background: var(--cc-primary-light);
+    border-color: var(--cc-primary-light);
+    color: #fff;
+}
+
+.cochat-base .cc-btn-ghost {
+    background: transparent;
+    border-color: transparent;
+    color: var(--cc-text-soft);
+}
+.cochat-base .cc-btn-ghost:hover {
+    background: var(--cc-primary-subtle);
+    color: var(--cc-primary);
+}
+
+/* Cards & panels */
+.cochat-base .cc-card {
+    background: var(--cc-surface);
+    border: 1px solid var(--cc-border);
+    border-radius: var(--cc-radius-lg);
+    padding: 1rem;
+    box-shadow: var(--cc-shadow-sm);
+}
+.cochat-base .cc-panel {
+    background: var(--cc-surface-soft);
+    border: 1px solid var(--cc-border);
+    border-radius: var(--cc-radius-md);
+    padding: 0.75rem;
+}
+
+/* Inputs */
+.cochat-base .cc-input,
+.cochat-base .cc-select,
+.cochat-base .cc-textarea {
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    background: var(--cc-surface);
+    color: var(--cc-text);
+    border: 1px solid var(--cc-border-strong);
+    border-radius: var(--cc-radius-md);
+    font: inherit;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.cochat-base .cc-input:focus,
+.cochat-base .cc-select:focus,
+.cochat-base .cc-textarea:focus {
+    outline: none;
+    border-color: var(--cc-primary);
+    box-shadow: var(--cc-shadow-focus);
+}
+.cochat-base .cc-textarea { min-height: 5rem; resize: vertical; }
+.cochat-base label { display: inline-block; margin-bottom: 0.25rem; color: var(--cc-text-soft); font-size: 0.875em; }
+
+/* Range slider — brand-tinted thumb in all browsers that support accent-color */
+.cochat-base input[type='range'] { accent-color: var(--cc-primary); }
+
+/* Tables */
+.cochat-base table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9375em;
+}
+.cochat-base th,
+.cochat-base td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--cc-border);
+    text-align: left;
+    vertical-align: top;
+}
+.cochat-base th { color: var(--cc-text-soft); font-weight: 600; background: var(--cc-surface-soft); }
+
+/* Code */
+.cochat-base code,
+.cochat-base pre {
+    font-family: var(--cc-font-mono);
+    font-size: 0.875em;
+}
+.cochat-base code {
+    background: var(--cc-surface-muted);
+    color: var(--cc-text);
+    padding: 0.1em 0.35em;
+    border-radius: var(--cc-radius-xs);
+}
+.cochat-base pre {
+    background: var(--cc-surface-muted);
+    color: var(--cc-text);
+    padding: 0.75rem 1rem;
+    border-radius: var(--cc-radius-md);
+    overflow-x: auto;
+}
+.cochat-base pre code { background: transparent; padding: 0; }
+
+/* Focus ring for keyboard users (interactive elements not already covered) */
+.cochat-base :focus-visible {
+    outline: none;
+    box-shadow: var(--cc-shadow-focus);
+    border-radius: var(--cc-radius-sm);
+}
+
+/* Selection */
+.cochat-base ::selection {
+    background: var(--cc-primary-subtle);
+    color: var(--cc-text);
+}
+
+/* Scrollbars (WebKit) — subtle, brand-tinted */
+.cochat-base ::-webkit-scrollbar { width: 10px; height: 10px; }
+.cochat-base ::-webkit-scrollbar-track { background: transparent; }
+.cochat-base ::-webkit-scrollbar-thumb {
+    background: var(--cc-border-strong);
+    border-radius: var(--cc-radius-pill);
+}
+.cochat-base ::-webkit-scrollbar-thumb:hover { background: var(--cc-primary); }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .cochat-base *,
+    .cochat-base *::before,
+    .cochat-base *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+</style>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { darkMode: 'class', theme: { extend: { colors: { cochat: {"50": "#fdf2f9", "100": "#fae6f4", "200": "#f5ccea", "300": "#efa5db", "400": "#e46dc2", "500": "#d43ea6", "600": "#b82488", "700": "#811A71", "800": "#6b1760", "900": "#5a1952", "950": "#370a31"}, primary: '#811A71', accent: '#0ea371' } } } };</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>📚 PageTurners Book Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#f0ebe3; --surface:#fff; --primary:#5c4f8a; --pdark:#3d2f6b;
+  --plight:#7b6fb0; --accent:#e8825c; --gold:#f5c842; --green:#3db87a;
+  --red:#e94560; --text:#2d2327; --muted:#7a6e7e;
+  --shadow:0 4px 20px rgba(0,0,0,.12); --shadowlg:0 8px 32px rgba(0,0,0,.18);
+  --r:20px; --rs:12px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html,body{height:100%;overflow:hidden;}
+body{font-family:'Nunito','Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;}
+
+/* ── SCREENS ── */
+.screen{position:fixed;inset:0;overflow-y:auto;display:none;flex-direction:column;background:var(--bg);}
+.screen.active{display:flex;}
+
+/* ── WELCOME ── */
+#sw{background:linear-gradient(160deg,var(--primary) 0%,var(--pdark) 100%);align-items:center;justify-content:center;padding:32px 24px;gap:18px;color:#fff;text-align:center;}
+.w-title{font-size:2.4rem;font-weight:800;text-shadow:0 3px 16px rgba(0,0,0,.3);letter-spacing:-.5px;}
+.w-sub{font-size:.97rem;opacity:.8;font-style:italic;margin-top:-6px;}
+.w-card{background:rgba(255,255,255,.13);backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:26px 22px;width:100%;max-width:360px;display:flex;flex-direction:column;gap:13px;}
+.w-card label{font-size:.92rem;font-weight:700;opacity:.9;text-align:left;}
+.w-input{width:100%;padding:14px 16px;border-radius:var(--rs);border:2px solid rgba(255,255,255,.25);background:rgba(255,255,255,.93);font-size:1.05rem;color:var(--text);font-family:inherit;font-weight:700;outline:none;transition:border-color .2s,box-shadow .2s;}
+.w-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(245,200,66,.3);}
+.btn-go{background:var(--gold);color:#2d1f00;border:none;border-radius:var(--rs);padding:16px 28px;font-size:1.1rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:0 4px 16px rgba(245,200,66,.5);transition:transform .15s;}
+.btn-go:active{transform:scale(.97);}
+
+/* ── HOME ── */
+#sh{padding-bottom:72px;}
+.h-header{background:linear-gradient(135deg,var(--primary),var(--pdark));padding:max(52px,env(safe-area-inset-top,0px) + 28px) 22px 26px;color:#fff;border-radius:0 0 30px 30px;position:relative;overflow:hidden;}
+.h-header::after{content:'';position:absolute;top:-60px;right:-50px;width:180px;height:180px;background:rgba(255,255,255,.06);border-radius:50%;pointer-events:none;}
+.h-greet{font-size:1.55rem;font-weight:800;line-height:1.2;}
+.h-sub{font-size:.86rem;opacity:.78;font-style:italic;margin-top:4px;}
+.streak-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.17);border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:7px 17px;margin-top:15px;font-size:.93rem;font-weight:700;}
+.streak-badge .fl{font-size:1.2rem;}
+.sdots{display:flex;gap:7px;margin-top:11px;}
+.sdot{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.28);}
+.sdot.on{background:var(--gold);}
+.h-body{padding:16px 16px 0;display:flex;flex-direction:column;gap:13px;}
+.today-card{background:var(--surface);border-radius:var(--r);padding:17px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;}
+.t-icon{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.55rem;flex-shrink:0;}
+.t-icon.p{background:#fff3e8;}.t-icon.d{background:#d4f5e9;}
+.t-info{flex:1;min-width:0;}
+.t-title{font-size:.93rem;font-weight:700;}
+.t-detail{font-size:.76rem;color:var(--muted);margin-top:3px;}
+.miniprog{height:5px;background:#ede8e2;border-radius:3px;margin-top:8px;overflow:hidden;}
+.miniprog-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:3px;transition:width 1s linear;}
+.sec-label{font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;}
+.cont-card{background:var(--surface);border-radius:var(--r);padding:14px;box-shadow:var(--shadow);display:flex;align-items:center;gap:13px;cursor:pointer;transition:transform .15s;-webkit-tap-highlight-color:transparent;}
+.cont-card:active{transform:scale(.98);}
+.cont-cover{width:48px;height:68px;border-radius:7px;flex-shrink:0;background:var(--plight);display:flex;align-items:center;justify-content:center;font-size:1.5rem;overflow:hidden;}
+.cont-cover img{width:100%;height:100%;object-fit:cover;border-radius:7px;}
+.cont-info{flex:1;min-width:0;}
+.cont-title{font-size:.9rem;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.cont-auth{font-size:.76rem;color:var(--muted);margin-top:2px;}
+.prog-bar{height:4px;background:#ede8e2;border-radius:2px;margin-top:7px;overflow:hidden;}
+.prog-fill{height:100%;background:var(--primary);border-radius:2px;transition:width .5s;}
+.prog-txt{font-size:.7rem;color:var(--muted);margin-top:4px;}
+.browse-btn{width:100%;background:linear-gradient(135deg,var(--primary),var(--plight));color:#fff;border:none;border-radius:var(--r);padding:19px;font-size:1.1rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:var(--shadowlg);display:flex;align-items:center;justify-content:center;gap:10px;transition:transform .15s;-webkit-tap-highlight-color:transparent;}
+.browse-btn:active{transform:scale(.98);}
+.bnav{position:fixed;bottom:0;left:0;right:0;background:#fff;border-top:1px solid #ede8e2;display:flex;padding:7px 0 max(18px,env(safe-area-inset-bottom,7px));z-index:80;}
+.nbtn{flex:1;background:none;border:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;padding:5px;font-size:.63rem;font-weight:700;color:var(--muted);font-family:inherit;-webkit-tap-highlight-color:transparent;}
+.nbtn .ni{font-size:1.35rem;line-height:1;}
+.nbtn.on{color:var(--primary);}
+
+/* ── SHELF ── */
+#sshelf{padding-bottom:20px;}
+.shelf-hdr{background:linear-gradient(135deg,var(--primary),var(--pdark));padding:max(52px,env(safe-area-inset-top,0px) + 28px) 20px 20px;color:#fff;display:flex;align-items:center;gap:12px;}
+.back-btn{background:rgba(255,255,255,.2);border:none;border-radius:50%;width:40px;height:40px;color:#fff;font-size:1.4rem;font-weight:bold;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:inherit;-webkit-tap-highlight-color:transparent;}
+.shelf-hdr h1{font-size:1.3rem;font-weight:800;}
+.shelf-sub{font-size:.8rem;opacity:.73;margin-top:3px;}
+.book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;padding:17px 13px;}
+.bcard{cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .15s;}
+.bcard:active{transform:scale(.93);}
+.bcover{position:relative;aspect-ratio:2/3;border-radius:8px;overflow:hidden;box-shadow:3px 4px 14px rgba(0,0,0,.3);}
+.bcover img{width:100%;height:100%;object-fit:cover;display:block;}
+.bfallback{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:8px;text-align:center;}
+.bfallback .be{font-size:2rem;margin-bottom:5px;}
+.bfallback .bt{font-size:.6rem;font-weight:700;color:#fff;text-shadow:0 1px 4px rgba(0,0,0,.5);line-height:1.25;}
+.bpill{position:absolute;bottom:5px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.62);color:#fff;font-size:.58rem;padding:2px 8px;border-radius:10px;white-space:nowrap;font-weight:700;}
+.btitle{margin-top:6px;font-size:.68rem;font-weight:700;color:var(--text);text-align:center;line-height:1.25;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+.bauth{font-size:.6rem;color:var(--muted);text-align:center;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+
+/* ── READER ── */
+#sreader{background:#faf7f2;overflow:hidden;}
+.r-topbar{background:#fff;padding:max(44px,env(safe-area-inset-top,0px)+12px) 15px 9px;box-shadow:0 2px 10px rgba(0,0,0,.08);flex-shrink:0;z-index:10;}
+.r-toprow{display:flex;align-items:center;gap:10px;margin-bottom:7px;}
+.r-back{background:#f0ede8;border:none;border-radius:8px;padding:6px 10px;font-size:.82rem;font-weight:700;color:var(--primary);cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:4px;-webkit-tap-highlight-color:transparent;}
+.r-back:active{background:#e0dcf8;}
+.r-booktitle{flex:1;font-size:.8rem;font-weight:700;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.r-timer{font-size:.95rem;font-weight:800;color:var(--primary);font-variant-numeric:tabular-nums;letter-spacing:.4px;}
+.r-ttrack{height:5px;background:#ede8e2;border-radius:3px;overflow:hidden;}
+.r-tfill{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:3px;transition:width 1s linear;width:0%;}
+.r-body{flex:1;overflow:hidden;position:relative;}
+.r-pgwrap{position:absolute;inset:0;padding:26px 24px 14px;overflow-y:auto;}
+.r-pgtext{font-family:'Georgia','Times New Roman',serif;font-size:1.05rem;line-height:1.85;color:#3a2f35;}
+.r-pgtext p{margin:0 0 .9em;text-indent:1.4em;}
+.r-pgtext p:first-of-type,.r-pgtext p:first-child{text-indent:0;}
+.r-chaphead{font-family:'Nunito','Segoe UI',sans-serif;font-size:.95rem;font-weight:800;text-align:center;margin:1.2em 0 .7em;color:var(--primary);letter-spacing:.02em;}
+@keyframes sRight{from{opacity:0;transform:translateX(22px)}to{opacity:1;transform:translateX(0)}}
+@keyframes sLeft{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:translateX(0)}}
+.aR{animation:sRight .26s ease-out forwards;}
+.aL{animation:sLeft  .26s ease-out forwards;}
+.loader{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;height:100%;padding:40px;}
+.spinner{width:48px;height:48px;border:4px solid #ede8e2;border-top-color:var(--primary);border-radius:50%;animation:spin .75s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loader p{color:var(--muted);font-style:italic;font-size:.88rem;text-align:center;line-height:1.55;}
+.err-state{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:13px;height:100%;padding:40px;text-align:center;}
+.err-state .ee{font-size:3rem;}
+.err-state h3{font-size:1rem;font-weight:700;}
+.err-state p{font-size:.8rem;color:var(--muted);}
+.btn-retry{background:var(--primary);color:#fff;border:none;border-radius:10px;padding:12px 24px;font-size:.9rem;font-weight:700;cursor:pointer;font-family:inherit;}
+.r-botbar{background:#fff;padding:10px 18px max(22px,env(safe-area-inset-bottom,10px));box-shadow:0 -2px 10px rgba(0,0,0,.08);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-shrink:0;}
+.r-nav{background:var(--bg);border:2px solid #ddd;border-radius:12px;width:52px;height:52px;font-size:1.3rem;cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--primary);transition:all .15s;-webkit-tap-highlight-color:transparent;}
+.r-nav:active:not(:disabled){background:#ede9f8;border-color:var(--primary);}
+.r-nav:disabled{opacity:.28;cursor:not-allowed;}
+.r-pginfo{flex:1;text-align:center;font-size:.8rem;color:var(--muted);font-weight:600;}
+
+/* ── DEWEY ── */
+#dewey-wrap{position:fixed;bottom:78px;right:15px;z-index:90;display:flex;flex-direction:column;align-items:flex-end;gap:8px;pointer-events:none;}
+#dewey-bubble{background:#fff;border-radius:16px 16px 4px 16px;padding:9px 13px;max-width:210px;font-size:.79rem;line-height:1.45;font-weight:600;color:var(--text);box-shadow:var(--shadowlg);opacity:0;transform:scale(.85) translateY(8px);transition:opacity .25s,transform .25s;}
+#dewey-bubble.vis{opacity:1;transform:scale(1) translateY(0);}
+.owl-btn{width:64px;height:72px;cursor:pointer;pointer-events:auto;animation:owlBob 3s ease-in-out infinite;filter:drop-shadow(0 4px 10px rgba(0,0,0,.22));}
+@keyframes owlBob{0%,100%{transform:translateY(0) rotate(0)}33%{transform:translateY(-5px) rotate(-2deg)}66%{transform:translateY(-3px) rotate(2deg)}}
+@keyframes owlDance{0%,100%{transform:rotate(0) scale(1)}25%{transform:rotate(-14deg) scale(1.1)}75%{transform:rotate(14deg) scale(1.1)}}
+.owl-btn.dancing{animation:owlDance .35s ease-in-out infinite;}
+#r-dewey{position:fixed;bottom:70px;right:14px;width:44px;height:50px;z-index:50;cursor:pointer;animation:owlBob 3s ease-in-out infinite;filter:drop-shadow(0 3px 8px rgba(0,0,0,.2));display:none;}
+
+/* ── CELEBRATION ── */
+#cel-overlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:200;display:none;align-items:center;justify-content:center;padding:24px;}
+#cel-overlay.on{display:flex;}
+.cel-card{background:#fff;border-radius:28px;padding:34px 26px;max-width:340px;width:100%;text-align:center;animation:popIn .4s cubic-bezier(.34,1.56,.64,1) forwards;}
+@keyframes popIn{from{transform:scale(.5);opacity:0}to{transform:scale(1);opacity:1}}
+.cel-title{font-size:1.85rem;font-weight:800;color:var(--primary);margin:10px 0 5px;}
+.cel-msg{font-size:.93rem;color:var(--muted);margin-bottom:10px;}
+.cel-streak{font-size:2.8rem;font-weight:800;color:var(--accent);margin:6px 0;}
+.cel-lbl{font-size:.97rem;font-weight:700;color:var(--muted);margin-bottom:18px;}
+.btn-cel{width:100%;background:linear-gradient(135deg,var(--primary),var(--plight));color:#fff;border:none;border-radius:14px;padding:17px;font-size:1.05rem;font-weight:800;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(92,79,138,.4);}
+.conf{position:fixed;animation:confFall linear forwards;pointer-events:none;z-index:199;border-radius:2px;}
+@keyframes confFall{0%{transform:translateY(-10px) rotate(0);opacity:1}100%{transform:translateY(105vh) rotate(800deg);opacity:0}}
+.hidden{display:none!important;}
+</style>
+</head>
+<body>
+
+<!-- ═══ WELCOME ═══ -->
+<div class="screen" id="sw">
+  <p class="w-title">📚 PageTurners</p>
+  <p class="w-sub">Your 5th Grade Book Club</p>
+  <svg id="w-owl" class="owl-svg" width="110" height="122" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg"
+       style="filter:drop-shadow(0 8px 20px rgba(0,0,0,.35))"></svg>
+  <div class="w-card">
+    <label for="ninput">What's your name, reader? 👇</label>
+    <input class="w-input" type="text" id="ninput" placeholder="Type your first name…"
+           maxlength="24" autocomplete="off" autocorrect="off"
+           onkeydown="if(event.key==='Enter')go()">
+    <button class="btn-go" onclick="go()">Let's Read! 🚀</button>
+  </div>
+  <p style="color:rgba(255,255,255,.42);font-size:.7rem;font-style:italic;">
+    Free public domain books · Timer &amp; streaks included
+  </p>
+</div>
+
+<!-- ═══ HOME ═══ -->
+<div class="screen" id="sh">
+  <div class="h-header">
+    <div class="h-greet" id="hgreet">Hi, Reader! 👋</div>
+    <div class="h-sub" id="hsub">Ready for today's adventure?</div>
+    <div class="streak-badge"><span class="fl">🔥</span><span id="hstreak">Start your streak!</span></div>
+    <div class="sdots" id="hsdots"></div>
+  </div>
+  <div class="h-body">
+    <div class="today-card">
+      <div class="t-icon p" id="hticon">📖</div>
+      <div class="t-info">
+        <div class="t-title" id="httitle">Read for 20 minutes today</div>
+        <div class="t-detail" id="htdetail">Pick a book and start your session!</div>
+        <div class="miniprog"><div class="miniprog-fill" id="hmpfill" style="width:0%"></div></div>
+      </div>
+    </div>
+    <div id="hcont" class="hidden">
+      <div class="sec-label" style="margin-bottom:6px;">Continue Reading</div>
+      <div class="cont-card" onclick="handleCont()">
+        <div class="cont-cover" id="hccover">📖</div>
+        <div class="cont-info">
+          <div class="cont-title" id="hctitle">Book Title</div>
+          <div class="cont-auth"  id="hcauth">Author</div>
+          <div class="prog-bar"><div class="prog-fill" id="hcprog" style="width:5%"></div></div>
+          <div class="prog-txt"  id="hcprogtxt">Page 1</div>
+        </div>
+      </div>
+    </div>
+    <button class="browse-btn" onclick="showS('sshelf')">📚 Browse All Books</button>
+  </div>
+  <nav class="bnav">
+    <button class="nbtn on" onclick="showS('sh')"><span class="ni">🏠</span>Home</button>
+    <button class="nbtn"    onclick="showS('sshelf')"><span class="ni">📚</span>Books</button>
+    <button class="nbtn"    onclick="showStats()"><span class="ni">⭐</span>Stats</button>
+  </nav>
+</div>
+
+<!-- ═══ SHELF ═══ -->
+<div class="screen" id="sshelf">
+  <div class="shelf-hdr">
+    <button class="back-btn" onclick="showS('sh')">‹</button>
+    <div><h1>Choose Your Book</h1><div class="shelf-sub">Dinosaurs, detectives, wizards &amp; more — all free!</div></div>
+  </div>
+  <div class="book-grid" id="bgrid"></div>
+</div>
+
+<!-- ═══ READER ═══ -->
+<div class="screen" id="sreader">
+  <div class="r-topbar">
+    <div class="r-toprow">
+      <button class="r-back" onclick="leaveR()">‹ Back</button>
+      <div class="r-booktitle" id="rtitle">Loading…</div>
+      <div class="r-timer" id="rtimer">20:00</div>
+    </div>
+    <div class="r-ttrack"><div class="r-tfill" id="rtfill"></div></div>
+  </div>
+  <div class="r-body" id="rbody">
+    <div class="loader" id="rloader">
+      <div class="spinner"></div>
+      <p>Fetching your book…<br>First open takes 5–10 seconds. Hang tight! 📖</p>
+    </div>
+    <div class="r-pgwrap hidden" id="rpgwrap">
+      <div class="r-pgtext" id="rpgtext"></div>
+    </div>
+    <div class="err-state hidden" id="rerr">
+      <div class="ee">📵</div>
+      <h3>Couldn't Load Book</h3>
+      <p>Check your connection and tap Try Again.</p>
+      <button class="btn-retry" onclick="retryB()">Try Again</button>
+    </div>
+  </div>
+  <div class="r-botbar">
+    <button class="r-nav" id="rprev" onclick="prevPg()" disabled>‹</button>
+    <div class="r-pginfo" id="rpginfo">Page — of —</div>
+    <button class="r-nav" id="rnext" onclick="nextPg()">›</button>
+  </div>
+  <svg id="r-dewey" class="owl-svg" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg" onclick="deweyTap()" title="Tap Dewey!"></svg>
+</div>
+
+<!-- ═══ DEWEY MASCOT ═══ -->
+<div id="dewey-wrap">
+  <div id="dewey-bubble"></div>
+  <svg id="dewey-avatar" class="owl-btn owl-svg" viewBox="0 0 80 90"
+       xmlns="http://www.w3.org/2000/svg" onclick="deweyTap()" title="Tap Dewey!"></svg>
+</div>
+
+<!-- ═══ CELEBRATION ═══ -->
+<div id="cel-overlay">
+  <div class="cel-card">
+    <svg id="cel-owl" class="owl-svg" width="90" height="100" viewBox="0 0 80 90"
+         xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;"></svg>
+    <div class="cel-title">You Did It! 🎉</div>
+    <div class="cel-msg"  id="celmsg">Amazing reading session!</div>
+    <div class="cel-streak" id="celstreak">🔥 1</div>
+    <div class="cel-lbl"   id="cellbl">day streak!</div>
+    <button class="btn-cel" onclick="closeCel()">Awesome — Keep Reading! 📚</button>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+// ════════ BOOKS ════════
+const BOOKS = [
+  {id:55,   t:"The Wonderful Wizard of Oz",         a:"L. Frank Baum",            e:"🌪️", c:"#e8825c"},
+  {id:11,   t:"Alice in Wonderland",                 a:"Lewis Carroll",             e:"🐇", c:"#9b59b6"},
+  {id:120,  t:"Treasure Island",                     a:"Robert Louis Stevenson",    e:"🏴‍☠️", c:"#d35400"},
+  {id:139,  t:"The Lost World",                      a:"Arthur Conan Doyle",        e:"🦕", c:"#5d8a3c"},
+  {id:1661, t:"Sherlock Holmes Adventures",           a:"Arthur Conan Doyle",        e:"🔍", c:"#34495e"},
+  {id:3748, t:"Journey to the Center of the Earth",  a:"Jules Verne",               e:"🌋", c:"#c0392b"},
+  {id:16,   t:"Peter Pan",                           a:"J.M. Barrie",               e:"✨", c:"#16a085"},
+  {id:501,  t:"The Story of Doctor Dolittle",        a:"Hugh Lofting",              e:"🦜", c:"#27ae60"},
+  {id:113,  t:"The Secret Garden",                   a:"Frances H. Burnett",        e:"🌸", c:"#2980b9"},
+  {id:146,  t:"A Little Princess",                   a:"Frances H. Burnett",        e:"👑", c:"#8e44ad"},
+  {id:74,   t:"The Adventures of Tom Sawyer",        a:"Mark Twain",                e:"🎣", c:"#e67e22"},
+  {id:514,  t:"Little Women",                        a:"Louisa May Alcott",         e:"✏️", c:"#c0392b"},
+];
+const WPP = 280, SESSEC = 1200;
+
+
+// ════════ EMBEDDED BOOK TEXT — baked in, zero network needed ════════
+const EMBEDDED={
+  55:`The Wonderful Wizard of Oz
+
+by L. Frank Baum
+
+
+This book is dedicated to my good friend & comrade
+My Wife
+L.F.B.
+
+
+Contents
+
+ Introduction
+ Chapter I. The Cyclone
+ Chapter II. The Council with the Munchkins
+ Chapter III. How Dorothy Saved the Scarecrow
+ Chapter IV. The Road Through the Forest
+ Chapter V. The Rescue of the Tin Woodman
+ Chapter VI.  The Cowardly Lion
+ Chapter VII. The Journey to the Great Oz
+ Chapter VIII. The Deadly Poppy Field
+ Chapter IX. The Queen of the Field Mice
+ Chapter X. The Guardian of the Gates
+ Chapter XI. The Emerald City of Oz
+ Chapter XII. The Search for the Wicked Witch
+ Chapter XIII. The Rescue
+ Chapter XIV. The Winged Monkeys
+ Chapter XV. The Discovery of Oz, the Terrible
+ Chapter XVI. The Magic Art of the Great Humbug
+ Chapter XVII. How the Balloon Was Launched
+ Chapter XVIII. Away to the South
+ Chapter XIX. Attacked by the Fighting Trees
+ Chapter XX. The Dainty China Country
+ Chapter XXI. The Lion Becomes the King of Beasts
+ Chapter XXII. The Country of the Quadlings
+ Chapter XXIII. Glinda The Good Witch Grants Dorothy's Wish
+ Chapter XXIV. Home Again
+
+
+Introduction
+
+
+Folklore, legends, myths and fairy tales have followed childhood
+through the ages, for every healthy youngster has a wholesome and
+instinctive love for stories fantastic, marvelous and manifestly
+unreal. The winged fairies of Grimm and Andersen have brought more
+happiness to childish hearts than all other human creations.
+
+Yet the old time fairy tale, having served for generations, may now be
+classed as "historical" in the children's library; for the time has
+come for a series of newer "wonder tales" in which the stereotyped
+genie, dwarf and fairy are eliminated, together with all the horrible
+and blood-curdling incidents devised by their authors to point a
+fearsome moral to each tale. Modern education includes morality;
+therefore the modern child seeks only entertainment in its wonder tales
+and gladly dispenses with all disagreeable incident.
+
+Having this thought in mind, the story of "The Wonderful Wizard of Oz"
+was written solely to please children of today. It aspires to being a
+modernized fairy tale, in which the wonderment and joy are retained and
+the heartaches and nightmares are left out.
+
+L. Frank Baum
+Chicago, April, 1900.
+
+
+Chapter I
+The Cyclone
+
+
+Dorothy lived in the midst of the great Kansas prairies, with Uncle
+Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their
+house was small, for the lumber to build it had to be carried by wagon
+many miles. There were four walls, a floor and a roof, which made one
+room; and this room contained a rusty looking cookstove, a cupboard for
+the dishes, a table, three or four chairs, and the beds. Uncle Henry
+and Aunt Em had a big bed in one corner, and Dorothy a little bed in
+another corner. There was no garret at all, and no cellar—except a
+small hole dug in the ground, called a cyclone cellar, where the family
+could go in case one of those great whirlwinds arose, mighty enough to
+crush any building in its path.
+
+When Dorothy stood in the doorway and looked around, she could see
+nothing but the great gray prairie on every side. Not a tree nor a
+house broke the broad sweep of flat country that reached to the edge of
+the sky in all directions. The sun had baked the plowed land into a
+gray mass, with little cracks running through it.
+
+It was Toto that made Dorothy laugh, and saved her from growing as gray
+as her other surroundings. Toto was not gray; he was a little black
+dog, with long silky hair and small black eyes that twinkled merrily on
+either side of his funny, wee nose. Toto played all day long, and
+Dorothy played with him, and loved him dearly.
+
+Suddenly Uncle Henry stood up. "There's a cyclone coming, Em," he
+called to his wife. "I'll go look after the stock." Then he ran toward
+the sheds where the cows and horses were kept.
+
+Aunt Em dropped her work and came to the door. One glance told her of
+the danger close at hand. "Quick, Dorothy!" she screamed. "Run for the
+cellar!"
+
+Toto jumped out of Dorothy's arms and hid under the bed, and the girl
+started to get him. Aunt Em, badly frightened, threw open the trap door
+in the floor and climbed down the ladder into the small, dark hole.
+Dorothy caught Toto at last and started to follow her aunt. When she
+was halfway across the room there came a great shriek from the wind,
+and the house shook so hard that she lost her footing and sat down
+suddenly upon the floor.
+
+Then a strange thing happened.
+
+The house whirled around two or three times and rose slowly through the
+air. Dorothy felt as if she were going up in a balloon.
+
+The north and south winds met where the house stood, and made it the
+exact center of the cyclone. In the middle of a cyclone the air is
+generally still, but the great pressure of the wind on every side of
+the house raised it up higher and higher, until it was at the very top
+of the cyclone; and there it remained and was carried miles and miles
+away as easily as you could carry a feather.
+
+It was very dark, and the wind howled horribly around her, but Dorothy
+found she was riding quite easily. After the first few whirls around,
+and one other time when the house tipped badly, she felt as if she were
+being rocked gently, like a baby in a cradle.
+
+Toto did not like it. He ran about the room, now here, now there,
+barking loudly; but Dorothy sat quite still on the floor and waited to
+see what would happen.
+
+Hour after hour passed away, and slowly Dorothy got over her fright;
+but she felt quite lonely, and the wind shrieked so loudly all about
+her that she nearly became deaf. At first she had wondered if she would
+be dashed to pieces when the house fell again; but as the hours passed
+and nothing terrible happened, she stopped worrying and resolved to
+wait calmly and see what the future would bring. At last she crawled
+over the swaying floor to her bed, and lay down upon it; and Toto
+followed and lay down beside her.
+
+In spite of the swaying of the house and the wailing of the wind,
+Dorothy soon closed her eyes and fell fast asleep.
+
+
+Chapter II
+The Council with the Munchkins
+
+
+She was awakened by a shock, so sudden and severe that if Dorothy had
+not been lying on the soft bed she might have been hurt. As it was, the
+jar made her catch her breath and wonder what had happened; and Toto
+put his cold little nose into her face and whined dismally. Dorothy sat
+up and noticed that the house was not moving; nor was it dark, for the
+bright sunshine came in at the window, flooding the little room. She
+sprang from her bed and with Toto at her heels ran and opened the door.
+
+The little girl gave a cry of amazement and looked about her, her eyes
+growing bigger and bigger at the wonderful sights she saw.
+
+The cyclone had set the house down very gently in the midst of a
+country of marvelous beauty. There were lovely patches of greensward
+all about, with stately trees bearing rich and luscious fruits. Banks
+of gorgeous flowers were on every side, and birds with rare and
+brilliant plumage sang and fluttered in the trees and bushes.`,
+  11:`Alice's Adventures in Wonderland
+
+by Lewis Carroll
+
+
+Chapter I. Down the Rabbit-Hole
+
+
+Alice was beginning to get very tired of sitting by her sister on the
+bank, and of having nothing to do: once or twice she had peeped into
+the book her sister was reading, but it had no pictures or
+conversations in it, "and what is the use of a book," thought Alice
+"without pictures or conversations?"
+
+So she was considering in her own mind (as well as she could, for the
+hot day made her feel very sleepy and stupid), whether the pleasure of
+making a daisy-chain would be worth the trouble of getting up and
+picking the daisies, when suddenly a White Rabbit with pink eyes ran
+close by her.
+
+There was nothing so very remarkable in that; nor did Alice think it
+so very much out of the way to hear the Rabbit say to itself, "Oh
+dear! Oh dear! I shall be late!" but when the Rabbit actually took a
+watch out of its waistcoat-pocket, and looked at it, and then hurried
+on, Alice started to her feet, for it flashed across her mind that she
+had never before seen a rabbit with either a waistcoat-pocket, or a
+watch to take out of it, and burning with curiosity, she ran across the
+field after it, and fortunately was just in time to see it pop down a
+large rabbit-hole under the hedge.
+
+In another moment down went Alice after it, never once considering how
+in the world she was to get out again.
+
+The rabbit-hole went straight on like a tunnel for some way, and then
+dipped suddenly down, so suddenly that Alice had not a moment to think
+about stopping herself before she found herself falling down a very
+deep well.
+
+Either the well was very deep, or she fell very slowly, for she had
+plenty of time as she went down to look about her and to wonder what
+was going to happen next. First, she tried to look down and make out
+what she was coming to, but it was too dark to see anything; then she
+looked at the sides of the well, and noticed that they were filled with
+cupboards and book-shelves; here and there she saw maps and pictures
+hung upon pegs. She took down a jar from one of the shelves as she
+passed; it was labelled "ORANGE MARMALADE", but to her great
+disappointment it was empty.
+
+"Well!" thought Alice to herself, "after such a fall as this, I shall
+think nothing of tumbling down stairs! How brave they'll all think me
+at home!"
+
+Down, down, down. Would the fall never come to an end? "I wonder how
+many miles I've fallen by this time?" she said aloud. "I must be
+getting somewhere near the centre of the earth."
+
+Down, down, down. There was nothing else to do, so Alice soon began
+talking again. "Dinah'll miss me very much to-night, I should think!"
+(Dinah was the cat.) "I hope they'll remember her saucer of milk at
+tea-time. Dinah my dear! I wish you were down here with me! There are
+no mice in the air, I'm afraid, but you might catch a bat, and that's
+very like a mouse, you know. But do cats eat bats, I wonder?" And here
+Alice began to get rather sleepy, and went on saying to herself, in a
+dreamy sort of way, "Do cats eat bats? Do cats eat bats?" and
+sometimes, "Do bats eat cats?" for, you see, as she couldn't answer
+either question, it didn't much matter which way she put it.
+
+when suddenly, thump! thump! down she came upon a heap of sticks and
+dry leaves, and the fall was over.
+
+Alice was not a bit hurt, and she jumped up on to her feet in a moment:
+she looked up, but it was all dark overhead; before her was another
+long passage, and the White Rabbit was still in sight, hurrying down
+it. There was not a moment to be lost: away went Alice like the wind,
+and was just in time to hear it say, as it turned a corner, "Oh my ears
+and whiskers, how late it's getting!" She was close behind it when she
+turned the corner, but the Rabbit was no longer to be seen: she found
+herself in a long, low hall, which was lit up by a row of lamps hanging
+from the roof.
+
+There were doors all round the hall, but they were all locked; and when
+Alice had been all the way down one side and up the other, trying every
+door, she walked sadly down the middle, wondering how she was ever to
+get out again.
+
+Suddenly she came upon a little three-legged table, all made of solid
+glass; there was nothing on it except a tiny golden key, and Alice's
+first thought was that it might belong to one of the doors of the hall;
+but, alas! either the locks were too large, or the key was too small,
+but at any rate it would not open any of them. However, on the second
+time round, she came upon a low curtain she had not noticed before, and
+behind it was a little door about fifteen inches high: she tried the
+little golden key in the lock, and to her great delight it fitted!
+
+Alice opened the door and found that it led into a small passage, not
+much larger than a rat-hole: she knelt down and looked along the
+passage into the loveliest garden you ever saw. How she longed to get
+out of that dark hall, and wander about among those beds of bright
+flowers and those cool fountains, but she could not even get her head
+through the doorway. "Oh, how I wish I could shut up like a telescope!"
+she cried. "I think I could, if I only knew how to begin."
+
+She went back to the table and found a little bottle with a paper label
+reading "DRINK ME" beautifully printed on it in large letters. Alice
+ventured to taste it, and finding it very nice—it had a sort of mixed
+flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and
+hot buttered toast—she very soon finished it off.
+
+"What a curious feeling!" said Alice. "I must be shutting up like a
+telescope!"
+
+And so it was indeed: she was now only ten inches high.`,
+  113:`The Secret Garden
+
+by Frances Hodgson Burnett
+
+
+Chapter I. There Is No One Left
+
+
+When Mary Lennox was sent to Misselthwaite Manor to live with her uncle
+everybody said she was the most disagreeable-looking child ever seen.
+It was true, too. She had a little thin face and a little thin body,
+thin light hair and a sour expression. Her hair was yellow, and her
+face was yellow because she had been born in India and had always been
+ill in one way or another. Her father had held a position under the
+English Government and had always been busy and ill himself, and her
+mother had been a great beauty who cared only to go to parties and
+amuse herself with gay people.
+
+One frightfully hot morning, when she was about nine years old, she
+awakened feeling very cross, and she became crosser still when she saw
+that the servant who stood by her bedside was not her Ayah.
+
+"Why did you come?" she said to the strange woman. "I will not let you
+stay. Send my Ayah to me."
+
+The woman looked frightened, but she only stammered that the Ayah could
+not come and when Mary threw herself into a passion and beat and kicked
+her, she looked only more frightened and repeated that it was not
+possible for the Ayah to come to Missie Sahib.
+
+There was something mysterious in the air that morning. Nothing was
+done in its regular order and several of the native servants seemed
+missing, while those whom Mary saw slunk or hurried about with ashy and
+scared faces. But no one would tell her anything.
+
+She was grinding her teeth and muttering to herself when she heard her
+mother come out on the veranda with someone. "Is it so very bad? Oh,
+is it?" Mary heard her say.
+
+"Awfully," the young man answered in a trembling voice. "Awfully, Mrs.
+Lennox. You ought to have gone to the hills two weeks ago."
+
+At that very moment such a loud sound of wailing broke out from the
+servants' quarters that she clutched the young man's arm, and Mary
+stood shivering from head to foot. "What is it? What is it?" Mrs.
+Lennox gasped.
+
+"Someone has died," answered the boy officer. "You did not say it had
+broken out among your servants."
+
+After that appalling things happened. The cholera had broken out in its
+most fatal form and people were dying like flies.
+
+During the confusion and bewilderment of the second day Mary hid
+herself in the nursery and was forgotten by everyone. Nobody thought of
+her, nobody wanted her, and strange things happened of which she knew
+nothing.
+
+When she awakened she lay and stared at the wall. The house was
+perfectly still. She had never known it to be so silent before. She
+heard neither voices nor footsteps, and wondered if everybody had got
+well of the cholera and all the trouble was over.
+
+But no one came, and as she lay waiting the house seemed to grow more
+and more silent. She heard something rustling on the matting and when
+she looked down she saw a little snake gliding along and watching her
+with eyes like jewels. She was not frightened, because he was a
+harmless little thing who would not hurt her.
+
+It was in this way that the strange silent people found her when they
+opened the door—a sour-faced little girl sitting on her mat and staring
+at the wall, while a little snake watched her from under a corner of
+her pillow.
+
+They took her to an English clergyman and his wife, and she was sent to
+her uncle Archibald Craven at Misselthwaite Manor in Yorkshire,
+England—a place she had never heard of and a man she had never seen.`,
+  120:`Treasure Island
+
+by Robert Louis Stevenson
+
+
+Part One — The Old Buccaneer
+
+Chapter I. The Old Sea-dog at the Admiral Benbow
+
+
+Squire Trelawney, Dr. Livesey, and the rest of these gentlemen having
+asked me to write down the whole particulars about Treasure Island,
+from the beginning to the end, keeping nothing back but the bearings
+of the island, and that only because there is still treasure not yet
+lifted, I take up my pen in the year of grace 17—, and go back to the
+time when my father kept the Admiral Benbow inn and the brown old
+seaman with the sabre cut first took up his lodging under our roof.
+
+I remember him as if it were yesterday, as he came plodding to the
+inn door, his sea-chest following behind him in a hand-barrow—a tall,
+strong, heavy, nut-brown man, his tarry pigtail falling over the
+shoulder of his soiled blue coat, his hands ragged and scarred, with
+black, broken nails, and the sabre cut across one cheek, a dirty,
+livid white. I remember him looking round the cove and whistling to
+himself as he did so, and then breaking out in that old sea-song that
+he sang so often afterwards:
+
+"Fifteen men on the dead man's chest—
+Yo-ho-ho, and a bottle of rum!"
+
+in the high, old tottering voice that seemed to have been tuned and
+broken at the capstan bars. Then he rapped on the door with a bit of
+stick like a handspike that he carried, and when my father appeared,
+called roughly for a glass of rum.
+
+"This is a handy cove," says he at length; "and a pleasant sittyated
+grog-shop. Much company, mate?"
+
+My father told him no, very little company, the more was the pity.
+
+"Well, then," said he, "this is the berth for me. Here you, matey,"
+he cried to the man who trundled the barrow; "bring up alongside and
+help up my chest. I'll stay here a bit. I'm a plain man; rum and bacon
+and eggs is what I want, and that head up there for to watch ships off.
+What you mought call me? You mought call me captain."
+
+He was a very silent man by custom. All day he hung round the cove or
+upon the cliffs with a brass telescope; all evening he sat in a corner
+of the parlour next the fire and drank rum and water very strong.
+Mostly he would not speak when spoken to, only look up sudden and
+fierce and blow through his nose like a fog-horn; and we and the
+people who came about our house soon learned to let him be. Every day
+when he came back from his stroll he would ask if any seafaring men
+had gone by along the road.
+
+For me, at least, there was no secret about the matter, for I was, in
+a way, a sharer in his alarms. He had taken me aside one day and
+promised me a silver fourpenny on the first of every month if I would
+only keep my "weather-eye open for a seafaring man with one leg" and
+let him know the moment he appeared.
+
+How that personage haunted my dreams, I need scarcely tell you. On
+stormy nights, when the wind shook the four corners of the house and
+the surf roared along the cove and up the cliffs, I would see him in
+a thousand forms, and with a thousand diabolical expressions.
+
+But though I was so terrified by the idea of the seafaring man with
+one leg, I was far less afraid of the captain himself than anybody
+else who knew him. There were nights when he took a deal more rum and
+water than his head would carry; and then he would sometimes sit and
+sing his wicked, old, wild sea-songs, minding nobody; but sometimes
+he would call for glasses all round and force all the trembling
+company to listen to his stories or bear a chorus to his singing.`,
+  146:`A Little Princess
+
+by Frances Hodgson Burnett
+
+
+Chapter 1. Sara
+
+
+Once on a dark winter's day, when the yellow fog hung so thick and
+heavy in the streets of London that the lamps were lighted and the
+shop windows blazed with gas as they do at night, an odd-looking
+little girl sat in a cab with her father and was driven rather slowly
+through the big thoroughfares.
+
+She sat with her feet tucked under her, and leaned against her father,
+who held her in his arm, as she stared out of the window at the
+passing people with a queer old-fashioned thoughtfulness in her big
+eyes.
+
+She was such a little girl that one did not expect to see such a look
+on her small face. It would have been an old look for a child of
+twelve, and Sara Crewe was only seven.
+
+"Papa," she said in a low, mysterious little voice which was almost a
+whisper, "papa."
+
+"What is it, darling?" Captain Crewe answered, holding her closer and
+looking down into her face. "What is Sara thinking of?"
+
+"Is this the place?" Sara whispered, cuddling still closer to him.
+"Is it, papa?"
+
+"Yes, little Sara, it is. We have reached it at last." And though she
+was only seven years old, she knew that he felt sad when he said it.
+
+Her young, handsome, rich, petting father seemed to be the only
+relation she had in the world. They had always played together and
+been fond of each other.
+
+It was a big, dull, brick house, exactly like all the others in its
+row, but that on the front door there shone a brass plate on which was
+engraved in black letters: MISS MINCHIN, Select Seminary for Young
+Ladies.
+
+"Here we are, Sara," said Captain Crewe, making his voice sound as
+cheerful as possible. Then he lifted her out of the cab and they
+mounted the steps and rang the bell.
+
+Sara often thought afterward that the house was somehow exactly like
+Miss Minchin. It was respectable and well furnished, but everything in
+it was ugly.
+
+As she sat down in one of the stiff mahogany chairs, Sara cast one of
+her quick looks about her. "I don't like it, papa," she said. "But
+then I dare say soldiers—even brave ones—don't really LIKE going into
+battle."
+
+Captain Crewe laughed outright at this. "Oh, little Sara," he said.
+"What shall I do when I have no one to say solemn things to me?"
+
+It was just then that Miss Minchin entered the room. She was very like
+her house, Sara felt: tall and dull, and respectable and ugly. She had
+large, cold, fishy eyes, and a large, cold, fishy smile.
+
+"It will be a great privilege to have charge of such a beautiful and
+promising child, Captain Crewe," she said, taking Sara's hand and
+stroking it.
+
+Sara stood quietly, with her eyes fixed upon Miss Minchin's face. She
+was thinking something odd, as usual. "Why does she say I am a
+beautiful child?" she was thinking. "I am not beautiful at all."
+
+She was to discover in later years why Miss Minchin smiled that
+cold smile and what it meant. But that was later, when many things
+had changed for Sara.`,
+  16:`Peter Pan
+
+by J. M. Barrie
+
+
+Chapter I. Peter Breaks Through
+
+
+All children, except one, grow up. They soon know that they will grow
+up, and the way Wendy knew was this. One day when she was two years
+old she was playing in a garden, and she plucked another flower and
+ran with it to her mother. I suppose she must have looked rather
+delightful, for Mrs. Darling put her hand to her heart and cried,
+"Oh, why can't you remain like this for ever!"
+
+Of course they lived at 14, and until Wendy came her mother was the
+chief one. She was a lovely lady, with a romantic mind and such a
+sweet mocking mouth.
+
+Mr. Darling used to boast to Wendy that her mother not only loved him
+but respected him. He was one of those deep ones who know about stocks
+and shares. Of course no one really knows, but he quite seemed to
+know, and he often said stocks were up and shares were down in a way
+that would have made any woman respect him.
+
+Wendy came first, then John, then Michael.
+
+As they were poor, owing to the amount of milk the children drank,
+their nurse was a prim Newfoundland dog, called Nana, who had belonged
+to no one in particular until the Darlings engaged her. She proved to
+be quite a treasure of a nurse. How thorough she was at bath-time, and
+up at any moment of the night if one of her charges made the slightest
+cry.
+
+Mrs. Darling loved to have everything just so, and Mr. Darling had a
+passion for being exactly like his neighbours; so, of course, they had
+a nurse. There is a room in the basement of Miss Fulsom's school where
+the nurses wait. They sat on forms, while Nana lay on the floor, but
+that was the only difference.
+
+Mrs. Darling first heard of Peter when she was tidying up her
+children's minds. It is the nightly custom of every good mother after
+her children are asleep to rummage in their minds and put things
+straight for next morning, repacking into their proper places the many
+articles that have wandered during the day. If you could keep awake
+(but of course you can't) you would see your own mother doing this,
+and you would find it very interesting to watch her.
+
+She had found a strange name scratched on the wall: Peter Pan.
+
+"Peter Pan," she said to Wendy, "who is Peter Pan?"
+
+Wendy said he sometimes came to the nursery window and sat on the
+window-sill. She sometimes talked to him, she told her mother, but
+only when daddy was asleep. "He told me lots of things about himself,"
+said Wendy, "and he said he lived with the fairies."
+
+Mrs. Darling consulted Mr. Darling, but he pooh-poohed the whole
+story. "There is no such person," he said, and Nana agreed with him.
+
+But one night Mrs. Darling saw Peter's shadow. She caught hold of it
+and rolled it up neatly and put it in a drawer. "I will keep this,"
+she said, "until Peter comes back."
+
+And Peter came back. He came in the night, looking for his shadow.`,
+  74:`The Adventures of Tom Sawyer
+
+by Mark Twain
+
+
+Preface
+
+Most of the adventures recorded in this book really occurred; one or
+two were experiences of my own, the rest those of boys who were
+schoolmates of mine. Huck Finn is drawn from life; Tom Sawyer also,
+but not from an individual—he is a combination of the characteristics
+of three boys whom I knew.
+
+THE AUTHOR. HARTFORD, 1876.
+
+
+Chapter I
+
+
+"Tom!"
+No answer.
+"TOM!"
+No answer.
+"What's gone with that boy, I wonder? You TOM!"
+No answer.
+
+The old lady pulled her spectacles down and looked over them about the
+room; then she put them up and looked out under them. She seldom or
+never looked through them for so small a thing as a boy; they were her
+state pair, the pride of her heart, and were built for "style," not
+service—she could have seen through a pair of stove-lids just as well.
+She looked perplexed for a moment, and then said, not fiercely, but
+still loud enough for the furniture to hear:
+
+"Well, I lay if I get hold of you I'll—"
+
+She did not finish, for by this time she was bending down and punching
+under the bed with the broom, and so she needed breath to punctuate
+the punches with. She resurrected nothing but the cat.
+
+"I never did see the beat of that boy!"
+
+She went to the open door and stood in it and looked out among the
+tomato vines and "jimpson" weeds that constituted the garden. No Tom.
+So she lifted up her voice at an angle calculated for distance and
+shouted:
+
+"Y-o-u-u TOM!"
+
+There was a slight noise behind her and she turned just in time to
+seize a small boy by the slack of his roundabout and arrest his
+flight.
+
+"There! I might 'a' thought of that closet. What you been doing in
+there?"
+
+"Nothing."
+
+"Nothing! Look at your hands. And look at your mouth. What is that
+truck?"
+
+"I don't know, aunt."
+
+"Well, I know. It's jam—that's what it is. Forty times I've said if
+you didn't let that jam alone I'd skin you. Hand me that switch."
+
+The switch hovered in the air—the peril was desperate—
+
+"My! Look behind you, aunt!"
+
+The old lady whirled round, and snatched her skirts out of danger.
+The lad fled on the instant, scrambled up the high board-fence, and
+disappeared over it.
+
+His aunt stood surprised a moment, and then broke into a gentle
+laugh. "Hang the boy, can't I never learn anything? Ain't he played
+me tricks enough like that for me to be looking out for him by this
+time? But old fools is the biggest fools there is. Can't learn an old
+dog new tricks, as the saying is. But my goodness, he never plays them
+alike, two days, and how is a body to know what's coming?"`,
+  514:`Little Women
+
+by Louisa May Alcott
+
+
+Chapter One. Playing Pilgrims
+
+
+"Christmas won't be Christmas without any presents," grumbled Jo,
+lying on the rug.
+
+"It's so dreadful to be poor!" sighed Meg, looking down at her old
+dress.
+
+"I don't think it's fair for some girls to have plenty of pretty
+things, and other girls nothing at all," added little Amy, with an
+injured sniff.
+
+"We've got Father and Mother, and each other," said Beth contentedly
+from her corner.
+
+The four young faces on which the firelight shone brightened at the
+cheerful words, but darkened again as Jo said sadly, "We haven't got
+Father, and shall not have him for a long time." She didn't say
+"perhaps never," but each silently added it, thinking of Father far
+away, where the fighting was.
+
+"You know the reason Mother proposed not having any presents this
+Christmas was because it is going to be a hard winter for everyone;
+and she thinks we ought not to spend money for pleasure, when our men
+are suffering so in the army. We can't do much, but we can make our
+little sacrifices, and ought to do it gladly."
+
+Margaret, the eldest of the four, was sixteen, and very pretty, being
+plump and fair, with large eyes, plenty of soft brown hair, a sweet
+mouth, and white hands, of which she was rather vain. Fifteen-year-old
+Jo was very tall, thin, and brown, and reminded one of a colt, for she
+never seemed to know what to do with her long limbs. She had a decided
+mouth, a comical nose, and sharp, gray eyes, which appeared to see
+everything, and were by turns fierce, funny, or thoughtful.
+
+"I hate to think I've got to grow up, and be Miss March, and wear long
+gowns, and look as prim as a China Aster! It's bad enough to be a
+girl, anyway, when I like boy's games and work and manners! I can't
+get over my disappointment in not being a boy. And it's worse than
+ever now, for I'm dying to go and fight with Papa."
+
+"Poor Jo! It's too bad, but it can't be helped. So you must try to be
+contented with making your name boyish, and playing brother to us
+girls," said Beth, stroking the rough head with a hand that all the
+dish washing and dusting in the world could not make ungentle in its
+touch.
+
+"Really, girls, you are both to be blamed," said Meg, beginning to
+lecture in her elder-sisterly fashion. "You are old enough to leave
+off boyish tricks, and to behave better, Josephine."
+
+"I'm not! And if turning up my hair makes me one, I'll wear it in two
+tails till I'm twenty," cried Jo, pulling off her net, and shaking
+down a chestnut mane. "I hate to think I've got to grow up!"
+
+"As for you, Amy," continued Meg, "you are altogether too particular
+and prim. Your airs are funny now, but you'll grow up an affected
+little goose, if you don't take care."
+
+As young readers like to know 'how people look', we will take this
+moment to give them a little sketch of the four sisters, who sat
+knitting away in the twilight, while the December snow fell quietly
+without, and the fire crackled cheerfully within. It was a comfortable
+room, though the carpet was faded and the furniture very plain. A
+pleasant atmosphere of home peace pervaded it.`,
+  139:`The Lost World
+
+by Arthur Conan Doyle
+
+
+Chapter I. "There Are Heroisms All Round Us"
+
+
+Mr. Hungerton, her father, really was the most tactless person upon
+earth—a fluffy, feathery, untidy cockatoo of a man, perfectly
+good-natured, but absolutely centered upon his own silly self.
+
+At last I was alone with Gladys, and the moment of Fate had come!
+
+She sat with that proud, delicate profile of hers outlined against the
+red curtain. How beautiful she was! And yet how aloof! We had been
+friends, quite good friends; but never could I get beyond the same
+comradeship which I might have established with one of my
+fellow-reporters upon the Gazette.
+
+"I have a presentiment that you are going to propose, Ned. I do wish
+you wouldn't; for things are so much nicer as they are."
+
+I drew my chair a little nearer. "Now, how did you know that I was
+going to propose?" I asked in genuine wonder.
+
+"Don't women always know? Do you suppose any woman in the world was
+ever taken unawares?"
+
+"But why can't you love me, Gladys? Is it my appearance, or what?"
+
+She looked into my upturned face with a very wistful smile. "No it
+isn't that. It's deeper."
+
+"My character?"
+
+She nodded severely.
+
+"But, above all, he must be a man who could do, who could act, who
+could look Death in the face and have no fear of him, a man of great
+deeds and strange experiences. There are heroisms all round us waiting
+to be done. It's for men to do them, and for women to reserve their
+love as a reward for such men. Look at that young Alec Macdona who
+has just gone off to Uganda! Look at Dempster and his balloon! High
+courage and high ambition—those are the things that stir a woman's
+heart."
+
+"Very well," said I, "I'll do it." The words came easily, but when I
+looked into her shining eyes I knew that she meant what she said.
+
+I had a vague idea that I should lead an expedition to somewhere, do
+something heroic, and come back to claim Gladys as my reward. The
+newspaper Gazette would, of course, send me. But where? That was the
+question.
+
+I was musing thus when I received a letter from my editor:
+
+"Dear Malone,—Have you ever heard of Professor Challenger? He is
+absolutely unapproachable and seclusive. He has just returned from a
+year in South America. He is said to have made a remarkable discovery.
+Perhaps the enclosed cutting from the latest American scientific
+journal may interest you. I want you to get an interview. —McArdle."
+
+The cutting described the discovery of a great tableland in the
+heart of South America, cut off from the outside world, where ancient
+life still continued—where dinosaurs still walked, where pterodactyls
+soared, where time had stood still since the age of reptiles. It
+sounded like a fairy tale, but Professor Challenger insisted it was
+real. I would go to see this man. And if what he said was true, I
+would go to see this place.`,
+  1661:`The Adventures of Sherlock Holmes
+
+by Arthur Conan Doyle
+
+
+I. A Scandal in Bohemia
+
+
+To Sherlock Holmes she is always the woman. I have seldom heard him
+mention her under any other name. In his eyes she eclipses and
+predominates the whole of her sex. It was not that he felt any emotion
+akin to love for Irene Adler. All emotions, and that one particularly,
+were abhorrent to his cold, precise but admirably balanced mind. He
+was, I take it, the most perfect reasoning and observing machine that
+the world has seen.
+
+One night—it was on the twentieth of March, 1888—I was returning from a
+journey to a patient, when my way led me through Baker Street. His
+rooms were brilliantly lit, and, even as I looked up, I saw his tall,
+spare figure pass twice in a dark silhouette against the blind. He was
+pacing the room swiftly, eagerly, with his head sunk upon his chest
+and his hands clasped behind him. He was at work again.
+
+His manner was not effusive. It seldom was; but he was glad, I think,
+to see me. With hardly a word spoken, but with a kindly eye, he waved
+me to an armchair, threw across his case of cigars, and indicated a
+spirit case and a gasogene in the corner. Then he stood before the
+fire and looked me over in his singular introspective fashion.
+
+"Wedlock suits you," he remarked. "I think, Watson, that you have put
+on seven and a half pounds since I saw you."
+
+"Seven!" I answered.
+
+"Indeed, I should have thought a little more. Just a trifle more, I
+fancy, Watson. And in practice again, I observe."
+
+"Then, how do you know?"
+
+"I see it, I deduce it. How do I know that you have been getting
+yourself very wet lately, and that you have a most clumsy and careless
+servant girl?"
+
+"My dear Holmes, this is too much."
+
+"It is simplicity itself," said he; "my eyes tell me that on the
+inside of your left shoe, just where the firelight strikes it, the
+leather is scored by six almost parallel cuts. Obviously they have
+been caused by someone who has very carelessly scraped round the edges
+of the sole in order to remove crusted mud from it."
+
+"When I hear you give your reasons," I remarked, "the thing always
+appears to me to be so ridiculously simple that I could easily do it
+myself, though at each successive instance of your reasoning I am
+baffled until you explain your process."
+
+"Quite so," he answered, lighting a cigarette, and throwing himself
+down into an armchair. "You see, but you do not observe. The
+distinction is clear. For example, you have frequently seen the steps
+which lead up from the hall to this room."
+
+"Frequently."
+
+"How often?"
+
+"Well, some hundreds of times."
+
+"Then how many are there?"
+
+"How many? I don't know."
+
+"Quite so! You have not observed. And yet you have seen. That is just
+my point. Now, I know that there are seventeen steps, because I have
+both seen and observed."
+
+He threw over a sheet of thick, pink-tinted notepaper. "Read it
+aloud," said he. The note said: "There will call upon you to-night, at
+a quarter to eight o'clock, a gentleman who desires to consult you
+upon a matter of the very deepest moment. Be in your chamber then at
+that hour, and do not take it amiss if your visitor wear a mask."
+
+"This is indeed a mystery," I remarked. "What do you imagine that it
+means?"
+
+"I have no data yet. It is a capital mistake to theorise before one
+has data."`,
+  501:`The Story of Doctor Dolittle
+
+by Hugh Lofting
+
+
+Chapter I. Puddleby
+
+
+Once upon a time, many years ago when our grandfathers were little
+children—there was a doctor; and his name was Dolittle—John Dolittle,
+M.D. "M.D." means that he was a proper doctor and knew a whole lot.
+
+He lived in a little town called Puddleby-on-the-Marsh. All the
+following grew very fond of Doctor Dolittle—animals and people—and
+heard about him from everywhere.
+
+Now this doctor, he had a dog named Jip, and a duck named Dab-Dab,
+and an owl named Too-Too, and a curly-haired pig named Gub-Gub, and a
+parrot named Polynesia, and a tiny, little white mouse named the white
+mouse. The parrot, Polynesia, had been given to him by a sailor many
+years before. She was very clever and could talk like a person. She
+spoke a hundred and eighty-seven languages, and could talk to people in
+their own language. That is to say, she could talk animal language.
+
+"Besides the goldfish in the pond at the bottom of his garden, he had
+rabbits in the pantry, white mice in his piano, a squirrel in the
+linen closet and a hedgehog in the cellar."
+
+Mrs. Dolittle, his sister, was worried about the animals. "John," she
+said, "you must get rid of these animals. Nice folks won't come to
+see a doctor who keeps all these dirty animals around."
+
+"But I like the animals more than the 'nice folks'," said the Doctor.
+
+So the sister went away to live with her old aunt in the country.
+And the Doctor kept on collecting animals.
+
+Polynesia the parrot was the first to teach him animal language. She
+taught him how the animals talk among themselves—and once he had
+learned that, animals came to him from everywhere to be cured of their
+illnesses.
+
+"Why don't you go to Africa?" said Polynesia one day. "I have heard
+that the monkeys there are very sick with a terrible disease, and they
+need a good doctor badly."
+
+"Africa!" said the Doctor, and his eyes went wide. "But isn't Africa
+very far away?" He walked to the window and looked out at the garden.
+
+"Yes," said Polynesia, "it's far. But if you have a ship, you can get
+there. And what's distance when animals are suffering?"
+
+The Doctor thought about this for a long time, looking out at the
+sea. Then he turned and said, "You're right, Polynesia. We'll go to
+Africa."`,
+  3748:`Journey to the Center of the Earth
+
+by Jules Verne
+
+
+Chapter I. The Professor and His Family
+
+
+On the 24th of May, 1863, my uncle, Professor Liedenbrock, rushed
+into his little house, No. 19 Konigstrasse, one of the oldest streets
+in the oldest portion of the city of Hamburg.
+
+Martha must have concluded that she was very much behindhand, for the
+dinner had only just been put into the oven.
+
+"Well, now," said I to myself, "if that most impatient of men is
+hungry, what a disturbance he will make!"
+
+"M. Liedenbrock so soon!" cried poor Martha in great alarm.
+
+I was left alone. But how was it possible for a man of my undecided
+turn of mind to argue successfully with so irascible a person as the
+Professor? With this persuasion I was hurrying away to my own little
+retreat upstairs, when the street door creaked upon its hinges, heavy
+feet made the whole flight of stairs to shake, and the master of the
+house, passing rapidly through the dining-room, threw himself in haste
+into his own sanctum.
+
+But on his rapid way he had found time to fling these few emphatic
+words at his nephew: "Axel, follow me!"
+
+In the study, he pulled a very old book from the shelf. "Look at this,
+Axel. It is the Heims-Kringla of Snorre Turleson, the famous Icelandic
+author of the twelfth century. He describes how, by descending into
+the crater of a certain volcano in Iceland, you may reach the center
+of the earth."
+
+He pointed with a trembling finger to a runic inscription in the book.
+"Look at this. Look at what it says: 'Descend into the crater of
+Yokul of Sneffels, which the shade of Scartaris caresses before the
+kalends of July, bold traveler, and you will reach the center of the
+earth. I did it. Arne Saknussemm.'"
+
+"You cannot be serious, Uncle," I cried.
+
+"I was never more serious in my life," he replied. "We are going to
+Iceland, Axel. And from Iceland, we are going down."
+
+I stared at him in disbelief. "Into a volcano?"
+
+"Into the earth," he said simply, smiling at my expression. "Into the
+center of the earth. Think of it, Axel! No human being has ever been
+there. We will be the first. The very first!"
+
+And that was how the greatest adventure of my life began—not with a
+bang or a crisis, but with an old man and an older book, and one
+astonishing sentence scratched in runes by a scientist who had gone
+before us into the unknown darkness below.`,
+};
+
+// ════════ STATE ════════
+const S = {
+  name:'', streak:{count:0,lastDate:null}, prog:{}, lastBk:null,
+  sessSec:0, sessDone:false, timerOn:false, timerH:null,
+  bkId:null, pages:[], pg:0,
+};
+
+// ════════ LOCALSTORAGE ════════
+const LS = {
+  save(){
+    const t=isoToday();
+    try{
+      set('n',S.name); set('str',JSON.stringify(S.streak));
+      set('prg',JSON.stringify(S.prog)); set('lbk',String(S.lastBk||''));
+      set('ses',JSON.stringify({d:t,s:S.sessSec,done:S.sessDone}));
+    }catch(_){}
+  },
+  load(){
+    try{
+      S.name=get('n')||'';
+      S.streak=JSON.parse(get('str')||'{"count":0,"lastDate":null}');
+      S.prog=JSON.parse(get('prg')||'{}');
+      S.lastBk=Number(get('lbk'))||null;
+      const sess=JSON.parse(get('ses')||'{}'),t=isoToday();
+      if(sess.d===t){S.sessSec=sess.s||0;S.sessDone=sess.done||false;}
+    }catch(_){}
+  },
+  cachePages(id,pages){
+    try{set('pg_'+id,JSON.stringify(pages));}
+    catch(_){
+      for(const b of BOOKS){if(get('pg_'+b.id)&&b.id!==id){rm('pg_'+b.id);break;}}
+      try{set('pg_'+id,JSON.stringify(pages));}catch(_2){}
+    }
+  },
+  getPages(id){try{const r=get('pg_'+id);return r?JSON.parse(r):null;}catch(_){return null;}}
+};
+const get=k=>localStorage.getItem(k);
+const set=(k,v)=>localStorage.setItem(k,v);
+const rm=k=>localStorage.removeItem(k);
+
+// ════════ DATE ════════
+function isoToday(){return new Date().toISOString().slice(0,10);}
+function isoYest(){const d=new Date();d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);}
+function last7(){return Array.from({length:7},(_,i)=>{const d=new Date();d.setDate(d.getDate()-(6-i));return d.toISOString().slice(0,10);});}
+
+// ════════ STREAK ════════
+function applyStreak(){
+  const t=isoToday(),y=isoYest(),{lastDate:ld}=S.streak;
+  if(ld===t)return;
+  S.streak={count:ld===y?S.streak.count+1:1,lastDate:t};
+  LS.save();
+}
+
+// ════════ DEWEY ════════
+const DM={
+  w:["Hi! I'm Dewey! 🦉 Ready to explore some amazing books?","Books are like magic doors — let's open one! ✨","Welcome to PageTurners! I've been waiting! 📚"],
+  h0:["Start your streak today — just 20 minutes! 🔥","A great adventure is waiting for you!","Every book is a new world to explore! 🌍"],
+  hs:["You're on a streak — keep it going! 🔥","Your brain is leveling up! 🧠","You're a true bookworm! 📚"],
+  s:["Your 20-minute adventure begins NOW! ⏱️","Time to get lost in a great story! ✨","Reading mode: ON! Let's go! 🚀"],
+  m10:["Halfway there — you're doing GREAT! ⭐","10 minutes down! The story's getting good, right?","Keep going — you're crushing it! 💪"],
+  m18:["Just 2 more minutes! Almost done! 🎯","So close! Finish strong! 🌟","Almost there — you've got this! ✨"],
+  done:["AMAZING! 20-minute session complete! 🎉","Reading champion! 🏆","Streak updated! See you tomorrow! 📚"],
+  tap:["Hoo hoo! Keep reading! 🦉","I'm Dewey, your reading buddy! 📖","You're doing so well! ⭐","Books are the best! 🌟","Page by page, you're getting there! 📚"],
+};
+let dT=null;
+function deweySpeak(msg,ms=4400){
+  const b=document.getElementById('dewey-bubble');
+  if(!b)return;
+  if(dT)clearTimeout(dT);
+  b.textContent=msg;b.classList.add('vis');
+  dT=setTimeout(()=>b.classList.remove('vis'),ms);
+}
+function rnd(k){const a=DM[k]||DM.tap;return a[Math.floor(Math.random()*a.length)];}
+function deweyTap(){
+  deweySpeak(rnd('tap'),3200);
+  ['dewey-avatar','r-dewey'].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el&&el.style.display!=='none'){el.style.animation='none';void el.offsetWidth;el.style.animation='';}
+  });
+}
+
+// ════════ SCREENS ════════
+let _scr='sw';
+function showS(name){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  const el=document.getElementById(name);
+  if(el){el.classList.add('active');_scr=name;}
+  const dw=document.getElementById('dewey-wrap');
+  if(dw)dw.style.display=name==='sreader'?'none':'flex';
+  if(name!=='sreader')pauseTimer();
+  if(name==='sh')renderHome();
+  if(name==='sshelf')renderShelf();
+}
+
+// ════════ WELCOME ════════
+function go(){
+  const inp=document.getElementById('ninput');
+  const name=(inp?.value||'').trim();
+  if(!name){
+    if(inp){inp.style.borderColor='var(--red)';setTimeout(()=>{inp.style.borderColor='';},1600);}
+    deweySpeak("Tell me your name first! 🦉",2200);return;
+  }
+  S.name=name;LS.save();
+  showS('sh');
+  setTimeout(()=>deweySpeak(rnd('w'),5000),450);
+}
+
+// ════════ HOME ════════
+function renderHome(){
+  const $=id=>document.getElementById(id);
+  $('hgreet').textContent=`Hi, ${S.name||'Reader'}! 👋`;
+  $('hsub').textContent=S.sessDone?"You read today — you're amazing! ✅":"Ready for today's adventure?";
+  const c=S.streak.count;
+  $('hstreak').textContent=c===0?'Start your streak today!':`${c}-day streak`;
+  // dots
+  const days=last7(),rd=new Set();
+  if(S.streak.lastDate){
+    for(let i=0;i<Math.min(c,7);i++){
+      const d=new Date(S.streak.lastDate);d.setDate(d.getDate()-i);
+      rd.add(d.toISOString().slice(0,10));
+    }
+  }
+  $('hsdots').innerHTML=days.map(d=>`<div class="sdot ${rd.has(d)?'on':''}"></div>`).join('');
+  // today card
+  const pct=Math.min(100,(S.sessSec/SESSEC)*100);
+  $('hmpfill').style.width=pct+'%';
+  if(S.sessDone){
+    $('hticon').textContent='✅';$('hticon').className='t-icon d';
+    $('httitle').textContent='Reading complete for today! 🎉';
+    $('htdetail').textContent='Come back tomorrow to keep your streak!';
+  } else if(S.sessSec>0){
+    const rem=SESSEC-S.sessSec,m=Math.floor(rem/60),s=rem%60;
+    $('hticon').textContent='⏱️';$('hticon').className='t-icon p';
+    $('httitle').textContent=`${m}:${String(s).padStart(2,'0')} left in today's session`;
+    $('htdetail').textContent="Keep going — almost at your goal!";
+  } else {
+    $('hticon').textContent='📖';$('hticon').className='t-icon p';
+    $('httitle').textContent='Read for 20 minutes today';
+    $('htdetail').textContent='Pick a book from the shelf and start!';
+  }
+  // continue card
+  const csec=$('hcont');
+  if(S.lastBk&&S.prog[S.lastBk]){
+    const bk=BOOKS.find(b=>b.id===S.lastBk);
+    if(bk){
+      csec.classList.remove('hidden');
+      $('hctitle').textContent=bk.t;
+      $('hcauth').textContent=bk.a;
+      const p=S.prog[S.lastBk],fp=p.tot>0?Math.round((p.pg/p.tot)*100):0;
+      $('hcprog').style.width=fp+'%';
+      $('hcprogtxt').textContent=`Page ${p.pg+1}${p.tot?' of '+p.tot:''}`;
+      const cov=$('hccover');
+      if(cov){
+        cov.innerHTML=bk.e;
+        cov.id='cov'+bk.id;
+        setTimeout(()=>loadGBCover(bk),200);
+      }
+    } else {csec.classList.add('hidden');}
+  } else {csec.classList.add('hidden');}
+  setTimeout(()=>deweySpeak(rnd(c>0?'hs':'h0'),5000),700);
+}
+function handleCont(){if(S.lastBk)openBook(S.lastBk);}
+
+// ════════ SHELF ════════
+function renderShelf(){
+  const g=document.getElementById('bgrid');
+  if(!g)return;
+  g.innerHTML=BOOKS.map(bk=>{
+    const p=S.prog[bk.id];
+    const pill=p?.tot?`<div class="bpill">p.${p.pg+1}/${p.tot}</div>`:'';
+    return `<div class="bcard" onclick="openBook(${bk.id})">
+      <div class="bcover" id="cov${bk.id}" style="background:${bk.c}">
+        <div class="bfallback"><div class="be">${bk.e}</div><div class="bt">${bk.t}</div></div>
+        ${pill}
+      </div>
+      <div class="btitle">${bk.t}</div>
+      <div class="bauth">${bk.a}</div>
+    </div>`;
+  }).join('');
+  BOOKS.forEach(loadGBCover);
+}
+function covUrl(id){return '';}
+function loadGBCover(bk){var q=encodeURIComponent(bk.t+' '+bk.a);fetch('https://www.googleapis.com/books/v1/volumes?q='+q+'&maxResults=1&fields=items/volumeInfo/imageLinks').then(function(r){return r.json();}).then(function(d){var th=d&&d.items&&d.items[0]&&d.items[0].volumeInfo&&d.items[0].volumeInfo.imageLinks&&d.items[0].volumeInfo.imageLinks.thumbnail;if(!th)return;var el=document.getElementById('cov'+bk.id);if(!el)return;var img=new Image();img.style='position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;border-radius:8px;';img.onload=function(){var fb=el.querySelector('.bfallback');if(fb)fb.style.display='none';el.insertBefore(img,el.firstChild);};img.src=th.replace('http:','https:').replace('zoom=1','zoom=2');}).catch(function(){});}
+
+// ════════ OPEN BOOK ════════
+let _retryId=null;
+async function openBook(id){
+  _retryId=id;S.bkId=id;S.lastBk=id;LS.save();
+  const bk=BOOKS.find(b=>b.id===id);
+  document.getElementById('rtitle').textContent=bk?.t||'Reading…';
+  showS('sreader');
+  let pages=LS.getPages(id);
+  if(!pages){
+    if(EMBEDDED[id]){
+      pages=paginate(EMBEDDED[id]);LS.cachePages(id,pages);
+      const previewLen=pages.length;fetchPages(id).then(full=>{if(full&&full.length>previewLen){LS.cachePages(id,full);if(S.bkId===id){S.pages=full;S.prog[id].tot=full.length;renderPg();const lb=document.getElementById('load-more-bar');if(lb)lb.remove();}}}).catch(()=>{});setTimeout(()=>{if(S.bkId===id&&S.pages.length===previewLen){const lb=document.createElement('div');lb.id='load-more-bar';lb.style.cssText='position:fixed;bottom:70px;left:0;right:0;background:var(--primary);color:white;text-align:center;padding:10px 16px;font-size:.82rem;font-weight:700;z-index:60;cursor:pointer;';lb.innerHTML=` Showing preview – ${previewLen} pages loaded. <u>Tap to load full book</u>`;lb.onclick=()=>{lb.innerHTML='⏳ Loading full book…';fetchPages(id).then(full=>{if(full){LS.cachePages(id,full);S.pages=full;S.prog[id].tot=full.length;renderPg();lb.remove();}else{lb.innerHTML='⚠️ Couldn’t load. Try on school WiFi with Chrome.';setTimeout(()=>lb.remove(),4000);}}).catch(()=>{lb.innerHTML='⚠️ Couldn’t load. Check your connection.';setTimeout(()=>lb.remove(),4000);});};document.body.appendChild(lb);}},4000);
+    }else{setRS('loading');pages=await fetchPages(id);if(pages)LS.cachePages(id,pages);}
+  }
+  if(!pages?.length){setRS('error');return;}
+  S.pages=pages;
+  if(!S.prog[id])S.prog[id]={pg:0,tot:pages.length};
+  else S.prog[id].tot=pages.length;
+  S.pg=S.prog[id].pg||0;
+  setRS('reading');
+  renderPg('next');
+  if(!S.sessDone){
+    startTimer();
+    setTimeout(()=>deweySpeak(rnd('s'),4200),400);
+  } else {
+    setTimeout(()=>deweySpeak("Just browsing? Great taste in books! 📚",3500),400);
+  }
+}
+function retryB(){if(_retryId)openBook(_retryId);}
+function setRS(state){
+  const ldr=$('rloader'),pg=$('rpgwrap'),err=$('rerr'),rd=$('r-dewey');
+  [ldr,pg,err].forEach(e=>e?.classList.add('hidden'));
+  if(rd)rd.style.display='none';
+  if(state==='loading')ldr?.classList.remove('hidden');
+  if(state==='reading'){pg?.classList.remove('hidden');if(rd)rd.style.display='block';}
+  if(state==='error')err?.classList.remove('hidden');
+}
+const $=id=>document.getElementById(id);
+
+// ════════ FETCH + PARSE ════════
+async function fetchPages(id){
+  const base=[
+    `https://www.gutenberg.org/cache/epub/${id}/pg${id}.txt`,
+    `https://www.gutenberg.org/files/${id}/${id}-0.txt`,
+    `https://www.gutenberg.org/files/${id}/${id}.txt`,
+  ];
+  // CORS proxy fallbacks for GitHub Pages / school networks
+  const px1=base.map(u=>`https://corsproxy.io/?${encodeURIComponent(u)}`);
+  const px2=[`https://api.allorigins.win/raw?url=${encodeURIComponent(base[0])}`];
+  const allUrls=[...base,...px1,...px2];
+  let txt=null;
+  for(const url of allUrls){
+    try{
+      const ctrl=new AbortController();
+      const t=setTimeout(()=>ctrl.abort(),13000);
+      const r=await fetch(url,{signal:ctrl.signal});
+      clearTimeout(t);
+      if(r.ok){txt=await r.text();break;}
+    }catch(_){}
+  }
+  if(!txt||txt.length<500)return null;
+  txt=stripGB(txt);
+  if(!txt||txt.length<300)return null;
+  return paginate(txt);
+}
+function stripGB(raw){
+  const U=raw.toUpperCase();
+  const sp=['*** START OF THE PROJECT GUTENBERG','***START OF THE PROJECT GUTENBERG','*** START OF THIS PROJECT GUTENBERG'];
+  const ep=['*** END OF THE PROJECT GUTENBERG','***END OF THE PROJECT GUTENBERG','*** END OF THIS PROJECT GUTENBERG'];
+  let s=0,e=raw.length;
+  for(const p of sp){const i=U.indexOf(p);if(i!==-1){s=raw.indexOf('\n',i)+1;break;}}
+  for(const p of ep){const i=U.indexOf(p);if(i!==-1){e=i;break;}}
+  return raw.slice(s,e).trim();
+}
+function paginate(txt){
+  const paras=txt.split(/\n{2,}/)
+    .map(p=>p.replace(/[\r\n]+/g,' ').replace(/\s{2,}/g,' ').trim())
+    .filter(p=>p.length>12);
+  const pages=[];let cur=[],wc=0;
+  for(const p of paras){
+    const w=p.split(/\s+/).length;
+    if(wc+w>WPP&&cur.length){pages.push(cur.join('\n\n'));cur=[p];wc=w;}
+    else{cur.push(p);wc+=w;}
+  }
+  if(cur.length)pages.push(cur.join('\n\n'));
+  return pages;
+}
+
+// ════════ PAGE NAV ════════
+function renderPg(dir='next'){
+  const tEl=$('rpgtext'),iEl=$('rpginfo');
+  if(!tEl||!S.pages.length)return;
+  tEl.className='r-pgtext';
+  const raw=S.pages[S.pg]||'';
+  tEl.innerHTML=raw.split(/\n\n+/).map(function(para){
+    para=para.replace(/\n/g,' ').replace(/\s{2,}/g,' ').trim();
+    if(!para)return '';
+    var esc=para.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    var isHead=(para.length<80&&/^(chapter|CHAPTER|Part |PART |Section |Book |Prologue|Epilogue|[IVX]+\.|\*\s*\*|The End)/i.test(para))||(para.length<60&&para===para.toUpperCase()&&/[A-Z]{3}/.test(para));
+    return isHead?'<h3 class="r-chaphead">'+esc+'</h3>':'<p>'+esc+'</p>';
+  }).filter(Boolean).join('');
+  void tEl.offsetWidth;
+  tEl.classList.add(dir==='next'?'aR':'aL');
+  if(iEl)iEl.textContent=`Page ${S.pg+1} of ${S.pages.length}`;
+  const pv=$('rprev'),nx=$('rnext');
+  if(pv)pv.disabled=S.pg===0;
+  if(nx)nx.disabled=S.pg===S.pages.length-1;
+  const wrap=$('rpgwrap');if(wrap)wrap.scrollTop=0;
+  if(S.bkId){S.prog[S.bkId]={pg:S.pg,tot:S.pages.length};LS.save();}
+}
+function nextPg(){if(S.pg<S.pages.length-1){S.pg++;renderPg('next');}}
+function prevPg(){if(S.pg>0){S.pg--;renderPg('prev');}}
+function leaveR(){pauseTimer();showS('sh');}
+
+// swipe
+let _tx=0;
+document.addEventListener('touchstart',e=>{if(_scr==='sreader')_tx=e.touches[0].clientX;},{passive:true});
+document.addEventListener('touchend',e=>{
+  if(_scr!=='sreader')return;
+  const dx=e.changedTouches[0].clientX-_tx;
+  if(Math.abs(dx)>54){if(dx<0)nextPg();else prevPg();}
+},{passive:true});
+
+// ════════ TIMER ════════
+function startTimer(){
+  if(S.timerOn||S.sessDone)return;
+  S.timerOn=true;
+  S.timerH=setInterval(tick,1000);
+  updTimer();
+}
+function pauseTimer(){
+  if(!S.timerOn)return;
+  S.timerOn=false;
+  clearInterval(S.timerH);S.timerH=null;
+  LS.save();
+}
+function tick(){
+  S.sessSec=Math.min(SESSEC,S.sessSec+1);
+  updTimer();LS.save();
+  if(S.sessSec===600) deweySpeak(rnd('m10'),4200);
+  if(S.sessSec===1080)deweySpeak(rnd('m18'),4200);
+  if(S.sessSec>=SESSEC)finishSess();
+}
+function updTimer(){
+  const rem=SESSEC-S.sessSec,m=Math.floor(rem/60),s=rem%60;
+  const pct=Math.min(100,(S.sessSec/SESSEC)*100);
+  const disp=$('rtimer'),fill=$('rtfill');
+  if(disp){
+    disp.textContent=`${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    disp.style.color=rem<=120?'var(--accent)':'var(--primary)';
+  }
+  if(fill)fill.style.width=pct+'%';
+}
+function finishSess(){
+  pauseTimer();S.sessDone=true;
+  applyStreak();LS.save();
+  showCel();
+}
+
+// ════════ CELEBRATION ════════
+function showCel(){
+  const ov=$('cel-overlay');if(ov)ov.classList.add('on');
+  const cOwl=$('cel-owl');if(cOwl)cOwl.classList.add('dancing');
+  $('celstreak').textContent=`🔥 ${S.streak.count}`;
+  $('cellbl').textContent=S.streak.count===1?'day streak — keep going!':'day streak!';
+  $('celmsg').textContent=rnd('done');
+  launchConfetti();
+}
+function closeCel(){
+  $('cel-overlay').classList.remove('on');
+  const cOwl=$('cel-owl');if(cOwl)cOwl.classList.remove('dancing');
+  showS('sh');
+}
+function launchConfetti(){
+  const cols=['#f5c842','#e8825c','#5c4f8a','#27ae60','#e74c3c','#3498db','#fff'];
+  for(let i=0;i<34;i++){
+    const d=document.createElement('div');
+    d.className='conf';
+    const sz=8+Math.random()*8;
+    d.style.cssText=[
+      `left:${Math.random()*100}vw`,
+      `width:${sz}px`,`height:${sz}px`,
+      `background:${cols[Math.floor(Math.random()*cols.length)]}`,
+      `border-radius:${Math.random()>.5?'50%':'3px'}`,
+      `animation-duration:${2+Math.random()*1.6}s`,
+      `animation-delay:${Math.random()*.6}s`,
+    ].join(';');
+    document.body.appendChild(d);
+    setTimeout(()=>d.remove(),4800);
+  }
+}
+
+// ════════ STATS ════════
+function showStats(){
+  const pages=Object.values(S.prog).reduce((a,p)=>a+(p.pg||0),0);
+  const books=Object.keys(S.prog).length;
+  const streak=S.streak.count;
+  deweySpeak(
+    `${streak>0?`🔥 ${streak}-day streak! `:''}${pages} page${pages!==1?'s':''} read across ${books} book${books!==1?'s':''}! 📚 Keep it up!`,
+    7000
+  );
+}
+
+// ════════ OWL SVG ════════
+function buildOwl(){
+  return `
+    <ellipse cx="40" cy="68" rx="26" ry="22" fill="#C8A96E"/>
+    <circle  cx="40" cy="36" r="24"  fill="#C8A96E"/>
+    <polygon points="29,15 24,3 34,11"  fill="#7a5a10"/>
+    <polygon points="51,15 56,3 46,11"  fill="#7a5a10"/>
+    <ellipse cx="40" cy="38" rx="17" ry="15" fill="#E8D5A3"/>
+    <circle  cx="31" cy="33" r="9"   fill="white"/>
+    <circle  cx="49" cy="33" r="9"   fill="white"/>
+    <circle  cx="32" cy="34" r="5.5" fill="#1a0a00"/>
+    <circle  cx="50" cy="34" r="5.5" fill="#1a0a00"/>
+    <circle  cx="34" cy="32" r="2"   fill="white"/>
+    <circle  cx="52" cy="32" r="2"   fill="white"/>
+    <polygon points="40,43 36,51 44,51" fill="#E67E22"/>
+    <ellipse cx="17" cy="67" rx="10" ry="19" fill="#7a5a10" transform="rotate(-8 17 67)"/>
+    <ellipse cx="63" cy="67" rx="10" ry="19" fill="#7a5a10" transform="rotate(8 63 67)"/>
+    <ellipse cx="40" cy="73" rx="16" ry="14" fill="#E8D5A3"/>
+    <rect    x="22"  y="13"  width="36" height="5" fill="#5c4f8a" rx="2.5"/>
+    <polygon points="40,4 22,14 58,14" fill="#5c4f8a"/>
+    <line x1="58" y1="14" x2="64" y2="23" stroke="#f5c842" stroke-width="2.5" stroke-linecap="round"/>
+    <circle  cx="64" cy="24" r="3.5" fill="#f5c842"/>
+    <line x1="33" y1="88" x2="27" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="33" y1="88" x2="33" y2="94" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="33" y1="88" x2="39" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="41" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="47" y2="94" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="47" y1="88" x2="53" y2="93" stroke="#E67E22" stroke-width="2.5" stroke-linecap="round"/>`;
+}
+
+// ════════ INIT ════════
+function init(){
+  const owlHTML=buildOwl();
+  document.querySelectorAll('.owl-svg').forEach(el=>{el.innerHTML=owlHTML;});
+  LS.load();
+  if(S.name){showS('sh');}
+  else{showS('sw');setTimeout(()=>deweySpeak(rnd('w'),5500),800);}
+}
+
+init();
+</script>
+</body>
+</html>
