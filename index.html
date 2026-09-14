@@ -631,6 +631,8 @@ body{font-family:'Nunito','Segoe UI',system-ui,sans-serif;background:var(--bg);c
 .r-pgtext p{margin:0 0 .9em;text-indent:1.4em;}
 .r-pgtext p:first-of-type,.r-pgtext p:first-child{text-indent:0;}
 .r-chaphead{font-family:'Nunito','Segoe UI',sans-serif;font-size:.95rem;font-weight:800;text-align:center;margin:1.2em 0 .7em;color:var(--primary);letter-spacing:.02em;}
+.w{cursor:pointer;border-radius:3px;transition:background .15s;-webkit-tap-highlight-color:transparent;}
+.w:active,.w-spoken{background:rgba(108,63,163,.22);}
 @keyframes sRight{from{opacity:0;transform:translateX(22px)}to{opacity:1;transform:translateX(0)}}
 @keyframes sLeft{from{opacity:0;transform:translateX(-22px)}to{opacity:1;transform:translateX(0)}}
 .aR{animation:sRight .26s ease-out forwards;}
@@ -2106,6 +2108,16 @@ Chapter I. I Set Off Upon My Journey to the House of Shaws
 I will begin the story of my adventures with a certain morning early in June, the year 1751, when I took the key for the last time out of the door of my father's house. The sun began to shine upon the hills as I went down the road; and by the time I had come as far as the manse, the blackbirds were whistling in the garden lilacs.
 
 My name is David Balfour. After my father died, I set out to find my uncle Ebenezer at the mysterious House of Shaws. I had no idea that my journey would lead me into the hands of pirates, across wild Scottish moors, and into more danger than I had ever dreamed.`;
+function sayWord(el){
+  var w=(el.textContent||'').replace(/[^a-zA-Z\u2019\u2018'-]/g,'').trim();
+  if(!w||!window.speechSynthesis)return;
+  speechSynthesis.cancel();
+  var u=new SpeechSynthesisUtterance(w);
+  u.rate=0.85;u.pitch=1;
+  speechSynthesis.speak(u);
+  el.classList.add('w-spoken');
+  setTimeout(function(){el.classList.remove('w-spoken');},700);
+}
 function stripGB(raw){
   const U=raw.toUpperCase();
   const sp=['*** START OF THE PROJECT GUTENBERG','***START OF THE PROJECT GUTENBERG','*** START OF THIS PROJECT GUTENBERG'];
@@ -2140,7 +2152,8 @@ function renderPg(dir='next'){
     if(!para)return '';
     var esc=para.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
     var isHead=(para.length<80&&/^(chapter|CHAPTER|Part |PART |Section |Book |Prologue|Epilogue|[IVX]+\.|\*\s*\*|The End)/i.test(para))||(para.length<60&&para===para.toUpperCase()&&/[A-Z]{3}/.test(para));
-    return isHead?'<h3 class="r-chaphead">'+esc+'</h3>':'<p>'+esc+'</p>';
+    var ww=esc.split(/(\s+)/).map(function(t){return /\S/.test(t)?'<span class="w" onclick="sayWord(this)">'+t+'</span>':t;}).join('');
+    return isHead?'<h3 class="r-chaphead">'+ww+'</h3>':'<p>'+ww+'</p>';
   }).filter(Boolean).join('');
   void tEl.offsetWidth;
   tEl.classList.add(dir==='next'?'aR':'aL');
