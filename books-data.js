@@ -2791,2929 +2791,3073 @@ tobacco, two brace of very handsome pistols, a piece of bar silver, an
 old Spanish watch and some other trinkets of little value and mostly of
 foreign make, a pair of compasses mounted with brass, and five or six
 curious West Indian shells. I have often wondered since why he sh`;
-  window.BOOKS_FULL[139]=`THE LOST WORLD
-
-                   I have wrought my simple plan
-                    If I give one hour of joy
-                  To the boy who's half a man,
-                    Or the man who's half a boy.
-
-
-                          The Lost World
-
-
-                                By
-
-                     SIR ARTHUR CONAN DOYLE
-
-                         COPYRIGHT, 1912
-
-
-                             Foreword
-
-            Mr. E. D. Malone desires to state that
-          both the injunction for restraint and the
-          libel action have been withdrawn unreservedly
-          by Professor G. E. Challenger, who, being
-          satisfied that no criticism or comment in
-          this book is meant in an offensive spirit,
-          has guaranteed that he will place no
-          impediment to its publication and circulation.
-
-
-                             Contents
-
-CHAPTER
-
-    I.  "THERE ARE HEROISMS ALL ROUND US"
-   II.  "TRY YOUR LUCK WITH PROFESSOR CHALLENGER"
-  III.  "HE IS A PERFECTLY IMPOSSIBLE PERSON"
-   IV.  "IT'S JUST THE VERY BIGGEST THING IN THE WORLD"
-    V.  "QUESTION!"
-   VI.  "I WAS THE FLAIL OF THE LORD"
-  VII.  "TO-MORROW WE DISAPPEAR INTO THE UNKNOWN"
- VIII.  "THE OUTLYING PICKETS OF THE NEW WORLD"
-   IX.  "WHO COULD HAVE FORESEEN IT?"
-    X.  "THE MOST WONDERFUL THINGS HAVE HAPPENED"
-   XI.  "FOR ONCE I WAS THE HERO"
-  XII.  "IT WAS DREADFUL IN THE FOREST"
- XIII.  "A SIGHT I SHALL NEVER FORGET"
-  XIV.  "THOSE WERE THE REAL CONQUESTS"
-   XV.  "OUR EYES HAVE SEEN GREAT WONDERS"
-  XVI.  "A PROCESSION!  A PROCESSION!"
-
-
-                          THE LOST WORLD
-
-
-                          The Lost World
-
-                            CHAPTER I
-
-                "There Are Heroisms All Round Us"
-
-Mr. Hungerton, her father, really was the most tactless person upon
-earth,--a fluffy, feathery, untidy cockatoo of a man, perfectly
-good-natured, but absolutely centered upon his own silly self.  If
-anything could have driven me from Gladys, it would have been the
-thought of such a father-in-law.  I am convinced that he really
-believed in his heart that I came round to the Chestnuts three days a
-week for the pleasure of his company, and very especially to hear his
-views upon bimetallism, a subject upon which he was by way of being an
-authority.
-
-For an hour or more that evening I listened to his monotonous chirrup
-about bad money driving out good, the token value of silver, the
-depreciation of the rupee, and the true standards of exchange.
-
-"Suppose," he cried with feeble violence, "that all the debts in the
-world were called up simultaneously, and immediate payment insisted
-upon,--what under our present conditions would happen then?"
-
-I gave the self-evident answer that I should be a ruined man, upon
-which he jumped from his chair, reproved me for my habitual levity,
-which made it impossible for him to discuss any reasonable subject in
-my presence, and bounced off out of the room to dress for a Masonic
-meeting.
-
-At last I was alone with Gladys, and the moment of Fate had come!  All
-that evening I had felt like the soldier who awaits the signal which
-will send him on a forlorn hope; hope of victory and fear of repulse
-alternating in his mind.
-
-She sat with that proud, delicate profile of hers outlined against the
-red curtain.  How beautiful she was!  And yet how aloof!  We had been
-friends, quite good friends; but never could I get beyond the same
-comradeship which I might have established with one of my
-fellow-reporters upon the Gazette,--perfectly frank, perfectly kindly,
-and perfectly unsexual.  My instincts are all against a woman being too
-frank and at her ease with me.  It is no compliment to a man.  Where
-the real sex feeling begins, timidity and distrust are its companions,
-heritage from old wicked days when love and violence went often hand in
-hand.  The bent head, the averted eye, the faltering voice, the wincing
-figure--these, and not the unshrinking gaze and frank reply, are the
-true signals of passion.  Even in my short life I had learned as much
-as that--or had inherited it in that race memory which we call instinct.
-
-Gladys was full of every womanly quality.  Some judged her to be cold
-and hard; but such a thought was treason.  That delicately bronzed
-skin, almost oriental in its coloring, that raven hair, the large
-liquid eyes, the full but exquisite lips,--all the stigmata of passion
-were there.  But I was sadly conscious that up to now I had never found
-the secret of drawing it forth.  However, come what might, I should
-have done with suspense and bring matters to a head to-night.  She
-could but refuse me, and better be a repulsed lover than an accepted
-brother.
-
-So far my thoughts had carried me, and I was about to break the long
-and uneasy silence, when two critical, dark eyes looked round at me,
-and the proud head was shaken in smiling reproof.  "I have a
-presentiment that you are going to propose, Ned.  I do wish you
-wouldn't; for things are so much nicer as they are."
-
-I drew my chair a little nearer.  "Now, how did you know that I was
-going to propose?" I asked in genuine wonder.
-
-"Don't women always know?  Do you suppose any woman in the world was
-ever taken unawares?  But--oh, Ned, our friendship has been so good and
-so pleasant!  What a pity to spoil it!  Don't you feel how splendid it
-is that a young man and a young woman should be able to talk face to
-face as we have talked?"
-
-"I don't know, Gladys.  You see, I can talk face to face with--with the
-station-master."  I can't imagine how that official came into the
-matter; but in he trotted, and set us both laughing.  "That does not
-satisfy me in the least.  I want my arms round you, and your head on my
-breast, and--oh, Gladys, I want----"
-
-She had sprung from her chair, as she saw signs that I proposed to
-demonstrate some of my wants.  "You've spoiled everything, Ned," she
-said.  "It's all so beautiful and natural until this kind of thing
-comes in!  It is such a pity!  Why can't you control yourself?"
-
-"I didn't invent it," I pleaded.  "It's nature.  It's love."
-
-"Well, perhaps if both love, it may be different.  I have never felt
-it."
-
-"But you must--you, with your beauty, with your soul!  Oh, Gladys, you
-were made for love!  You must love!"
-
-"One must wait till it comes."
-
-"But why can't you love me, Gladys?  Is it my appearance, or what?"
-
-She did unbend a little.  She put forward a hand--such a gracious,
-stooping attitude it was--and she pressed back my head.  Then she
-looked into my upturned face with a very wistful smile.
-
-"No it isn't that," she said at last.  "You're not a conceited boy by
-nature, and so I can safely tell you it is not that.  It's deeper."
-
-"My character?"
-
-She nodded severely.
-
-"What can I do to mend it?  Do sit down and talk it over.  No, really,
-I won't if you'll only sit down!"
-
-She looked at me with a wondering distrust which was much more to my
-mind than her whole-hearted confidence.  How primitive and bestial it
-looks when you put it down in black and white!--and perhaps after all
-it is only a feeling peculiar to myself.  Anyhow, she sat down.
-
-"Now tell me what's amiss with me?"
-
-"I'm in love with somebody else," said she.
-
-It was my turn to jump out of my chair.
-
-"It's nobody in particular," she explained, laughing at the expression
-of my face: "only an ideal.  I've never met the kind of man I mean."
-
-"Tell me about him.  What does he look like?"
-
-"Oh, he might look very much like you."
-
-"How dear of you to say that!  Well, what is it that he does that I
-don't do?  Just say the word,--teetotal, vegetarian, aeronaut,
-theosophist, superman.  I'll have a try at it, Gladys, if you will only
-give me an idea what would please you."
-
-She laughed at the elasticity of my character.  "Well, in the first
-place, I don't think my ideal would speak like that," said she.  "He
-would be a harder, sterner man, not so ready to adapt himself to a
-silly girl's whim.  But, above all, he must be a man who could do, who
-could act, who could look Death in the face and have no fear of him, a
-man of great deeds and strange experiences.  It is never a man that I
-should love, but always the glories he had won; for they would be
-reflected upon me.  Think of Richard Burton!  When I read his wife's
-life of him I could so understand her love!  And Lady Stanley!  Did you
-ever read the wonderful last chapter of that book about her husband?
-These are the sort of men that a woman could worship with all her soul,
-and yet be the greater, not the less, on account of her love, honored
-by all the world as the inspirer of noble deeds."
-
-She looked so beautiful in her enthusiasm that I nearly brought down
-the whole level of the interview.  I gripped myself hard, and went on
-with the argument.
-
-"We can't all be Stanleys and Burtons," said I; "besides, we don't get
-the chance,--at least, I never had the chance.  If I did, I should try
-to take it."
-
-"But chances are all around you.  It is the mark of the kind of man I
-mean that he makes his own chances.  You can't hold him back.  I've
-never met him, and yet I seem to know him so well.  There are heroisms
-all round us waiting to be done.  It's for men to do them, and for
-women to reserve their love as a reward for such men.  Look at that
-young Frenchman who went up last week in a balloon.  It was blowing a
-gale of wind; but because he was announced to go he insisted on
-starting.  The wind blew him fifteen hundred miles in twenty-four
-hours, and he fell in the middle of Russia.  That was the kind of man I
-mean.  Think of the woman he loved, and how other women must have
-envied her!  That's what I should like to be,--envied for my man."
-
-"I'd have done it to please you."
-
-"But you shouldn't do it merely to please me.  You should do it because
-you can't help yourself, because it's natural to you, because the man
-in you is crying out for heroic expression.  Now, when you described
-the Wigan coal explosion last month, could you not have gone down and
-helped those people, in spite of the choke-damp?"
-
-"I did."
-
-"You never said so."
-
-"There was nothing worth bucking about."
-
-"I didn't know."  She looked at me with rather more interest.  "That
-was brave of you."
-
-"I had to.  If you want to write good copy, you must be where the
-things are."
-
-"What a prosaic motive!  It seems to take all the romance out of it.
-But, still, whatever your motive, I am glad that you went down that
-mine."  She gave me her hand; but with such sweetness and dignity that
-I could only stoop and kiss it.  "I dare say I am merely a foolish
-woman with a young girl's fancies.  And yet it is so real with me, so
-entirely part of my very self, that I cannot help acting upon it.  If I
-marry, I do want to marry a famous man!"
-
-"Why should you not?" I cried.  "It is women like you who brace men up.
-Give me a chance, and see if I will take it!  Besides, as you say, men
-ought to MAKE their own chances, and not wait until they are given.
-Look at Clive--just a clerk, and he conquered India!  By George!  I'll
-do something in the world yet!"
-
-She laughed at my sudden Irish effervescence.  "Why not?" she said.
-"You have everything a man could have,--youth, health, strength,
-education, energy.  I was sorry you spoke.  And now I am glad--so
-glad--if it wakens these thoughts in you!"
-
-"And if I do----"
-
-Her dear hand rested like warm velvet upon my lips.  "Not another word,
-Sir!  You should have been at the office for evening duty half an hour
-ago; only I hadn't the heart to remind you.  Some day, perhaps, when
-you have won your place in the world, we shall talk it over again."
-
-And so it was that I found myself that foggy November evening pursuing
-the Camberwell tram with my heart glowing within me, and with the eager
-determination that not another day should elapse before I should find
-some deed which was worthy of my lady.  But who--who in all this wide
-world could ever have imagined the incredible shape which that deed was
-to take, or the strange steps by which I was led to the doing of it?
-
-And, after all, this opening chapter will seem to the reader to have
-nothing to do with my narrative; and yet there would have been no
-narrative without it, for it is only when a man goes out into the world
-with the thought that there are heroisms all round him, and with the
-desire all alive in his heart to follow any which may come within sight
-of him, that he breaks away as I did from the life he knows, and
-ventures forth into the wonderful mystic twilight land where lie the
-great adventures and the great rewards.  Behold me, then, at the office
-of the Daily Gazette, on the staff of which I was a most insignificant
-unit, with the settled determination that very night, if possible, to
-find the quest which should be worthy of my Gladys!  Was it hardness,
-was it selfishness, that she should ask me to risk my life for her own
-glorification?  Such thoughts may come to middle age; but never to
-ardent three-and-twenty in the fever of his first love.
-
-
-                            CHAPTER II
-
-            "Try Your Luck with Professor Challenger"
-
-I always liked McArdle, the crabbed, old, round-backed, red-headed news
-editor, and I rather hoped that he liked me.  Of course, Beaumont was
-the real boss; but he lived in the rarefied atmosphere of some Olympian
-height from which he could distinguish nothing smaller than an
-international crisis or a split in the Cabinet.  Sometimes we saw him
-passing in lonely majesty to his inner sanctum, with his eyes staring
-vaguely and his mind hovering over the Balkans or the Persian Gulf.  He
-was above and beyond us.  But McArdle was his first lieutenant, and it
-was he that we knew.  The old man nodded as I entered the room, and he
-pushed his spectacles far up on his bald forehead.
-
-"Well, Mr. Malone, from all I hear, you seem to be doing very well,"
-said he in his kindly Scotch accent.
-
-I thanked him.
-
-"The colliery explosion was excellent.  So was the Southwark fire.  You
-have the true descreeptive touch.  What did you want to see me about?"
-
-"To ask a favor."
-
-He looked alarmed, and his eyes shunned mine. "Tut, tut!  What is it?"
-
-"Do you think, Sir, that you could possibly send me on some mission for
-the paper?  I would do my best to put it through and get you some good
-copy."
-
-"What sort of meesion had you in your mind, Mr. Malone?"
-
-"Well, Sir, anything that had adventure and danger in it.  I really
-would do my very best.  The more difficult it was, the better it would
-suit me."
-
-"You seem very anxious to lose your life."
-
-"To justify my life, Sir."
-
-"Dear me, Mr. Malone, this is very--very exalted.  I'm afraid the day
-for this sort of thing is rather past.  The expense of the 'special
-meesion' business hardly justifies the result, and, of course, in any
-case it would only be an experienced man with a name that would command
-public confidence who would get such an order.  The big blank spaces in
-the map are all being filled in, and there's no room for romance
-anywhere.  Wait a bit, though!" he added, with a sudden smile upon his
-face.  "Talking of the blank spaces of the map gives me an idea.  What
-about exposing a fraud--a modern Munchausen--and making him
-rideeculous?  You could show him up as the liar that he is!  Eh, man,
-it would be fine.  How does it appeal to you?"
-
-"Anything--anywhere--I care nothing."
-
-McArdle was plunged in thought for some minutes.
-
-"I wonder whether you could get on friendly--or at least on talking
-terms with the fellow," he said, at last.  "You seem to have a sort of
-genius for establishing relations with people--seempathy, I suppose, or
-animal magnetism, or youthful vitality, or something.  I am conscious
-of it myself."
-
-"You are very good, sir."
-
-"So why should you not try your luck with Professor Challenger, of
-Enmore Park?"
-
-I dare say I looked a little startled.
-
-"Challenger!" I cried.  "Professor Challenger, the famous zoologist!
-Wasn't he the man who broke the skull of Blundell, of the Telegraph?"
-
-The news editor smiled grimly.
-
-"Do you mind?  Didn't you say it was adventures you were after?"
-
-"It is all in the way of business, sir," I answered.
-
-"Exactly.  I don't suppose he can always be so violent as that.  I'm
-thinking that Blundell got him at the wrong moment, maybe, or in the
-wrong fashion.  You may have better luck, or more tact in handling him.
-There's something in your line there, I am sure, and the Gazette should
-work it."
-
-"I really know nothing about him," said I.  "I only remember his name
-in connection with the police-court proceedings, for striking Blundell."
-
-"I have a few notes for your guidance, Mr. Malone.  I've had my eye on
-the Professor for some little time."  He took a paper from a drawer.
-"Here is a summary of his record.  I give it you briefly:--
-
-"'Challenger, George Edward.  Born: Largs, N. B., 1863.  Educ.: Largs
-Academy; Edinburgh University.  British Museum Assistant, 1892.
-Assistant-Keeper of Comparative Anthropology Department, 1893.
-Resigned after acrimonious correspondence same year.  Winner of
-Crayston Medal for Zoological Research.  Foreign Member of'--well,
-quite a lot of things, about two inches of small type--'Societe Belge,
-American Academy of Sciences, La Plata, etc., etc.  Ex-President
-Palaeontological Society.  Section H, British Association'--so on, so
-on!--'Publications: "Some Observations Upon a Series of Kalmuck
-Skulls"; "Outlines of Vertebrate Evolution"; and numerous papers,
-including "The underlying fallacy of Weissmannism," which caused heated
-discussion at the Zoological Congress of Vienna.  Recreations: Walking,
-Alpine climbing.  Address: Enmore Park, Kensington, W.'
-
-"There, take it with you.  I've nothing more for you to-night."
-
-I pocketed the slip of paper.
-
-"One moment, sir," I said, as I realized that it was a pink bald head,
-and not a red face, which was fronting me.  "I am not very clear yet
-why I am to interview this gentleman.  What has he done?"
-
-The face flashed back again.
-
-"Went to South America on a solitary expedeetion two years ago.  Came
-back last year.  Had undoubtedly been to South America, but refused to
-say exactly where.  Began to tell his adventures in a vague way, but
-somebody started to pick holes, and he just shut up like an oyster.
-Something wonderful happened--or the man's a champion liar, which is
-the more probable supposeetion.  Had some damaged photographs, said to
-be fakes.  Got so touchy that he assaults anyone who asks questions,
-and heaves reporters down the stairs.  In my opinion he's just a
-homicidal megalomaniac with a turn for science.  That's your man, Mr.
-Malone.  Now, off you run, and see what you can make of him.  You're
-big enough to look after yourself.  Anyway, you are all safe.
-Employers' Liability Act, you know."
-
-A grinning red face turned once more into a pink oval, fringed with
-gingery fluff; the interview was at an end.
-
-I walked across to the Savage Club, but instead of turning into it I
-leaned upon the railings of Adelphi Terrace and gazed thoughtfully for
-a long time at the brown, oily river.  I can always think most sanely
-and clearly in the open air.  I took out the list of Professor
-Challenger's exploits, and I read it over under the electric lamp.
-Then I had what I can only regard as an inspiration.  As a Pressman, I
-felt sure from what I had been told that I could never hope to get into
-touch with this cantankerous Professor.  But these recriminations,
-twice mentioned in his skeleton biography, could only mean that he was
-a fanatic in science.  Was there not an exposed margin there upon which
-he might be accessible?  I would try.
-
-I entered the club.  It was just after eleven, and the big room was
-fairly full, though the rush had not yet set in.  I noticed a tall,
-thin, angular man seated in an arm-chair by the fire.  He turned as I
-drew my chair up to him.  It was the man of all others whom I should
-have chosen--Tarp Henry, of the staff of Nature, a thin, dry, leathery
-creature, who was full, to those who knew him, of kindly humanity.  I
-plunged instantly into my subject.
-
-"What do you know of Professor Challenger?"
-
-"Challenger?" He gathered his brows in scientific disapproval.
-"Challenger was the man who came with some cock-and-bull story from
-South America."
-
-"What story?"
-
-"Oh, it was rank nonsense about some queer animals he had discovered.
-I believe he has retracted since.  Anyhow, he has suppressed it all.
-He gave an interview to Reuter's, and there was such a howl that he saw
-it wouldn't do.  It was a discreditable business.  There were one or
-two folk who were inclined to take him seriously, but he soon choked
-them off."
-
-"How?"
-
-"Well, by his insufferable rudeness and impossible behavior.  There was
-poor old Wadley, of the Zoological Institute.  Wadley sent a message:
-'The President of the Zoological Institute presents his compliments to
-Professor Challenger, and would take it as a personal favor if he would
-do them the honor to come to their next meeting.'  The answer was
-unprintable."
-
-"You don't say?"
-
-"Well, a bowdlerized version of it would run:  'Professor Challenger
-presents his compliments to the President of the Zoological Institute,
-and would take it as a personal favor if he would go to the devil.'"
-
-"Good Lord!"
-
-"Yes, I expect that's what old Wadley said.  I remember his wail at the
-meeting, which began:  'In fifty years experience of scientific
-intercourse----'  It quite broke the old man up."
-
-"Anything more about Challenger?"
-
-"Well, I'm a bacteriologist, you know.  I live in a
-nine-hundred-diameter microscope.  I can hardly claim to take serious
-notice of anything that I can see with my naked eye.  I'm a
-frontiersman from the extreme edge of the Knowable, and I feel quite
-out of place when I leave my study and come into touch with all you
-great, rough, hulking creatures.  I'm too detached to talk scandal, and
-yet at scientific conversaziones I HAVE heard something of Challenger,
-for he is one of those men whom nobody can ignore.  He's as clever as
-they make 'em--a full-charged battery of force and vitality, but a
-quarrelsome, ill-conditioned faddist, and unscrupulous at that.  He had
-gone the length of faking some photographs over the South American
-business."
-
-"You say he is a faddist.  What is his particular fad?"
-
-"He has a thousand, but the latest is something about Weissmann and
-Evolution.  He had a fearful row about it in Vienna, I believe."
-
-"Can't you tell me the point?"
-
-"Not at the moment, but a translation of the proceedings exists.  We
-have it filed at the office.  Would you care to come?"
-
-"It's just what I want.  I have to interview the fellow, and I need
-some lead up to him.  It's really awfully good of you to give me a
-lift.  I'll go with you now, if it is not too late."
-
-
-Half an hour later I was seated in the newspaper office with a huge
-tome in front of me, which had been opened at the article "Weissmann
-versus Darwin," with the sub heading, "Spirited Protest at Vienna.
-Lively Proceedings."  My scientific education having been somewhat
-neglected, I was unable to follow the whole argument, but it was
-evident that the English Professor had handled his subject in a very
-aggressive fashion, and had thoroughly annoyed his Continental
-colleagues.  "Protests," "Uproar," and "General appeal to the Chairman"
-were three of the first brackets which caught my eye.  Most of the
-matter might have been written in Chinese for any definite meaning that
-it conveyed to my brain.
-
-"I wish you could translate it into English for me," I said,
-pathetically, to my help-mate.
-
-"Well, it is a translation."
-
-"Then I'd better try my luck with the original."
-
-"It is certainly rather deep for a layman."
-
-"If I could only get a single good, meaty sentence which seemed to
-convey some sort of definite human idea, it would serve my turn.  Ah,
-yes, this one will do.  I seem in a vague way almost to understand it.
-I'll copy it out.  This shall be my link with the terrible Professor."
-
-"Nothing else I can do?"
-
-"Well, yes; I propose to write to him.  If I could frame the letter
-here, and use your address it would give atmosphere."
-
-"We'll have the fellow round here making a row and breaking the
-furniture."
-
-"No, no; you'll see the letter--nothing contentious, I assure you."
-
-"Well, that's my chair and desk.  You'll find paper there.  I'd like to
-censor it before it goes."
-
-It took some doing, but I flatter myself that it wasn't such a bad job
-when it was finished.  I read it aloud to the critical bacteriologist
-with some pride in my handiwork.
-
-
-"DEAR PROFESSOR CHALLENGER," it said, "As a humble student of Nature, I
-have always taken the most profound interest in your speculations as to
-the differences between Darwin and Weissmann.  I have recently had
-occasion to refresh my memory by re-reading----"
-
-
-"You infernal liar!" murmured Tarp Henry.
-
-
---"by re-reading your masterly address at Vienna.  That lucid and
-admirable statement seems to be the last word in the matter.  There is
-one sentence in it, however--namely:  'I protest strongly against the
-insufferable and entirely dogmatic assertion that each separate id is a
-microcosm possessed of an historical architecture elaborated slowly
-through the series of generations.' Have you no desire, in view of
-later research, to modify this statement?  Do you not think that it is
-over-accentuated?  With your permission, I would ask the favor of an
-interview, as I feel strongly upon the subject, and have certain
-suggestions which I could only elaborate in a personal conversation.
-With your consent, I trust to have the honor of calling at eleven
-o'clock the day after to-morrow (Wednesday) morning.
-
-"I remain, Sir, with assurances of profound respect, yours very truly,
-
-EDWARD D. MALONE."
-
-
-"How's that?" I asked, triumphantly.
-
-"Well if your conscience can stand it----"
-
-"It has never failed me yet."
-
-"But what do you mean to do?"
-
-"To get there.  Once I am in his room I may see some opening.  I may
-even go the length of open confession.  If he is a sportsman he will be
-tickled."
-
-"Tickled, indeed!  He's much more likely to do the tickling.  Chain
-mail, or an American football suit--that's what you'll want.  Well,
-good-bye.  I'll have the answer for you here on Wednesday morning--if
-he ever deigns to answer you.  He is a violent, dangerous, cantankerous
-character, hated by everyone who comes across him, and the butt of the
-students, so far as they dare take a liberty with him.  Perhaps it
-would be best for you if you never heard from the fellow at all."
-
-
-                           CHAPTER III
-
-              "He is a Perfectly Impossible Person"
-
-My friend's fear or hope was not destined to be realized.  When I
-called on Wednesday there was a letter with the West Kensington
-postmark upon it, and my name scrawled across the envelope in a
-handwriting which looked like a barbed-wire railing.  The contents were
-as follows:--
-
-
-                              "ENMORE PARK, W.
-
-"SIR,--I have duly received your note, in which you claim to endorse my
-views, although I am not aware that they are dependent upon endorsement
-either from you or anyone else.  You have ventured to use the word
-'speculation' with regard to my statement upon the subject of
-Darwinism, and I would call your attention to the fact that such a word
-in such a connection is offensive to a degree.  The context convinces
-me, however, that you have sinned rather through ignorance and
-tactlessness than through malice, so I am content to pass the matter
-by.  You quote an isolated sentence from my lecture, and appear to have
-some difficulty in understanding it.  I should have thought that only a
-sub-human intelligence could have failed to grasp the point, but if it
-really needs amplification I shall consent to see you at the hour
-named, though visits and visitors of every sort are exceeding
-distasteful to me.  As to your suggestion that I may modify my opinion,
-I would have you know that it is not my habit to do so after a
-deliberate expression of my mature views.  You will kindly show the
-envelope of this letter to my man, Austin, when you call, as he has to
-take every precaution to shield me from the intrusive rascals who call
-themselves 'journalists.'
-
-                          "Yours faithfully,
-                            "GEORGE EDWARD CHALLENGER."
-
-
-This was the letter that I read aloud to Tarp Henry, who had come down
-early to hear the result of my venture.  His only remark was, "There's
-some new stuff, cuticura or something, which is better than arnica."
-Some people have such extraordinary notions of humor.
-
-It was nearly half-past ten before I had received my message, but a
-taxicab took me round in good time for my appointment.  It was an
-imposing porticoed house at which we stopped, and the heavily-curtained
-windows gave every indication of wealth upon the part of this
-formidable Professor.  The door was opened by an odd, swarthy, dried-up
-person of uncertain age, with a dark pilot jacket and brown leather
-gaiters.  I found afterwards that he was the chauffeur, who filled the
-gaps left by a succession of fugitive butlers.  He looked me up and
-down with a searching light blue eye.
-
-"Expected?" he asked.
-
-"An appointment."
-
-"Got your letter?"
-
-I produced the envelope.
-
-"Right!"  He seemed to be a person of few words.  Following him down
-the passage I was suddenly interrupted by a small woman, who stepped
-out from what proved to be the dining-room door.  She was a bright,
-vivacious, dark-eyed lady, more French than English in her type.
-
-"One moment," she said.  "You can wait, Austin.  Step in here, sir.
-May I ask if you have met my husband before?"
-
-"No, madam, I have not had the honor."
-
-"Then I apologize to you in advance.  I must tell you that he is a
-perfectly impossible person--absolutely impossible.  If you are
-forewarned you will be the more ready to make allowances."
-
-"It is most considerate of you, madam."
-
-"Get quickly out of the room if he seems inclined to be violent.  Don't
-wait to argue with him.  Several people have been injured through doing
-that.  Afterwards there is a public scandal and it reflects upon me and
-all of us.  I suppose it wasn't about South America you wanted to see
-him?"
-
-I could not lie to a lady.
-
-"Dear me!  That is his most dangerous subject.  You won't believe a
-word he says--I'm sure I don't wonder.  But don't tell him so, for it
-makes him very violent.  Pretend to believe him, and you may get
-through all right.  Remember he believes it himself.  Of that you may
-be assured.  A more honest man never lived.  Don't wait any longer or
-he may suspect.  If you find him dangerous--really dangerous--ring the
-bell and hold him off until I come.  Even at his worst I can usually
-control him."
-
-With these encouraging words the lady handed me over to the taciturn
-Austin, who had waited like a bronze statue of discretion during our
-short interview, and I was conducted to the end of the passage.  There
-was a tap at a door, a bull's bellow from within, and I was face to
-face with the Professor.
-
-He sat in a rotating chair behind a broad table, which was covered with
-books, maps, and diagrams.  As I entered, his seat spun round to face
-me.  His appearance made me gasp.  I was prepared for something
-strange, but not for so overpowering a personality as this.  It was his
-size which took one's breath away--his size and his imposing presence.
-His head was enormous, the largest I have ever seen upon a human being.
-I am sure that his top-hat, had I ever ventured to don it, would have
-slipped over me entirely and rested on my shoulders.  He had the face
-and beard which I associate with an Assyrian bull; the former florid,
-the latter so black as almost to have a suspicion of blue, spade-shaped
-and rippling down over his chest.  The hair was peculiar, plastered
-down in front in a long, curving wisp over his massive forehead.  The
-eyes were blue-gray under great black tufts, very clear, very critical,
-and very masterful.  A huge spread of shoulders and a chest like a
-barrel were the other parts of him which appeared above the table, save
-for two enormous hands covered with long black hair.  This and a
-bellowing, roaring, rumbling voice made up my first impression of the
-notorious Professor Challenger.
-
-"Well?" said he, with a most insolent stare.  "What now?"
-
-I must keep up my deception for at least a little time longer,
-otherwise here was evidently an end of the interview.
-
-"You were good enough to give me an appointment, sir," said I, humbly,
-producing his envelope.
-
-He took my letter from his desk and laid it out before him.
-
-"Oh, you are the young person who cannot understand plain English, are
-you?  My general conclusions you are good enough to approve, as I
-understand?"
-
-"Entirely, sir--entirely!"  I was very emphatic.
-
-"Dear me!  That strengthens my position very much, does it not?  Your
-age and appearance make your support doubly valuable.  Well, at least
-you are better than that herd of swine in Vienna, whose gregarious
-grunt is, however, not more offensive than the isolated effort of the
-British hog."  He glared at me as the present representative of the
-beast.
-
-"They seem to have behaved abominably," said I.
-
-"I assure you that I can fight my own battles, and that I have no
-possible need of your sympathy.  Put me alone, sir, and with my back to
-the wall.  G. E. C. is happiest then.  Well, sir, let us do what we can
-to curtail this visit, which can hardly be agreeable to you, and is
-inexpressibly irksome to me.  You had, as I have been led to believe,
-some comments to make upon the proposition which I advanced in my
-thesis."
-
-There was a brutal directness about his methods which made evasion
-difficult.  I must still make play and wait for a better opening.  It
-had seemed simple enough at a distance.  Oh, my Irish wits, could they
-not help me now, when I needed help so sorely?  He transfixed me with
-two sharp, steely eyes.  "Come, come!" he rumbled.
-
-"I am, of course, a mere student," said I, with a fatuous smile,
-"hardly more, I might say, than an earnest inquirer.  At the same time,
-it seemed to me that you were a little severe upon Weissmann in this
-matter.  Has not the general evidence since that date tended to--well,
-to strengthen his position?"
-
-"What evidence?"  He spoke with a menacing calm.
-
-"Well, of course, I am aware that there is not any what you might call
-DEFINITE evidence.  I alluded merely to the trend of modern thought and
-the general scientific point of view, if I might so express it."
-
-He leaned forward with great earnestness.
-
-"I suppose you are aware," said he, checking off points upon his
-fingers, "that the cranial index is a constant factor?"
-
-"Naturally," said I.
-
-"And that telegony is still sub judice?"
-
-"Undoubtedly."
-
-"And that the germ plasm is different from the parthenogenetic egg?"
-
-"Why, surely!" I cried, and gloried in my own audacity.
-
-"But what does that prove?" he asked, in a gentle, persuasive voice.
-
-"Ah, what indeed?" I murmured.  "What does it prove?"
-
-"Shall I tell you?" he cooed.
-
-"Pray do."
-
-"It proves," he roared, with a sudden blast of fury, "that you are the
-damnedest imposter in London--a vile, crawling journalist, who has no
-more science than he has decency in his composition!"
-
-He had sprung to his feet with a mad rage in his eyes.  Even at that
-moment of tension I found time for amazement at the discovery that he
-was quite a short man, his head not higher than my shoulder--a stunted
-Hercules whose tremendous vitality had all run to depth, breadth, and
-brain.
-
-"Gibberish!" he cried, leaning forward, with his fingers on the table
-and his face projecting.  "That's what I have been talking to you,
-sir--scientific gibberish!  Did you think you could match cunning with
-me--you with your walnut of a brain?  You think you are omnipotent, you
-infernal scribblers, don't you?  That your praise can make a man and
-your blame can break him?  We must all bow to you, and try to get a
-favorable word, must we?  This man shall have a leg up, and this man
-shall have a dressing down!  Creeping vermin, I know you!  You've got
-out of your station.  Time was when your ears were clipped.  You've
-lost your sense of proportion.  Swollen gas-bags!  I'll keep you in
-your proper place.  Yes, sir, you haven't got over G. E. C.  There's
-one man who is still your master.  He warned you off, but if you WILL
-come, by the Lord you do it at your own risk.  Forfeit, my good Mr.
-Malone, I claim forfeit!  You have played a rather dangerous game, and
-it strikes me that you have lost it."
-
-"Look here, sir," said I, backing to the door and opening it; "you can
-be as abusive as you like.  But there is a limit.  You shall not
-assault me."
-
-"Shall I not?"  He was slowly advancing in a peculiarly menacing way,
-but he stopped now and put his big hands into the side-pockets of a
-rather boyish short jacket which he wore.  "I have thrown several of
-you out of the house.  You will be the fourth or fifth.  Three pound
-fifteen each--that is how it averaged.  Expensive, but very necessary.
-Now, sir, why should you not follow your brethren?  I rather think you
-must."  He resumed his unpleasant and stealthy advance, pointing his
-toes as he walked, like a dancing master.
-
-I could have bolted for the hall door, but it would have been too
-ignominious.  Besides, a little glow of righteous anger was springing
-up within me.  I had been hopelessly in the wrong before, but this
-man's menaces were putting me in the right.
-
-"I'll trouble you to keep your hands off, sir.  I'll not stand it."
-
-"Dear me!"  His black moustache lifted and a white fang twinkled in a
-sneer.  "You won't stand it, eh?"
-
-"Don't be such a fool, Professor!" I cried.  "What can you hope for?
-I'm fifteen stone, as hard as nails, and play center three-quarter
-every Saturday for the London Irish.  I'm not the man----"
-
-It was at that moment that he rushed me.  It was lucky that I had
-opened the door, or we should have gone through it.  We did a
-Catharine-wheel together down the passage.  Somehow we gathered up a
-chair upon our way, and bounded on with it towards the street.  My
-mouth was full of  his beard, our arms were locked, our bodies
-intertwined, and that infernal chair radiated its legs all round us.
-The watchful Austin had thrown open the hall door.  We went with a back
-somersault down the front steps.  I have seen the two Macs attempt
-something of the kind at the halls, but it appears to take some
-practise to do it without hurting oneself.  The chair went to matchwood
-at the bottom, and we rolled apart into the gutter.  He sprang to his
-feet, waving his fists and wheezing like an asthmatic.
-
-"Had enough?" he panted.
-
-"You infernal bully!" I cried, as I gathered myself together.
-
-Then and there we should have tried the thing out, for he was
-effervescing with fight, but fortunately I was rescued from an odious
-situation.  A policeman was beside us, his notebook in his hand.
-
-"What's all this?  You ought to be ashamed" said the policeman.  It was
-the most rational remark which I had heard in Enmore Park.  "Well," he
-insisted, turning to me, "what is it, then?"
-
-"This man attacked me," said I.
-
-"Did you attack him?" asked the policeman.
-
-The Professor breathed hard and said nothing.
-
-"It's not the first time, either," said the policeman, severely,
-shaking his head.  "You were in trouble last month for the same thing.
-You've blackened this young man's eye.  Do you give him in charge, sir?"
-
-I relented.
-
-"No," said I, "I do not."
-
-"What's that?" said the policeman.
-
-"I was to blame myself.  I intruded upon him.  He gave me fair warning."
-
-The policeman snapped up his notebook.
-
-"Don't let us have any more such goings-on," said he.  "Now, then!
-Move on, there, move on!"  This to a butcher's boy, a maid, and one or
-two loafers who had collected.  He clumped heavily down the street,
-driving this little flock before him.  The Professor looked at me, and
-there was something humorous at the back of his eyes.
-
-"Come in!" said he.  "I've not done with you yet."
-
-The speech had a sinister sound, but I followed him none the less into
-the house.  The man-servant, Austin, like a wooden image, closed the
-door behind us.
-
-
-                            CHAPTER IV
-
-         "It's Just the very Biggest Thing in the World"
-
-Hardly was it shut when Mrs. Challenger darted out from the
-dining-room.  The small woman was in a furious temper.  She barred her
-husband's way like an enraged chicken in front of a bulldog.  It was
-evident that she had seen my exit, but had not observed my return.
-
-"You brute, George!" she screamed.  "You've hurt that nice young man."
-
-He jerked backwards with his thumb.
-
-"Here he is, safe and sound behind me."
-
-She was confused, but not unduly so.
-
-"I am so sorry, I didn't see you."
-
-"I assure you, madam, that it is all right."
-
-"He has marked your poor face!  Oh, George, what a brute you are!
-Nothing but scandals from one end of the week to the other.  Everyone
-hating and making fun of you.  You've finished my patience.  This ends
-it."
-
-"Dirty linen," he rumbled.
-
-"It's not a secret," she cried.  "Do you suppose that the whole
-street--the whole of London, for that matter----  Get away, Austin, we
-don't want you here.  Do you suppose they don't all talk about you?
-Where is your dignity?  You, a man who should have been Regius
-Professor at a great University with a thousand students all revering
-you.  Where is your dignity, George?"
-
-"How about yours, my dear?"
-
-"You try me too much.  A ruffian--a common brawling ruffian--that's
-what you have become."
-
-"Be good, Jessie."
-
-"A roaring, raging bully!"
-
-"That's done it!  Stool of penance!" said he.
-
-To my amazement he stooped, picked her up, and placed her sitting upon
-a high pedestal of black marble in the angle of the hall.  It was at
-least seven feet high, and so thin that she could hardly balance upon
-it.  A more absurd object than she presented cocked up there with her
-face convulsed with anger, her feet dangling, and her body rigid for
-fear of an upset, I could not imagine.
-
-"Let me down!" she wailed.
-
-"Say 'please.'"
-
-"You brute, George!  Let me down this instant!"
-
-"Come into the study, Mr. Malone."
-
-"Really, sir----!" said I, looking at the lady.
-
-"Here's Mr. Malone pleading for you, Jessie.  Say 'please,' and down
-you come."
-
-"Oh, you brute!  Please! please!"
-
-He took her down as if she had been a canary.
-
-"You must behave yourself, dear.  Mr. Malone is a Pressman.  He will
-have it all in his rag to-morrow, and sell an extra dozen among our
-neighbors.  'Strange story of high life'--you felt fairly high on that
-pedestal, did you not?  Then a sub-title, 'Glimpse of a singular
-menage.'  He's a foul feeder, is Mr. Malone, a carrion eater, like all
-of his kind--porcus ex grege diaboli--a swine from the devil's herd.
-That's it, Malone--what?"
-
-"You are really intolerable!" said I, hotly.
-
-He bellowed with laughter.
-
-"We shall have a coalition presently," he boomed, looking from his wife
-to me and puffing out his enormous chest.  Then, suddenly altering his
-tone, "Excuse this frivolous family badinage, Mr. Malone.  I called you
-back for some more serious purpose than to mix you up with our little
-domestic pleasantries.  Run away, little woman, and don't fret."  He
-placed a huge hand upon each of her shoulders.  "All that you say is
-perfectly true.  I should be a better man if I did what you advise, but
-I shouldn't be quite George Edward Challenger.  There are plenty of
-better men, my dear, but only one G. E. C.  So make the best of him."
-He suddenly gave her a resounding kiss, which embarrassed me even more
-than his violence had done.  "Now, Mr. Malone," he continued, with a
-great accession of dignity, "this way, if YOU please."
-
-We re-entered the room which we had left so tumultuously ten minutes
-before.  The Professor closed the door carefully behind us, motioned me
-into an arm-chair, and pushed a cigar-box under my nose.
-
-"Real San Juan Colorado," he said.  "Excitable people like you are the
-better for narcotics.  Heavens! don't bite it!  Cut--and cut with
-reverence!  Now lean back, and listen attentively to whatever I may
-care to say to you.  If any remark should occur to you, you can reserve
-it for some more opportune time.
-
-"First of all, as to your return to my house after your most
-justifiable expulsion"--he protruded his beard, and stared at me as one
-who challenges and invites contradiction--"after, as I say, your
-well-merited expulsion.  The reason lay in your answer to that most
-officious policeman, in which I seemed to discern some glimmering of
-good feeling upon your part--more, at any rate, than I am accustomed to
-associate with your profession.  In admitting that the fault of the
-incident lay with you, you gave some evidence of a certain mental
-detachment and breadth of view which attracted my favorable notice.
-The sub-species of the human race to which you unfortunately belong has
-always been below my mental horizon.  Your words brought you suddenly
-above it.  You swam up into my serious notice.  For this reason I asked
-you to return with`;
-  window.BOOKS_FULL[964]=`Produced by Charles Keller and David Widger
-
-
-THE MERRY ADVENTURES OF ROBIN HOOD
-
-by Howard Pyle
-
-
-PREFACE
-
-FROM THE AUTHOR TO THE READER
-
-
-You who so plod amid serious things that you feel it shame to give
-yourself up even for a few short moments to mirth and joyousness in the
-land of Fancy; you who think that life hath nought to do with innocent
-laughter that can harm no one; these pages are not for you. Clap to the
-leaves and go no farther than this, for I tell you plainly that if you
-go farther you will be scandalized by seeing good, sober folks of real
-history so frisk and caper in gay colors and motley that you would
-not know them but for the names tagged to them. Here is a stout, lusty
-fellow with a quick temper, yet none so ill for all that, who goes by
-the name of Henry II. Here is a fair, gentle lady before whom all the
-others bow and call her Queen Eleanor. Here is a fat rogue of a fellow,
-dressed up in rich robes of a clerical kind, that all the good folk call
-my Lord Bishop of Hereford. Here is a certain fellow with a sour temper
-and a grim look--the worshipful, the Sheriff of Nottingham. And here,
-above all, is a great, tall, merry fellow that roams the greenwood and
-joins in homely sports, and sits beside the Sheriff at merry feast,
-which same beareth the name of the proudest of the Plantagenets--Richard
-of the Lion's Heart. Beside these are a whole host of knights, priests,
-nobles, burghers, yeomen, pages, ladies, lasses, landlords, beggars,
-peddlers, and what not, all living the merriest of merry lives, and all
-bound by nothing but a few odd strands of certain old ballads (snipped
-and clipped and tied together again in a score of knots) which draw
-these jocund fellows here and there, singing as they go.
-
-Here you will find a hundred dull, sober, jogging places, all tricked
-out with flowers and what not, till no one would know them in their
-fanciful dress. And here is a country bearing a well-known name, wherein
-no chill mists press upon our spirits, and no rain falls but what rolls
-off our backs like April showers off the backs of sleek drakes; where
-flowers bloom forever and birds are always singing; where every fellow
-hath a merry catch as he travels the roads, and ale and beer and wine
-(such as muddle no wits) flow like water in a brook.
-
-This country is not Fairyland. What is it? 'Tis the land of Fancy, and
-is of that pleasant kind that, when you tire of it--whisk!--you clap
-the leaves of this book together and 'tis gone, and you are ready for
-everyday life, with no harm done.
-
-And now I lift the curtain that hangs between here and No-man's-land.
-Will you come with me, sweet Reader? I thank you. Give me your hand.
-
-
-CONTENTS
-
-     CHAPTER                                                PAGE
-
-     I         HOW ROBIN HOOD CAME TO BE AN OUTLAW            1
-     II        ROBIN HOOD AND THE TINKER                     14
-     III       THE SHOOTING MATCH AT NOTTINGHAM TOWN         27
-     IV        WILL STUTELY RESCUED BY HIS COMPANIONS        38
-     V         ROBIN HOOD TURNS BUTCHER                      50
-     VI        LITTLE JOHN GOES TO NOTTINGHAM FAIR           61
-     VII       HOW LITTLE JOHN LIVED AT THE SHERIFF'S        68
-     VIII      LITTLE JOHN AND THE TANNER OF BLYTH           81
-     IX        ROBIN HOOD AND WILL SCARLET                   92
-     X         THE ADVENTURE WITH MIDGE, THE MILLER'S SON   102
-     Xl        ROBIN HOOD AND ALLAN A DALE                  115
-     XII       ROBIN HOOD SEEKS THE CURTAL FRIAR            129
-     XIII      ROBIN HOOD COMPASSES A MARRIAGE              145
-     XIV       ROBIN HOOD AIDS A SORROWFUL KNIGHT           156
-     XV        HOW SIR RICHARD OF THE LEA PAID HIS DEBTS    172
-     XVI       LITTLE JOHN TURNS BAREFOOT FRIAR             186
-     XVII      ROBIN HOOD TURNS BEGGAR                      202
-     XVIII     ROBIN HOOD SHOOTS BEFORE QUEEN ELEANOR       222
-     XIX       THE CHASE OF ROBIN HOOD                      243
-     XX        ROBIN HOOD AND GUY OF GISBOURNE              262
-     XXI       KING RICHARD COMES TO SHERWOOD FOREST        281
-     EPILOGUE                                     300
-
-
-How Robin Hood Came to Be an Outlaw
-
-IN MERRY ENGLAND in the time of old, when good King Henry the Second
-ruled the land, there lived within the green glades of Sherwood Forest,
-near Nottingham Town, a famous outlaw whose name was Robin Hood. No
-archer ever lived that could speed a gray goose shaft with such skill
-and cunning as his, nor were there ever such yeomen as the sevenscore
-merry men that roamed with him through the greenwood shades. Right
-merrily they dwelled within the depths of Sherwood Forest, suffering
-neither care nor want, but passing the time in merry games of archery or
-bouts of cudgel play, living upon the King's venison, washed down with
-draughts of ale of October brewing.
-
-Not only Robin himself but all the band were outlaws and dwelled apart
-from other men, yet they were beloved by the country people round about,
-for no one ever came to jolly Robin for help in time of need and went
-away again with an empty fist.
-
-And now I will tell how it came about that Robin Hood fell afoul of the
-law.
-
-When Robin was a youth of eighteen, stout of sinew and bold of heart,
-the Sheriff of Nottingham proclaimed a shooting match and offered a
-prize of a butt of ale to whosoever should shoot the best shaft in
-Nottinghamshire. "Now," quoth Robin, "will I go too, for fain would I
-draw a string for the bright eyes of my lass and a butt of good October
-brewing." So up he got and took his good stout yew bow and a score
-or more of broad clothyard arrows, and started off from Locksley Town
-through Sherwood Forest to Nottingham.
-
-It was at the dawn of day in the merry Maytime, when hedgerows are green
-and flowers bedeck the meadows; daisies pied and yellow cuckoo buds and
-fair primroses all along the briery hedges; when apple buds blossom and
-sweet birds sing, the lark at dawn of day, the throstle cock and cuckoo;
-when lads and lasses look upon each other with sweet thoughts; when busy
-housewives spread their linen to bleach upon the bright green grass.
-Sweet was the greenwood as he walked along its paths, and bright the
-green and rustling leaves, amid which the little birds sang with might
-and main: and blithely Robin whistled as he trudged along, thinking of
-Maid Marian and her bright eyes, for at such times a youth's thoughts
-are wont to turn pleasantly upon the lass that he loves the best.
-
-As thus he walked along with a brisk step and a merry whistle, he came
-suddenly upon some foresters seated beneath a great oak tree. Fifteen
-there were in all, making themselves merry with feasting and drinking
-as they sat around a huge pasty, to which each man helped himself,
-thrusting his hands into the pie, and washing down that which they ate
-with great horns of ale which they drew all foaming from a barrel that
-stood nigh. Each man was clad in Lincoln green, and a fine show they
-made, seated upon the sward beneath that fair, spreading tree. Then one
-of them, with his mouth full, called out to Robin, "Hulloa, where goest
-thou, little lad, with thy one-penny bow and thy farthing shafts?"
-
-Then Robin grew angry, for no stripling likes to be taunted with his
-green years.
-
-"Now," quoth he, "my bow and eke mine arrows are as good as shine; and
-moreover, I go to the shooting match at Nottingham Town, which same has
-been proclaimed by our good Sheriff of Nottinghamshire; there I will
-shoot with other stout yeomen, for a prize has been offered of a fine
-butt of ale."
-
-Then one who held a horn of ale in his hand said, "Ho! listen to the
-lad! Why, boy, thy mother's milk is yet scarce dry upon thy lips, and
-yet thou pratest of standing up with good stout men at Nottingham butts,
-thou who art scarce able to draw one string of a two-stone bow."
-
-"I'll hold the best of you twenty marks," quoth bold Robin, "that I hit
-the clout at threescore rods, by the good help of Our Lady fair."
-
-At this all laughed aloud, and one said, "Well boasted, thou fair
-infant, well boasted! And well thou knowest that no target is nigh to
-make good thy wager."
-
-And another cried, "He will be taking ale with his milk next."
-
-At this Robin grew right mad. "Hark ye," said he, "yonder, at the
-glade's end, I see a herd of deer, even more than threescore rods
-distant. I'll hold you twenty marks that, by leave of Our Lady, I cause
-the best hart among them to die."
-
-"Now done!" cried he who had spoken first. "And here are twenty marks. I
-wager that thou causest no beast to die, with or without the aid of Our
-Lady."
-
-Then Robin took his good yew bow in his hand, and placing the tip at
-his instep, he strung it right deftly; then he nocked a broad clothyard
-arrow and, raising the bow, drew the gray goose feather to his ear; the
-next moment the bowstring rang and the arrow sped down the glade as a
-sparrowhawk skims in a northern wind. High leaped the noblest hart
-of all the herd, only to fall dead, reddening the green path with his
-heart's blood.
-
-"Ha!" cried Robin, "how likest thou that shot, good fellow? I wot the
-wager were mine, an it were three hundred pounds."
-
-Then all the foresters were filled with rage, and he who had spoken the
-first and had lost the wager was more angry than all.
-
-"Nay," cried he, "the wager is none of thine, and get thee gone,
-straightway, or, by all the saints of heaven, I'll baste thy sides
-until thou wilt ne'er be able to walk again." "Knowest thou not," said
-another, "that thou hast killed the King's deer, and, by the laws of
-our gracious lord and sovereign King Harry, thine ears should be shaven
-close to thy head?"
-
-"Catch him!" cried a third.
-
-"Nay," said a fourth, "let him e'en go because of his tender years."
-
-Never a word said Robin Hood, but he looked at the foresters with a grim
-face; then, turning on his heel, strode away from them down the forest
-glade. But his heart was bitterly angry, for his blood was hot and
-youthful and prone to boil.
-
-Now, well would it have been for him who had first spoken had he left
-Robin Hood alone; but his anger was hot, both because the youth had
-gotten the better of him and because of the deep draughts of ale that
-he had been quaffing. So, of a sudden, without any warning, he sprang to
-his feet, and seized upon his bow and fitted it to a shaft. "Ay," cried
-he, "and I'll hurry thee anon." And he sent the arrow whistling after
-Robin.
-
-It was well for Robin Hood that that same forester's head was spinning
-with ale, or else he would never have taken another step. As it was, the
-arrow whistled within three inches of his head. Then he turned around
-and quickly drew his own bow, and sent an arrow back in return.
-
-"Ye said I was no archer," cried he aloud, "but say so now again!"
-
-The shaft flew straight; the archer fell forward with a cry, and lay on
-his face upon the ground, his arrows rattling about him from out of his
-quiver, the gray goose shaft wet with his; heart's blood. Then, before
-the others could gather their wits about them, Robin Hood was gone into
-the depths of the greenwood. Some started after him, but not with much
-heart, for each feared to suffer the death of his fellow; so presently
-they all came and lifted the dead man up and bore him away to Nottingham
-Town.
-
-Meanwhile Robin Hood ran through the greenwood. Gone was all the joy and
-brightness from everything, for his heart was sick within him, and it
-was borne in upon his soul that he had slain a man.
-
-"Alas!" cried he, "thou hast found me an archer that will make thy wife
-to wring! I would that thou hadst ne'er said one word to me, or that
-I had never passed thy way, or e'en that my right forefinger had been
-stricken off ere that this had happened! In haste I smote, but grieve I
-sore at leisure!" And then, even in his trouble, he remembered the old
-saw that "What is done is done; and the egg cracked cannot be cured."
-
-And so he came to dwell in the greenwood that was to be his home for
-many a year to come, never again to see the happy days with the lads and
-lasses of sweet Locksley Town; for he was outlawed, not only because he
-had killed a man, but also because he had poached upon the King's deer,
-and two hundred pounds were set upon his head, as a reward for whoever
-would bring him to the court of the King.
-
-Now the Sheriff of Nottingham swore that he himself would bring this
-knave Robin Hood to justice, and for two reasons: first, because he
-wanted the two hundred pounds, and next, because the forester that Robin
-Hood had killed was of kin to him.
-
-But Robin Hood lay hidden in Sherwood Forest for one year, and in that
-time there gathered around him many others like himself, cast out from
-other folk for this cause and for that. Some had shot deer in hungry
-wintertime, when they could get no other food, and had been seen in the
-act by the foresters, but had escaped, thus saving their ears; some had
-been turned out of their inheritance, that their farms might be added to
-the King's lands in Sherwood Forest; some had been despoiled by a great
-baron or a rich abbot or a powerful esquire--all, for one cause or
-another, had come to Sherwood to escape wrong and oppression.
-
-So, in all that year, fivescore or more good stout yeomen gathered about
-Robin Hood, and chose him to be their leader and chief. Then they vowed
-that even as they themselves had been despoiled they would despoil their
-oppressors, whether baron, abbot, knight, or squire, and that from each
-they would take that which had been wrung from the poor by unjust taxes,
-or land rents, or in wrongful fines. But to the poor folk they would
-give a helping hand in need and trouble, and would return to them that
-which had been unjustly taken from them. Besides this, they swore never
-to harm a child nor to wrong a woman, be she maid, wife, or widow; so
-that, after a while, when the people began to find that no harm was
-meant to them, but that money or food came in time of want to many a
-poor family, they came to praise Robin and his merry men, and to tell
-many tales of him and of his doings in Sherwood Forest, for they felt
-him to be one of themselves.
-
-Up rose Robin Hood one merry morn when all the birds were singing
-blithely among the leaves, and up rose all his merry men, each fellow
-washing his head and hands in the cold brown brook that leaped laughing
-from stone to stone. Then said Robin, "For fourteen days have we seen no
-sport, so now I will go abroad to seek adventures forthwith. But tarry
-ye, my merry men all, here in the greenwood; only see that ye mind well
-my call. Three blasts upon the bugle horn I will blow in my hour of
-need; then come quickly, for I shall want your aid."
-
-So saying, he strode away through the leafy forest glades until he
-had come to the verge of Sherwood. There he wandered for a long time,
-through highway and byway, through dingly dell and forest skirts. Now he
-met a fair buxom lass in a shady lane, and each gave the other a merry
-word and passed their way; now he saw a fair lady upon an ambling pad,
-to whom he doffed his cap, and who bowed sedately in return to the
-fair youth; now he saw a fat monk on a pannier-laden ass; now a gallant
-knight, with spear and shield and armor that flashed brightly in the
-sunlight; now a page clad in crimson; and now a stout burgher from good
-Nottingham Town, pacing along with serious footsteps; all these sights
-he saw, but adventure found he none. At last he took a road by the
-forest skirts, a bypath that dipped toward a broad, pebbly stream
-spanned by a narrow bridge made of a log of wood. As he drew nigh this
-bridge he saw a tall stranger coming from the other side. Thereupon
-Robin quickened his pace, as did the stranger likewise, each thinking to
-cross first.
-
-"Now stand thou back," quoth Robin, "and let the better man cross
-first."
-
-"Nay," answered the stranger, "then stand back shine own self, for the
-better man, I wet, am I."
-
-"That will we presently see," quoth Robin, "and meanwhile stand thou
-where thou art, or else, by the bright brow of Saint AElfrida, I will
-show thee right good Nottingham play with a clothyard shaft betwixt thy
-ribs."
-
-"Now," quoth the stranger, "I will tan thy hide till it be as many
-colors as a beggar's cloak, if thou darest so much as touch a string of
-that same bow that thou holdest in thy hands."
-
-"Thou pratest like an ass," said Robin, "for I could send this shaft
-clean through thy proud heart before a curtal friar could say grace over
-a roast goose at Michaelmastide."
-
-"And thou pratest like a coward," answered the stranger, "for thou
-standest there with a good yew bow to shoot at my heart, while I have
-nought in my hand but a plain blackthorn staff wherewith to meet thee."
-
-"Now," quoth Robin, "by the faith of my heart, never have I had a
-coward's name in all my life before. I will lay by my trusty bow and
-eke my arrows, and if thou darest abide my coming, I will go and cut a
-cudgel to test thy manhood withal."
-
-"Ay, marry, that will I abide thy coming, and joyously, too," quoth the
-stranger; whereupon he leaned sturdily upon his staff to await Robin.
-
-Then Robin Hood stepped quickly to the coverside and cut a good staff of
-ground oak, straight, without new, and six feet in length, and came back
-trimming away the tender stems from it, while the stranger waited for
-him, leaning upon his staff, and whistling as he gazed round about.
-Robin observed him furtively as he trimmed his staff, measuring him from
-top to toe from out the corner of his eye, and thought that he had never
-seen a lustier or a stouter man. Tall was Robin, but taller was the
-stranger by a head and a neck, for he was seven feet in height. Broad
-was Robin across the shoulders, but broader was the stranger by twice
-the breadth of a palm, while he measured at least an ell around the
-waist.
-
-"Nevertheless," said Robin to himself, "I will baste thy hide right
-merrily, my good fellow;" then, aloud, "Lo, here is my good staff,
-lusty and tough. Now wait my coming, an thou darest, and meet me an thou
-fearest not. Then we will fight until one or the other of us tumble into
-the stream by dint of blows."
-
-"Marry, that meeteth my whole heart!" cried the stranger, twirling his
-staff above his head, betwixt his fingers and thumb, until it whistled
-again.
-
-Never did the Knights of Arthur's Round Table meet in a stouter fight
-than did these two. In a moment Robin stepped quickly upon the bridge
-where the stranger stood; first he made a feint, and then delivered
-a blow at the stranger's head that, had it met its mark, would have
-tumbled him speedily into the water. But the stranger turned the blow
-right deftly and in return gave one as stout, which Robin also turned as
-the stranger had done. So they stood, each in his place, neither moving
-a finger's-breadth back, for one good hour, and many blows were given
-and received by each in that time, till here and there were sore bones
-and bumps, yet neither thought of crying "Enough," nor seemed likely to
-fall from off the bridge. Now and then they stopped to rest, and each
-thought that he never had seen in all his life before such a hand at
-quarterstaff. At last Robin gave the stranger a blow upon the ribs that
-made his jacket smoke like a damp straw thatch in the sun. So shrewd was
-the stroke that the stranger came within a hair's-breadth of falling off
-the bridge, but he regained himself right quickly and, by a dexterous
-blow, gave Robin a crack on the crown that caused the blood to flow.
-Then Robin grew mad with anger and smote with all his might at the
-other. But the stranger warded the blow and once again thwacked Robin,
-and this time so fairly that he fell heels over head into the water, as
-the queen pin falls in a game of bowls.
-
-"And where art thou now, my good lad?" shouted the stranger, roaring
-with laughter.
-
-"Oh, in the flood and floating adown with the tide," cried Robin, nor
-could he forbear laughing himself at his sorry plight. Then, gaining his
-feet, he waded to the bank, the little fish speeding hither and thither,
-all frightened at his splashing.
-
-"Give me thy hand," cried he, when he had reached the bank. "I must
-needs own thou art a brave and a sturdy soul and, withal, a good stout
-stroke with the cudgels. By this and by that, my head hummeth like to a
-hive of bees on a hot June day."
-
-Then he clapped his horn to his lips and winded a blast that went
-echoing sweetly down the forest paths. "Ay, marry," quoth he again,
-"thou art a tall lad, and eke a brave one, for ne'er, I bow, is there a
-man betwixt here and Canterbury Town could do the like to me that thou
-hast done."
-
-"And thou," quoth the stranger, laughing, "takest thy cudgeling like a
-brave heart and a stout yeoman."
-
-But now the distant twigs and branches rustled with the coming of men,
-and suddenly a score or two of good stout yeomen, all clad in Lincoln
-green, burst from out the covert, with merry Will Stutely at their head.
-
-"Good master," cried Will, "how is this? Truly thou art all wet from
-head to foot, and that to the very skin."
-
-"Why, marry," answered jolly Robin, "yon stout fellow hath tumbled me
-neck and crop into the water and hath given me a drubbing beside."
-
-"Then shall he not go without a ducking and eke a drubbing himself!"
-cried Will Stutely. "Have at him, lads!"
-
-Then Will and a score of yeomen leaped upon the stranger, but though
-they sprang quickly they found him ready and felt him strike right and
-left with his stout staff, so that, though he went down with press of
-numbers, some of them rubbed cracked crowns before he was overcome.
-
-"Nay, forbear!" cried Robin, laughing until his sore sides ached again.
-"He is a right good man and true, and no harm shall befall him. Now
-hark ye, good youth, wilt thou stay with me and be one of my band? Three
-suits of Lincoln green shalt thou have each year, beside forty marks in
-fee, and share with us whatsoever good shall befall us. Thou shalt eat
-sweet venison and quaff the stoutest ale, and mine own good right-hand
-man shalt thou be, for never did I see such a cudgel player in all my
-life before. Speak! Wilt thou be one of my good merry men?"
-
-"That know I not," quoth the stranger surlily, for he was angry at being
-so tumbled about. "If ye handle yew bow and apple shaft no better than
-ye do oaken cudgel, I wot ye are not fit to be called yeomen in my
-country; but if there be any man here that can shoot a better shaft than
-I, then will I bethink me of joining with you."
-
-"Now by my faith," said Robin, "thou art a right saucy varlet, sirrah;
-yet I will stoop to thee as I never stooped to man before. Good Stutely,
-cut thou a fair white piece of bark four fingers in breadth, and set it
-fourscore yards distant on yonder oak. Now, stranger, hit that fairly
-with a gray goose shaft and call thyself an archer."
-
-"Ay, marry, that will I," answered he. "Give me a good stout bow and a
-fair broad arrow, and if I hit it not, strip me and beat me blue with
-bowstrings."
-
-Then he chose the stoutest bow among them all, next to Robin's own, and
-a straight gray goose shaft, well-feathered and smooth, and stepping
-to the mark--while all the band, sitting or lying upon the greensward,
-watched to see him shoot--he drew the arrow to his cheek and loosed the
-shaft right deftly, sending it so straight down the path that it clove
-the mark in the very center. "Aha!" cried he, "mend thou that if thou
-canst;" while even the yeomen clapped their hands at so fair a shot.
-
-"That is a keen shot indeed," quoth Robin. "Mend it I cannot, but mar it
-I may, perhaps."
-
-Then taking up his own good stout bow and nocking an arrow with care, he
-shot with his very greatest skill. Straight flew the arrow, and so
-true that it lit fairly upon the stranger's shaft and split it into
-splinters. Then all the yeomen leaped to their feet and shouted for joy
-that their master had shot so well.
-
-"Now by the lusty yew bow of good Saint Withold," cried the stranger,
-"that is a shot indeed, and never saw I the like in all my life before!
-Now truly will I be thy man henceforth and for aye. Good Adam Bell(1)
-was a fair shot, but never shot he so!"
-
-
-     (1) Adam Bell, Clym o' the Clough, and William of Cloudesly
-     were three noted north-country bowmen whose names have been
-     celebrated in many ballads of the olden time.
-
-
-"Then have I gained a right good man this day," quoth jolly Robin. "What
-name goest thou by, good fellow?"
-
-"Men call me John Little whence I came," answered the stranger.
-
-Then Will Stutely, who loved a good jest, spoke up. "Nay, fair little
-stranger," said he, "I like not thy name and fain would I have it
-otherwise. Little art thou indeed, and small of bone and sinew,
-therefore shalt thou be christened Little John, and I will be thy
-godfather."
-
-Then Robin Hood and all his band laughed aloud until the stranger began
-to grow angry.
-
-"An thou make a jest of me," quoth he to Will Stutely, "thou wilt have
-sore bones and little pay, and that in short season."
-
-"Nay, good friend," said Robin Hood, "bottle thine anger, for the name
-fitteth thee well. Little John shall thou be called henceforth, and
-Little John shall it be. So come, my merry men, we will prepare a
-christening feast for this fair infant."
-
-So turning their backs upon the stream, they plunged into the forest
-once more, through which they traced their steps till they reached the
-spot where they dwelled in the depths of the woodland. There had they
-built huts of bark and branches of trees, and made couches of sweet
-rushes spread over with skins of fallow deer. Here stood a great oak
-tree with branches spreading broadly around, beneath which was a seat of
-green moss where Robin Hood was wont to sit at feast and at merrymaking
-with his stout men about him. Here they found the rest of the band, some
-of whom had come in with a brace of fat does. Then they all built great
-fires and after a time roasted the does and broached a barrel of humming
-ale. Then when the feast was ready they all sat down, but Robin placed
-Little John at his right hand, for he was henceforth to be the second in
-the band.
-
-Then when the feast was done Will Stutely spoke up. "It is now time, I
-ween, to christen our bonny babe, is it not so, merry boys?" And "Aye!
-Aye!" cried all, laughing till the woods echoed with their mirth.
-
-"Then seven sponsors shall we have," quoth Will Stutely, and hunting
-among all the band, he chose the seven stoutest men of them all.
-
-"Now by Saint Dunstan," cried Little John, springing to his feet, "more
-than one of you shall rue it an you lay finger upon me."
-
-But without a word they all ran upon him at once, seizing him by his
-legs and arms and holding him tightly in spite of his struggles, and
-they bore him forth while all stood around to see the sport. Then one
-came forward who had been chosen to play the priest because he had a
-bald crown, and in his hand he carried a brimming pot of ale. "Now, who
-bringeth this babe?" asked he right soberly.
-
-"That do I," answered Will Stutely.
-
-"And what name callest thou him?"
-
-"Little John call I him."
-
-"Now Little John," quoth the mock priest, "thou hast not lived
-heretofore, but only got thee along through the world, but henceforth
-thou wilt live indeed. When thou livedst not thou wast called John
-Little, but now that thou dost live indeed, Little John shalt thou be
-called, so christen I thee." And at these last words he emptied the pot
-of ale upon Little John's head.
-
-Then all shouted with laughter as they saw the good brown ale stream
-over Little John's beard and trickle from his nose and chin, while his
-eyes blinked with the smart of it. At first he was of a mind to be angry
-but found he could not, because the others were so merry; so he, too,
-laughed with the rest. Then Robin took this sweet, pretty babe, clothed
-him all anew from top to toe in Lincoln green, and gave him a good stout
-bow, and so made him a member of the merry band.
-
-And thus it was that Robin Hood became outlawed; thus a band of merry
-companions gathered about him, and thus he gained his right-hand man,
-Little John; and so the prologue ends. And now I will tell how the
-Sheriff of Nottingham three times sought to take Robin Hood, and how he
-failed each time.
-
-
-Robin Hood and the Tinker
-
-Now it was told before how two hundred pounds were set upon Robin Hood's
-head, and how the Sheriff of Nottingham swore that he himself would
-seize Robin, both because he would fain have the two hundred pounds and
-because the slain man was a kinsman of his own. Now the Sheriff did not
-yet know what a force Robin had about him in Sherwood, but thought that
-he might serve a warrant for his arrest as he could upon any other man
-that had broken the laws; therefore he offered fourscore golden angels
-to anyone who would serve this warrant. But men of Nottingham Town knew
-more of Robin Hood and his doings than the Sheriff did, and many laughed
-to think of serving a warrant upon the bold outlaw, knowing well that
-all they would get for such service would be cracked crowns; so that no
-one came forward to take the matter in hand. Thus a fortnight passed, in
-which time none came forward to do the Sheriff's business. Then said he,
-"A right good reward have I offered to whosoever would serve my warrant
-upon Robin Hood, and I marvel that no one has come to undertake the
-task."
-
-Then one of his men who was near him said, "Good master, thou wottest
-not the force that Robin Hood has about him and how little he cares for
-warrant of king or sheriff. Truly, no one likes to go on this service,
-for fear of cracked crowns and broken bones."
-
-"Then I hold all Nottingham men to be cowards," said the Sheriff. "And
-let me see the man in all Nottinghamshire that dare disobey the warrant
-of our sovereign lord King Harry, for, by the shrine of Saint Edmund,
-I will hang him forty cubits high! But if no man in Nottingham dare
-win fourscore angels, I will send elsewhere, for there should be men of
-mettle somewhere in this land."
-
-Then he called up a messenger in whom he placed great trust, and bade
-him saddle his horse and make ready to go to Lincoln Town to see whether
-he could find anyone there that would do his bidding and win the reward.
-So that same morning the messenger started forth upon his errand.
-
-Bright shone the sun upon the dusty highway that led from Nottingham
-to Lincoln, stretching away all white over hill and dale. Dusty was the
-highway and dusty the throat of the messenger, so that his heart was
-glad when he saw before him the Sign of the Blue Boar Inn, when somewhat
-more than half his journey was done. The inn looked fair to his eyes,
-and the shade of the oak trees that stood around it seemed cool and
-pleasant, so he alighted from his horse to rest himself for a time,
-calling for a pot of ale to refresh his thirsty throat.
-
-There he saw a party of right jovial fellows seated beneath the
-spreading oak that shaded the greensward in front of the door. There
-was a tinker, two barefoot friars, and a party of six of the King's
-foresters all clad in Lincoln green, and all of them were quaffing
-humming ale and singing merry ballads of the good old times. Loud
-laughed the foresters, as jests were bandied about between the singing,
-and louder laughed the friars, for they were lusty men with beards
-that curled like the wool of black rams; but loudest of all laughed the
-Tinker, and he sang more sweetly than any of the rest. His bag and his
-hammer hung upon a twig of the oak tree, and near by leaned his good
-stout cudgel, as thick as his wrist and knotted at the end.
-
-"Come," cried one of the foresters to the tired messenger, "come join us
-for this shot. Ho, landlord! Bring a fresh pot of ale for each man."
-
-The messenger was glad enough to sit down along with the others who were
-there, for his limbs were weary and the ale was good.
-
-"Now what news bearest thou so fast?" quoth one, "and whither ridest
-thou today?"
-
-The messenger was a chatty soul and loved a bit of gossip dearly;
-besides, the pot of ale warmed his heart; so that, settling himself in
-an easy corner of the inn bench, while the host leaned upon the doorway
-and the hostess stood with her hands beneath her apron, he unfolded his
-budget of news with great comfort. He told all from the very first:
-how Robin Hood had slain the forester, and how he had hidden in the
-greenwood to escape the law; how that he lived therein, all against the
-law, God wot, slaying His Majesty's deer and levying toll on fat abbot,
-knight, and esquire, so that none dare travel even on broad Watling
-Street or the Fosse Way for fear of him; how that the Sheriff had a mind
-to serve the King's warrant upon this same rogue, though little would he
-mind warrant of either king or sheriff, for he was far from being a
-law-abiding man. Then he told how none could be found in all Nottingham
-Town to serve this warrant, for fear of cracked pates and broken bones,
-and how that he, the messenger, was now upon his way to Lincoln Town to
-find of what mettle the Lincoln men might be.
-
-"Now come I, forsooth, from good Banbury Town," said the jolly Tinker,
-"and no one nigh Nottingham--nor Sherwood either, an that be the
-mark--can hold cudgel with my grip. Why, lads, did I not meet that mad
-wag Simon of Ely, even at the famous fair at Hertford Town, and beat him
-in the ring at that place before Sir Robert of Leslie and his lady? This
-same Robin Hood, of whom, I wot, I never heard before, is a right merry
-blade, but gin he be strong, am not I stronger? And gin he be sly, am
-not I slyer? Now by the bright eyes of Nan o' the Mill, and by mine own
-name and that's Wat o' the Crabstaff, and by mine own mother's son,
-and that's myself, will I, even I, Wat o' the Crabstaff, meet this same
-sturdy rogue, and gin he mind not the seal of our glorious sovereign
-King Harry, and the warrant of the good Sheriff of Nottinghamshire,
-I will so bruise, beat, and bemaul his pate that he shall never move
-finger or toe again! Hear ye that, bully boys?"
-
-"Now art thou the man for my farthing," cried the messenger. "And back
-thou goest with me to Nottingham Town."
-
-"Nay," quoth the Tinker, shaking his head slowly from side to side. "Go
-I with no man gin it be not with mine own free will."
-
-"Nay, nay," said the messenger, "no man is there in Nottinghamshire
-could make thee go against thy will, thou brave fellow."
-
-"Ay, that be I brave," said the Tinker.
-
-"Ay, marry," said the messenger, "thou art a brave lad; but our good
-Sheriff hath offered fourscore angels of bright gold to whosoever shall
-serve the warrant upon Robin Hood; though little good will it do."
-
-"Then I will go with thee, lad. Do but wait till I get my bag and
-hammer, and my cudgel. Ay, let' me but meet this same Robin Hood, and
-let me see whether he will not mind the King's warrant." So, after
-having paid their score, the messenger, with the Tinker striding beside
-his nag, started back to Nottingham again.
-
-One bright morning soon after this time, Robin Hood started off to
-Nottingham Town to find what was a-doing there, walking merrily along
-the roadside where the grass was sweet with daisies, his eyes wandering
-and his thoughts also. His bugle horn hung at his hip and his bow and
-arrows at his back, while in his hand he bore a good stout oaken staff,
-which he twirled with his fingers as he strolled along.
-
-As thus he walked down a shady lane he saw a tinker coming, trolling a
-merry song as he drew nigh. On his back hung his bag and his hammer, and
-in his hand he carried a right stout crabstaff full six feet long, and
-thus sang he:
-
-     "_In peascod time, when hound to horn
-     Gives ear till buck be killed,
-     And little lads with pipes of corn
-     Sit keeping beasts afield_--"
-
-"Halloa, good friend!" cried Robin.
-
-"I WENT TO GATHER STRAWBERRIES--"
-
-"Halloa!" cried Robin again.
-
-"BY WOODS AND GROVES FULL FAIR--"
-
-"Halloa! Art thou deaf, man? Good friend, say I!"
-
-"And who art thou dost so boldly check a fair song?" quoth the Tinker,
-stopping in his singing. "Halloa, shine own self, whether thou be good
-friend or no. But let me tell thee, thou stout fellow, gin thou be a
-good friend it were well for us both; but gin thou be no good friend it
-were ill for thee."
-
-"And whence comest thou, my lusty blade?" quoth Robin.
-
-"I come from Banbury," answered the Tinker.
-
-"Alas!" quoth Robin, "I hear there is sad news this merry morn."
-
-"Ha! Is it indeed so?" cried the Tinker eagerly. "Prythee tell it
-speedily, for I am a tinker by trade, as thou seest, and as I am in my
-trade I am greedy for news, even as a priest is greedy for farthings."
-
-"Well then," quoth Robin, "list thou and I will tell, but bear thyself
-up bravely, for the news is sad, I wot. Thus it is: I hear that two
-tinkers are in the stocks for drinking ale and beer!"
-
-"Now a murrain seize thee and thy news, thou scurvy dog," quoth the
-Tinker, "for thou speakest but ill of good men. But sad news it is
-indeed, gin there be two stout fellows in the stocks."
-
-"Nay," said Robin, "thou hast missed the mark and dost but weep for the
-wrong sow. The sadness of the news lieth in that there be but two in the
-stocks, for the others do roam the country at large."
-
-"Now by the pewter platter of Saint Dunstan," cried the Tinker, "I have
-a good part of a mind to baste thy hide for thine ill jest. But gin men
-be put in the stocks for drinking ale and beer, I trow thou wouldst not
-lose thy part."
-
-Loud laughed Robin and cried, "Now well taken, Tinker, well taken! Why,
-thy wits are like beer, and do froth up most when they grow sour! But
-right art thou, man, for I love ale and beer right well. Therefore come
-straightway with me hard by to the Sign of the Blue Boar, and if thou
-drinkest as thou appearest--and I wot thou wilt not belie thy looks--I
-will drench thy throat with as good homebrewed as ever was tapped in all
-broad Nottinghamshire."
-
-"Now by my faith," said the Tinker, "thou art a right good fellow in
-spite of thy scurvy jests. I love thee, my sweet chuck, and gin I go not
-with thee to that same Blue Boar thou mayst call me a heathen."
-
-"Tell me thy news, good friend, I prythee," quoth Robin as they trudged
-along together, "for tinkers, I ween, are all as full of news as an egg
-of meat."
-
-"Now I love thee as my brother, my bully blade," said the Tinker, "else
-I would not tell thee my news; for sly am I, man, and I have in hand a
-grave undertaking that doth call for all my wits, for I come to seek
-a bold outlaw that men, hereabouts, call Robin Hood. Within my pouch I
-have a warrant, all fairly written out on parchment, forsooth, with a
-great red seal for to make it lawful. Could I but meet this same Robin
-Hood I would serve it upon his dainty body, and if he minded it not
-I would beat him till every one of his ribs would cry Amen. But thou
-livest hereabouts, mayhap thou knowest Robin Hood thyself, good fellow."
-
-"Ay, marry, that I do somewhat," quoth Robin, "and I have seen him this
-very morn. But, Tinker, men say that he is but a sad, sly thief. Thou
-hadst better watch thy warrant, man, or else he may steal it out of thy
-very pouch."
-
-"Let him but try!" cried the Tinker. "Sly may he be, but sly am I, too.
-I would I had him here now, man to man!" And he made his heavy cudgel to
-spin again. "But what manner of man is he, lad?
-
-"Much like myself," said Robin, laughing, "and in height and build and
-age nigh the same; and he hath blue eyes, too."
-
-"Nay," quoth the Tinker, "thou art but a green youth. I thought him to
-be a great bearded man. Nottingham men feared him so."
-
-"Truly, he is not so old nor so stout as thou art," said Robin. "But men
-do call him a right deft hand at quarterstaff."
-
-"That may be," said the Tinker right sturdily, "but I am more deft than
-he, for did I not overcome Simon of Ely in a fair bout in the ring at
-Hertford Town? But if thou knowest him, my jolly blade, wilt thou go
-with me and bring me to him? Fourscore bright angels hath the Sheriff
-promised me if I serve the warrant upon the knave's body, and ten of
-them will I give to thee if thou showest me him."
-
-"Ay, that will I," quoth Robin, "but show me thy warrant, man, until I
-see whether it be good or no."
-
-"That will I not do, even to mine own brother," answered the Tinker. "No
-man shall see my warrant till I serve it upon yon fellow's own body."
-
-"So be it," quoth Robin. "And thou show it not to me I know not to whom
-thou wilt show it. But here we are at the Sign of the Blue Boar, so let
-us in and taste his brown October."
-
-No sweeter inn could be found in all Nottinghamshire than that of the
-Blue Boar. None had such lovely trees standing around, or was so covered
-with trailing clematis and sweet woodbine; none had such good beer and
-such humming ale; nor, in wintertime, when the north wind howled and
-snow drifted around the hedges, was there to be found, elsewhere, such
-a roaring fire as blazed upon the hearth of the Blue Boar. At such times
-might be found a goodly company of yeomen or country folk seated around
-the blazing hearth, bandying merry jests, while roasted crabs(2) bobbed
-in bowls of ale upon the hearthstone. Well known was the inn to Robin
-Hood and his band, for there had he and such merry companions as Little
-John or Will Stutely or young David of Doncaster often gathered when all
-the forest was filled with snow. As for mine host, he knew how to keep
-a still tongue in his head, and to swallow his words before they passed
-his teeth, for he knew very well which side of his bread was spread with
-butter, for Robin and his band were the best of customers and paid their
-scores without having them chalked up behind the door. So now, when
-Robin Hood and the Tinker came thereto and called aloud for two great
-pots of ale, none would have known from look or speech that the host had
-ever set eyes upon the outlaw before.
-
-     (2) Small sour apples.
-
-"Bide thou here," quoth Robin to the Tinker, "while I go and see that
-mine host draweth ale from the right butt, for he hath good October, I
-know, and that brewed by Withold of Tamworth." So saying, he went within
-and whispered to the host to add a measure of Flemish strong waters to
-the good English ale; which the latter did and brought it to them.
-
-"By Our Lady," said the Tinker, after a long draught of the ale, "yon
-same Withold of Tamworth--a right good Saxon name, too, I would have
-thee know--breweth the most humming ale that e'er passed the lips of Wat
-o' the Crabstaff."
-
-"Drink, man, drink," cried Robin, only wetting his own lips meanwhile.
-"Ho, landlord! Bring my friend another pot of the same. And now for a
-song, my jolly blade."
-
-"Ay, that will I give thee a song, my lovely fellow," quoth the Tinker,
-"for I never tasted such ale in all my days before. By Our Lady, it
-doth make my head hum even now! Hey, Dame Hostess, come listen, an thou
-wouldst hear a song, and thou too, thou bonny lass, for never sing I so
-well as when bright eyes do look upon me the while."
-
-Then he sang an ancient ballad of the time of good King Arthur, called
-"The Marriage of Sir Gawaine," which you may some time read yourself, in
-stout English of early times; and as he sang, all listened to that noble
-tale of noble knight and his sacrifice to his king. But long before the
-Tinker came to the last verse his tongue began to trip and his head to
-spin, because of the strong waters mixed with the ale. First his tongue
-tripped, then it grew thick of sound; then his head wagged from side to
-side, until at last he fell asleep as though he never would waken again.
-
-Then Robin Hood laughed aloud and quickly took the warrant from out the
-Tinker's pouch with his deft fingers. "Sly art thou, Tinker," quoth he,
-"but not yet, I bow, art thou as sly as that same sly thief Robin Hood."
-
-Then he called the host to him and said, "Here, good man, are ten broad
-shillings for the entertainment thou hast given us this day. See that
-thou takest good care of thy fair guest there, and when he wakes thou
-mayst again charge him ten shillings also, and if he hath it not, thou
-mayst take his bag and hammer, and even his coat, in payment. Thus do
-I punish those that come into the greenwood to deal dole to me. As for
-thine own self, never knew I landlord yet that would not charge twice an
-he could."
-
-At this the host smiled slyly, as though saying to himself the rustic
-saw, "Teach a magpie to suck eggs."
-
-The Tinker slept until the afternoon drew to a close and the shadows
-grew long beside the woodland edge, then he awoke. First he looked up,
-then he looked down, then he looked east, then he looked west, for he
-was gathering his wits together, like barley straws blown apart by the
-wind. First he thought of his merry companion, but he was gone. Then he
-thought of his stout crabstaff, and that he had within his hand. Then of
-his warrant, and of the fourscore angels he was to gain for serving it
-upon Robin Hood. He thrust his hand into his pouch, but not a scrap nor
-a farthing was there. Then he sprang to his feet in a rage.
-
-"Ho, landlord!" cried he, "whither hath that knave gone that was with me
-but now?"
-
-"What knave meaneth Your Wor`;
-  window.BOOKS_FULL[3748]=`A Journey into the Interior of the Earth
-
-                            by Jules Verne
-
-
-[Redactor's Note: The following version of Jules Verne's "Journey
-into the Interior of the Earth" was published by Ward, Lock, &Co.,
-Ltd., London, in 1877. This version is believed to be the most
-faithful rendition into English of this classic currently in the
-public domain. The few notes of the translator are located near the
-point where they are referenced. The Runic characters in Chapter III
-are visible in the HTML version of the text. The character set is
-ISO-8891-1, mainly the Windows character set. The translation is by
-Frederick Amadeus Malleson.
-
-While the translation is fairly literal, and Malleson (a clergyman)
-has taken pains with the scientific portions of the work and added
-the chapter headings, he has made some unfortunate emendations mainly
-concerning biblical references, and has added a few 'improvements' of
-his own, which are detailed below:
-
-III. "_pertubata seu inordinata,_" as Euclid has it."
-
-XXX. cry, "Thalatta! thalatta!" the sea! the sea! The deeply indented
-shore was lined with a breadth of fine shining sand, softly
-
-XXXII. hippopotamus. {as if the creator, pressed for time in the
-first hours of the world, had assembled several animals into one.}
-The colossal mastodon
-
-XXXII. I return to the scriptural periods or ages of the world,
-conventionally called 'days,' long before the appearance of man when
-the unfinished world was as yet unfitted for his support. {I return
-to the biblical epochs of the creation, well in advance of the birth
-of man, when the incomplete earth was not yet sufficient for him.}
-
-XXXVIII. (footnote), and which is illustrated in the negro
-countenance and in the lowest savages.
-
-XXXIX. of the geologic period. {antediluvian}
-
-(These corrections have kindly been pointed out by Christian Sánchez
-<chvsanchez@arnet.com.ar> of the Jules Verne Forum.)]
-
-----------------------------------------------------------------------
-
-                              A JOURNEY
-
-                               INTO THE
-
-                        INTERIOR OF THE EARTH
-
-                                  by
-
-                              Jules Verne
-
-----------------------------------------------------------------------
-
-
-PREFACE
-
-
-THE "Voyages Extraordinaires" of M. Jules Verne deserve to be made
-widely known in English-speaking countries by means of carefully
-prepared translations. Witty and ingenious adaptations of the
-researches and discoveries of modern science to the popular taste,
-which demands that these should be presented to ordinary readers in
-the lighter form of cleverly mingled truth and fiction, these books
-will assuredly be read with profit and delight, especially by English
-youth. Certainly no writer before M. Jules Verne has been so happy in
-weaving together in judicious combination severe scientific truth
-with a charming exercise of playful imagination.
-
-Iceland, the starting point of the marvellous underground journey
-imagined in this volume, is invested at the present time with a
-painful interest in consequence of the disastrous eruptions last
-Easter Day, which covered with lava and ashes the poor and scanty
-vegetation upon which four thousand persons were partly dependent for
-the means of subsistence. For a long time to come the natives of that
-interesting island, who cleave to their desert home with all that
-_amor patriae_ which is so much more easily understood than
-explained, will look, and look not in vain, for the help of those on
-whom fall the smiles of a kindlier sun in regions not torn by
-earthquakes nor blasted and ravaged by volcanic fires. Will the
-readers of this little book, who, are gifted with the means of
-indulging in the luxury of extended beneficence, remember the
-distress of their brethren in the far north, whom distance has not
-barred from the claim of being counted our "neighbours"? And whatever
-their humane feelings may prompt them to bestow will be gladly added
-to the Mansion-House Iceland Relief Fund.
-
-In his desire to ascertain how far the picture of Iceland, drawn in
-the work of Jules Verne is a correct one, the translator hopes in the
-course of a mail or two to receive a communication from a leading man
-of science in the island, which may furnish matter for additional
-information in a future edition.
-
-The scientific portion of the French original is not without a few
-errors, which the translator, with the kind assistance of Mr. Cameron
-of H. M. Geological Survey, has ventured to point out and correct. It
-is scarcely to be expected in a work in which the element of
-amusement is intended to enter more largely than that of scientific
-instruction, that any great degree of accuracy should be arrived at.
-Yet the translator hopes that what trifling deviations from the text
-or corrections in foot notes he is responsible for, will have done a
-little towards the increased usefulness of the work.
-
-F. A. M.
-
-The Vicarage,
-
-     Broughton-in-Furness
-
-----------------------------------------------------------------------
-
-
-                   CONTENTS
-
-
-     I       THE PROFESSOR AND HIS FAMILY
-     II      A MYSTERY TO BE SOLVED AT ANY PRICE
-     III     THE RUNIC WRITING EXERCISES THE PROFESSOR
-     IV      THE ENEMY TO BE STARVED INTO SUBMISSION
-     V       FAMINE, THEN VICTORY, FOLLOWED BY DISMAY
-     VI      EXCITING DISCUSSIONS ABOUT AN UNPARALLELED EXERCISE
-     VII     A WOMAN'S COURAGE
-     VIII    SERIOUS PREPARATIONS FOR VERTICAL DESCENT
-     IX      ICELAND, BUT WHAT NEXT?
-     X       INTERESTING CONVERSATIONS WITH ICELANDIC SAVANTS
-     XI      A GUIDE FOUND TO THE CENTRE OF THE EARTH
-     XII     A BARREN LAND
-     XIII    HOSPITALITY UNDER THE ARCTIC CIRCLE
-     XIV     BUT ARCTICS CAN BE INHOSPITABLE, TOO
-     XV      SNÆFFEL AT LAST
-     XVI     BOLDLY DOWN THE CRATER
-     XVII    VERTICAL DESCENT
-     XVIII   THE WONDERS OF TERRESTIAL DEPTHS
-     XIX     GEOLOGICAL STUDIES IN SITU
-     XX      THE FIRST SIGNS OF DISTRESS
-     XXI     COMPASSION FUSES THE PROFESSOR'S HEART
-     XXII    TOTAL FAILURE OF WATER
-     XXIII   WATER DISCOVERED
-     XXIV    WELL SAID, OLD MOLE! CANST THOU WORK
-             IN THE GROUND SO FAST?
-     XXV     DE PROFUNDIS
-     XXVI    THE WORST PERIL OF ALL
-     XXVII   LOST IN THE BOWELS OF THE EARTH
-     XXVIII  THE RESCUE IN THE WHISPERING GALLERY
-     XXIX    THALATTA! THALATTA!
-     XXX     A NEW MARE INTERNUM
-     XXXI    PREPARATIONS FOR A VOYAGE OF DISCOVERY
-     XXXII   WONDERS OF THE DEEP
-     XXXIII  A BATTLE OF MONSTERS
-     XXXIV   THE GREAT GEYSER
-     XXXV    AN ELECTRIC STORM
-     XXXVI   CALM PHILOSOPHIC DISCUSSIONS
-     XXXVII  THE LIEDENBROCK MUSEUM OF GEOLOGY
-     XXXVIII THE PROFESSOR IN HIS CHAIR AGAIN
-     XXXIX   FOREST SCENERY ILLUMINATED BY ELECTRICITY
-     XL      PREPARATIONS FOR BLASTING A PASSAGE
-             TO THE CENTRE OF THE EARTH
-     XLI     THE GREAT EXPLOSION AND THE RUSH DOWN BELOW
-     XLII    HEADLONG SPEED UPWARD THROUGH THE HORRORS OF DARKNESS
-     XLIII   SHOT OUT OF A VOLCANO AT LAST!
-     XLIV    SUNNY LANDS IN THE BLUE MEDITERRANEAN
-     XLV     ALL'S WELL THAT ENDS WELL
-
-----------------------------------------------------------------------
-
-
-A JOURNEY INTO THE INTERIOR OF THE EARTH
+  window.BOOKS_FULL[103]=`Around the World in Eighty Days
+
+by Jules Verne
+
+
+Contents
+
+ CHAPTER I. IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS MASTER, THE OTHER AS MAN
+ CHAPTER II. IN WHICH PASSEPARTOUT IS CONVINCED THAT HE HAS AT LAST FOUND HIS IDEAL
+ CHAPTER III. IN WHICH A CONVERSATION TAKES PLACE WHICH SEEMS LIKELY TO COST PHILEAS FOGG DEAR
+ CHAPTER IV. IN WHICH PHILEAS FOGG ASTOUNDS PASSEPARTOUT, HIS SERVANT
+ CHAPTER V. IN WHICH A NEW SPECIES OF FUNDS, UNKNOWN TO THE MONEYED MEN, APPEARS ON ’CHANGE
+ CHAPTER VI. IN WHICH FIX, THE DETECTIVE, BETRAYS A VERY NATURAL IMPATIENCE
+ CHAPTER VII. WHICH ONCE MORE DEMONSTRATES THE USELESSNESS OF PASSPORTS AS AIDS TO DETECTIVES
+ CHAPTER VIII. IN WHICH PASSEPARTOUT TALKS RATHER MORE, PERHAPS, THAN IS PRUDENT
+ CHAPTER IX. IN WHICH THE RED SEA AND THE INDIAN OCEAN PROVE PROPITIOUS TO THE DESIGNS OF PHILEAS FOGG
+ CHAPTER X. IN WHICH PASSEPARTOUT IS ONLY TOO GLAD TO GET OFF WITH THE LOSS OF HIS SHOES
+ CHAPTER XI. IN WHICH PHILEAS FOGG SECURES A CURIOUS MEANS OF CONVEYANCE AT A FABULOUS PRICE
+ CHAPTER XII. IN WHICH PHILEAS FOGG AND HIS COMPANIONS VENTURE ACROSS THE INDIAN FORESTS, AND WHAT ENSUED
+ CHAPTER XIII. IN WHICH PASSEPARTOUT RECEIVES A NEW PROOF THAT FORTUNE FAVORS THE BRAVE
+ CHAPTER XIV. IN WHICH PHILEAS FOGG DESCENDS THE WHOLE LENGTH OF THE BEAUTIFUL VALLEY OF THE GANGES WITHOUT EVER THINKING OF SEEING IT
+ CHAPTER XV. IN WHICH THE BAG OF BANKNOTES DISGORGES SOME THOUSANDS OF POUNDS MORE
+ CHAPTER XVI. IN WHICH FIX DOES NOT SEEM TO UNDERSTAND IN THE LEAST WHAT IS SAID TO HIM
+ CHAPTER XVII. SHOWING WHAT HAPPENED ON THE VOYAGE FROM SINGAPORE TO HONG KONG
+ CHAPTER XVIII. IN WHICH PHILEAS FOGG, PASSEPARTOUT, AND FIX GO EACH ABOUT HIS BUSINESS
+ CHAPTER XIX. IN WHICH PASSEPARTOUT TAKES A TOO GREAT INTEREST IN HIS MASTER, AND WHAT COMES OF IT
+ CHAPTER XX. IN WHICH FIX COMES FACE TO FACE WITH PHILEAS FOGG
+ CHAPTER XXI. IN WHICH THE MASTER OF THE “TANKADERE” RUNS GREAT RISK OF LOSING A REWARD OF TWO HUNDRED POUNDS
+ CHAPTER XXII. IN WHICH PASSEPARTOUT FINDS OUT THAT, EVEN AT THE ANTIPODES, IT IS CONVENIENT TO HAVE SOME MONEY IN ONE’S POCKET
+ CHAPTER XXIII. IN WHICH PASSEPARTOUT’S NOSE BECOMES OUTRAGEOUSLY LONG
+ CHAPTER XXIV. DURING WHICH MR. FOGG AND PARTY CROSS THE PACIFIC OCEAN
+ CHAPTER XXV. IN WHICH A SLIGHT GLIMPSE IS HAD OF SAN FRANCISCO
+ CHAPTER XXVI. IN WHICH PHILEAS FOGG AND PARTY TRAVEL BY THE PACIFIC RAILROAD
+ CHAPTER XXVII. IN WHICH PASSEPARTOUT UNDERGOES, AT A SPEED OF TWENTY MILES AN HOUR, A COURSE OF MORMON HISTORY
+ CHAPTER XXVIII. IN WHICH PASSEPARTOUT DOES NOT SUCCEED IN MAKING ANYBODY LISTEN TO REASON
+ CHAPTER XXIX. IN WHICH CERTAIN INCIDENTS ARE NARRATED WHICH ARE ONLY TO BE MET WITH ON AMERICAN RAILROADS
+ CHAPTER XXX. IN WHICH PHILEAS FOGG SIMPLY DOES HIS DUTY
+ CHAPTER XXXI. IN WHICH FIX, THE DETECTIVE, CONSIDERABLY FURTHERS THE INTERESTS OF PHILEAS FOGG
+ CHAPTER XXXII. IN WHICH PHILEAS FOGG ENGAGES IN A DIRECT STRUGGLE WITH BAD FORTUNE
+ CHAPTER XXXIII. IN WHICH PHILEAS FOGG SHOWS HIMSELF EQUAL TO THE OCCASION
+ CHAPTER XXXIV. IN WHICH PHILEAS FOGG AT LAST REACHES LONDON
+ CHAPTER XXXV. IN WHICH PHILEAS FOGG DOES NOT HAVE TO REPEAT HIS ORDERS TO PASSEPARTOUT TWICE
+ CHAPTER XXXVI. IN WHICH PHILEAS FOGG’S NAME IS ONCE MORE AT A PREMIUM ON ’CHANGE
+ CHAPTER XXXVII. IN WHICH IT IS SHOWN THAT PHILEAS FOGG GAINED NOTHING BY HIS TOUR AROUND THE WORLD, UNLESS IT WERE HAPPINESS
 
 
 CHAPTER I.
+IN WHICH PHILEAS FOGG AND PASSEPARTOUT ACCEPT EACH OTHER, THE ONE AS
+MASTER, THE OTHER AS MAN
 
-THE PROFESSOR AND HIS FAMILY
 
+Mr. Phileas Fogg lived, in 1872, at No. 7, Saville Row, Burlington
+Gardens, the house in which Sheridan died in 1814. He was one of the
+most noticeable members of the Reform Club, though he seemed always to
+avoid attracting attention; an enigmatical personage, about whom little
+was known, except that he was a polished man of the world. People said
+that he resembled Byron—at least that his head was Byronic; but he was
+a bearded, tranquil Byron, who might live on a thousand years without
+growing old.
 
-On the 24th of May, 1863, my uncle, Professor Liedenbrock, rushed
-into his little house, No. 19 Königstrasse, one of the oldest streets
-in the oldest portion of the city of Hamburg.
+Certainly an Englishman, it was more doubtful whether Phileas Fogg was
+a Londoner. He was never seen on ’Change, nor at the Bank, nor in the
+counting-rooms of the “City”; no ships ever came into London docks of
+which he was the owner; he had no public employment; he had never been
+entered at any of the Inns of Court, either at the Temple, or Lincoln’s
+Inn, or Gray’s Inn; nor had his voice ever resounded in the Court of
+Chancery, or in the Exchequer, or the Queen’s Bench, or the
+Ecclesiastical Courts. He certainly was not a manufacturer; nor was he
+a merchant or a gentleman farmer. His name was strange to the
+scientific and learned societies, and he never was known to take part
+in the sage deliberations of the Royal Institution or the London
+Institution, the Artisan’s Association, or the Institution of Arts and
+Sciences. He belonged, in fact, to none of the numerous societies which
+swarm in the English capital, from the Harmonic to that of the
+Entomologists, founded mainly for the purpose of abolishing pernicious
+insects.
 
-Martha must have concluded that she was very much behindhand, for the
-dinner had only just been put into the oven.
+Phileas Fogg was a member of the Reform, and that was all.
 
-"Well, now," said I to myself, "if that most impatient of men is
-hungry, what a disturbance he will make!"
+The way in which he got admission to this exclusive club was simple
+enough.
 
-"M. Liedenbrock so soon!" cried poor Martha in great alarm, half
-opening the dining-room door.
+He was recommended by the Barings, with whom he had an open credit. His
+cheques were regularly paid at sight from his account current, which
+was always flush.
 
-"Yes, Martha; but very likely the dinner is not half cooked, for it
-is not two yet. Saint Michael's clock has only just struck half-past
-one."
+Was Phileas Fogg rich? Undoubtedly. But those who knew him best could
+not imagine how he had made his fortune, and Mr. Fogg was the last
+person to whom to apply for the information. He was not lavish, nor, on
+the contrary, avaricious; for, whenever he knew that money was needed
+for a noble, useful, or benevolent purpose, he supplied it quietly and
+sometimes anonymously. He was, in short, the least communicative of
+men. He talked very little, and seemed all the more mysterious for his
+taciturn manner. His daily habits were quite open to observation; but
+whatever he did was so exactly the same thing that he had always done
+before, that the wits of the curious were fairly puzzled.
 
-"Then why has the master come home so soon?"
+Had he travelled? It was likely, for no one seemed to know the world
+more familiarly; there was no spot so secluded that he did not appear
+to have an intimate acquaintance with it. He often corrected, with a
+few clear words, the thousand conjectures advanced by members of the
+club as to lost and unheard-of travellers, pointing out the true
+probabilities, and seeming as if gifted with a sort of second sight, so
+often did events justify his predictions. He must have travelled
+everywhere, at least in the spirit.
 
-"Perhaps he will tell us that himself."
+It was at least certain that Phileas Fogg had not absented himself from
+London for many years. Those who were honoured by a better acquaintance
+with him than the rest, declared that nobody could pretend to have ever
+seen him anywhere else. His sole pastimes were reading the papers and
+playing whist. He often won at this game, which, as a silent one,
+harmonised with his nature; but his winnings never went into his purse,
+being reserved as a fund for his charities. Mr. Fogg played, not to
+win, but for the sake of playing. The game was in his eyes a contest, a
+struggle with a difficulty, yet a motionless, unwearying struggle,
+congenial to his tastes.
 
-"Here he is, Monsieur Axel; I will run and hide myself while you
-argue with him."
+Phileas Fogg was not known to have either wife or children, which may
+happen to the most honest people; either relatives or near friends,
+which is certainly more unusual. He lived alone in his house in Saville
+Row, whither none penetrated. A single domestic sufficed to serve him.
+He breakfasted and dined at the club, at hours mathematically fixed, in
+the same room, at the same table, never taking his meals with other
+members, much less bringing a guest with him; and went home at exactly
+midnight, only to retire at once to bed. He never used the cosy
+chambers which the Reform provides for its favoured members. He passed
+ten hours out of the twenty-four in Saville Row, either in sleeping or
+making his toilet. When he chose to take a walk it was with a regular
+step in the entrance hall with its mosaic flooring, or in the circular
+gallery with its dome supported by twenty red porphyry Ionic columns,
+and illumined by blue painted windows. When he breakfasted or dined all
+the resources of the club—its kitchens and pantries, its buttery and
+dairy—aided to crowd his table with their most succulent stores; he was
+served by the gravest waiters, in dress coats, and shoes with swan-skin
+soles, who proffered the viands in special porcelain, and on the finest
+linen; club decanters, of a lost mould, contained his sherry, his port,
+and his cinnamon-spiced claret; while his beverages were refreshingly
+cooled with ice, brought at great cost from the American lakes.
 
-And Martha retreated in safety into her own dominions.
+If to live in this style is to be eccentric, it must be confessed that
+there is something good in eccentricity.
 
-I was left alone. But how was it possible for a man of my undecided
-turn of mind to argue successfully with so irascible a person as the
-Professor? With this persuasion I was hurrying away to my own little
-retreat upstairs, when the street door creaked upon its hinges; heavy
-feet made the whole flight of stairs to shake; and the master of the
-house, passing rapidly through the dining-room, threw himself in
-haste into his own sanctum.
+The mansion in Saville Row, though not sumptuous, was exceedingly
+comfortable. The habits of its occupant were such as to demand but
+little from the sole domestic, but Phileas Fogg required him to be
+almost superhumanly prompt and regular. On this very 2nd of October he
+had dismissed James Forster, because that luckless youth had brought
+him shaving-water at eighty-four degrees Fahrenheit instead of
+eighty-six; and he was awaiting his successor, who was due at the house
+between eleven and half-past.
 
-But on his rapid way he had found time to fling his hazel stick into
-a corner, his rough broadbrim upon the table, and these few emphatic
-words at his nephew:
+Phileas Fogg was seated squarely in his armchair, his feet close
+together like those of a grenadier on parade, his hands resting on his
+knees, his body straight, his head erect; he was steadily watching a
+complicated clock which indicated the hours, the minutes, the seconds,
+the days, the months, and the years. At exactly half-past eleven Mr.
+Fogg would, according to his daily habit, quit Saville Row, and repair
+to the Reform.
 
-"Axel, follow me!"
+A rap at this moment sounded on the door of the cosy apartment where
+Phileas Fogg was seated, and James Forster, the dismissed servant,
+appeared.
 
-I had scarcely had time to move when the Professor was again shouting
-after me:
+“The new servant,” said he.
 
-"What! not come yet?"
+A young man of thirty advanced and bowed.
 
-And I rushed into my redoubtable master's study.
+“You are a Frenchman, I believe,” asked Phileas Fogg, “and your name is
+John?”
 
-Otto Liedenbrock had no mischief in him, I willingly allow that; but
-unless he very considerably changes as he grows older, at the end he
-will be a most original character.
+“Jean, if monsieur pleases,” replied the newcomer, “Jean Passepartout,
+a surname which has clung to me because I have a natural aptness for
+going out of one business into another. I believe I’m honest, monsieur,
+but, to be outspoken, I’ve had several trades. I’ve been an itinerant
+singer, a circus-rider, when I used to vault like Leotard, and dance on
+a rope like Blondin. Then I got to be a professor of gymnastics, so as
+to make better use of my talents; and then I was a sergeant fireman at
+Paris, and assisted at many a big fire. But I quitted France five years
+ago, and, wishing to taste the sweets of domestic life, took service as
+a valet here in England. Finding myself out of place, and hearing that
+Monsieur Phileas Fogg was the most exact and settled gentleman in the
+United Kingdom, I have come to monsieur in the hope of living with him
+a tranquil life, and forgetting even the name of Passepartout.”
 
-He was professor at the Johannæum, and was delivering a series of
-lectures on mineralogy, in the course of every one of which he broke
-into a passion once or twice at least. Not at all that he was
-over-anxious about the improvement of his class, or about the degree
-of attention with which they listened to him, or the success which
-might eventually crown his labours. Such little matters of detail
-never troubled him much. His teaching was as the German philosophy
-calls it, 'subjective'; it was to benefit himself, not others. He was
-a learned egotist. He was a well of science, and the pulleys worked
-uneasily when you wanted to draw anything out of it. In a word, he
-was a learned miser.
+“Passepartout suits me,” responded Mr. Fogg. “You are well recommended
+to me; I hear a good report of you. You know my conditions?”
 
-Germany has not a few professors of this sort.
+“Yes, monsieur.”
 
-To his misfortune, my uncle was not gifted with a sufficiently rapid
-utterance; not, to be sure, when he was talking at home, but
-certainly in his public delivery; this is a want much to be deplored
-in a speaker. The fact is, that during the course of his lectures at
-the Johannæum, the Professor often came to a complete standstill; he
-fought with wilful words that refused to pass his struggling lips,
-such words as resist and distend the cheeks, and at last break out
-into the unasked-for shape of a round and most unscientific oath:
-then his fury would gradually abate.
+“Good! What time is it?”
 
-Now in mineralogy there are many half-Greek and half-Latin terms,
-very hard to articulate, and which would be most trying to a poet's
-measures. I don't wish to say a word against so respectable a
-science, far be that from me. True, in the august presence of
-rhombohedral crystals, retinasphaltic resins, gehlenites, Fassaites,
-molybdenites, tungstates of manganese, and titanite of zirconium,
-why, the most facile of tongues may make a slip now and then.
+“Twenty-two minutes after eleven,” returned Passepartout, drawing an
+enormous silver watch from the depths of his pocket.
 
-It therefore happened that this venial fault of my uncle's came to be
-pretty well understood in time, and an unfair advantage was taken of
-it; the students laid wait for him in dangerous places, and when he
-began to stumble, loud was the laughter, which is not in good taste,
-not even in Germans. And if there was always a full audience to
-honour the Liedenbrock courses, I should be sorry to conjecture how
-many came to make merry at my uncle's expense.
+“You are too slow,” said Mr. Fogg.
 
-Nevertheless my good uncle was a man of deep learning--a fact I am
-most anxious to assert and reassert. Sometimes he might irretrievably
-injure a specimen by his too great ardour in handling it; but still
-he united the genius of a true geologist with the keen eye of the
-mineralogist. Armed with his hammer, his steel pointer, his magnetic
-needles, his blowpipe, and his bottle of nitric acid, he was a
-powerful man of science. He would refer any mineral to its proper
-place among the six hundred [1] elementary substances now enumerated,
-by its fracture, its appearance, its hardness, its fusibility, its
-sonorousness, its smell, and its taste.
+“Pardon me, monsieur, it is impossible—”
 
-The name of Liedenbrock was honourably mentioned in colleges and
-learned societies. Humphry Davy, [2] Humboldt, Captain Sir John
-Franklin, General Sabine, never failed to call upon him on their way
-through Hamburg. Becquerel, Ebelman, Brewster, Dumas, Milne-Edwards,
-Saint-Claire-Deville frequently consulted him upon the most difficult
-problems in chemistry, a science which was indebted to him for
-considerable discoveries, for in 1853 there had appeared at Leipzig
-an imposing folio by Otto Liedenbrock, entitled, "A Treatise upon
-Transcendental Chemistry," with plates; a work, however, which failed
-to cover its expenses.
+“You are four minutes too slow. No matter; it’s enough to mention the
+error. Now from this moment, twenty-nine minutes after eleven, a.m.,
+this Wednesday, 2nd October, you are in my service.”
 
-To all these titles to honour let me add that my uncle was the
-curator of the museum of mineralogy formed by M. Struve, the Russian
-ambassador; a most valuable collection, the fame of which is European.
+Phileas Fogg got up, took his hat in his left hand, put it on his head
+with an automatic motion, and went off without a word.
 
-Such was the gentleman who addressed me in that impetuous manner.
-Fancy a tall, spare man, of an iron constitution, and with a fair
-complexion which took off a good ten years from the fifty he must own
-to. His restless eyes were in incessant motion behind his full-sized
-spectacles. His long, thin nose was like a knife blade. Boys have
-been heard to remark that that organ was magnetised and attracted
-iron filings. But this was merely a mischievous report; it had no
-attraction except for snuff, which it seemed to draw to itself in
-great quantities.
-
-When I have added, to complete my portrait, that my uncle walked by
-mathematical strides of a yard and a half, and that in walking he
-kept his fists firmly closed, a sure sign of an irritable
-temperament, I think I shall have said enough to disenchant any one
-who should by mistake have coveted much of his company.
-
-He lived in his own little house in Königstrasse, a structure half
-brick and half wood, with a gable cut into steps; it looked upon one
-of those winding canals which intersect each other in the middle of
-the ancient quarter of Hamburg, and which the great fire of 1842 had
-fortunately spared.
-
-[1] Sixty-three. (Tr.)
-
-[2] As Sir Humphry Davy died in 1829, the translator must be pardoned
-for pointing out here an anachronism, unless we are to assume that
-the learned Professor's celebrity dawned in his earliest years. (Tr.)
-
-It is true that the old house stood slightly off the perpendicular,
-and bulged out a little towards the street; its roof sloped a little
-to one side, like the cap over the left ear of a Tugendbund student;
-its lines wanted accuracy; but after all, it stood firm, thanks to an
-old elm which buttressed it in front, and which often in spring sent
-its young sprays through the window panes.
-
-My uncle was tolerably well off for a German professor. The house was
-his own, and everything in it. The living contents were his
-god-daughter Gräuben, a young Virlandaise of seventeen, Martha, and
-myself. As his nephew and an orphan, I became his laboratory
-assistant.
-
-I freely confess that I was exceedingly fond of geology and all its
-kindred sciences; the blood of a mineralogist was in my veins, and in
-the midst of my specimens I was always happy.
-
-In a word, a man might live happily enough in the little old house in
-the Königstrasse, in spite of the restless impatience of its master,
-for although he was a little too excitable--he was very fond of me.
-But the man had no notion how to wait; nature herself was too slow
-for him. In April, after he had planted in the terra-cotta pots
-outside his window seedling plants of mignonette and convolvulus, he
-would go and give them a little pull by their leaves to make them
-grow faster. In dealing with such a strange individual there was
-nothing for it but prompt obedience. I therefore rushed after him.
+Passepartout heard the street door shut once; it was his new master
+going out. He heard it shut again; it was his predecessor, James
+Forster, departing in his turn. Passepartout remained alone in the
+house in Saville Row.
 
 
 CHAPTER II.
+IN WHICH PASSEPARTOUT IS CONVINCED THAT HE HAS AT LAST FOUND HIS IDEAL
 
-A MYSTERY TO BE SOLVED AT ANY PRICE
 
+“Faith,” muttered Passepartout, somewhat flurried, “I’ve seen people at
+Madame Tussaud’s as lively as my new master!”
 
-That study of his was a museum, and nothing else. Specimens of
-everything known in mineralogy lay there in their places in perfect
-order, and correctly named, divided into inflammable, metallic, and
-lithoid minerals.
+Madame Tussaud’s “people,” let it be said, are of wax, and are much
+visited in London; speech is all that is wanting to make them human.
 
-How well I knew all these bits of science! Many a time, instead of
-enjoying the company of lads of my own age, I had preferred dusting
-these graphites, anthracites, coals, lignites, and peats! And there
-were bitumens, resins, organic salts, to be protected from the least
-grain of dust; and metals, from iron to gold, metals whose current
-value altogether disappeared in the presence of the republican
-equality of scientific specimens; and stones too, enough to rebuild
-entirely the house in Königstrasse, even with a handsome additional
-room, which would have suited me admirably.
+During his brief interview with Mr. Fogg, Passepartout had been
+carefully observing him. He appeared to be a man about forty years of
+age, with fine, handsome features, and a tall, well-shaped figure; his
+hair and whiskers were light, his forehead compact and unwrinkled, his
+face rather pale, his teeth magnificent. His countenance possessed in
+the highest degree what physiognomists call “repose in action,” a
+quality of those who act rather than talk. Calm and phlegmatic, with a
+clear eye, Mr. Fogg seemed a perfect type of that English composure
+which Angelica Kauffmann has so skilfully represented on canvas. Seen
+in the various phases of his daily life, he gave the idea of being
+perfectly well-balanced, as exactly regulated as a Leroy chronometer.
+Phileas Fogg was, indeed, exactitude personified, and this was betrayed
+even in the expression of his very hands and feet; for in men, as well
+as in animals, the limbs themselves are expressive of the passions.
 
-But on entering this study now I thought of none of all these
-wonders; my uncle alone filled my thoughts. He had thrown himself
-into a velvet easy-chair, and was grasping between his hands a book
-over which he bent, pondering with intense admiration.
+He was so exact that he was never in a hurry, was always ready, and was
+economical alike of his steps and his motions. He never took one step
+too many, and always went to his destination by the shortest cut; he
+made no superfluous gestures, and was never seen to be moved or
+agitated. He was the most deliberate person in the world, yet always
+reached his destination at the exact moment.
 
-"Here's a remarkable book! What a wonderful book!" he was exclaiming.
+He lived alone, and, so to speak, outside of every social relation; and
+as he knew that in this world account must be taken of friction, and
+that friction retards, he never rubbed against anybody.
 
-These ejaculations brought to my mind the fact that my uncle was
-liable to occasional fits of bibliomania; but no old book had any
-value in his eyes unless it had the virtue of being nowhere else to
-be found, or, at any rate, of being illegible.
+As for Passepartout, he was a true Parisian of Paris. Since he had
+abandoned his own country for England, taking service as a valet, he
+had in vain searched for a master after his own heart. Passepartout was
+by no means one of those pert dunces depicted by Molière with a bold
+gaze and a nose held high in the air; he was an honest fellow, with a
+pleasant face, lips a trifle protruding, soft-mannered and serviceable,
+with a good round head, such as one likes to see on the shoulders of a
+friend. His eyes were blue, his complexion rubicund, his figure almost
+portly and well-built, his body muscular, and his physical powers fully
+developed by the exercises of his younger days. His brown hair was
+somewhat tumbled; for, while the ancient sculptors are said to have
+known eighteen methods of arranging Minerva’s tresses, Passepartout was
+familiar with but one of dressing his own: three strokes of a
+large-tooth comb completed his toilet.
 
-"Well, now; don't you see it yet? Why I have got a priceless
-treasure, that I found his morning, in rummaging in old Hevelius's
-shop, the Jew."
+It would be rash to predict how Passepartout’s lively nature would
+agree with Mr. Fogg. It was impossible to tell whether the new servant
+would turn out as absolutely methodical as his master required;
+experience alone could solve the question. Passepartout had been a sort
+of vagrant in his early years, and now yearned for repose; but so far
+he had failed to find it, though he had already served in ten English
+houses. But he could not take root in any of these; with chagrin, he
+found his masters invariably whimsical and irregular, constantly
+running about the country, or on the look-out for adventure. His last
+master, young Lord Longferry, Member of Parliament, after passing his
+nights in the Haymarket taverns, was too often brought home in the
+morning on policemen’s shoulders. Passepartout, desirous of respecting
+the gentleman whom he served, ventured a mild remonstrance on such
+conduct; which, being ill-received, he took his leave. Hearing that Mr.
+Phileas Fogg was looking for a servant, and that his life was one of
+unbroken regularity, that he neither travelled nor stayed from home
+overnight, he felt sure that this would be the place he was after. He
+presented himself, and was accepted, as has been seen.
 
-"Magnificent!" I replied, with a good imitation of enthusiasm.
+At half-past eleven, then, Passepartout found himself alone in the
+house in Saville Row. He began its inspection without delay, scouring
+it from cellar to garret. So clean, well-arranged, solemn a mansion
+pleased him; it seemed to him like a snail’s shell, lighted and warmed
+by gas, which sufficed for both these purposes. When Passepartout
+reached the second story he recognised at once the room which he was to
+inhabit, and he was well satisfied with it. Electric bells and
+speaking-tubes afforded communication with the lower stories; while on
+the mantel stood an electric clock, precisely like that in Mr. Fogg’s
+bedchamber, both beating the same second at the same instant. “That’s
+good, that’ll do,” said Passepartout to himself.
 
-What was the good of all this fuss about an old quarto, bound in
-rough calf, a yellow, faded volume, with a ragged seal depending from
-it?
+He suddenly observed, hung over the clock, a card which, upon
+inspection, proved to be a programme of the daily routine of the house.
+It comprised all that was required of the servant, from eight in the
+morning, exactly at which hour Phileas Fogg rose, till half-past
+eleven, when he left the house for the Reform Club—all the details of
+service, the tea and toast at twenty-three minutes past eight, the
+shaving-water at thirty-seven minutes past nine, and the toilet at
+twenty minutes before ten. Everything was regulated and foreseen that
+was to be done from half-past eleven a.m. till midnight, the hour at
+which the methodical gentleman retired.
 
-But for all that there was no lull yet in the admiring exclamations
-of the Professor.
+Mr. Fogg’s wardrobe was amply supplied and in the best taste. Each pair
+of trousers, coat, and vest bore a number, indicating the time of year
+and season at which they were in turn to be laid out for wearing; and
+the same system was applied to the master’s shoes. In short, the house
+in Saville Row, which must have been a very temple of disorder and
+unrest under the illustrious but dissipated Sheridan, was cosiness,
+comfort, and method idealised. There was no study, nor were there
+books, which would have been quite useless to Mr. Fogg; for at the
+Reform two libraries, one of general literature and the other of law
+and politics, were at his service. A moderate-sized safe stood in his
+bedroom, constructed so as to defy fire as well as burglars; but
+Passepartout found neither arms nor hunting weapons anywhere;
+everything betrayed the most tranquil and peaceable habits.
 
-"See," he went on, both asking the questions and supplying the
-answers. "Isn't it a beauty? Yes; splendid! Did you ever see such a
-binding? Doesn't the book open easily? Yes; it stops open anywhere.
-But does it shut equally well? Yes; for the binding and the leaves
-are flush, all in a straight line, and no gaps or openings anywhere.
-And look at its back, after seven hundred years. Why, Bozerian,
-Closs, or Purgold might have been proud of such a binding!"
-
-While rapidly making these comments my uncle kept opening and
-shutting the old tome. I really could do no less than ask a question
-about its contents, although I did not feel the slightest interest.
-
-"And what is the title of this marvellous work?" I asked with an
-affected eagerness which he must have been very blind not to see
-through.
-
-"This work," replied my uncle, firing up with renewed enthusiasm,
-"this work is the Heims Kringla of Snorre Turlleson, the most famous
-Icelandic author of the twelfth century! It is the chronicle of the
-Norwegian princes who ruled in Iceland."
-
-"Indeed;" I cried, keeping up wonderfully, "of course it is a German
-translation?"
-
-"What!" sharply replied the Professor, "a translation! What should I
-do with a translation? This _is_ the Icelandic original, in the
-magnificent idiomatic vernacular, which is both rich and simple, and
-admits of an infinite variety of grammatical combinations and verbal
-modifications."
-
-"Like German." I happily ventured.
-
-"Yes," replied my uncle, shrugging his shoulders; "but, in addition
-to all this, the Icelandic has three numbers like the Greek, and
-irregular declensions of nouns proper like the Latin."
-
-"Ah!" said I, a little moved out of my indifference; "and is the type
-good?"
-
-"Type! What do you mean by talking of type, wretched Axel? Type! Do
-you take it for a printed book, you ignorant fool? It is a
-manuscript, a Runic manuscript."
-
-"Runic?"
-
-"Yes. Do you want me to explain what that is?"
-
-"Of course not," I replied in the tone of an injured man. But my
-uncle persevered, and told me, against my will, of many things I
-cared nothing about.
-
-"Runic characters were in use in Iceland in former ages. They were
-invented, it is said, by Odin himself. Look there, and wonder,
-impious young man, and admire these letters, the invention of the
-Scandinavian god!"
-
-Well, well! not knowing what to say, I was going to prostrate myself
-before this wonderful book, a way of answering equally pleasing to
-gods and kings, and which has the advantage of never giving them any
-embarrassment, when a little incident happened to divert conversation
-into another channel.
-
-This was the appearance of a dirty slip of parchment, which slipped
-out of the volume and fell upon the floor.
-
-My uncle pounced upon this shred with incredible avidity. An old
-document, enclosed an immemorial time within the folds of this old
-book, had for him an immeasurable value.
-
-"What's this?" he cried.
-
-And he laid out upon the table a piece of parchment, five inches by
-three, and along which were traced certain mysterious characters.
-
-Here is the exact facsimile. I think it important to let these
-strange signs be publicly known, for they were the means of drawing
-on Professor Liedenbrock and his nephew to undertake the most
-wonderful expedition of the nineteenth century.
-
-[Runic glyphs occur here]
-
-The Professor mused a few moments over this series of characters;
-then raising his spectacles he pronounced:
-
-"These are Runic letters; they are exactly like those of the
-manuscript of Snorre Turlleson. But, what on earth is their meaning?"
-
-Runic letters appearing to my mind to be an invention of the learned
-to mystify this poor world, I was not sorry to see my uncle suffering
-the pangs of mystification. At least, so it seemed to me, judging
-from his fingers, which were beginning to work with terrible energy.
-
-"It is certainly old Icelandic," he muttered between his teeth.
-
-And Professor Liedenbrock must have known, for he was acknowledged to
-be quite a polyglot. Not that he could speak fluently in the two
-thousand languages and twelve thousand dialects which are spoken on
-the earth, but he knew at least his share of them.
-
-So he was going, in the presence of this difficulty, to give way to
-all the impetuosity of his character, and I was preparing for a
-violent outbreak, when two o'clock struck by the little timepiece
-over the fireplace.
-
-At that moment our good housekeeper Martha opened the study door,
-saying:
-
-"Dinner is ready!"
-
-I am afraid he sent that soup to where it would boil away to nothing,
-and Martha took to her heels for safety. I followed her, and hardly
-knowing how I got there I found myself seated in my usual place.
-
-I waited a few minutes. No Professor came. Never within my
-remembrance had he missed the important ceremonial of dinner. And yet
-what a good dinner it was! There was parsley soup, an omelette of ham
-garnished with spiced sorrel, a fillet of veal with compote of
-prunes; for dessert, crystallised fruit; the whole washed down with
-sweet Moselle.
-
-All this my uncle was going to sacrifice to a bit of old parchment.
-As an affectionate and attentive nephew I considered it my duty to
-eat for him as well as for myself, which I did conscientiously.
-
-"I have never known such a thing," said Martha. "M. Liedenbrock is
-not at table!"
-
-"Who could have believed it?" I said, with my mouth full.
-
-"Something serious is going to happen," said the servant, shaking her
-head.
-
-My opinion was, that nothing more serious would happen than an awful
-scene when my uncle should have discovered that his dinner was
-devoured. I had come to the last of the fruit when a very loud voice
-tore me away from the pleasures of my dessert. With one spring I
-bounded out of the dining-room into the study.
+Having scrutinised the house from top to bottom, he rubbed his hands, a
+broad smile overspread his features, and he said joyfully, “This is
+just what I wanted! Ah, we shall get on together, Mr. Fogg and I! What
+a domestic and regular gentleman! A real machine; well, I don’t mind
+serving a machine.”
 
 
 CHAPTER III.
+IN WHICH A CONVERSATION TAKES PLACE WHICH SEEMS LIKELY TO COST PHILEAS
+FOGG DEAR
+
+
+Phileas Fogg, having shut the door of his house at half-past eleven,
+and having put his right foot before his left five hundred and
+seventy-five times, and his left foot before his right five hundred and
+seventy-six times, reached the Reform Club, an imposing edifice in Pall
+Mall, which could not have cost less than three millions. He repaired
+at once to the dining-room, the nine windows of which open upon a
+tasteful garden, where the trees were already gilded with an autumn
+colouring; and took his place at the habitual table, the cover of which
+had already been laid for him. His breakfast consisted of a side-dish,
+a broiled fish with Reading sauce, a scarlet slice of roast beef
+garnished with mushrooms, a rhubarb and gooseberry tart, and a morsel
+of Cheshire cheese, the whole being washed down with several cups of
+tea, for which the Reform is famous. He rose at thirteen minutes to
+one, and directed his steps towards the large hall, a sumptuous
+apartment adorned with lavishly-framed paintings. A flunkey handed him
+an uncut _Times_, which he proceeded to cut with a skill which betrayed
+familiarity with this delicate operation. The perusal of this paper
+absorbed Phileas Fogg until a quarter before four, whilst the
+_Standard_, his next task, occupied him till the dinner hour. Dinner
+passed as breakfast had done, and Mr. Fogg re-appeared in the
+reading-room and sat down to the _Pall Mall_ at twenty minutes before
+six. Half an hour later several members of the Reform came in and drew
+up to the fireplace, where a coal fire was steadily burning. They were
+Mr. Fogg’s usual partners at whist: Andrew Stuart, an engineer; John
+Sullivan and Samuel Fallentin, bankers; Thomas Flanagan, a brewer; and
+Gauthier Ralph, one of the Directors of the Bank of England—all rich
+and highly respectable personages, even in a club which comprises the
+princes of English trade and finance.
+
+“Well, Ralph,” said Thomas Flanagan, “what about that robbery?”
+
+“Oh,” replied Stuart, “the Bank will lose the money.”
+
+“On the contrary,” broke in Ralph, “I hope we may put our hands on the
+robber. Skilful detectives have been sent to all the principal ports of
+America and the Continent, and he’ll be a clever fellow if he slips
+through their fingers.”
+
+“But have you got the robber’s description?” asked Stuart.
+
+“In the first place, he is no robber at all,” returned Ralph,
+positively.
+
+“What! a fellow who makes off with fifty-five thousand pounds, no
+robber?”
+
+“No.”
+
+“Perhaps he’s a manufacturer, then.”
+
+“The _Daily Telegraph_ says that he is a gentleman.”
+
+It was Phileas Fogg, whose head now emerged from behind his newspapers,
+who made this remark. He bowed to his friends, and entered into the
+conversation. The affair which formed its subject, and which was town
+talk, had occurred three days before at the Bank of England. A package
+of banknotes, to the value of fifty-five thousand pounds, had been
+taken from the principal cashier’s table, that functionary being at the
+moment engaged in registering the receipt of three shillings and
+sixpence. Of course, he could not have his eyes everywhere. Let it be
+observed that the Bank of England reposes a touching confidence in the
+honesty of the public. There are neither guards nor gratings to protect
+its treasures; gold, silver, banknotes are freely exposed, at the mercy
+of the first comer. A keen observer of English customs relates that,
+being in one of the rooms of the Bank one day, he had the curiosity to
+examine a gold ingot weighing some seven or eight pounds. He took it
+up, scrutinised it, passed it to his neighbour, he to the next man, and
+so on until the ingot, going from hand to hand, was transferred to the
+end of a dark entry; nor did it return to its place for half an hour.
+Meanwhile, the cashier had not so much as raised his head. But in the
+present instance things had not gone so smoothly. The package of notes
+not being found when five o’clock sounded from the ponderous clock in
+the “drawing office,” the amount was passed to the account of profit
+and loss. As soon as the robbery was discovered, picked detectives
+hastened off to Liverpool, Glasgow, Havre, Suez, Brindisi, New York,
+and other ports, inspired by the proffered reward of two thousand
+pounds, and five per cent. on the sum that might be recovered.
+Detectives were also charged with narrowly watching those who arrived
+at or left London by rail, and a judicial examination was at once
+entered upon.
+
+There were real grounds for supposing, as the _Daily Telegraph_ said,
+that the thief did not belong to a professional band. On the day of the
+robbery a well-dressed gentleman of polished manners, and with a
+well-to-do air, had been observed going to and fro in the paying room
+where the crime was committed. A description of him was easily procured
+and sent to the detectives; and some hopeful spirits, of whom Ralph was
+one, did not despair of his apprehension. The papers and clubs were
+full of the affair, and everywhere people were discussing the
+probabilities of a successful pursuit; and the Reform Club was
+especially agitated, several of its members being Bank officials.
+
+Ralph would not concede that the work of the detectives was likely to
+be in vain, for he thought that the prize offered would greatly
+stimulate their zeal and activity. But Stuart was far from sharing this
+confidence; and, as they placed themselves at the whist-table, they
+continued to argue the matter. Stuart and Flanagan played together,
+while Phileas Fogg had Fallentin for his partner. As the game proceeded
+the conversation ceased, excepting between the rubbers, when it revived
+again.
 
-THE RUNIC WRITING EXERCISES THE PROFESSOR
+“I maintain,” said Stuart, “that the chances are in favour of the
+thief, who must be a shrewd fellow.”
 
+“Well, but where can he fly to?” asked Ralph. “No country is safe for
+him.”
 
-"Undoubtedly it is Runic," said the Professor, bending his brows;
-"but there is a secret in it, and I mean to discover the key."
+“Pshaw!”
 
-A violent gesture finished the sentence.
+“Where could he go, then?”
 
-"Sit there," he added, holding out his fist towards the table. "Sit
-there, and write."
+“Oh, I don’t know that. The world is big enough.”
 
-I was seated in a trice.
+“It was once,” said Phileas Fogg, in a low tone. “Cut, sir,” he added,
+handing the cards to Thomas Flanagan.
 
-"Now I will dictate to you every letter of our alphabet which
-corresponds with each of these Icelandic characters. We will see what
-that will give us. But, by St. Michael, if you should dare to deceive
-me--"
+The discussion fell during the rubber, after which Stuart took up its
+thread.
 
-The dictation commenced. I did my best. Every letter was given me one
-after the other, with the following remarkable result:
+“What do you mean by ‘once’? Has the world grown smaller?”
 
-     mm.rnlls  esrevel  seecIde
-     sgtssmf   vnteief  niedrke
-     kt,samn   atrateS  saodrrn
-     emtnaeI   nvaect   rrilSa
-     Atsaar    .nvcrc   ieaabs
-     ccrmi     eevtVl   frAntv
-     dt,iac    oseibo   KediiI
+“Certainly,” returned Ralph. “I agree with Mr. Fogg. The world has
+grown smaller, since a man can now go round it ten times more quickly
+than a hundred years ago. And that is why the search for this thief
+will be more likely to succeed.”
 
-[Redactor: In the original version the initial letter is an 'm' with
-a superscore over it. It is my supposition that this is the
-translator's way of writing 'mm' and I have replaced it accordingly,
-since our typography does not allow such a character.]
+“And also why the thief can get away more easily.”
 
-When this work was ended my uncle tore the paper from me and examined
-it attentively for a long time.
+“Be so good as to play, Mr. Stuart,” said Phileas Fogg.
 
-"What does it all mean?" he kept repeating mechanically.
+But the incredulous Stuart was not convinced, and when the hand was
+finished, said eagerly: “You have a strange way, Ralph, of proving that
+the world has grown smaller. So, because you can go round it in three
+months—”
 
-Upon my honour I could not have enlightened him. Besides he did not
-ask me, and he went on talking to himself.
+“In eighty days,” interrupted Phileas Fogg.
 
-"This is what is called a cryptogram, or cipher," he said, "in which
-letters are purposely thrown in confusion, which if properly arranged
-would reveal their sense. Only think that under this jargon there may
-lie concealed the clue to some great discovery!"
+“That is true, gentlemen,” added John Sullivan. “Only eighty days, now
+that the section between Rothal and Allahabad, on the Great Indian
+Peninsula Railway, has been opened. Here is the estimate made by the
+_Daily Telegraph:_—
 
-As for me, I was of opinion that there was nothing at all, in it;
-though, of course, I took care not to say so.
+From London to Suez _viâ_ Mont Cenis and Brindisi, by rail and
+steamboats ................. 7 days
+From Suez to Bombay, by steamer .................... 13 ”
+From Bombay to Calcutta, by rail ................... 3 ”
+From Calcutta to Hong Kong, by steamer ............. 13 ”
+From Hong Kong to Yokohama (Japan), by steamer ..... 6 ”
+From Yokohama to San Francisco, by steamer ......... 22 ”
+From San Francisco to New York, by rail ............. 7 ”
+From New York to London, by steamer and rail ........ 9 ”
+-------
+Total ............................................ 80 days.”
 
-Then the Professor took the book and the parchment, and diligently
-compared them together.
 
-"These two writings are not by the same hand," he said; "the cipher
-is of later date than the book, an undoubted proof of which I see in
-a moment. The first letter is a double m, a letter which is not to be
-found in Turlleson's book, and which was only added to the alphabet
-in the fourteenth century. Therefore there are two hundred years
-between the manuscript and the document."
+“Yes, in eighty days!” exclaimed Stuart, who in his excitement made a
+false deal. “But that doesn’t take into account bad weather, contrary
+winds, shipwrecks, railway accidents, and so on.”
 
-I admitted that this was a strictly logical conclusion.
+“All included,” returned Phileas Fogg, continuing to play despite the
+discussion.
 
-"I am therefore led to imagine," continued my uncle, "that some
-possessor of this book wrote these mysterious letters. But who was
-that possessor? Is his name nowhere to be found in the manuscript?"
-
-My uncle raised his spectacles, took up a strong lens, and carefully
-examined the blank pages of the book. On the front of the second, the
-title-page, he noticed a sort of stain which looked like an ink blot.
-But in looking at it very closely he thought he could distinguish
-some half-effaced letters. My uncle at once fastened upon this as the
-centre of interest, and he laboured at that blot, until by the help
-of his microscope he ended by making out the following Runic
-characters which he read without difficulty.
-
-"Arne Saknussemm!" he cried in triumph. "Why that is the name of
-another Icelander, a savant of the sixteenth century, a celebrated
-alchemist!"
-
-I gazed at my uncle with satisfactory admiration.
-
-"Those alchemists," he resumed, "Avicenna, Bacon, Lully, Paracelsus,
-were the real and only savants of their time. They made discoveries
-at which we are astonished. Has not this Saknussemm concealed under
-his cryptogram some surprising invention? It is so; it must be so!"
-
-The Professor's imagination took fire at this hypothesis.
-
-"No doubt," I ventured to reply, "but what interest would he have in
-thus hiding so marvellous a discovery?"
-
-"Why? Why? How can I tell? Did not Galileo do the same by Saturn? We
-shall see. I will get at the secret of this document, and I will
-neither sleep nor eat until I have found it out."
-
-My comment on this was a half-suppressed "Oh!"
-
-"Nor you either, Axel," he added.
-
-"The deuce!" said I to myself; "then it is lucky I have eaten two
-dinners to-day!"
-
-"First of all we must find out the key to this cipher; that cannot be
-difficult."
-
-At these words I quickly raised my head; but my uncle went on
-soliloquising.
-
-"There's nothing easier. In this document there are a hundred and
-thirty-two letters, viz., seventy-seven consonants and fifty-five
-vowels. This is the proportion found in southern languages, whilst
-northern tongues are much richer in consonants; therefore this is in
-a southern language."
-
-These were very fair conclusions, I thought.
-
-"But what language is it?"
-
-Here I looked for a display of learning, but I met instead with
-profound analysis.
-
-"This Saknussemm," he went on, "was a very well-informed man; now
-since he was not writing in his own mother tongue, he would naturally
-select that which was currently adopted by the choice spirits of the
-sixteenth century; I mean Latin. If I am mistaken, I can but try
-Spanish, French, Italian, Greek, or Hebrew. But the savants of the
-sixteenth century generally wrote in Latin. I am therefore entitled
-to pronounce this, à priori, to be Latin. It is Latin."
-
-I jumped up in my chair. My Latin memories rose in revolt against the
-notion that these barbarous words could belong to the sweet language
-of Virgil.
-
-"Yes, it is Latin," my uncle went on; "but it is Latin confused and
-in disorder; "_pertubata seu inordinata,_" as Euclid has it."
-
-"Very well," thought I, "if you can bring order out of that
-confusion, my dear uncle, you are a clever man."
-
-"Let us examine carefully," said he again, taking up the leaf upon
-which I had written. "Here is a series of one hundred and thirty-two
-letters in apparent disorder. There are words consisting of
-consonants only, as _nrrlls;_ others, on the other hand, in which
-vowels predominate, as for instance the fifth, _uneeief,_ or the last
-but one, _oseibo_. Now this arrangement has evidently not been
-premeditated; it has arisen mathematically in obedience to the
-unknown law which has ruled in the succession of these letters. It
-appears to me a certainty that the original sentence was written in a
-proper manner, and afterwards distorted by a law which we have yet to
-discover. Whoever possesses the key of this cipher will read it with
-fluency. What is that key? Axel, have you got it?"
-
-I answered not a word, and for a very good reason. My eyes had fallen
-upon a charming picture, suspended against the wall, the portrait of
-Gräuben. My uncle's ward was at that time at Altona, staying with a
-relation, and in her absence I was very downhearted; for I may
-confess it to you now, the pretty Virlandaise and the professor's
-nephew loved each other with a patience and a calmness entirely
-German. We had become engaged unknown to my uncle, who was too much
-taken up with geology to be able to enter into such feelings as ours.
-Gräuben was a lovely blue-eyed blonde, rather given to gravity and
-seriousness; but that did not prevent her from loving me very
-sincerely. As for me, I adored her, if there is such a word in the
-German language. Thus it happened that the picture of my pretty
-Virlandaise threw me in a moment out of the world of realities into
-that of memory and fancy.
-
-There looked down upon me the faithful companion of my labours and my
-recreations. Every day she helped me to arrange my uncle's precious
-specimens; she and I labelled them together. Mademoiselle Gräuben was
-an accomplished mineralogist; she could have taught a few things to a
-savant. She was fond of investigating abstruse scientific questions.
-What pleasant hours we have spent in study; and how often I envied
-the very stones which she handled with her charming fingers.
-
-Then, when our leisure hours came, we used to go out together and
-turn into the shady avenues by the Alster, and went happily side by
-side up to the old windmill, which forms such an improvement to the
-landscape at the head of the lake. On the road we chatted hand in
-hand; I told her amusing tales at which she laughed heartily. Then we
-reached the banks of the Elbe, and after having bid good-bye to the
-swan, sailing gracefully amidst the white water lilies, we returned
-to the quay by the steamer.
-
-That is just where I was in my dream, when my uncle with a vehement
-thump on the table dragged me back to the realities of life.
-
-"Come," said he, "the very first idea which would come into any one's
-head to confuse the letters of a sentence would be to write the words
-vertically instead of horizontally."
-
-"Indeed!" said I.
-
-"Now we must see what would be the effect of that, Axel; put down
-upon this paper any sentence you like, only instead of arranging the
-letters in the usual way, one after the other, place them in
-succession in vertical columns, so as to group them together in five
-or six vertical lines."
-
-I caught his meaning, and immediately produced the following literary
-wonder:
-
-     I       y       l       o       a       u
-     l       o       l       w       r       b
-     o       u       ,       n       G       e
-     v       w       m       d       r       n
-     e       e       y       e       a       !
-
-"Good," said the professor, without reading them, "now set down those
-words in a horizontal line."
-
-I obeyed, and with this result:
-
-     Iyloau lolwrb ou,nGe vwmdrn eeyea!
-
-"Excellent!" said my uncle, taking the paper hastily out of my hands.
-"This begins to look just like an ancient document: the vowels and
-the consonants are grouped together in equal disorder; there are even
-capitals in the middle of words, and commas too, just as in
-Saknussemm's parchment."
-
-I considered these remarks very clever.
-
-"Now," said my uncle, looking straight at me, "to read the sentence
-which you have just written, and with which I am wholly unacquainted,
-I shall only have to take the first letter of each word, then the
-second, the third, and so forth."
-
-And my uncle, to his great astonishment, and my much greater, read:
-
-     "I love you well, my own dear Gräuben!"
-
-"Hallo!" cried the Professor.
-
-Yes, indeed, without knowing what I was about, like an awkward and
-unlucky lover, I had compromised myself by writing this unfortunate
-sentence.
-
-"Aha! you are in love with Gräuben?" he said, with the right look for
-a guardian.
-
-"Yes; no!" I stammered.
-
-"You love Gräuben," he went on once or twice dreamily. "Well, let us
-apply the process I have suggested to the document in question."
-
-My uncle, falling back into his absorbing contemplations, had already
-forgotten my imprudent words. I merely say imprudent, for the great
-mind of so learned a man of course had no place for love affairs, and
-happily the grand business of the document gained me the victory.
-
-Just as the moment of the supreme experiment arrived the Professor's
-eyes flashed right through his spectacles. There was a quivering in
-his fingers as he grasped the old parchment. He was deeply moved. At
-last he gave a preliminary cough, and with profound gravity, naming
-in succession the first, then the second letter of each word, he
-dictated me the following:
-
-     mmessvnkaSenrA.icefdoK.segnittamvrtn
-     ecertserrette,rotaisadva,ednecsedsadne
-     lacartniiilvIsiratracSarbmvtabiledmek
-     meretarcsilvcoIsleffenSnI.
-
-I confess I felt considerably excited in coming to the end; these
-letters named, one at a time, had carried no sense to my mind; I
-therefore waited for the Professor with great pomp to unfold the
-magnificent but hidden Latin of this mysterious phrase.
-
-But who could have foretold the result? A violent thump made the
-furniture rattle, and spilt some ink, and my pen dropped from between
-my fingers.
-
-"That's not it," cried my uncle, "there's no sense in it."
-
-Then darting out like a shot, bowling down stairs like an avalanche,
-he rushed into the Königstrasse and fled.
+“But suppose the Hindoos or Indians pull up the rails,” replied Stuart;
+“suppose they stop the trains, pillage the luggage-vans, and scalp the
+passengers!”
+
+“All included,” calmly retorted Fogg; adding, as he threw down the
+cards, “Two trumps.”
+
+Stuart, whose turn it was to deal, gathered them up, and went on: “You
+are right, theoretically, Mr. Fogg, but practically—”
+
+“Practically also, Mr. Stuart.”
+
+“I’d like to see you do it in eighty days.”
+
+“It depends on you. Shall we go?”
+
+“Heaven preserve me! But I would wager four thousand pounds that such a
+journey, made under these conditions, is impossible.”
+
+“Quite possible, on the contrary,” returned Mr. Fogg.
+
+“Well, make it, then!”
+
+“The journey round the world in eighty days?”
+
+“Yes.”
+
+“I should like nothing better.”
+
+“When?”
+
+“At once. Only I warn you that I shall do it at your expense.”
+
+“It’s absurd!” cried Stuart, who was beginning to be annoyed at the
+persistency of his friend. “Come, let’s go on with the game.”
+
+“Deal over again, then,” said Phileas Fogg. “There’s a false deal.”
+
+Stuart took up the pack with a feverish hand; then suddenly put them
+down again.
+
+“Well, Mr. Fogg,” said he, “it shall be so: I will wager the four
+thousand on it.”
+
+“Calm yourself, my dear Stuart,” said Fallentin. “It’s only a joke.”
+
+“When I say I’ll wager,” returned Stuart, “I mean it.”
+
+“All right,” said Mr. Fogg; and, turning to the others, he continued:
+“I have a deposit of twenty thousand at Baring’s which I will willingly
+risk upon it.”
+
+“Twenty thousand pounds!” cried Sullivan. “Twenty thousand pounds,
+which you would lose by a single accidental delay!”
+
+“The unforeseen does not exist,” quietly replied Phileas Fogg.
+
+“But, Mr. Fogg, eighty days are only the estimate of the least possible
+time in which the journey can be made.”
+
+“A well-used minimum suffices for everything.”
+
+“But, in order not to exceed it, you must jump mathematically from the
+trains upon the steamers, and from the steamers upon the trains again.”
+
+“I will jump—mathematically.”
+
+“You are joking.”
+
+“A true Englishman doesn’t joke when he is talking about so serious a
+thing as a wager,” replied Phileas Fogg, solemnly. “I will bet twenty
+thousand pounds against anyone who wishes that I will make the tour of
+the world in eighty days or less; in nineteen hundred and twenty hours,
+or a hundred and fifteen thousand two hundred minutes. Do you accept?”
+
+“We accept,” replied Messrs. Stuart, Fallentin, Sullivan, Flanagan, and
+Ralph, after consulting each other.
+
+“Good,” said Mr. Fogg. “The train leaves for Dover at a quarter before
+nine. I will take it.”
+
+“This very evening?” asked Stuart.
+
+“This very evening,” returned Phileas Fogg. He took out and consulted a
+pocket almanac, and added, “As today is Wednesday, the 2nd of October,
+I shall be due in London in this very room of the Reform Club, on
+Saturday, the 21st of December, at a quarter before nine p.m.; or else
+the twenty thousand pounds, now deposited in my name at Baring’s, will
+belong to you, in fact and in right, gentlemen. Here is a cheque for
+the amount.”
+
+A memorandum of the wager was at once drawn up and signed by the six
+parties, during which Phileas Fogg preserved a stoical composure. He
+certainly did not bet to win, and had only staked the twenty thousand
+pounds, half of his fortune, because he foresaw that he might have to
+expend the other half to carry out this difficult, not to say
+unattainable, project. As for his antagonists, they seemed much
+agitated; not so much by the value of their stake, as because they had
+some scruples about betting under conditions so difficult to their
+friend.
+
+The clock struck seven, and the party offered to suspend the game so
+that Mr. Fogg might make his preparations for departure.
+
+“I am quite ready now,” was his tranquil response. “Diamonds are
+trumps: be so good as to play, gentlemen.”
 
 
 CHAPTER IV.
+IN WHICH PHILEAS FOGG ASTOUNDS PASSEPARTOUT, HIS SERVANT
 
-THE ENEMY TO BE STARVED INTO SUBMISSION
 
+Having won twenty guineas at whist, and taken leave of his friends,
+Phileas Fogg, at twenty-five minutes past seven, left the Reform Club.
 
-"He is gone!" cried Martha, running out of her kitchen at the noise
-of the violent slamming of doors.
+Passepartout, who had conscientiously studied the programme of his
+duties, was more than surprised to see his master guilty of the
+inexactness of appearing at this unaccustomed hour; for, according to
+rule, he was not due in Saville Row until precisely midnight.
 
-"Yes," I replied, "completely gone."
+Mr. Fogg repaired to his bedroom, and called out, “Passepartout!”
 
-"Well; and how about his dinner?" said the old servant.
+Passepartout did not reply. It could not be he who was called; it was
+not the right hour.
 
-"He won't have any."
+“Passepartout!” repeated Mr. Fogg, without raising his voice.
 
-"And his supper?"
+Passepartout made his appearance.
 
-"He won't have any."
+“I’ve called you twice,” observed his master.
 
-"What?" cried Martha, with clasped hands.
+“But it is not midnight,” responded the other, showing his watch.
 
-"No, my dear Martha, he will eat no more. No one in the house is to
-eat anything at all. Uncle Liedenbrock is going to make us all fast
-until he has succeeded in deciphering an undecipherable scrawl."
+“I know it; I don’t blame you. We start for Dover and Calais in ten
+minutes.”
 
-"Oh, my dear! must we then all die of hunger?"
+A puzzled grin overspread Passepartout’s round face; clearly he had not
+comprehended his master.
 
-I hardly dared to confess that, with so absolute a ruler as my uncle,
-this fate was inevitable.
+“Monsieur is going to leave home?”
 
-The old servant, visibly moved, returned to the kitchen, moaning
-piteously.
+“Yes,” returned Phileas Fogg. “We are going round the world.”
 
-When I was alone, I thought I would go and tell Gräuben all about it.
-But how should I be able to escape from the house? The Professor
-might return at any moment. And suppose he called me? And suppose he
-tackled me again with this logomachy, which might vainly have been
-set before ancient Oedipus. And if I did not obey his call, who could
-answer for what might happen?
+Passepartout opened wide his eyes, raised his eyebrows, held up his
+hands, and seemed about to collapse, so overcome was he with stupefied
+astonishment.
 
-The wisest course was to remain where I was. A mineralogist at
-Besançon had just sent us a collection of siliceous nodules, which I
-had to classify: so I set to work; I sorted, labelled, and arranged
-in their own glass case all these hollow specimens, in the cavity of
-each of which was a nest of little crystals.
+“Round the world!” he murmured.
 
-But this work did not succeed in absorbing all my attention. That old
-document kept working in my brain. My head throbbed with excitement,
-and I felt an undefined uneasiness. I was possessed with a
-presentiment of coming evil.
+“In eighty days,” responded Mr. Fogg. “So we haven’t a moment to lose.”
 
-In an hour my nodules were all arranged upon successive shelves. Then
-I dropped down into the old velvet armchair, my head thrown back and
-my hands joined over it. I lighted my long crooked pipe, with a
-painting on it of an idle-looking naiad; then I amused myself
-watching the process of the conversion of the tobacco into carbon,
-which was by slow degrees making my naiad into a negress. Now and
-then I listened to hear whether a well-known step was on the stairs.
-No. Where could my uncle be at that moment? I fancied him running
-under the noble trees which line the road to Altona, gesticulating,
-making shots with his cane, thrashing the long grass, cutting the
-heads off the thistles, and disturbing the contemplative storks in
-their peaceful solitude.
+“But the trunks?” gasped Passepartout, unconsciously swaying his head
+from right to left.
 
-Would he return in triumph or in discouragement? Which would get the
-upper hand, he or the secret? I was thus asking myself questions, and
-mechanically taking between my fingers the sheet of paper
-mysteriously disfigured with the incomprehensible succession of
-letters I had written down; and I repeated to myself "What does it
-all mean?"
+“We’ll have no trunks; only a carpet-bag, with two shirts and three
+pairs of stockings for me, and the same for you. We’ll buy our clothes
+on the way. Bring down my mackintosh and traveling-cloak, and some
+stout shoes, though we shall do little walking. Make haste!”
 
-I sought to group the letters so as to form words. Quite impossible!
-When I put them together by twos, threes, fives or sixes, nothing
-came of it but nonsense. To be sure the fourteenth, fifteenth and
-sixteenth letters made the English word 'ice'; the eighty-third and
-two following made 'sir'; and in the midst of the document, in the
-second and third lines, I observed the words, "rots," "mutabile,"
-"ira," "net," "atra."
+Passepartout tried to reply, but could not. He went out, mounted to his
+own room, fell into a chair, and muttered: “That’s good, that is! And
+I, who wanted to remain quiet!”
 
-"Come now," I thought, "these words seem to justify my uncle's view
-about the language of the document. In the fourth line appeared the
-word "luco", which means a sacred wood. It is true that in the third
-line was the word "tabiled", which looked like Hebrew, and in the
-last the purely French words "mer", "arc", "mere.""
+He mechanically set about making the preparations for departure. Around
+the world in eighty days! Was his master a fool? No. Was this a joke,
+then? They were going to Dover; good! To Calais; good again! After all,
+Passepartout, who had been away from France five years, would not be
+sorry to set foot on his native soil again. Perhaps they would go as
+far as Paris, and it would do his eyes good to see Paris once more. But
+surely a gentleman so chary of his steps would stop there; no
+doubt—but, then, it was none the less true that he was going away, this
+so domestic person hitherto!
 
-All this was enough to drive a poor fellow crazy. Four different
-languages in this ridiculous sentence! What connection could there
-possibly be between such words as ice, sir, anger, cruel, sacred
-wood, changeable, mother, bow, and sea? The first and the last might
-have something to do with each other; it was not at all surprising
-that in a document written in Iceland there should be mention of a
-sea of ice; but it was quite another thing to get to the end of this
-cryptogram with so small a clue. So I was struggling with an
-insurmountable difficulty; my brain got heated, my eyes watered over
-that sheet of paper; its hundred and thirty-two letters seemed to
-flutter and fly around me like those motes of mingled light and
-darkness which float in the air around the head when the blood is
-rushing upwards with undue violence. I was a prey to a kind of
-hallucination; I was stifling; I wanted air. Unconsciously I fanned
-myself with the bit of paper, the back and front of which
-successively came before my eyes. What was my surprise when, in one
-of those rapid revolutions, at the moment when the back was turned to
-me I thought I caught sight of the Latin words "craterem,"
-"terrestre," and others.
+By eight o’clock Passepartout had packed the modest carpet-bag,
+containing the wardrobes of his master and himself; then, still
+troubled in mind, he carefully shut the door of his room, and descended
+to Mr. Fogg.
 
-A sudden light burst in upon me; these hints alone gave me the first
-glimpse of the truth; I had discovered the key to the cipher. To read
-the document, it would not even be necessary to read it through the
-paper. Such as it was, just such as it had been dictated to me, so it
-might be spelt out with ease. All those ingenious professorial
-combinations were coming right. He was right as to the arrangement of
-the letters; he was right as to the language. He had been within a
-hair's breadth of reading this Latin document from end to end; but
-that hair's breadth, chance had given it to me!
+Mr. Fogg was quite ready. Under his arm might have been observed a
+red-bound copy of Bradshaw’s Continental Railway Steam Transit and
+General Guide, with its timetables showing the arrival and departure of
+steamers and railways. He took the carpet-bag, opened it, and slipped
+into it a goodly roll of Bank of England notes, which would pass
+wherever he might go.
 
-You may be sure I felt stirred up. My eyes were dim, I could scarcely
-see. I had laid the paper upon the table. At a glance I could tell
-the whole secret.
+“You have forgotten nothing?” asked he.
 
-At last I became more calm. I made a wise resolve to walk twice round
-the room quietly and settle my nerves, and then I returned into the
-deep gulf of the huge armchair.
+“Nothing, monsieur.”
 
-"Now I'll read it," I cried, after having well distended my lungs
-with air.
+“My mackintosh and cloak?”
 
-I leaned over the table; I laid my finger successively upon every
-letter; and without a pause, without one moment's hesitation, I read
-off the whole sentence aloud.
+“Here they are.”
 
-Stupefaction! terror! I sat overwhelmed as if with a sudden deadly
-blow. What! that which I read had actually, really been done! A
-mortal man had had the audacity to penetrate! . . .
+“Good! Take this carpet-bag,” handing it to Passepartout. “Take good
+care of it, for there are twenty thousand pounds in it.”
 
-"Ah!" I cried, springing up. "But no! no! My uncle shall never know
-it. He would insist upon doing it too. He would want to know all
-about it. Ropes could not hold him, such a determined geologist as he
-is! He would start, he would, in spite of everything and everybody,
-and he would take me with him, and we should never get back. No,
-never! never!"
+Passepartout nearly dropped the bag, as if the twenty thousand pounds
+were in gold, and weighed him down.
 
-My over-excitement was beyond all description.
+Master and man then descended, the street-door was double-locked, and
+at the end of Saville Row they took a cab and drove rapidly to Charing
+Cross. The cab stopped before the railway station at twenty minutes
+past eight. Passepartout jumped off the box and followed his master,
+who, after paying the cabman, was about to enter the station, when a
+poor beggar-woman, with a child in her arms, her naked feet smeared
+with mud, her head covered with a wretched bonnet, from which hung a
+tattered feather, and her shoulders shrouded in a ragged shawl,
+approached, and mournfully asked for alms.
 
-"No! no! it shall not be," I declared energetically; "and as it is in
-my power to prevent the knowledge of it coming into the mind of my
-tyrant, I will do it. By dint of turning this document round and
-round, he too might discover the key. I will destroy it."
+Mr. Fogg took out the twenty guineas he had just won at whist, and
+handed them to the beggar, saying, “Here, my good woman. I’m glad that
+I met you;” and passed on.
 
-There was a little fire left on the hearth. I seized not only the
-paper but Saknussemm's parchment; with a feverish hand I was about to
-fling it all upon the coals and utterly destroy and abolish this
-dangerous secret, when the study door opened, and my uncle appeared.
+Passepartout had a moist sensation about the eyes; his master’s action
+touched his susceptible heart.
+
+Two first-class tickets for Paris having been speedily purchased, Mr.
+Fogg was crossing the station to the train, when he perceived his five
+friends of the Reform.
+
+“Well, gentlemen,” said he, “I’m off, you see; and, if you will examine
+my passport when I get back, you will be able to judge whether I have
+accomplished the journey agreed upon.”
+
+“Oh, that would be quite unnecessary, Mr. Fogg,” said Ralph politely.
+“We will trust your word, as a gentleman of honour.”
+
+“You do not forget when you are due in London again?” asked Stuart.
+
+“In eighty days; on Saturday, the 21st of December, 1872, at a quarter
+before nine p.m. Good-bye, gentlemen.”
+
+Phileas Fogg and his servant seated themselves in a first-class
+carriage at twenty minutes before nine; five minutes later the whistle
+screamed, and the train slowly glided out of the station.
+
+The night was dark, and a fine, steady rain was falling. Phileas Fogg,
+snugly ensconced in his corner, did not open his lips. Passepartout,
+not yet recovered from his stupefaction, clung mechanically to the
+carpet-bag, with its enormous treasure.
+
+Just as the train was whirling through Sydenham, Passepartout suddenly
+uttered a cry of despair.
+
+“What’s the matter?” asked Mr. Fogg.
+
+“Alas! In my hurry—I—I forgot—”
+
+“What?”
+
+“To turn off the gas in my room!”
+
+“Very well, young man,” returned Mr. Fogg, coolly; “it will burn—at
+your expense.”
 
 
 CHAPTER V.
+IN WHICH A NEW SPECIES OF FUNDS, UNKNOWN TO THE MONEYED MEN, APPEARS ON
+’CHANGE
 
-FAMINE, THEN VICTORY, FOLLOWED BY DISMAY
+
+Phileas Fogg rightly suspected that his departure from London would
+create a lively sensation at the West End. The news of the bet spread
+through the Reform Club, and afforded an exciting topic of conversation
+to its members. From the club it soon got into the papers throughout
+England. The boasted “tour of the world” was talked about, disputed,
+argued with as much warmth as if the subject were another Alabama
+claim. Some took sides with Phileas Fogg, but the large majority shook
+their heads and declared against him; it was absurd, impossible, they
+declared, that the tour of the world could be made, except
+theoretically and on paper, in this minimum of time, and with the
+existing means of travelling. The _Times, Standard, Morning Post_, and
+_Daily News_, and twenty other highly respectable newspapers scouted
+Mr. Fogg’s project as madness; the _Daily Telegraph_ alone hesitatingly
+supported him. People in general thought him a lunatic, and blamed his
+Reform Club friends for having accepted a wager which betrayed the
+mental aberration of its proposer.
+
+Articles no less passionate than logical appeared on the question, for
+geography is one of the pet subjects of the English; and the columns
+devoted to Phileas Fogg’s venture were eagerly devoured by all classes
+of readers. At first some rash individuals, principally of the gentler
+sex, espoused his cause, which became still more popular when the
+_Illustrated London News_ came out with his portrait, copied from a
+photograph in the Reform Club. A few readers of the _Daily Telegraph_
+even dared to say, “Why not, after all? Stranger things have come to
+pass.”
+
+At last a long article appeared, on the 7th of October, in the bulletin
+of the Royal Geographical Society, which treated the question from
+every point of view, and demonstrated the utter folly of the
+enterprise.
+
+Everything, it said, was against the travellers, every obstacle imposed
+alike by man and by nature. A miraculous agreement of the times of
+departure and arrival, which was impossible, was absolutely necessary
+to his success. He might, perhaps, reckon on the arrival of trains at
+the designated hours, in Europe, where the distances were relatively
+moderate; but when he calculated upon crossing India in three days, and
+the United States in seven, could he rely beyond misgiving upon
+accomplishing his task? There were accidents to machinery, the
+liability of trains to run off the line, collisions, bad weather, the
+blocking up by snow—were not all these against Phileas Fogg? Would he
+not find himself, when travelling by steamer in winter, at the mercy of
+the winds and fogs? Is it uncommon for the best ocean steamers to be
+two or three days behind time? But a single delay would suffice to
+fatally break the chain of communication; should Phileas Fogg once
+miss, even by an hour; a steamer, he would have to wait for the next,
+and that would irrevocably render his attempt vain.
+
+This article made a great deal of noise, and, being copied into all the
+papers, seriously depressed the advocates of the rash tourist.
+
+Everybody knows that England is the world of betting men, who are of a
+higher class than mere gamblers; to bet is in the English temperament.
+Not only the members of the Reform, but the general public, made heavy
+wagers for or against Phileas Fogg, who was set down in the betting
+books as if he were a race-horse. Bonds were issued, and made their
+appearance on ’Change; “Phileas Fogg bonds” were offered at par or at a
+premium, and a great business was done in them. But five days after the
+article in the bulletin of the Geographical Society appeared, the
+demand began to subside: “Phileas Fogg” declined. They were offered by
+packages, at first of five, then of ten, until at last nobody would
+take less than twenty, fifty, a hundred!
+
+Lord Albemarle, an elderly paralytic gentleman, was now the only
+advocate of Phileas Fogg left. This noble lord, who was fastened to his
+chair, would have given his fortune to be able to make the tour of the
+world, if it took ten years; and he bet five thousand pounds on Phileas
+Fogg. When the folly as well as the uselessness of the adventure was
+pointed out to him, he contented himself with replying, “If the thing
+is feasible, the first to do it ought to be an Englishman.”
+
+The Fogg party dwindled more and more, everybody was going against him,
+and the bets stood a hundred and fifty and two hundred to one; and a
+week after his departure an incident occurred which deprived him of
+backers at any price.
+
+The commissioner of police was sitting in his office at nine o’clock
+one evening, when the following telegraphic dispatch was put into his
+hands:
+
+_Suez to London._
 
 
-I had only just time to replace the unfortunate document upon the
-table.
+ROWAN, COMMISSIONER OF POLICE, SCOTLAND YARD:
+    I’ve found the bank robber, Phileas Fogg. Send without delay
+    warrant of arrest to Bombay.
 
-Professor Liedenbrock seemed to be greatly abstracted.
 
-The ruling thought gave him no rest. Evidently he had gone deeply
-into the matter, analytically and with profound scrutiny. He had
-brought all the resources of his mind to bear upon it during his
-walk, and he had come back to apply some new combination.
+FIX, _Detective_.
 
-He sat in his armchair, and pen in hand he began what looked very
-much like algebraic formula: I followed with my eyes his trembling
-hands, I took count of every movement. Might not some unhoped-for
-result come of it? I trembled, too, very unnecessarily, since the
-true key was in my hands, and no other would open the secret.
 
-For three long hours my uncle worked on without a word, without
-lifting his head; rubbing out, beginning again, then rubbing out
-again, and so on a hundred times.
+The effect of this dispatch was instantaneous. The polished gentleman
+disappeared to give place to the bank robber. His photograph, which was
+hung with those of the rest of the members at the Reform Club, was
+minutely examined, and it betrayed, feature by feature, the description
+of the robber which had been provided to the police. The mysterious
+habits of Phileas Fogg were recalled; his solitary ways, his sudden
+departure; and it seemed clear that, in undertaking a tour round the
+world on the pretext of a wager, he had had no other end in view than
+to elude the detectives, and throw them off his track.
 
-I knew very well that if he succeeded in setting down these letters
-in every possible relative position, the sentence would come out. But
-I knew also that twenty letters alone could form two quintillions,
-four hundred and thirty-two quadrillions, nine hundred and two
-trillions, eight billions, a hundred and seventy-six millions, six
-hundred and forty thousand combinations. Now, here were a hundred and
-thirty-two letters in this sentence, and these hundred and thirty-two
-letters would give a number of different sentences, each made up of
-at least a hundred and thirty-three figures, a number which passed
-far beyond all calculation or conception.
 
-So I felt reassured as far as regarded this heroic method of solving
-the difficulty.
+CHAPTER VI.
+IN WHICH FIX, THE DETECTIVE, BETRAYS A VERY NATURAL IMPATIENCE
 
-But time was passing away; night came on; the street noises ceased;
-my uncle, bending over his task, noticed nothing, not even Martha
-half opening the door; he heard not a sound, not even that excellent
-woman saying:
 
-"Will not monsieur take any supper to-night?"
+The circumstances under which this telegraphic dispatch about Phileas
+Fogg was sent were as follows:
 
-And poor Martha had to go away unanswered. As for me, after long
-resistance, I was overcome by sleep, and fell off at the end of the
-sofa, while uncle Liedenbrock went on calculating and rubbing out his
-calculations.
+The steamer “Mongolia,” belonging to the Peninsular and Oriental
+Company, built of iron, of two thousand eight hundred tons burden, and
+five hundred horse-power, was due at eleven o’clock a.m. on Wednesday,
+the 9th of October, at Suez. The “Mongolia” plied regularly between
+Brindisi and Bombay _viâ_ the Suez Canal, and was one of the fastest
+steamers belonging to the company, always making more than ten knots an
+hour between Brindisi and Suez, and nine and a half between Suez and
+Bombay.
 
-When I awoke next morning that indefatigable worker was still at his
-post. His red eyes, his pale complexion, his hair tangled between his
-feverish fingers, the red spots on his cheeks, revealed his desperate
-struggle with impossibilities, and the weariness of spirit, the
-mental wrestlings he must have undergone all through that unhappy
-night.
+Two men were promenading up and down the wharves, among the crowd of
+natives and strangers who were sojourning at this once straggling
+village—now, thanks to the enterprise of M. Lesseps, a fast-growing
+town. One was the British consul at Suez, who, despite the prophecies
+of the English Government, and the unfavourable predictions of
+Stephenson, was in the habit of seeing, from his office window, English
+ships daily passing to and fro on the great canal, by which the old
+roundabout route from England to India by the Cape of Good Hope was
+abridged by at least a half. The other was a small, slight-built
+personage, with a nervous, intelligent face, and bright eyes peering
+out from under eyebrows which he was incessantly twitching. He was just
+now manifesting unmistakable signs of impatience, nervously pacing up
+and down, and unable to stand still for a moment. This was Fix, one of
+the detectives who had been dispatched from England in search of the
+bank robber; it was his task to narrowly watch every passenger who
+arrived at Suez, and to follow up all who seemed to be suspicious
+characters, or bore a resemblance to the description of the criminal,
+which he had received two days before from the police headquarters at
+London. The detective was evidently inspired by the hope of obtaining
+the splendid reward which would be the prize of success, and awaited
+with a feverish impatience, easy to understand, the arrival of the
+steamer “Mongolia.”
 
-To tell the plain truth, I pitied him. In spite of the reproaches
-which I considered I had a right to lay upon him, a certain feeling
-of compassion was beginning to gain upon me. The poor man was so
-entirely taken up with his one idea that he had even forgotten how to
-get angry. All the strength of his feelings was concentrated upon one
-point alone; and as their usual vent was closed, it was to be feared
-lest extreme tension`;
+“So you say, consul,” asked he for the twentieth time, “that this
+steamer is never behind time?”
+
+“No, Mr. Fix,” replied the consul. “She was bespoken yesterday at Port
+Said, and the rest of the way is of no account to such a craft. I
+repeat that the ‘Mongolia’ has been in advance of the time required by
+the company’s regulations, and gained the prize awarded for excess of
+speed.”
+
+“Does she come directly from Brindisi?”
+
+“Directly from Brindisi; she takes on the Indian mails there, and she
+left there Saturday at five p.m. Have patience, Mr. Fix; she will not
+be late. But really, I don’t see how, from the description you have,
+you will be able to recognise your man, even if he is on board the
+‘Mongolia.’”
+
+“A man rather feels the presence of these fellows, consul, than
+recognises them. You must have a scent for them, and a scent is like a
+sixth sense which combines hearing, seeing, and smelling. I’ve arrested
+more than one of these gentlemen in my time, and, if my thief is on
+board, I’ll answer for it; he’ll not slip through my fingers.”
+
+“I hope so, Mr. Fix, for it was a heavy robbery.”
+
+“A magnificent robbery, consul; fifty-five thousand pounds! We don’t
+often have such windfalls. Burglars are getting to be so contemptible
+nowadays! A fellow gets hung for a handful of shillings!”
+
+“Mr. Fix,” said the consul, “I like your way of talkin`;
+  window.BOOKS_FULL[236]=`THE JUNGLE BOOK
+
+By Rudyard Kipling
+
+
+Contents
+
+     Mowgli’s Brothers
+     Hunting-Song of the Seeonee Pack
+     Kaa’s Hunting
+     Road-Song of the Bandar-Log
+     “Tiger! Tiger!”
+      Mowgli’s Song
+     The White Seal
+     Lukannon
+     “Rikki-Tikki-Tavi”
+      Darzee’s Chant
+     Toomai of the Elephants
+     Shiv and the Grasshopper
+     Her Majesty’s Servants
+     Parade Song of the Camp Animals
+
+
+Mowgli’s Brothers
+
+     Now Rann the Kite brings home the night
+        That Mang the Bat sets free--
+     The herds are shut in byre and hut
+        For loosed till dawn are we.
+     This is the hour of pride and power,
+        Talon and tush and claw.
+     Oh, hear the call!--Good hunting all
+        That keep the Jungle Law!
+     _Night-Song in the Jungle_
+
+It was seven o’clock of a very warm evening in the Seeonee hills when
+Father Wolf woke up from his day’s rest, scratched himself, yawned, and
+spread out his paws one after the other to get rid of the sleepy feeling
+in their tips. Mother Wolf lay with her big gray nose dropped across her
+four tumbling, squealing cubs, and the moon shone into the mouth of the
+cave where they all lived. “Augrh!” said Father Wolf. “It is time to
+hunt again.” He was going to spring down hill when a little shadow with
+a bushy tail crossed the threshold and whined: “Good luck go with you, O
+Chief of the Wolves. And good luck and strong white teeth go with noble
+children that they may never forget the hungry in this world.”
+
+It was the jackal--Tabaqui, the Dish-licker--and the wolves of India
+despise Tabaqui because he runs about making mischief, and telling
+tales, and eating rags and pieces of leather from the village
+rubbish-heaps. But they are afraid of him too, because Tabaqui, more
+than anyone else in the jungle, is apt to go mad, and then he forgets
+that he was ever afraid of anyone, and runs through the forest biting
+everything in his way. Even the tiger runs and hides when little Tabaqui
+goes mad, for madness is the most disgraceful thing that can overtake
+a wild creature. We call it hydrophobia, but they call it dewanee--the
+madness--and run.
+
+“Enter, then, and look,” said Father Wolf stiffly, “but there is no food
+here.”
+
+“For a wolf, no,” said Tabaqui, “but for so mean a person as myself a
+dry bone is a good feast. Who are we, the Gidur-log [the jackal people],
+to pick and choose?” He scuttled to the back of the cave, where he
+found the bone of a buck with some meat on it, and sat cracking the end
+merrily.
+
+“All thanks for this good meal,” he said, licking his lips. “How
+beautiful are the noble children! How large are their eyes! And so young
+too! Indeed, indeed, I might have remembered that the children of kings
+are men from the beginning.”
+
+Now, Tabaqui knew as well as anyone else that there is nothing so
+unlucky as to compliment children to their faces. It pleased him to see
+Mother and Father Wolf look uncomfortable.
+
+Tabaqui sat still, rejoicing in the mischief that he had made, and then
+he said spitefully:
+
+“Shere Khan, the Big One, has shifted his hunting grounds. He will hunt
+among these hills for the next moon, so he has told me.”
+
+Shere Khan was the tiger who lived near the Waingunga River, twenty
+miles away.
+
+“He has no right!” Father Wolf began angrily--“By the Law of the Jungle
+he has no right to change his quarters without due warning. He will
+frighten every head of game within ten miles, and I--I have to kill for
+two, these days.”
+
+“His mother did not call him Lungri [the Lame One] for nothing,” said
+Mother Wolf quietly. “He has been lame in one foot from his birth. That
+is why he has only killed cattle. Now the villagers of the Waingunga are
+angry with him, and he has come here to make our villagers angry.
+They will scour the jungle for him when he is far away, and we and our
+children must run when the grass is set alight. Indeed, we are very
+grateful to Shere Khan!”
+
+“Shall I tell him of your gratitude?” said Tabaqui.
+
+“Out!” snapped Father Wolf. “Out and hunt with thy master. Thou hast
+done harm enough for one night.”
+
+“I go,” said Tabaqui quietly. “Ye can hear Shere Khan below in the
+thickets. I might have saved myself the message.”
+
+Father Wolf listened, and below in the valley that ran down to a little
+river he heard the dry, angry, snarly, singsong whine of a tiger who has
+caught nothing and does not care if all the jungle knows it.
+
+“The fool!” said Father Wolf. “To begin a night’s work with that noise!
+Does he think that our buck are like his fat Waingunga bullocks?”
+
+“H’sh. It is neither bullock nor buck he hunts to-night,” said Mother
+Wolf. “It is Man.”
+
+The whine had changed to a sort of humming purr that seemed to come
+from every quarter of the compass. It was the noise that bewilders
+woodcutters and gypsies sleeping in the open, and makes them run
+sometimes into the very mouth of the tiger.
+
+“Man!” said Father Wolf, showing all his white teeth. “Faugh! Are there
+not enough beetles and frogs in the tanks that he must eat Man, and on
+our ground too!”
+
+The Law of the Jungle, which never orders anything without a reason,
+forbids every beast to eat Man except when he is killing to show his
+children how to kill, and then he must hunt outside the hunting grounds
+of his pack or tribe. The real reason for this is that man-killing
+means, sooner or later, the arrival of white men on elephants, with
+guns, and hundreds of brown men with gongs and rockets and torches.
+Then everybody in the jungle suffers. The reason the beasts give among
+themselves is that Man is the weakest and most defenseless of all living
+things, and it is unsportsmanlike to touch him. They say too--and it is
+true--that man-eaters become mangy, and lose their teeth.
+
+The purr grew louder, and ended in the full-throated “Aaarh!” of the
+tiger’s charge.
+
+Then there was a howl--an untigerish howl--from Shere Khan. “He has
+missed,” said Mother Wolf. “What is it?”
+
+Father Wolf ran out a few paces and heard Shere Khan muttering and
+mumbling savagely as he tumbled about in the scrub.
+
+“The fool has had no more sense than to jump at a woodcutter’s campfire,
+and has burned his feet,” said Father Wolf with a grunt. “Tabaqui is
+with him.”
+
+“Something is coming uphill,” said Mother Wolf, twitching one ear. “Get
+ready.”
+
+The bushes rustled a little in the thicket, and Father Wolf dropped
+with his haunches under him, ready for his leap. Then, if you had been
+watching, you would have seen the most wonderful thing in the world--the
+wolf checked in mid-spring. He made his bound before he saw what it was
+he was jumping at, and then he tried to stop himself. The result was
+that he shot up straight into the air for four or five feet, landing
+almost where he left ground.
+
+“Man!” he snapped. “A man’s cub. Look!”
+
+Directly in front of him, holding on by a low branch, stood a naked
+brown baby who could just walk--as soft and as dimpled a little atom
+as ever came to a wolf’s cave at night. He looked up into Father Wolf’s
+face, and laughed.
+
+“Is that a man’s cub?” said Mother Wolf. “I have never seen one. Bring
+it here.”
+
+A Wolf accustomed to moving his own cubs can, if necessary, mouth an egg
+without breaking it, and though Father Wolf’s jaws closed right on the
+child’s back not a tooth even scratched the skin as he laid it down
+among the cubs.
+
+“How little! How naked, and--how bold!” said Mother Wolf softly. The
+baby was pushing his way between the cubs to get close to the warm hide.
+“Ahai! He is taking his meal with the others. And so this is a man’s
+cub. Now, was there ever a wolf that could boast of a man’s cub among
+her children?”
+
+“I have heard now and again of such a thing, but never in our Pack or in
+my time,” said Father Wolf. “He is altogether without hair, and I
+could kill him with a touch of my foot. But see, he looks up and is not
+afraid.”
+
+The moonlight was blocked out of the mouth of the cave, for Shere Khan’s
+great square head and shoulders were thrust into the entrance. Tabaqui,
+behind him, was squeaking: “My lord, my lord, it went in here!”
+
+“Shere Khan does us great honor,” said Father Wolf, but his eyes were
+very angry. “What does Shere Khan need?”
+
+“My quarry. A man’s cub went this way,” said Shere Khan. “Its parents
+have run off. Give it to me.”
+
+Shere Khan had jumped at a woodcutter’s campfire, as Father Wolf had
+said, and was furious from the pain of his burned feet. But Father Wolf
+knew that the mouth of the cave was too narrow for a tiger to come in
+by. Even where he was, Shere Khan’s shoulders and forepaws were cramped
+for want of room, as a man’s would be if he tried to fight in a barrel.
+
+“The Wolves are a free people,” said Father Wolf. “They take orders from
+the Head of the Pack, and not from any striped cattle-killer. The man’s
+cub is ours--to kill if we choose.”
+
+“Ye choose and ye do not choose! What talk is this of choosing? By the
+bull that I killed, am I to stand nosing into your dog’s den for my fair
+dues? It is I, Shere Khan, who speak!”
+
+The tiger’s roar filled the cave with thunder. Mother Wolf shook herself
+clear of the cubs and sprang forward, her eyes, like two green moons in
+the darkness, facing the blazing eyes of Shere Khan.
+
+“And it is I, Raksha [The Demon], who answers. The man’s cub is mine,
+Lungri--mine to me! He shall not be killed. He shall live to run with
+the Pack and to hunt with the Pack; and in the end, look you, hunter of
+little naked cubs--frog-eater--fish-killer--he shall hunt thee! Now get
+hence, or by the Sambhur that I killed (I eat no starved cattle), back
+thou goest to thy mother, burned beast of the jungle, lamer than ever
+thou camest into the world! Go!”
+
+Father Wolf looked on amazed. He had almost forgotten the days when he
+won Mother Wolf in fair fight from five other wolves, when she ran in
+the Pack and was not called The Demon for compliment’s sake. Shere Khan
+might have faced Father Wolf, but he could not stand up against Mother
+Wolf, for he knew that where he was she had all the advantage of the
+ground, and would fight to the death. So he backed out of the cave mouth
+growling, and when he was clear he shouted:
+
+“Each dog barks in his own yard! We will see what the Pack will say to
+this fostering of man-cubs. The cub is mine, and to my teeth he will
+come in the end, O bush-tailed thieves!”
+
+Mother Wolf threw herself down panting among the cubs, and Father Wolf
+said to her gravely:
+
+“Shere Khan speaks this much truth. The cub must be shown to the Pack.
+Wilt thou still keep him, Mother?”
+
+“Keep him!” she gasped. “He came naked, by night, alone and very hungry;
+yet he was not afraid! Look, he has pushed one of my babes to one side
+already. And that lame butcher would have killed him and would have run
+off to the Waingunga while the villagers here hunted through all our
+lairs in revenge! Keep him? Assuredly I will keep him. Lie still, little
+frog. O thou Mowgli--for Mowgli the Frog I will call thee--the time will
+come when thou wilt hunt Shere Khan as he has hunted thee.”
+
+“But what will our Pack say?” said Father Wolf.
+
+The Law of the Jungle lays down very clearly that any wolf may, when he
+marries, withdraw from the Pack he belongs to. But as soon as his cubs
+are old enough to stand on their feet he must bring them to the Pack
+Council, which is generally held once a month at full moon, in order
+that the other wolves may identify them. After that inspection the cubs
+are free to run where they please, and until they have killed their
+first buck no excuse is accepted if a grown wolf of the Pack kills one
+of them. The punishment is death where the murderer can be found; and if
+you think for a minute you will see that this must be so.
+
+Father Wolf waited till his cubs could run a little, and then on the
+night of the Pack Meeting took them and Mowgli and Mother Wolf to the
+Council Rock--a hilltop covered with stones and boulders where a hundred
+wolves could hide. Akela, the great gray Lone Wolf, who led all the Pack
+by strength and cunning, lay out at full length on his rock, and
+below him sat forty or more wolves of every size and color, from
+badger-colored veterans who could handle a buck alone to young black
+three-year-olds who thought they could. The Lone Wolf had led them for a
+year now. He had fallen twice into a wolf trap in his youth, and once he
+had been beaten and left for dead; so he knew the manners and customs
+of men. There was very little talking at the Rock. The cubs tumbled over
+each other in the center of the circle where their mothers and fathers
+sat, and now and again a senior wolf would go quietly up to a cub, look
+at him carefully, and return to his place on noiseless feet. Sometimes a
+mother would push her cub far out into the moonlight to be sure that
+he had not been overlooked. Akela from his rock would cry: “Ye know
+the Law--ye know the Law. Look well, O Wolves!” And the anxious mothers
+would take up the call: “Look--look well, O Wolves!”
+
+At last--and Mother Wolf’s neck bristles lifted as the time came--Father
+Wolf pushed “Mowgli the Frog,” as they called him, into the center,
+where he sat laughing and playing with some pebbles that glistened in
+the moonlight.
+
+Akela never raised his head from his paws, but went on with the
+monotonous cry: “Look well!” A muffled roar came up from behind the
+rocks--the voice of Shere Khan crying: “The cub is mine. Give him to
+me. What have the Free People to do with a man’s cub?” Akela never even
+twitched his ears. All he said was: “Look well, O Wolves! What have
+the Free People to do with the orders of any save the Free People? Look
+well!”
+
+There was a chorus of deep growls, and a young wolf in his fourth year
+flung back Shere Khan’s question to Akela: “What have the Free People to
+do with a man’s cub?” Now, the Law of the Jungle lays down that if there
+is any dispute as to the right of a cub to be accepted by the Pack, he
+must be spoken for by at least two members of the Pack who are not his
+father and mother.
+
+“Who speaks for this cub?” said Akela. “Among the Free People who
+speaks?” There was no answer and Mother Wolf got ready for what she knew
+would be her last fight, if things came to fighting.
+
+Then the only other creature who is allowed at the Pack Council--Baloo,
+the sleepy brown bear who teaches the wolf cubs the Law of the Jungle:
+old Baloo, who can come and go where he pleases because he eats only
+nuts and roots and honey--rose upon his hind quarters and grunted.
+
+“The man’s cub--the man’s cub?” he said. “I speak for the man’s cub.
+There is no harm in a man’s cub. I have no gift of words, but I speak
+the truth. Let him run with the Pack, and be entered with the others. I
+myself will teach him.”
+
+“We need yet another,” said Akela. “Baloo has spoken, and he is our
+teacher for the young cubs. Who speaks besides Baloo?”
+
+A black shadow dropped down into the circle. It was Bagheera the Black
+Panther, inky black all over, but with the panther markings showing
+up in certain lights like the pattern of watered silk. Everybody knew
+Bagheera, and nobody cared to cross his path; for he was as cunning as
+Tabaqui, as bold as the wild buffalo, and as reckless as the wounded
+elephant. But he had a voice as soft as wild honey dripping from a tree,
+and a skin softer than down.
+
+“O Akela, and ye the Free People,” he purred, “I have no right in your
+assembly, but the Law of the Jungle says that if there is a doubt which
+is not a killing matter in regard to a new cub, the life of that cub may
+be bought at a price. And the Law does not say who may or may not pay
+that price. Am I right?”
+
+“Good! Good!” said the young wolves, who are always hungry. “Listen to
+Bagheera. The cub can be bought for a price. It is the Law.”
+
+“Knowing that I have no right to speak here, I ask your leave.”
+
+“Speak then,” cried twenty voices.
+
+“To kill a naked cub is shame. Besides, he may make better sport for you
+when he is grown. Baloo has spoken in his behalf. Now to Baloo’s word
+I will add one bull, and a fat one, newly killed, not half a mile
+from here, if ye will accept the man’s cub according to the Law. Is it
+difficult?”
+
+There was a clamor of scores of voices, saying: “What matter? He will
+die in the winter rains. He will scorch in the sun. What harm can
+a naked frog do us? Let him run with the Pack. Where is the bull,
+Bagheera? Let him be accepted.” And then came Akela’s deep bay, crying:
+“Look well--look well, O Wolves!”
+
+Mowgli was still deeply interested in the pebbles, and he did not notice
+when the wolves came and looked at him one by one. At last they all went
+down the hill for the dead bull, and only Akela, Bagheera, Baloo, and
+Mowgli’s own wolves were left. Shere Khan roared still in the night, for
+he was very angry that Mowgli had not been handed over to him.
+
+“Ay, roar well,” said Bagheera, under his whiskers, “for the time will
+come when this naked thing will make thee roar to another tune, or I
+know nothing of man.”
+
+“It was well done,” said Akela. “Men and their cubs are very wise. He
+may be a help in time.”
+
+“Truly, a help in time of need; for none can hope to lead the Pack
+forever,” said Bagheera.
+
+Akela said nothing. He was thinking of the time that comes to every
+leader of every pack when his strength goes from him and he gets feebler
+and feebler, till at last he is killed by the wolves and a new leader
+comes up--to be killed in his turn.
+
+“Take him away,” he said to Father Wolf, “and train him as befits one of
+the Free People.”
+
+And that is how Mowgli was entered into the Seeonee Wolf Pack for the
+price of a bull and on Baloo’s good word.
+
+Now you must be content to skip ten or eleven whole years, and only
+guess at all the wonderful life that Mowgli led among the wolves,
+because if it were written out it would fill ever so many books. He
+grew up with the cubs, though they, of course, were grown wolves almost
+before he was a child. And Father Wolf taught him his business, and the
+meaning of things in the jungle, till every rustle in the grass, every
+breath of the warm night air, every note of the owls above his head,
+every scratch of a bat’s claws as it roosted for a while in a tree, and
+every splash of every little fish jumping in a pool meant just as much
+to him as the work of his office means to a business man. When he was
+not learning he sat out in the sun and slept, and ate and went to sleep
+again. When he felt dirty or hot he swam in the forest pools; and
+when he wanted honey (Baloo told him that honey and nuts were just as
+pleasant to eat as raw meat) he climbed up for it, and that Bagheera
+showed him how to do. Bagheera would lie out on a branch and call, “Come
+along, Little Brother,” and at first Mowgli would cling like the sloth,
+but afterward he would fling himself through the branches almost as
+boldly as the gray ape. He took his place at the Council Rock, too,
+when the Pack met, and there he discovered that if he stared hard at any
+wolf, the wolf would be forced to drop his eyes, and so he used to stare
+for fun. At other times he would pick the long thorns out of the pads
+of his friends, for wolves suffer terribly from thorns and burs in their
+coats. He would go down the hillside into the cultivated lands by night,
+and look very curiously at the villagers in their huts, but he had a
+mistrust of men because Bagheera showed him a square box with a drop
+gate so cunningly hidden in the jungle that he nearly walked into it,
+and told him that it was a trap. He loved better than anything else to
+go with Bagheera into the dark warm heart of the forest, to sleep all
+through the drowsy day, and at night see how Bagheera did his
+killing. Bagheera killed right and left as he felt hungry, and so did
+Mowgli--with one exception. As soon as he was old enough to understand
+things, Bagheera told him that he must never touch cattle because he had
+been bought into the Pack at the price of a bull’s life. “All the jungle
+is thine,” said Bagheera, “and thou canst kill everything that thou art
+strong enough to kill; but for the sake of the bull that bought thee
+thou must never kill or eat any cattle young or old. That is the Law of
+the Jungle.” Mowgli obeyed faithfully.
+
+And he grew and grew strong as a boy must grow who does not know that
+he is learning any lessons, and who has nothing in the world to think of
+except things to eat.
+
+Mother Wolf told him once or twice that Shere Khan was not a creature
+to be trusted, and that some day he must kill Shere Khan. But though a
+young wolf would have remembered that advice every hour, Mowgli forgot
+it because he was only a boy--though he would have called himself a wolf
+if he had been able to speak in any human tongue.
+
+Shere Khan was always crossing his path in the jungle, for as Akela grew
+older and feebler the lame tiger had come to be great friends with the
+younger wolves of the Pack, who followed him for scraps, a thing Akela
+would never have allowed if he had dared to push his authority to the
+proper bounds. Then Shere Khan would flatter them and wonder that such
+fine young hunters were content to be led by a dying wolf and a man’s
+cub. “They tell me,” Shere Khan would say, “that at Council ye dare
+not look him between the eyes.” And the young wolves would growl and
+bristle.
+
+Bagheera, who had eyes and ears everywhere, knew something of this, and
+once or twice he told Mowgli in so many words that Shere Khan would kill
+him some day. Mowgli would laugh and answer: “I have the Pack and I have
+thee; and Baloo, though he is so lazy, might strike a blow or two for my
+sake. Why should I be afraid?”
+
+It was one very warm day that a new notion came to Bagheera--born of
+something that he had heard. Perhaps Ikki the Porcupine had told him;
+but he said to Mowgli when they were deep in the jungle, as the boy lay
+with his head on Bagheera’s beautiful black skin, “Little Brother, how
+often have I told thee that Shere Khan is thy enemy?”
+
+“As many times as there are nuts on that palm,” said Mowgli, who,
+naturally, could not count. “What of it? I am sleepy, Bagheera, and
+Shere Khan is all long tail and loud talk--like Mao, the Peacock.”
+
+“But this is no time for sleeping. Baloo knows it; I know it; the Pack
+know it; and even the foolish, foolish deer know. Tabaqui has told thee
+too.”
+
+“Ho! ho!” said Mowgli. “Tabaqui came to me not long ago with some rude
+talk that I was a naked man’s cub and not fit to dig pig-nuts. But I
+caught Tabaqui by the tail and swung him twice against a palm-tree to
+teach him better manners.”
+
+“That was foolishness, for though Tabaqui is a mischief-maker, he would
+have told thee of something that concerned thee closely. Open those
+eyes, Little Brother. Shere Khan dare not kill thee in the jungle. But
+remember, Akela is very old, and soon the day comes when he cannot kill
+his buck, and then he will be leader no more. Many of the wolves that
+looked thee over when thou wast brought to the Council first are old
+too, and the young wolves believe, as Shere Khan has taught them, that
+a man-cub has no place with the Pack. In a little time thou wilt be a
+man.”
+
+“And what is a man that he should not run with his brothers?” said
+Mowgli. “I was born in the jungle. I have obeyed the Law of the Jungle,
+and there is no wolf of ours from whose paws I have not pulled a thorn.
+Surely they are my brothers!”
+
+Bagheera stretched himself at full length and half shut his eyes.
+“Little Brother,” said he, “feel under my jaw.”
+
+Mowgli put up his strong brown hand, and just under Bagheera’s silky
+chin, where the giant rolling muscles were all hid by the glossy hair,
+he came upon a little bald spot.
+
+“There is no one in the jungle that knows that I, Bagheera, carry that
+mark--the mark of the collar; and yet, Little Brother, I was born among
+men, and it was among men that my mother died--in the cages of the
+king’s palace at Oodeypore. It was because of this that I paid the price
+for thee at the Council when thou wast a little naked cub. Yes, I too
+was born among men. I had never seen the jungle. They fed me behind
+bars from an iron pan till one night I felt that I was Bagheera--the
+Panther--and no man’s plaything, and I broke the silly lock with one
+blow of my paw and came away. And because I had learned the ways of men,
+I became more terrible in the jungle than Shere Khan. Is it not so?”
+
+“Yes,” said Mowgli, “all the jungle fear Bagheera--all except Mowgli.”
+
+“Oh, thou art a man’s cub,” said the Black Panther very tenderly. “And
+even as I returned to my jungle, so thou must go back to men at last--to
+the men who are thy brothers--if thou art not killed in the Council.”
+
+“But why--but why should any wish to kill me?” said Mowgli.
+
+“Look at me,” said Bagheera. And Mowgli looked at him steadily between
+the eyes. The big panther turned his head away in half a minute.
+
+“That is why,” he said, shifting his paw on the leaves. “Not even I can
+look thee between the eyes, and I was born among men, and I love thee,
+Little Brother. The others they hate thee because their eyes cannot meet
+thine; because thou art wise; because thou hast pulled out thorns from
+their feet--because thou art a man.”
+
+“I did not know these things,” said Mowgli sullenly, and he frowned
+under his heavy black eyebrows.
+
+“What is the Law of the Jungle? Strike first and then give tongue. By
+thy very carelessness they know that thou art a man. But be wise. It is
+in my heart that when Akela misses his next kill--and at each hunt
+it costs him more to pin the buck--the Pack will turn against him and
+against thee. They will hold a jungle Council at the Rock, and then--and
+then--I have it!” said Bagheera, leaping up. “Go thou down quickly to
+the men’s huts in the valley, and take some of the Red Flower which they
+grow there, so that when the time comes thou mayest have even a stronger
+friend than I or Baloo or those of the Pack that love thee. Get the Red
+Flower.”
+
+By Red Flower Bagheera meant fire, only no creature in the jungle will
+call fire by its proper name. Every beast lives in deadly fear of it,
+and invents a hundred ways of describing it.
+
+“The Red Flower?” said Mowgli. “That grows outside their huts in the
+twilight. I will get some.”
+
+“There speaks the man’s cub,” said Bagheera proudly. “Remember that it
+grows in little pots. Get one swiftly, and keep it by thee for time of
+need.”
+
+“Good!” said Mowgli. “I go. But art thou sure, O my Bagheera”--he
+slipped his arm around the splendid neck and looked deep into the big
+eyes--“art thou sure that all this is Shere Khan’s doing?”
+
+“By the Broken Lock that freed me, I am sure, Little Brother.”
+
+“Then, by the Bull that bought me, I will pay Shere Khan full tale for
+this, and it may be a little over,” said Mowgli, and he bounded away.
+
+“That is a man. That is all a man,” said Bagheera to himself, lying down
+again. “Oh, Shere Khan, never was a blacker hunting than that frog-hunt
+of thine ten years ago!”
+
+Mowgli was far and far through the forest, running hard, and his heart
+was hot in him. He came to the cave as the evening mist rose, and drew
+breath, and looked down the valley. The cubs were out, but Mother
+Wolf, at the back of the cave, knew by his breathing that something was
+troubling her frog.
+
+“What is it, Son?” she said.
+
+“Some bat’s chatter of Shere Khan,” he called back. “I hunt among the
+plowed fields tonight,” and he plunged downward through the bushes, to
+the stream at the bottom of the valley. There he checked, for he heard
+the yell of the Pack hunting, heard the bellow of a hunted Sambhur,
+and the snort as the buck turned at bay. Then there were wicked, bitter
+howls from the young wolves: “Akela! Akela! Let the Lone Wolf show his
+strength. Room for the leader of the Pack! Spring, Akela!”
+
+The Lone Wolf must have sprung and missed his hold, for Mowgli heard the
+snap of his teeth and then a yelp as the Sambhur knocked him over with
+his forefoot.
+
+He did not wait for anything more, but dashed on; and the yells grew
+fainter behind him as he ran into the croplands where the villagers
+lived.
+
+“Bagheera spoke truth,” he panted, as he nestled down in some cattle
+fodder by the window of a hut. “To-morrow is one day both for Akela and
+for me.”
+
+Then he pressed his face close to the window and watched the fire on
+the hearth. He saw the husbandman’s wife get up and feed it in the night
+with black lumps. And when the morning came and the mists were all white
+and cold, he saw the man’s child pick up a wicker pot plastered inside
+with earth, fill it with lumps of red-hot charcoal, put it under his
+blanket, and go out to tend the cows in the byre.
+
+“Is that all?” said Mowgli. “If a cub can do it, there is nothing to
+fear.” So he strode round the corner and met the boy, took the pot from
+his hand, and disappeared into the mist while the boy howled with fear.
+
+“They are very like me,” said Mowgli, blowing into the pot as he had
+seen the woman do. “This thing will die if I do not give it things to
+eat”; and he dropped twigs and dried bark on the red stuff. Halfway up
+the hill he met Bagheera with the morning dew shining like moonstones on
+his coat.
+
+“Akela has missed,” said the Panther. “They would have killed him last
+night, but they needed thee also. They were looking for thee on the
+hill.”
+
+“I was among the plowed lands. I am ready. See!” Mowgli held up the
+fire-pot.
+
+“Good! Now, I have seen men thrust a dry branch into that stuff, and
+presently the Red Flower blossomed at the end of it. Art thou not
+afraid?”
+
+“No. Why should I fear? I remember now--if it is not a dream--how,
+before I was a Wolf, I lay beside the Red Flower, and it was warm and
+pleasant.”
+
+All that day Mowgli sat in the cave tending his fire pot and dipping
+dry branches into it to see how they looked. He found a branch that
+satisfied him, and in the evening when Tabaqui came to the cave and told
+him rudely enough that he was wanted at the Council Rock, he laughed
+till Tabaqui ran away. Then Mowgli went to the Council, still laughing.
+
+Akela the Lone Wolf lay by the side of his rock as a sign that the
+leadership of the Pack was open, and Shere Khan with his following of
+scrap-fed wolves walked to and fro openly being flattered. Bagheera lay
+close to Mowgli, and the fire pot was between Mowgli’s knees. When they
+were all gathered together, Shere Khan began to speak--a thing he would
+never have dared to do when Akela was in his prime.
+
+“He has no right,” whispered Bagheera. “Say so. He is a dog’s son. He
+will be frightened.”
+
+Mowgli sprang to his feet. “Free People,” he cried, “does Shere Khan
+lead the Pack? What has a tiger to do with our leadership?”
+
+“Seeing that the leadership is yet open, and being asked to speak--”
+ Shere Khan began.
+
+“By whom?” said Mowgli. “Are we all jackals, to fawn on this cattle
+butcher? The leadership of the Pack is with the Pack alone.”
+
+There were yells of “Silence, thou man’s cub!” “Let him speak. He has
+kept our Law”; and at last the seniors of the Pack thundered: “Let the
+Dead Wolf speak.” When a leader of the Pack has missed his kill, he is
+called the Dead Wolf as long as he lives, which is not long.
+
+Akela raised his old head wearily:--
+
+“Free People, and ye too, jackals of Shere Khan, for twelve seasons I
+have led ye to and from the kill, and in all that time not one has been
+trapped or maimed. Now I have missed my kill. Ye know how that plot
+was made. Ye know how ye brought me up to an untried buck to make my
+weakness known. It was cleverly done. Your right is to kill me here on
+the Council Rock, now. Therefore, I ask, who comes to make an end of the
+Lone Wolf? For it is my right, by the Law of the Jungle, that ye come
+one by one.”
+
+There was a long hush, for no single wolf cared to fight Akela to
+the death. Then Shere Khan roared: “Bah! What have we to do with this
+toothless fool? He is doomed to die! It is the man-cub who has lived too
+long. Free People, he was my meat from the first. Give him to me. I
+am weary of this man-wolf folly. He has troubled the jungle for ten
+seasons. Give me the man-cub, or I will hunt here always, and not give
+you one bone. He is a man, a man’s child, and from the marrow of my
+bones I hate him!”
+
+Then more than half the Pack yelled: “A man! A man! What has a man to do
+with us? Let him go to his own place.”
+
+“And turn all the people of the villages against us?” clamored Shere
+Khan. “No, give him to me. He is a man, and none of us can look him
+between the eyes.”
+
+Akela lifted his head again and said, “He has eaten our food. He has
+slept with us. He has driven game for us. He has broken no word of the
+Law of the Jungle.”
+
+“Also, I paid for him with a bull when he was accepted. The worth of a
+bull is little, but Bagheera’s honor is something that he will perhaps
+fight for,” said Bagheera in his gentlest voice.
+
+“A bull paid ten years ago!” the Pack snarled. “What do we care for
+bones ten years old?”
+
+“Or for a pledge?” said Bagheera, his white teeth bared under his lip.
+“Well are ye called the Free People!”
+
+“No man’s cub can run with the people of the jungle,” howled Shere Khan.
+“Give him to me!”
+
+“He is our brother in all but blood,” Akela went on, “and ye would kill
+him here! In truth, I have lived too long. Some of ye are eaters of
+cattle, and of others I have heard that, under Shere Khan’s teaching,
+ye go by dark night and snatch children from the villager’s doorstep.
+Therefore I know ye to be cowards, and it is to cowards I speak. It is
+certain that I must die, and my life is of no worth, or I would offer
+that in the man-cub’s place. But for the sake of the Honor of
+the Pack,--a little matter that by being without a leader ye have
+forgotten,--I promise that if ye let the man-cub go to his own place, I
+will not, when my time comes to die, bare one tooth against ye. I will
+die without fighting. That will at least save the Pack three lives.
+More I cannot do; but if ye will, I can save ye the shame that comes of
+killing a brother against whom there is no fault--a brother spoken for
+and bought into the Pack according to the Law of the Jungle.”
+
+“He is a man--a man--a man!” snarled the Pack. And most of the wolves
+began to gather round Shere Khan, whose tail was beginning to switch.
+
+“Now the business is in thy hands,” said Bagheera to Mowgli. “We can do
+no more except fight.”
+
+Mowgli stood upright--the fire pot in his hands. Then he stretched out
+his arms, and yawned in the face of the Council; but he was furious with
+rage and sorrow, for, wolflike, the wolves had never told him how they
+hated him. “Listen you!” he cried. “There is no need for this dog’s
+jabber. Ye have told me so often tonight that I am a man (and indeed I
+would have been a wolf with you to my life’s end) that I feel your words
+are true. So I do not call ye my brothers any more, but sag [dogs], as
+a man should. What ye will do, and what ye will not do, is not yours
+to say. That matter is with me; and that we may see the matter more
+plainly, I, the man, have brought here a little of the Red Flower which
+ye, dogs, fear.”
+
+He flung the fire pot on the ground, and some of the red coals lit
+a tuft of dried moss that flared up, as all the Council drew back in
+terror before the leaping flames.
+
+Mowgli thrust his dead branch into the fire till the twigs lit and
+crackled, and whirled it above his head among the cowering wolves.
+
+“Thou art the master,” said Bagheera in an undertone. “Save Akela from
+the death. He was ever thy friend.”
+
+Akela, the grim old wolf who had never asked for mercy in his life, gave
+one piteous look at Mowgli as the boy stood all naked, his long black
+hair tossing over his shoulders in the light of the blazing branch that
+made the shadows jump and quiver.
+
+“Good!” said Mowgli, staring round slowly. “I see that ye are dogs. I go
+from you to my own people--if they be my own people. The jungle is shut
+to me, and I must forget your talk and your companionship. But I will be
+more merciful than ye are. Because I was all but your brother in blood,
+I promise that when I am a man among men I will not betray ye to men as
+ye have betrayed me.” He kicked the fire with his foot, and the sparks
+flew up. “There shall be no war between any of us in the Pack. But here
+is a debt to pay before I go.” He strode forward to where Shere Khan sat
+blinking stupidly at the flames, and caught him by the tuft on his chin.
+Bagheera followed in case of accidents. “Up, dog!” Mowgli cried. “Up,
+when a man speaks, or I will set that coat ablaze!”
+
+Shere Khan’s ears lay flat back on his head, and he shut his eyes, for
+the blazing branch was very near.
+
+“This cattle-killer said he would kill me in the Council because he had
+not killed me when I was a cub. Thus and thus, then, do we beat dogs
+when we are men. Stir a whisker, Lungri, and I ram the Red Flower down
+thy gullet!” He beat Shere Khan over the head with the branch, and the
+tiger whimpered and whined in an agony of fear.
+
+“Pah! Singed jungle cat--go now! But remember when next I come to the
+Council Rock, as a man should come, it will be with Shere Khan’s hide
+on my head. For the rest, Akela goes free to live as he pleases. Ye will
+not kill him, because that is not my will. Nor do I think that ye
+will sit here any longer, lolling out your tongues as though ye were
+somebodies, instead of dogs whom I drive out--thus! Go!” The fire was
+burning furiously at the end of the branch, and Mowgli struck right
+and left round the circle, and the wolves ran howling with the sparks
+burning their fur. At last there were only Akela, Bagheera, and perhaps
+ten wolves that had taken Mowgli’s part. Then something began to hurt
+Mowgli inside him, as he had never been hurt in his life before, and he
+caught his breath and sobbed, and the tears ran down his face.
+
+“What is it? What is it?” he said. “I do not wish to leave the jungle,
+and I do not know what this is. Am I dying, Bagheera?”
+
+“No, Little Brother. That is only tears such as men use,” said Bagheera.
+“Now I know thou art a man, and a man’s cub no longer. The jungle is
+shut indeed to thee henceforward. Let them fall, Mowgli. They are only
+tears.” So Mowgli sat and cried as though his heart would break; and he
+had never cried in all his life before.
+
+“Now,” he said, “I will go to men. But first I must say farewell to my
+mother.” And he went to the cave where she lived with Father Wolf, and
+he cried on her coat, while the four cubs howled miserably.
+
+“Ye will not forget me?” said Mowgli.
+
+“Never while we can follow a trail,” said the cubs. “Come to the foot of
+the hill when thou art a man, and we will talk to thee; and we will come
+into the croplands to play with thee by night.”
+
+“Come soon!” said Father Wolf. “Oh, wise little frog, come again soon;
+for we be old, thy mother and I.”
+
+“Come soon,” said Mother Wolf, “little naked son of mine. For, listen,
+child of man, I loved thee more than ever I loved my cubs.”
+
+“I will surely come,” said Mowgli. “And when I come it will be to lay
+out Shere Khan’s hide upon the Council Rock. Do not forget me! Tell them
+in the jungle never to forget me!”
+
+The dawn was beginning to break when Mowgli went down the hillside
+alone, to meet those mysterious things that are called men.
+
+
+Hunting-Song of the Seeonee Pack
+
+     As the dawn was breaking the Sambhur belled
+        Once, twice and again!
+     And a doe leaped up, and a doe leaped up
+     From the pond in the wood where the wild deer sup.
+     This I, scouting alone, beheld,
+        Once, twice and again!
+
+     As the dawn was breaking the Sambhur belled
+        Once, twice and again!
+     And a wolf stole back, and a wolf stole back
+     To carry the word to the waiting pack,
+     And we sought and we found and we bayed on his track
+        Once, twice and again!
+
+     As the dawn was breaking the Wolf Pack yelled
+        Once, twice and again!
+     Feet in the jungle that leave no mark!
+
+     Eyes that can see in the dark--the dark!
+     Tongue--give tongue to it!  Hark!  O hark!
+        Once, twice and again!
+
+
+Kaa’s Hunting
+
+
+His spots are the joy of the Leopard: his horns are the Buffalo’s pride.
+Be clean, for the strength of the hunter is known by the gloss of his hide.
+If ye find that the Bullock can toss you, or the heavy-browed Sambhur can gore;
+Ye need not stop work to inform us: we knew it ten seasons before.
+
+Oppress not the cubs of the stranger, but hail them as Sister and Brother,
+For though they are little and fubsy, it may be the Bear is their mother.
+“There is none like to me!” says the Cub in the pride of his earliest kill;
+But the jungle is large and the Cub he is small. Let him think and be still.
+                                 _Maxims of Baloo_
+
+All that is told here happened some time before Mowgli was turned out of
+the Seeonee Wolf Pack, or revenged himself on Shere Khan the tiger. It
+was in the days when Baloo was teaching him the Law of the Jungle. The
+big, serious, old brown bear was delighted to have so quick a pupil,
+for the young wolves will only learn as much of the Law of the Jungle
+as applies to their own pack and tribe, and run away as soon as they can
+repeat the Hunting Verse--“Feet that make no noise; eyes that can see in
+the dark; ears that can hear the winds in their lairs, and sharp white
+teeth, all these things are the marks of our brothers except Tabaqui the
+Jackal and the Hyaena whom we hate.” But Mowgli, as a man-cub, had to
+learn a great deal more than this. Sometimes Bagheera the Black Panther
+would come lounging through the jungle to see how his pet was getting
+on, and would purr with his head against a tree while Mowgli recited the
+day’s lesson to Baloo. The boy could climb almost as well as he could
+swim, and swim almost as well as he could run. So Baloo, the Teacher of
+the Law, taught him the Wood and Water Laws: how to tell a rotten branch
+from a sound one; how to speak politely to the wild bees when he came
+upon a hive of them fifty feet above ground; what to say to Mang the
+Bat when he disturbed him in the branches at midday; and how to warn the
+water-snakes in the pools before he splashed down among them. None of
+the Jungle People like being disturbed, and all are very ready to fly at
+an intruder. Then, too, Mowgli was taught the Strangers’ Hunting Call,
+which must be repeated aloud till it is answered, whenever one of the
+Jungle-People hunts outside his own grounds. It means, translated, “Give
+me leave to hunt here because I am hungry.” And the answer is, “Hunt
+then for food, but not for pleasure.”
+
+All this will show you how much Mowgli had to learn by heart, and he
+grew very tired of saying the same thing over a hundred times. But, as
+Baloo said to Bagheera, one day when Mowgli had been cuffed and run off
+in a temper, “A man’s cub is a man’s cub, and he must learn all the Law
+of the Jungle.”
+
+“But think how small he is,” said the Black Panther, who would have
+spoiled Mowgli if he had had his own way. “How can his little head carry
+all thy long talk?”
+
+“Is there anything in the jungle too little to be killed? No. That is
+why I teach him these things, and that is why I hit him, very softly,
+when he forgets.”
+
+“Softly! What dost thou know of softness, old Iron-feet?” Bagheera
+grunted. “His face is all bruised today by thy--softness. Ugh.”
+
+“Better he should be bruised from head to foot by me who love him than
+that he should come to harm through ignorance,” Baloo answered very
+earnestly. “I am now teaching him the Master Words of the Jungle that
+shall protect him with the birds and the Snake People, and all that hunt
+on four feet, except his own pack. He can now claim protection, if he
+will only remember the words, from all in the jungle. Is not that worth
+a little beating?”
+
+“Well, look to it then that thou dost not kill the man-cub. He is no
+tree trunk to sharpen thy blunt claws upon. But what are those Master
+Words? I am more likely to give help than to ask it”--Bagheera stretched
+out one paw and admired the steel-blue, ripping-chisel talons at the end
+of it--“still I should like to know.”
+
+“I will call Mowgli and he shall say them--if he will. Come, Little
+Brother!”
+
+“My head is ringing like a bee tree,” said a sullen little voice over
+their heads, and Mowgli slid down a tree trunk very angry and indignant,
+adding as he reached the ground: “I come for Bagheera and not for thee,
+fat old Baloo!”
+
+“That is all one to me,” said Baloo, though he was hurt and grieved.
+“Tell Bagheera, then, the Master Words of the Jungle that I have taught
+thee this day.”
+
+“Master Words for which people?” said Mowgli, delighted to show off.
+“The jungle has many tongues. I know them all.”
+
+“A little thou knowest, but not much. See, O Bagheera, they never thank
+their teacher. Not one small wolfling has ever come back to thank
+old Baloo for his teachings. Say the word for the Hunting-People,
+then--great scholar.”
+
+“We be of one blood, ye and I,” said Mowgli, giving the words the Bear
+accent which all the Hunting People use.
+
+“Good. Now for the birds.”
+
+Mowgli repeated, with the Kite’s whistle at the end of the sentence.
+
+“Now for the Snake-People,” said Bagheera.
+
+The answer was a perfectly indescribable hiss, and Mowgli kicked up his
+feet behind, clapped his hands together to applaud himself, and jumped
+o`;
+  window.BOOKS_FULL[1837]=`Produced by David Widger. The earliest PG edition was prepared by Les
+Bowler
+
+
+THE PRINCE AND THE PAUPER
+
+by Mark Twain
+
+The Great Seal
+
+I will set down a tale as it was told to me by one who had it of his
+father, which latter had it of HIS father, this last having in like
+manner had it of HIS father--and so on, back and still back, three
+hundred years and more, the fathers transmitting it to the sons and so
+preserving it.  It may be history, it may be only a legend, a tradition.
+It may have happened, it may not have happened:  but it COULD have
+happened.  It may be that the wise and the learned believed it in the
+old days; it may be that only the unlearned and the simple loved it and
+credited it.
+
+CONTENTS
+
+    I.          The birth of the Prince and the Pauper.
+    II.  Tom’s early life.
+    III.    Tom’s meeting with the Prince.
+    IV.  The Prince’s troubles begin.
+    V.          Tom as a patrician.
+    VI.  Tom receives instructions.
+    VII.    Tom’s first royal dinner.
+    VIII.    The question of the Seal.
+    IX.  The river pageant.
+    X.          The Prince in the toils.
+    XI.  At Guildhall.
+    XII.  The Prince and his deliverer.
+    XIII.    The disappearance of the Prince.
+    XIV.  ‘Le Roi est mort--vive le Roi.’
+    XV.  Tom as King.
+    XVI.  The state dinner.
+    XVII.    Foo-foo the First.
+    XVIII.    The Prince with the tramps.
+    XIX.  The Prince with the peasants.
+    XX.  The Prince and the hermit.
+    XXI.  Hendon to the rescue.
+    XXII.  A victim of treachery.
+    XXIII.    The Prince a prisoner.
+    XXIV.  The escape.
+    XXV.  Hendon Hall.
+    XXVI.  Disowned.
+    XXVII.  In prison.
+    XXVIII.    The sacrifice.
+    XXIX.  To London.
+    XXX.  Tom’s progress.
+    XXXI.  The Recognition procession.
+    XXXII.  Coronation Day.
+    XXXIII.  Edward as King.
+    CONCLUSION.    Justice and Retribution.
+       Notes.
+
+
+ILLUSTRATIONS
+
+THE GREAT SEAL (frontispiece)
+
+THE BIRTH OF THE PRINCE AND THE PAUPER
+
+“SPLENDID PAGEANTS AND GREAT BONFIRES”
+
+TOM’S EARLY LIFE
+
+OFFAL COURT
+
+“WITH ANY MISERABLE CRUST”
+
+“HE OFTEN READ THE PRIEST’S BOOKS”
+
+“SAW POOR ANNE ASKEW BURNED”
+
+“BROUGHT THEIR PERPLEXITIES TO TOM”
+
+“LONGING FOR THE PORK-PIES”
+
+TOM’S MEETING WITH THE PRINCE
+
+“AT TEMPLE BAR”
+
+“LET HIM IN”
+
+“HOW OLD BE THESE
+
+“DOFF THY RAGS, AND DON THESE SPLENDORS”  
+
+“I SALUTE YOUR GRACIOUS HIGHNESS!”
+
+THE PRINCE’S TROUBLES BEGIN
+
+“SET UPON BY DOGS”
+
+“A DRUNKEN RUFFIAN COLLARED HIM”
+
+TOM AS A PATRICIAN
+
+“NEXT HE DREW THE SWORD”
+
+“RESOLVED TO FLY”
+
+“THE BOY WAS ON HIS KNEES”
+
+“NOBLES WALKED UPON EACH SIDE OF HIM”
+
+“HE DROPPED UPON HIS KNEES”
+
+“HE TURNED WITH JOYFUL FACE”
+
+“THE PHYSICIAN BOWED LOW”
+
+“THE KING FELL BACK UPON HIS COUCH”
+
+“IS THIS MAN TO LIVE FOREVER?”
+
+TOM RECEIVES INSTRUCTIONS
+
+“PRITHEE, INSIST NOT”
+
+“THE LORD ST. JOHN MADE REVERENCE”
+
+HERTFORD AND THE PRINCESSES
+
+“SHE MADE REVERENCE”
+
+“OFFERED IT TO HIM ON A GOLDEN SALVER”
+
+“THEY MUSED A WHILE”
+
+“PEACE MY LORD, THOU UTTEREST TREASON!”
+
+“HE BEGAN TO PACE THE FLOOR”
+
+TOM’S FIRST ROYAL DINNER
+
+“FASTENED A NAPKIN ABOUT HIS NECK”
+
+“TOM ATE WITH HIS FINGERS”
+
+“HE GRAVELY TOOK A DRAUGHT”
+
+“TOM PUT ON THE GREAVES”
+
+THE QUESTION OF THE SEAL
+
+“EASED HIM BACK UPON HIS PILLOWS”
+
+THE RIVER PAGEANT
+
+“HALBERDIERS APPEARED IN THE GATEWAY”
+
+“TOM CANTY STEPPED INTO VIEW”
+
+THE PRINCE IN THE TOILS
+
+“A DIM FORM SANK TO THE GROUND”
+
+“WHO ART THOU?”
+
+“INTO GOOD WIFE CANTY’S ARMS”
+
+“BENT HEEDFULLY AND WARILY OVER HIM”
+
+“THE PRINCE SPRANG UP”
+
+“HURRIED HIM ALONG THE DARK WAY”
+
+“HE WASTE NO TIME”
+
+AT GUILDHALL
+
+“A RICH CANOPY OF STATE”
+
+“BEGAN TO LAY ABOUT HIM”
+
+“LONG LIVE THE KING!”
+
+THE PRINCE AND HIS DELIVERER
+
+“OUR FRIENDS THREADED THEIR WAY”
+
+“OBJECT LESSONS” IN ENGLISH HISTORY
+
+“JOHN CANTY MOVED OFF”
+
+“SMOOTHING BACK THE TANGLED CURLS”
+
+“PRITHEE, POUR THE WATER”
+
+“GO ON--TELL ME THY STORY
+
+“THOU HAST BEEN SHAMEFULLY ABUSED”
+
+“HE DROPPED ON ONE KNEE”
+
+“RISE, SIR MILES HENDON, BARONET”
+
+THE DISAPPEARANCE OF THE PRINCE
+
+“HE DROPPED ASLEEP”
+
+“THESE BE VERY GOOD AND SOUND”
+
+“EXPLAIN, THOU LIMB OF SATAN”
+
+“HENDON FOLLOWED AFTER HIM”
+
+“LE ROI EST MORT-VIVE LE ROI”
+
+“WILT DEIGN TO DELIVER THY COMMANDS?”
+
+“LORD OF THE BEDCHAMBER”
+
+“A SECRETARY OF STATE”
+
+“STOOD AT GRACEFUL EASE”
+
+“‘TIS I THAT TAKE THEM”
+
+“BUT TAX YOUR MEMORY”
+
+TOM AS KING
+
+“TOM HAD WANDERED TO A WINDOW”
+
+“TOM SCANNED THE PRISONERS”
+
+“LET THE PRISONER GO FREE!”
+
+“WHAT IS IT THAT THESE HAVE DONE?”
+
+“NODDED THEIR RECOGNITION”
+
+THE STATE DINNER
+
+“A GENTLEMAN BEARING A ROD”
+
+“THE CHANCELLOR BETWEEN TWO”
+
+“I THANK YOU MY GOOD PEOPLE”
+
+“IN THE MIDST OF HIS PAGEANT”
+
+FOO-FOO THE FIRST
+
+“RUFFIAN FOLLOWED THEIR STEPS”
+
+“HE SEIZED A BILLET OF WOOD”
+
+“HE WAS SOON ABSORBED IN THINKING”
+
+“A GRIM AND UNSIGHTLY PICTURE”
+
+“THEY ROARED OUT A ROLLICKING DITTY”
+
+“WHILST THE FLAMES LICKED UPWARDS”
+
+“THEY WERE WHIPPED AT THE CART’S TAIL”
+
+“THOU SHALT NOT”
+
+“KNOCKING HOBBS DOWN”
+
+“THRONE HIM”
+
+THE PRINCE WITH THE TRAMPS
+
+“TROOP OF VAGABONDS SET FORWARD”
+
+“THEY THREW BONES AND VEGETABLES
+
+“WRITHE AND WALLOW IN THE DIRT”
+
+“KING FLED IN THE OPPOSITE DIRECTION”
+
+“HE STUMBLED ALONG”
+
+“WHAT SEEMED TO BE A WARM ROPE”
+
+“CUDDLED UP TO THE CALF”
+
+THE PRINCE WITH THE PEASANTS
+
+“TOOK A GOOD SATISFYING STARE”
+
+“MOTHER RECEIVED THE KING KINDLY”
+
+“BROUGHT THE KING OUT OF HIS DREAMS”
+
+“GAVE HIM A BUTCHER KNIFE TO GRIND”
+
+THE PRINCE AND THE HERMIT
+
+“HE TURNED AND DESCRIED TWO FIGURES”
+
+“THE KING ENTERED AND PAUSED”
+
+“I WILL TELL YOU A SECRET”
+
+“CHATTING PLEASANTLY ALL THE TIME”
+
+“DREW HIS THUMB ALONG THE EDGE”
+
+“THE NEXT MOMENT THEY WERE BOUND”
+
+HENDON TO THE RESCUE
+
+“SUNK UPON HIS KNEES”
+
+“GOD MADE EVERY CREATURE BUT YOU!”
+
+“THE FETTERED LITTLE KING”
+
+A VICTIM OF TREACHERY
+
+“HUGO STOOD NO CHANCE”
+
+“BOUND THE POULTICE TIGHT AND FAST”
+
+“TARRY HERE TILL I COME AGAIN
+
+“KING SPRANG TO HIS DELIVERER’S SIDE”
+
+THE PRINCE A PRISONER
+
+“GENTLY, GOOD FRIEND”
+
+“SHE SPRANG TO HER FEET”
+
+THE ESCAPE
+
+“THE PIG MAY COST THY NECK, MAN”
+
+“BEAR ME UP, BEAR ME UP, SWEET SIR!”
+
+HENDON HALL
+
+“JOGGING EASTWARD ON SORRY STEEDS”
+
+“THERE IS THE VILLAGE, MY PRINCE!”
+
+“‘EMBRACE ME, HUGH,’ HE CRIED”
+
+“HUGH PUT UP HIS HAND IN DISSENT”
+
+“A BEAUTIFUL LADY, RICHLY CLOTHED”
+
+“HUGH WAS PINNED TO THE WALL”
+
+DISOWNED
+
+“OBEY, AND HAVE NO FEAR”
+
+“AM I MILES HENDON?”
+
+IN PRISON
+
+“CHAINED IN A LARGE ROOM”
+
+“THE OLD MAN LOOKED HENDON OVER”
+
+“INFORMATION DELIVERED IN A LOW VOICE”
+
+“THE KING!” HE CRIED. “WHAT KING?”
+
+“TWO WOMEN CHAINED TO POSTS”
+
+“TORN AWAY BY THE OFFICERS”
+
+“THE KING WAS FURIOUS”
+
+THE SACRIFICE
+
+“HE CONFRONTED THE OFFICER IN CHARGE”
+
+“WHILE THE LASH WAS APPLIED”
+
+“SIR HUGH SPURRED AWAY”
+
+TO LONDON
+
+“MOUNTED AND RODE OFF WITH THE KING”
+
+“MIDST OF A JAM OF HOWLING PEOPLE”
+
+TOM’S PROGRESS
+
+“TO KISS HIS HAND AT PARTING”
+
+“COMMANDED HER TO GO TO HER CLOSET”
+
+THE RECOGNITION PROCESSION
+
+THE START FOR THE TOWER
+
+“WELCOME, O KING!”
+
+“A LARGESS! A LARGESS!”
+
+“SHE WAS AT HIS SIDE”
+
+“IT IS AN ILL TIME FOR DREAMING”
+
+“SHE WAS MY MOTHER”
+
+CORONATION DAY
+
+“GATHERS UP THE LADY’S LONG TRAIN”
+
+“TOM CANTY APPEARED”
+
+“AND FELL ON HIS KNEES BEFORE HIM”
+
+“THE GREAT SEAL--FETCH IT HITHER”
+
+“SIRE, THE SEAL IS NOT THERE”
+
+“BETHINK THEE, MY KING”
+
+“LONG LIVE THE TRUE KING!”
+
+“TO CRACK NUTS WITH”
+
+EDWARD AS KING
+
+“HE STRETCHED HIMSELF ON THE GROUND”
+
+“ARRESTED AS A SUSPICIOUS CHARACTER”
+
+“IT IS HIS RIGHT”
+
+“STRIP THIS ROBBER”
+
+“TOM ROSE AND KISSED THE KING’S HAND”
+
+JUSTICE AND RETRIBUTION
+
+NOTES
+
+
+CHAPTER I. The birth of the Prince and the Pauper.
+
+In the ancient city of London, on a certain autumn day in the second
+quarter of the sixteenth century, a boy was born to a poor family of the
+name of Canty, who did not want him.  On the same day another English
+child was born to a rich family of the name of Tudor, who did want him.
+All England wanted him too.  England had so longed for him, and hoped
+for him, and prayed God for him, that, now that he was really come, the
+people went nearly mad for joy.  Mere acquaintances hugged and kissed
+each other and cried. Everybody took a holiday, and high and low, rich
+and poor, feasted and danced and sang, and got very mellow; and they
+kept this up for days and nights together.  By day, London was a sight
+to see, with gay banners waving from every balcony and housetop, and
+splendid pageants marching along.  By night, it was again a sight
+to see, with its great bonfires at every corner, and its troops of
+revellers making merry around them.  There was no talk in all England
+but of the new baby, Edward Tudor, Prince of Wales, who lay lapped in
+silks and satins, unconscious of all this fuss, and not knowing that
+great lords and ladies were tending him and watching over him--and not
+caring, either.  But there was no talk about the other baby, Tom Canty,
+lapped in his poor rags, except among the family of paupers whom he had
+just come to trouble with his presence.
+
+
+CHAPTER II. Tom’s early life.
+
+Let us skip a number of years.
+
+London was fifteen hundred years old, and was a great town--for that
+day. It had a hundred thousand inhabitants--some think double as many.
+ The streets were very narrow, and crooked, and dirty, especially in the
+part where Tom Canty lived, which was not far from London Bridge.  The
+houses were of wood, with the second story projecting over the first,
+and the third sticking its elbows out beyond the second.  The higher
+the houses grew, the broader they grew.  They were skeletons of strong
+criss-cross beams, with solid material between, coated with plaster.
+ The beams were painted red or blue or black, according to the owner’s
+taste, and this gave the houses a very picturesque look.  The windows
+were small, glazed with little diamond-shaped panes, and they opened
+outward, on hinges, like doors.
+
+The house which Tom’s father lived in was up a foul little pocket called
+Offal Court, out of Pudding Lane.  It was small, decayed, and rickety,
+but it was packed full of wretchedly poor families. Canty’s tribe
+occupied a room on the third floor.  The mother and father had a sort of
+bedstead in the corner; but Tom, his grandmother, and his two sisters,
+Bet and Nan, were not restricted--they had all the floor to themselves,
+and might sleep where they chose.  There were the remains of a blanket
+or two, and some bundles of ancient and dirty straw, but these could not
+rightly be called beds, for they were not organised; they were kicked
+into a general pile, mornings, and selections made from the mass at
+night, for service.
+
+Bet and Nan were fifteen years old--twins.  They were good-hearted
+girls, unclean, clothed in rags, and profoundly ignorant.  Their mother
+was like them.  But the father and the grandmother were a couple of
+fiends.  They got drunk whenever they could; then they fought each other
+or anybody else who came in the way; they cursed and swore always, drunk
+or sober; John Canty was a thief, and his mother a beggar.  They made
+beggars of the children, but failed to make thieves of them.  Among,
+but not of, the dreadful rabble that inhabited the house, was a good old
+priest whom the King had turned out of house and home with a pension of
+a few farthings, and he used to get the children aside and teach them
+right ways secretly. Father Andrew also taught Tom a little Latin, and
+how to read and write; and would have done the same with the girls,
+but they were afraid of the jeers of their friends, who could not have
+endured such a queer accomplishment in them.
+
+All Offal Court was just such another hive as Canty’s house.
+Drunkenness, riot and brawling were the order, there, every night and
+nearly all night long.  Broken heads were as common as hunger in that
+place.  Yet little Tom was not unhappy.  He had a hard time of it, but
+did not know it.  It was the sort of time that all the Offal Court boys
+had, therefore he supposed it was the correct and comfortable thing.
+ When he came home empty-handed at night, he knew his father would
+curse him and thrash him first, and that when he was done the awful
+grandmother would do it all over again and improve on it; and that away
+in the night his starving mother would slip to him stealthily with any
+miserable scrap or crust she had been able to save for him by going
+hungry herself, notwithstanding she was often caught in that sort of
+treason and soundly beaten for it by her husband.
+
+No, Tom’s life went along well enough, especially in summer.  He only
+begged just enough to save himself, for the laws against mendicancy were
+stringent, and the penalties heavy; so he put in a good deal of his time
+listening to good Father Andrew’s charming old tales and legends
+about giants and fairies, dwarfs and genii, and enchanted castles, and
+gorgeous kings and princes.  His head grew to be full of these wonderful
+things, and many a night as he lay in the dark on his scant and
+offensive straw, tired, hungry, and smarting from a thrashing, he
+unleashed his imagination and soon forgot his aches and pains in
+delicious picturings to himself of the charmed life of a petted prince
+in a regal palace.  One desire came in time to haunt him day and night:
+ it was to see a real prince, with his own eyes.  He spoke of it once to
+some of his Offal Court comrades; but they jeered him and scoffed him so
+unmercifully that he was glad to keep his dream to himself after that.
+
+He often read the priest’s old books and got him to explain and enlarge
+upon them.  His dreamings and readings worked certain changes in him,
+by-and-by.  His dream-people were so fine that he grew to lament his
+shabby clothing and his dirt, and to wish to be clean and better clad.
+ He went on playing in the mud just the same, and enjoying it, too; but,
+instead of splashing around in the Thames solely for the fun of it,
+he began to find an added value in it because of the washings and
+cleansings it afforded.
+
+Tom could always find something going on around the Maypole in
+Cheapside, and at the fairs; and now and then he and the rest of London
+had a chance to see a military parade when some famous unfortunate was
+carried prisoner to the Tower, by land or boat. One summer’s day he saw
+poor Anne Askew and three men burned at the stake in Smithfield, and
+heard an ex-Bishop preach a sermon to them which did not interest him.
+Yes, Tom’s life was varied and pleasant enough, on the whole.
+
+By-and-by Tom’s reading and dreaming about princely life wrought such a
+strong effect upon him that he began to _act_ the prince, unconsciously.
+His speech and manners became curiously ceremonious and courtly, to the
+vast admiration and amusement of his intimates.  But Tom’s influence
+among these young people began to grow now, day by day; and in time he
+came to be looked up to, by them, with a sort of wondering awe, as a
+superior being.  He seemed to know so much! and he could do and say such
+marvellous things! and withal, he was so deep and wise!  Tom’s remarks,
+and Tom’s performances, were reported by the boys to their elders; and
+these, also, presently began to discuss Tom Canty, and to regard him
+as a most gifted and extraordinary creature.  Full-grown people brought
+their perplexities to Tom for solution, and were often astonished at the
+wit and wisdom of his decisions.  In fact he was become a hero to all
+who knew him except his own family--these, only, saw nothing in him.
+
+Privately, after a while, Tom organised a royal court!  He was the
+prince; his special comrades were guards, chamberlains, equerries, lords
+and ladies in waiting, and the royal family.  Daily the mock prince was
+received with elaborate ceremonials borrowed by Tom from his romantic
+readings; daily the great affairs of the mimic kingdom were discussed
+in the royal council, and daily his mimic highness issued decrees to his
+imaginary armies, navies, and viceroyalties.
+
+After which, he would go forth in his rags and beg a few farthings, eat
+his poor crust, take his customary cuffs and abuse, and then stretch
+himself upon his handful of foul straw, and resume his empty grandeurs
+in his dreams.
+
+And still his desire to look just once upon a real prince, in the flesh,
+grew upon him, day by day, and week by week, until at last it absorbed
+all other desires, and became the one passion of his life.
+
+One January day, on his usual begging tour, he tramped despondently up
+and down the region round about Mincing Lane and Little East Cheap, hour
+after hour, bare-footed and cold, looking in at cook-shop windows and
+longing for the dreadful pork-pies and other deadly inventions displayed
+there--for to him these were dainties fit for the angels; that is,
+judging by the smell, they were--for it had never been his good luck to
+own and eat one. There was a cold drizzle of rain; the atmosphere was
+murky; it was a melancholy day.  At night Tom reached home so wet and
+tired and hungry that it was not possible for his father and grandmother
+to observe his forlorn condition and not be moved--after their fashion;
+wherefore they gave him a brisk cuffing at once and sent him to bed.
+ For a long time his pain and hunger, and the swearing and fighting
+going on in the building, kept him awake; but at last his thoughts
+drifted away to far, romantic lands, and he fell asleep in the company
+of jewelled and gilded princelings who live in vast palaces, and had
+servants salaaming before them or flying to execute their orders.  And
+then, as usual, he dreamed that _he_ was a princeling himself.
+
+All night long the glories of his royal estate shone upon him; he moved
+among great lords and ladies, in a blaze of light, breathing perfumes,
+drinking in delicious music, and answering the reverent obeisances of
+the glittering throng as it parted to make way for him, with here a
+smile, and there a nod of his princely head.
+
+And when he awoke in the morning and looked upon the wretchedness
+about him, his dream had had its usual effect--it had intensified the
+sordidness of his surroundings a thousandfold.  Then came bitterness,
+and heart-break, and tears.
+
+
+CHAPTER III. Tom’s meeting with the Prince.
+
+Tom got up hungry, and sauntered hungry away, but with his thoughts busy
+with the shadowy splendours of his night’s dreams. He wandered here
+and there in the city, hardly noticing where he was going, or what
+was happening around him.  People jostled him, and some gave him rough
+speech; but it was all lost on the musing boy.  By-and-by he found
+himself at Temple Bar, the farthest from home he had ever travelled in
+that direction.  He stopped and considered a moment, then fell into his
+imaginings again, and passed on outside the walls of London.  The Strand
+had ceased to be a country-road then, and regarded itself as a street,
+but by a strained construction; for, though there was a tolerably
+compact row of houses on one side of it, there were only some scattered
+great buildings on the other, these being palaces of rich nobles, with
+ample and beautiful grounds stretching to the river--grounds that are
+now closely packed with grim acres of brick and stone.
+
+Tom discovered Charing Village presently, and rested himself at the
+beautiful cross built there by a bereaved king of earlier days; then
+idled down a quiet, lovely road, past the great cardinal’s
+stately palace, toward a far more mighty and majestic palace
+beyond--Westminster. Tom stared in glad wonder at the vast pile of
+masonry, the wide-spreading wings, the frowning bastions and turrets,
+the huge stone gateway, with its gilded bars and its magnificent array
+of colossal granite lions, and other the signs and symbols of English
+royalty.  Was the desire of his soul to be satisfied at last?  Here,
+indeed, was a king’s palace.  Might he not hope to see a prince now--a
+prince of flesh and blood, if Heaven were willing?
+
+At each side of the gilded gate stood a living statue--that is to say,
+an erect and stately and motionless man-at-arms, clad from head to heel
+in shining steel armour.  At a respectful distance were many country
+folk, and people from the city, waiting for any chance glimpse of
+royalty that might offer.  Splendid carriages, with splendid people
+in them and splendid servants outside, were arriving and departing by
+several other noble gateways that pierced the royal enclosure.
+
+Poor little Tom, in his rags, approached, and was moving slowly and
+timidly past the sentinels, with a beating heart and a rising hope, when
+all at once he caught sight through the golden bars of a spectacle that
+almost made him shout for joy.  Within was a comely boy, tanned and
+brown with sturdy outdoor sports and exercises, whose clothing was all
+of lovely silks and satins, shining with jewels; at his hip a little
+jewelled sword and dagger; dainty buskins on his feet, with red heels;
+and on his head a jaunty crimson cap, with drooping plumes fastened
+with a great sparkling gem.  Several gorgeous gentlemen stood near--his
+servants, without a doubt.  Oh! he was a prince--a prince, a living
+prince, a real prince--without the shadow of a question; and the prayer
+of the pauper-boy’s heart was answered at last.
+
+Tom’s breath came quick and short with excitement, and his eyes grew big
+with wonder and delight.  Everything gave way in his mind instantly
+to one desire:  that was to get close to the prince, and have a good,
+devouring look at him.  Before he knew what he was about, he had his
+face against the gate-bars.  The next instant one of the soldiers
+snatched him rudely away, and sent him spinning among the gaping crowd
+of country gawks and London idlers.  The soldier said,--
+
+“Mind thy manners, thou young beggar!”
+
+The crowd jeered and laughed; but the young prince sprang to the gate
+with his face flushed, and his eyes flashing with indignation, and cried
+out,--
+
+“How dar’st thou use a poor lad like that?  How dar’st thou use the King
+my father’s meanest subject so?  Open the gates, and let him in!”
+
+You should have seen that fickle crowd snatch off their hats then.
+You should have heard them cheer, and shout, “Long live the Prince of
+Wales!”
+
+The soldiers presented arms with their halberds, opened the gates,
+and presented again as the little Prince of Poverty passed in, in his
+fluttering rags, to join hands with the Prince of Limitless Plenty.
+
+Edward Tudor said--
+
+“Thou lookest tired and hungry:  thou’st been treated ill.  Come with
+me.”
+
+Half a dozen attendants sprang forward to--I don’t know what; interfere,
+no doubt.  But they were waved aside with a right royal gesture, and
+they stopped stock still where they were, like so many statues.  Edward
+took Tom to a rich apartment in the palace, which he called his cabinet.
+ By his command a repast was brought such as Tom had never encountered
+before except in books.  The prince, with princely delicacy and
+breeding, sent away the servants, so that his humble guest might not be
+embarrassed by their critical presence; then he sat near by, and asked
+questions while Tom ate.
+
+“What is thy name, lad?”
+
+“Tom Canty, an’ it please thee, sir.”
+
+“‘Tis an odd one.  Where dost live?”
+
+“In the city, please thee, sir.  Offal Court, out of Pudding Lane.”
+
+“Offal Court!  Truly ’tis another odd one.  Hast parents?”
+
+“Parents have I, sir, and a grand-dam likewise that is but indifferently
+precious to me, God forgive me if it be offence to say it--also twin
+sisters, Nan and Bet.”
+
+“Then is thy grand-dam not over kind to thee, I take it?”
+
+“Neither to any other is she, so please your worship.  She hath a wicked
+heart, and worketh evil all her days.”
+
+“Doth she mistreat thee?”
+
+“There be times that she stayeth her hand, being asleep or overcome with
+drink; but when she hath her judgment clear again, she maketh it up to
+me with goodly beatings.”
+
+A fierce look came into the little prince’s eyes, and he cried out--
+
+“What!  Beatings?”
+
+“Oh, indeed, yes, please you, sir.”
+
+“_Beatings_!--and thou so frail and little.  Hark ye:  before the night
+come, she shall hie her to the Tower.  The King my father”--
+
+“In sooth, you forget, sir, her low degree.  The Tower is for the great
+alone.”
+
+“True, indeed.  I had not thought of that.  I will consider of her
+punishment.  Is thy father kind to thee?”
+
+“Not more than Gammer Canty, sir.”
+
+“Fathers be alike, mayhap.  Mine hath not a doll’s temper.  He smiteth
+with a heavy hand, yet spareth me:  he spareth me not always with his
+tongue, though, sooth to say.  How doth thy mother use thee?”
+
+“She is good, sir, and giveth me neither sorrow nor pain of any sort.
+And Nan and Bet are like to her in this.”
+
+“How old be these?”
+
+“Fifteen, an’ it please you, sir.”
+
+“The Lady Elizabeth, my sister, is fourteen, and the Lady Jane Grey,
+my cousin, is of mine own age, and comely and gracious withal; but
+my sister the Lady Mary, with her gloomy mien and--Look you:  do thy
+sisters forbid their servants to smile, lest the sin destroy their
+souls?”
+
+“They?  Oh, dost think, sir, that _they_ have servants?”
+
+The little prince contemplated the little pauper gravely a moment, then
+said--
+
+“And prithee, why not?  Who helpeth them undress at night?  Who attireth
+them when they rise?”
+
+“None, sir.  Would’st have them take off their garment, and sleep
+without--like the beasts?”
+
+“Their garment!  Have they but one?”
+
+“Ah, good your worship, what would they do with more?  Truly they have
+not two bodies each.”
+
+“It is a quaint and marvellous thought!  Thy pardon, I had not meant
+to laugh.  But thy good Nan and thy Bet shall have raiment and lackeys
+enow, and that soon, too:  my cofferer shall look to it.  No, thank me
+not; ’tis nothing.  Thou speakest well; thou hast an easy grace in it.
+ Art learned?”
+
+“I know not if I am or not, sir.  The good priest that is called Father
+Andrew taught me, of his kindness, from his books.”
+
+“Know’st thou the Latin?”
+
+“But scantly, sir, I doubt.”
+
+“Learn it, lad:  ’tis hard only at first.  The Greek is harder; but
+neither these nor any tongues else, I think, are hard to the Lady
+Elizabeth and my cousin.  Thou should’st hear those damsels at it!  But
+tell me of thy Offal Court.  Hast thou a pleasant life there?”
+
+“In truth, yes, so please you, sir, save when one is hungry. There
+be Punch-and-Judy shows, and monkeys--oh such antic creatures! and so
+bravely dressed!--and there be plays wherein they that play do shout
+and fight till all are slain, and ’tis so fine to see, and costeth but
+a farthing--albeit ’tis main hard to get the farthing, please your
+worship.”
+
+“Tell me more.”
+
+“We lads of Offal Court do strive against each other with the cudgel,
+like to the fashion of the ‘prentices, sometimes.”
+
+The prince’s eyes flashed.  Said he--
+
+“Marry, that would not I mislike.  Tell me more.”
+
+“We strive in races, sir, to see who of us shall be fleetest.”
+
+“That would I like also.  Speak on.”
+
+“In summer, sir, we wade and swim in the canals and in the river, and
+each doth duck his neighbour, and splatter him with water, and dive and
+shout and tumble and--”
+
+“‘Twould be worth my father’s kingdom but to enjoy it once! Prithee go
+on.”
+
+“We dance and sing about the Maypole in Cheapside; we play in the sand,
+each covering his neighbour up; and times we make mud pastry--oh
+the lovely mud, it hath not its like for delightfulness in all the
+world!--we do fairly wallow in the mud, sir, saving your worship’s
+presence.”
+
+“Oh, prithee, say no more, ’tis glorious!  If that I could but clothe me
+in raiment like to thine, and strip my feet, and revel in the mud once,
+just once, with none to rebuke me or forbid, meseemeth I could forego
+the crown!”
+
+“And if that I could clothe me once, sweet sir, as thou art clad--just
+once--”
+
+“Oho, would’st like it?  Then so shall it be.  Doff thy rags, and don
+these splendours, lad!  It is a brief happiness, but will be not less
+keen for that.  We will have it while we may, and change again before
+any come to molest.”
+
+A few minutes later the little Prince of Wales was garlanded with Tom’s
+fluttering odds and ends, and the little Prince of Pauperdom was tricked
+out in the gaudy plumage of royalty.  The two went and stood side by
+side before a great mirror, and lo, a miracle: there did not seem to
+have been any change made!  They stared at each other, then at the
+glass, then at each other again.  At last the puzzled princeling said--
+
+“What dost thou make of this?”
+
+“Ah, good your worship, require me not to answer.  It is not meet that
+one of my degree should utter the thing.”
+
+“Then will _I_ utter it.  Thou hast the same hair, the same eyes, the
+same voice and manner, the same form and stature, the same face and
+countenance that I bear.  Fared we forth naked, there is none could
+say which was you, and which the Prince of Wales.  And, now that I
+am clothed as thou wert clothed, it seemeth I should be able the more
+nearly to feel as thou didst when the brute soldier--Hark ye, is not
+this a bruise upon your hand?”
+
+“Yes; but it is a slight thing, and your worship knoweth that the poor
+man-at-arms--”
+
+“Peace!  It was a shameful thing and a cruel!” cried the little prince,
+stamping his bare foot.  “If the King--Stir not a step till I come
+again! It is a command!”
+
+In a moment he had snatched up and put away an article of national
+importance that lay upon a table, and was out at the door and flying
+through the palace grounds in his bannered rags, with a hot face and
+glowing eyes.  As soon as he reached the great gate, he seized the bars,
+and tried to shake them, shouting--
+
+“Open!  Unbar the gates!”
+
+The soldier that had maltreated Tom obeyed promptly; and as the prince
+burst through the portal, half-smothered with royal wrath, the soldier
+fetched him a sounding box on the ear that sent him whirling to the
+roadway, and said--
+
+“Take that, thou beggar’s spawn, for what thou got’st me from his
+Highness!”
+
+The crowd roared with laughter.  The prince picked himself out of the
+mud, and made fiercely at the sentry, shouting--
+
+“I am the Prince of Wales, my person is sacred; and thou shalt hang for
+laying thy hand upon me!”
+
+The soldier brought his halberd to a present-arms and said mockingly--
+
+“I salute your gracious Highness.”  Then angrily--“Be off, thou crazy
+rubbish!”
+
+Here the jeering crowd closed round the poor little prince, and hustled
+him far down the road, hooting him, and shouting--
+
+“Way for his Royal Highness!  Way for the Prince of Wales!”
+
+
+CHAPTER IV. The Prince’s troubles begin.
+
+After hours of persistent pursuit and persecution, the little prince was
+at last deserted by the rabble and left to himself.  As long as he had
+been able to rage against the mob, and threaten it royally, and
+royally utter commands that were good stuff to laugh at, he was very
+entertaining; but when weariness finally forced him to be silent, he was
+no longer of use to his tormentors, and they sought amusement elsewhere.
+He looked about him, now, but could not recognise the locality.  He
+was within the city of London--that was all he knew.  He moved on,
+aimlessly, and in a little while the houses thinned, and the passers-by
+were infrequent.  He bathed his bleeding feet in the brook which flowed
+then where Farringdon Street now is; rested a few moments, then passed
+on, and presently came upon a great space with only a few scattered
+houses in it, and a prodigious church.  He recognised this church.
+ Scaffoldings were about, everywhere, and swarms of workmen; for it was
+undergoing elaborate repairs.  The prince took heart at once--he felt
+that his troubles were at an end, now.  He said to himself, “It is the
+ancient Grey Friars’ Church, which the king my father hath taken from
+the monks and given for a home for ever for poor and forsaken children,
+and new-named it Christ’s Church.  Right gladly will they serve the son
+of him who hath done so generously by them--and the more that that son
+is himself as poor and as forlorn as any that be sheltered here this
+day, or ever shall be.”
+
+He was soon in the midst of a crowd of boys who were running, jumping,
+playing at ball and leap-frog, and otherwise disporting themselves, and
+right noisily, too.  They were all dressed alike, and in the fashion
+which in that day prevailed among serving-men and ‘prentices{1}--that
+is to say, each had on the crown of his head a flat black cap about the
+size of a saucer, which was not useful as a covering, it being of such
+scanty dimensions, neither was it ornamental; from beneath it the hair
+fell, unparted, to the middle of the forehead, and was cropped straight
+around; a clerical band at the neck; a blue gown that fitted closely
+and hung as low as the knees or lower; full sleeves; a broad red belt;
+bright yellow stockings, gartered above the knees; low shoes with large
+metal buckles. It was a sufficiently ugly costume.
+
+The boys stopped their play and flocked about the prince, who said with
+native dignity--
+
+“Good lads, say to your master that Edward Prince of Wales desireth
+speech with him.”
+
+A great shout went up at this, and one rude fellow said--
+
+“Marry, art thou his grace’s messenger, beggar?”
+
+The prince’s face flushed with anger, and his ready hand flew to his
+hip, but there was nothing there.  There was a storm of laughter, and
+one boy said--
+
+“Didst mark that?  He fancied he had a sword--belike he is the prince
+himself.”
+
+This sally brought more laughter.  Poor Edward drew himself up proudly
+and said--
+
+“I am the prince; and it ill beseemeth you that feed upon the king my
+father’s bounty to use me so.”
+
+This was vastly enjoyed, as the laughter testified.  The youth who had
+first spoken, shouted to his comrades--
+
+“Ho, swine, slaves, pensioners of his grace’s princely father, where be
+your manners?  Down on your marrow bones, all of ye, and do reverence to
+his kingly port and royal rags!”
+
+With boisterous mirth they dropped upon their knees in a body and did
+mock homage to their prey.  The prince spurned the nearest boy with his
+foot, and said fiercely--
+
+“Take thou that, till the morrow come and I build thee a gibbet!”
+
+Ah, but this was not a joke--this was going beyond fun.  The laughter
+ceased on the instant, and fury took its place.  A dozen shouted--
+
+“Hale him forth!  To the horse-pond, to the horse-pond!  Where be the
+dogs?  Ho, there, Lion! ho, Fangs!”
+
+Then followed such a thing as England had never seen before--the sacred
+person of the heir to the throne rudely buffeted by plebeian hands, and
+set upon and torn by dogs.
+
+As night drew to a close that day, the prince found himself far down in
+the close-built portion of the city.  His body was bruised, his hands
+were bleeding, and his rags were all besmirched with mud.  He wandered
+on and on, and grew more and more bewildered, and so tired and faint
+he could hardly drag one foot after the other.  He had ceased to ask
+questions of anyone, since they brought him only insult instead of
+information.  He kept muttering to himself, “Offal Court--that is the
+name; if I can but find it before my strength is wholly spent and I
+drop, then am I saved--for his people will take me to the palace and
+prove that I am none of theirs, but the true prince, and I shall have
+mine own again.”  And now and then his mind reverted to his treatment
+by those rude Christ’s Hospital boys, and he said, “When I am king, they
+shall not have bread and shelter only, but also teachings out of books;
+for a full belly is little worth where the mind is starved, and the
+heart.  I will keep this diligently in my remembrance, that this day’s
+lesson be not lost upon me, and my people suffer thereby; for learning
+softeneth the heart and breedeth gentleness and charity.” {1}
+
+The lights began to twinkle, it came on to rain, the wind rose, and a
+raw and gusty night set in.  The houseless prince, the homeless heir to
+the throne of England, still moved on, drifting deeper into the maze
+of squalid alleys where the swarming hives of poverty and misery were
+massed together.
+
+Suddenly a great drunken ruffian collared him and said--
+
+“Out to this time of night again, and hast not brought a farthing home,
+I warrant me!  If it be so, an’ I do not break all the bones in thy lean
+body, then am I not John Canty, but some other.”
+
+The prince twisted himself loose, unconsciously brushed his profaned
+shoulder, and eagerly said--
+
+“Oh, art _his_ father, truly?  Sweet heaven grant it be so--then wilt
+thou fetch him away and restore me!”
+
+“_His_ father?  I know not what thou mean’st; I but know I am _thy_
+father, as thou shalt soon have cause to--”
+
+“Oh, jest not, palter not, delay not!--I am worn, I am wounded, I can
+bear no more.  Take me to the king my father, and he will make thee rich
+beyond thy wildest dreams.  Believe me, man, believe me!--I speak no
+lie, but only the truth!--put forth thy hand and save me!  I am indeed
+the Prince of Wales!”
+
+The man stared down, stupefied, upon the lad, then shook his head and
+muttered--
+
+“Gone stark mad as any Tom o’ Bedlam!”--then collared him once more,
+and said with a coarse laugh and an oath, “But mad or no mad, I and thy
+Gammer Canty will soon find where the soft places in thy bones lie, or
+I’m no true man!”
+
+With this he dragged the frantic and struggling prince away, and
+disappeared up a front court followed by a delighted and noisy swarm of
+human vermin.
+
+
+CHAPTER V. Tom as a Patrician.
+
+Tom Canty, left alone in the prince’s cabinet, made good use of his
+opportunity.  He turned himself this way and that before the great
+mirror, admiring his finery; then walked away, imitating the prince’s
+high-bred carriage, and still observing results in the glass.  Next he
+drew the beautiful sword, and bowed, kissing the blade, and laying it
+across his breast, as he had seen a noble knight do, by way of salute to
+the lieutenant of the Tower, five or six weeks before, when delivering
+the great lords of Norfolk and Surrey into his hands for captivity.  Tom
+played with the jewelled dagger that hung upon his thigh; he examined
+the costly and exquisite ornaments of the room; he tried each of the
+sumptuous chairs, and thought how proud he would be if the Offal Court
+herd could only peep in and see him in his grandeur.  He wondered if
+they would believe the marvellous tale he should tell when he got home,
+or if they would shake their heads, and say his overtaxed imagination
+had at last upset his reason.
+
+At the end of half an hour it suddenly occurred to him that the prince
+was gone a long time; then right away he began to feel lonely; very
+soon he fell to listening and longing, and ceased to toy with the
+pretty things about him; he grew uneasy, then restless, then distressed.
+Suppose some one should come, and catch him in the prince’s clothes, and
+the prince not there to explain.  Might they not hang him at once,
+and inquire into his case afterward?  He had heard that the great
+were prompt about small matters.  His fear rose higher and higher; and
+trembling he softly opened the door to the antechamber, resolved to
+fly and seek the prince, and, through him, protection and release.  Six
+gorgeous gentlemen-servants and two young pages of high degree, clothed
+like butterflies, sprang to their feet and bowed low before him.  He
+stepped quickly back and shut the door.  He said--
+
+“Oh, they mock at me!  They will go and tell.  Oh! why came I here to
+cast away my life?”
+
+He walked up and down the floor, filled with nameless fears, listening,
+starting at every trifling sound.  Presently the door swung open, and a
+silken page said--
+
+“The Lady Jane Grey.”
+
+The door closed and a sweet young girl, richly clad, bounded toward him.
+But she stopped suddenly, and said in a distressed voice--
+
+“Oh, what aileth thee, my lord?”
+
+Tom’s breath was nearly failing him; but he made shift to stammer out--
+
+“Ah, be merciful, thou!  In sooth I am no lord, but only poor Tom Canty
+of Offal Court in the city.  Prithee let me see the prince, and he will
+of his grace restore to me my rags, and let me hence unhurt.  Oh, be
+thou merciful, and save me!”
+
+By this time the boy was on his knees, and supplicating with his eyes
+and uplifted hands as well as with his tongue.  The young girl seemed
+horror-stricken.  She cried out--
+
+“O my lord, on thy knees?--and to _me_!”
+
+Then she fled away in fright; and Tom, smitten with despair, sank down,
+murmuring--
+
+“There is no help, there is no hope.  Now will they come and take me.”
+
+Whilst he lay there benumbed with terror, dreadful tidings were speeding
+through the palace.  The whisper--for it was whispered always--flew from
+menial to menial, from lord to lady, down all the long corridors, from
+story to story, from saloon to saloon, “The prince hath gone mad, the
+prince hath gone mad!”  Soon every saloon, every marble hall, had its
+groups of glittering lords and ladies, and other groups of dazzling
+lesser folk, talking earnestly together in whispers, and every face
+had in it dismay. Presently a splendid official came marching by these
+groups, making solemn proclamation--
+
+“IN THE NAME OF THE KING!
+
+Let none list to this false and foolish matter, upon pain of death, nor
+discuss the same, nor carry it abroad.  In the name of the King!”
+
+The whisperings ceased as suddenly as if the whisperers had been
+stricken dumb.
+
+Soon there was a general buzz along the corridors, of “The prince! See,
+the prince comes!”
+
+Poor Tom came slowly walking past the low-bowing groups, trying to
+bow in return, and meekly gazing upon his strange surroundings with
+bewildered and pathetic eyes.  Great nobles walked upon each side of
+him, making him lean upon them, and so steady his steps. Behind him
+followed the court-physicians and some servants.
+
+Presently Tom found himself in a noble apartment of the palace and heard
+the door close behind him.  Around him stood those who had come with
+him. Before him, at a little distance, reclined a very large and very
+fat man, with a wide, pulpy face, and a stern expression.  His large
+head was very grey; and his whiskers, which he wore only around his
+face, like a frame, were grey also.  His clothing was of rich stuff,
+but old, and slightly frayed in places.  One of his swollen legs had a
+pillow under it, and was wrapped in bandages.  There was silence now;
+and there was no head there but was bent in reverence, except this
+man’s.  This stern-countenanced invalid was the dread Henry VIII.  He
+said--and his face grew gentle as he began to speak--
+
+“How now, my lord Edward, my prince?  Hast been minded to cozen me, the
+good King thy father, who loveth thee, and kindly useth thee, with a
+sorry jest?”
+
+Poor Tom was listening, as well as his dazed faculties would let him,
+to the beginning of this speech; but when the words ‘me, the good King’
+fell upon his ear, his face blanched, and he dropped as instantly upon
+his knees as if a shot had brought him there. Lifting up his hands, he
+exclaimed--
+
+“Thou the _King_?  Then am I undone indeed!”
+
+This speech seemed to stun the King.  His eyes wandered from face to
+face aimlessly, then rested, bewildered, upon the boy before him.  Then
+he said in a tone of deep disappointment--
+
+“Alack, I had believed the rumour disproportioned to the truth; but I
+fear me ’tis not so.”  He breathed a heavy sigh, and said in a gentle
+voice, “Come to thy father, child:  thou art not well.”
+
+Tom was assisted to his feet, and approached the Majesty of England,
+humble and trembling.  The King took the frightened face between his
+hands, and gazed earnestly and lovingly into it awhile, as if seeking
+some grateful sign of returning reason there, then pressed the curly
+head against his breast, and patted it tenderly.  Presently he said--
+
+“Dost not know thy father, child?  Break not mine old heart; say thou
+know’st me.  Thou _dost_ know me, dost thou not?”
+
+“Yea:  thou art my dread lord the King, whom God preserve!”
+
+“True, true--that is well--be comforted, tremble not so; there is none
+here would hurt thee; there is none here but loves thee. Thou art better
+now; thy ill dream passeth--is’t not so?  Thou wilt not miscall thyself
+again, as they say thou didst a little while agone?”
+
+“I pray thee of thy grace believe me, I did but speak the truth, most
+dread lord; for I am the meanest among thy subjects, being a pauper
+born, and ’tis by a sore mischance and accident I am here, albeit I was
+therein nothing blameful.  I am but young to die, and thou canst save me
+with one little word.  Oh speak it, sir!”
+
+“Die?  Talk not so, sweet prince--peace, peace, to thy troubled
+heart--thou shalt not die!”
+
+Tom dropped upon his knees with a glad cry--
+
+“God requite thy mercy, O my King, and save thee long to bless thy
+land!” Then springing up, he turned a joyful face toward the two lords
+in waiting, and exclaimed, “Thou heard’st it!  I am not to die:  the
+King hath said it!”  There was no movement, save that all bowed with
+grave respect; but no one spoke.  He hesitated, a little confused, then
+turned timidly toward the King, saying, “I may go now?”
+
+“Go?  Surely, if thou desirest.  But why not tarry yet a little? Whither
+would’st go?”
+
+Tom dropped his eyes, and answered humbly--
+
+“Peradventure I mistook; but I did think me free, and so was I moved
+to seek again the kennel where I was born and bred to misery, yet which
+harboureth my mother and my sisters, and so is home to me; whereas these
+pomps and splendours whereunto I am not used--oh, please you, sir, to
+let me`;
   window.BOOKS_FULL[113]=`THE SECRET GARDEN
 
 by Frances Hodgson Burnett
@@ -8472,918 +8616,916 @@ had to bring her home. She couldn’t be left there, no matter where the
 mistake had come in.”
 
 “Well, this is a pretty piece of business!” ejaculate`;
-  window.BOOKS_FULL[421]=`KIDNAPPED
-     BEING
-     MEMOIRS OF THE ADVENTURES OF
-     DAVID BALFOUR
-     IN THE YEAR 1751
-
-
-     HOW HE WAS KIDNAPPED AND CAST AWAY; HIS SUFFERINGS IN
-     A DESERT ISLE; HIS JOURNEY IN THE WILD HIGHLANDS;
-     HIS ACQUAINTANCE WITH ALAN BRECK STEWART
-     AND OTHER NOTORIOUS HIGHLAND JACOBITES;
-     WITH ALL THAT HE SUFFERED AT THE
-     HANDS OF HIS UNCLE, EBENEZER
-     BALFOUR OF SHAWS, FALSELY
-     SO CALLED
-
-     WRITTEN BY HIMSELF AND NOW SET FORTH BY
-     ROBERT LOUIS STEVENSON
-     WITH A PREFACE BY MRS. STEVENSON
-
-
-PREFACE TO THE BIOGRAPHICAL EDITION
-
-
-While my husband and Mr. Henley were engaged in writing plays in
-Bournemouth they made a number of titles, hoping to use them in the
-future. Dramatic composition was not what my husband preferred, but
-the torrent of Mr. Henley’s enthusiasm swept him off his feet. However,
-after several plays had been finished, and his health seriously impaired
-by his endeavours to keep up with Mr. Henley, play writing was abandoned
-forever, and my husband returned to his legitimate vocation. Having
-added one of the titles, The Hanging Judge, to the list of projected
-plays, now thrown aside, and emboldened by my husband’s offer to give me
-any help needed, I concluded to try and write it myself.
-
-As I wanted a trial scene in the Old Bailey, I chose the period of 1700
-for my purpose; but being shamefully ignorant of my subject, and my
-husband confessing to little more knowledge than I possessed, a London
-bookseller was commissioned to send us everything he could procure
-bearing on Old Bailey trials. A great package came in response to our
-order, and very soon we were both absorbed, not so much in the trials
-as in following the brilliant career of a Mr. Garrow, who appeared as
-counsel in many of the cases. We sent for more books, and yet more,
-still intent on Mr. Garrow, whose subtle cross-examination of witnesses
-and masterly, if sometimes startling, methods of arriving at the truth
-seemed more thrilling to us than any novel.
-
-Occasionally other trials than those of the Old Bailey would be included
-in the package of books we received from London; among these my husband
-found and read with avidity:--
-
-     THE
-     TRIAL
-     OF
-     JAMES STEWART
-     in Aucharn in Duror of Appin
-     FOR THE
-     Murder of COLIN CAMPBELL of Glenure, Efq;
-     Factor for His Majefty on the forfeited
-     Estate of Ardfhiel.
-
-My husband was always interested in this period of his country’s
-history, and had already the intention of writing a story that should
-turn on the Appin murder. The tale was to be of a boy, David Balfour,
-supposed to belong to my husband’s own family, who should travel in
-Scotland as though it were a foreign country, meeting with various
-adventures and misadventures by the way. From the trial of James Stewart
-my husband gleaned much valuable material for his novel, the most
-important being the character of Alan Breck. Aside from having described
-him as “smallish in stature,” my husband seems to have taken Alan
-Breck’s personal appearance, even to his clothing, from the book.
-
-A letter from James Stewart to Mr. John Macfarlane, introduced as
-evidence in the trial, says: “There is one Alan Stewart, a distant
-friend of the late Ardshiel’s, who is in the French service, and came
-over in March last, as he said to some, in order to settle at home; to
-others, that he was to go soon back; and was, as I hear, the day that
-the murder was committed, seen not far from the place where it happened,
-and is not now to be seen; by which it is believed he was the actor. He
-is a desperate foolish fellow; and if he is guilty, came to the country
-for that very purpose. He is a tall, pock-pitted lad, very black hair,
-and wore a blue coat and metal buttons, an old red vest, and breeches of
-the same colour.” A second witness testified to having seen him wearing
-“a blue coat with silver buttons, a red waistcoat, black shag breeches,
-tartan hose, and a feathered hat, with a big coat, dun coloured,” a
-costume referred to by one of the counsel as “French cloathes which were
-remarkable.”
-
-There are many incidents given in the trial that point to Alan’s fiery
-spirit and Highland quickness to take offence. One witness “declared
-also That the said Alan Breck threatened that he would challenge
-Ballieveolan and his sons to fight because of his removing the
-declarant last year from Glenduror.” On another page: “Duncan Campbell,
-change-keeper at Annat, aged thirty-five years, married, witness cited,
-sworn, purged and examined ut supra, depones, That, in the month of
-April last, the deponent met with Alan Breck Stewart, with whom he was
-not acquainted, and John Stewart, in Auchnacoan, in the house of the
-walk miller of Auchofragan, and went on with them to the house: Alan
-Breck Stewart said, that he hated all the name of Campbell; and the
-deponent said, he had no reason for doing so: But Alan said, he had very
-good reason for it: that thereafter they left that house; and, after
-drinking a dram at another house, came to the deponent’s house, where
-they went in, and drunk some drams, and Alan Breck renewed the former
-Conversation; and the deponent, making the same answer, Alan said, that,
-if the deponent had any respect for his friends, he would tell them,
-that if they offered to turn out the possessors of Ardshiel’s estate, he
-would make black cocks of them, before they entered into possession by
-which the deponent understood shooting them, it being a common phrase in
-the country.”
-
-Some time after the publication of Kidnapped we stopped for a short
-while in the Appin country, where we were surprised and interested to
-discover that the feeling concerning the murder of Glenure (the “Red
-Fox,” also called “Colin Roy”) was almost as keen as though the tragedy
-had taken place the day before. For several years my husband received
-letters of expostulation or commendation from members of the Campbell
-and Stewart clans. I have in my possession a paper, yellow with age,
-that was sent soon after the novel appeared, containing “The Pedigree of
-the Family of Appine,” wherein it is said that “Alan 3rd Baron of Appine
-was not killed at Flowdoun, tho there, but lived to a great old age. He
-married Cameron Daughter to Ewen Cameron of Lochiel.” Following this
-is a paragraph stating that “John Stewart 1st of Ardsheall of his
-descendants Alan Breck had better be omitted. Duncan Baan Stewart in
-Achindarroch his father was a Bastard.”
-
-One day, while my husband was busily at work, I sat beside him reading
-an old cookery book called The Compleat Housewife: or Accomplish’d
-Gentlewoman’s Companion. In the midst of receipts for “Rabbits, and
-Chickens mumbled, Pickled Samphire, Skirret Pye, Baked Tansy,” and
-other forgotten delicacies, there were directions for the preparation
-of several lotions for the preservation of beauty. One of these was so
-charming that I interrupted my husband to read it aloud. “Just what
-I wanted!” he exclaimed; and the receipt for the “Lily of the Valley
-Water” was instantly incorporated into Kidnapped.
-
-F. V. DE G. S.
-
-
-DEDICATION
-
-MY DEAR CHARLES BAXTER:
-
-
-If you ever read this tale, you will likely ask yourself more questions
-than I should care to answer: as for instance how the Appin murder has
-come to fall in the year 1751, how the Torran rocks have crept so near
-to Earraid, or why the printed trial is silent as to all that touches
-David Balfour. These are nuts beyond my ability to crack. But if you
-tried me on the point of Alan’s guilt or innocence, I think I could
-defend the reading of the text. To this day you will find the tradition
-of Appin clear in Alan’s favour. If you inquire, you may even hear that
-the descendants of “the other man” who fired the shot are in the country
-to this day. But that other man’s name, inquire as you please, you shall
-not hear; for the Highlander values a secret for itself and for the
-congenial exercise of keeping it. I might go on for long to justify one
-point and own another indefensible; it is more honest to confess at once
-how little I am touched by the desire of accuracy. This is no furniture
-for the scholar’s library, but a book for the winter evening school-room
-when the tasks are over and the hour for bed draws near; and honest
-Alan, who was a grim old fire-eater in his day has in this new avatar
-no more desperate purpose than to steal some young gentleman’s attention
-from his Ovid, carry him awhile into the Highlands and the last century,
-and pack him to bed with some engaging images to mingle with his dreams.
-
-As for you, my dear Charles, I do not even ask you to like this tale.
-But perhaps when he is older, your son will; he may then be pleased to
-find his father’s name on the fly-leaf; and in the meanwhile it pleases
-me to set it there, in memory of many days that were happy and some (now
-perhaps as pleasant to remember) that were sad. If it is strange for
-me to look back from a distance both in time and space on these bygone
-adventures of our youth, it must be stranger for you who tread the same
-streets--who may to-morrow open the door of the old Speculative,
-where we begin to rank with Scott and Robert Emmet and the beloved and
-inglorious Macbean--or may pass the corner of the close where that great
-society, the L. J. R., held its meetings and drank its beer, sitting in
-the seats of Burns and his companions. I think I see you, moving there
-by plain daylight, beholding with your natural eyes those places that
-have now become for your companion a part of the scenery of dreams. How,
-in the intervals of present business, the past must echo in your memory!
-Let it not echo often without some kind thoughts of your friend,
-
-R.L.S. SKERRYVORE, BOURNEMOUTH.
-
-
-CONTENTS
-
-     CHAPTER
-
-                PREFACE TO THE BIOGRAPHICAL EDITION
-                DEDICATION
-     I          I SET OFF UPON MY JOURNEY TO THE HOUSE OF SHAWS
-     II         I COME TO MY JOURNEY’S END
-     III        I MAKE ACQUAINTANCE OF MY UNCLE
-     IV         I RUN A GREAT DANGER IN THE HOUSE OF SHAWS
-     V          I GO TO THE QUEEN’S FERRY
-     VI         WHAT BEFELL AT THE QUEEN’S FERRY
-     VII        I GO TO SEA IN THE BRIG “COVENANT” OF DYSART
-     VIII       THE ROUND-HOUSE
-     IX         THE MAN WITH THE BELT OF GOLD
-     X          THE SIEGE OF THE ROUND-HOUSE
-     XI         THE CAPTAIN KNUCKLES UNDER
-     XII        I HEAR OF THE “RED FOX”
-      XIII       THE LOSS OF THE BRIG
-     XIV        THE ISLET
-     XV         THE LAD WITH THE SILVER BUTTON: THROUGH THE ISLE OF MULL
-     XVI        THE LAD WITH THE SILVER BUTTON: ACROSS MORVEN
-     XVII       THE DEATH OF THE RED FOX
-     XVIIII     TALK WITH ALAN IN THE WOOD OF LETTERMORE
-     XIX        THE HOUSE OF FEAR
-     XX         THE FLIGHT IN THE HEATHER: THE ROCKS
-     XXI        THE FLIGHT IN THE HEATHER: THE HEUGH OF CORRYNAKIEGH
-     XXII       THE FLIGHT IN THE HEATHER: THE MOOR
-     XXIII      CLUNY’S CAGE
-     XXIV       THE FLIGHT IN THE HEATHER: THE QUARREL IN BALQUHIDDER
-     XXVI       END OF THE FLIGHT: WE PASS THE FORTH
-     XXVII      I COME TO MR. RANKEILLOR
-     XXVIII     I GO IN QUEST OF MY INHERITANCE
-     XXIX       I COME INTO MY KINGDOM
-     XXX        GOOD-BYE
-
-
-CHAPTER I
-
-I SET OFF UPON MY JOURNEY TO THE HOUSE OF SHAWS
-
-
-I will begin the story of my adventures with a certain morning early in
-the month of June, the year of grace 1751, when I took the key for the
-last time out of the door of my father’s house. The sun began to shine
-upon the summit of the hills as I went down the road; and by the time
-I had come as far as the manse, the blackbirds were whistling in the
-garden lilacs, and the mist that hung around the valley in the time of
-the dawn was beginning to arise and die away.
-
-Mr. Campbell, the minister of Essendean, was waiting for me by the
-garden gate, good man! He asked me if I had breakfasted; and hearing
-that I lacked for nothing, he took my hand in both of his and clapped it
-kindly under his arm.
-
-“Well, Davie, lad,” said he, “I will go with you as far as the ford, to
-set you on the way.” And we began to walk forward in silence.
-
-“Are ye sorry to leave Essendean?” said he, after awhile.
-
-“Why, sir,” said I, “if I knew where I was going, or what was likely
-to become of me, I would tell you candidly. Essendean is a good place
-indeed, and I have been very happy there; but then I have never been
-anywhere else. My father and mother, since they are both dead, I shall
-be no nearer to in Essendean than in the Kingdom of Hungary, and, to
-speak truth, if I thought I had a chance to better myself where I was
-going I would go with a good will.”
-
-“Ay?” said Mr. Campbell. “Very well, Davie. Then it behoves me to tell
-your fortune; or so far as I may. When your mother was gone, and your
-father (the worthy, Christian man) began to sicken for his end, he gave
-me in charge a certain letter, which he said was your inheritance. ‘So
-soon,’ says he, ‘as I am gone, and the house is redd up and the gear
-disposed of’ (all which, Davie, hath been done), ‘give my boy this
-letter into his hand, and start him off to the house of Shaws, not far
-from Cramond. That is the place I came from,’ he said, ‘and it’s where
-it befits that my boy should return. He is a steady lad,’ your father
-said, ‘and a canny goer; and I doubt not he will come safe, and be well
-liked where he goes.’”
-
-“The house of Shaws!” I cried. “What had my poor father to do with the
-house of Shaws?”
-
-“Nay,” said Mr. Campbell, “who can tell that for a surety? But the name
-of that family, Davie, boy, is the name you bear--Balfours of Shaws:
-an ancient, honest, reputable house, peradventure in these latter
-days decayed. Your father, too, was a man of learning as befitted his
-position; no man more plausibly conducted school; nor had he the manner
-or the speech of a common dominie; but (as ye will yourself remember)
-I took aye a pleasure to have him to the manse to meet the gentry; and
-those of my own house, Campbell of Kilrennet, Campbell of Dunswire,
-Campbell of Minch, and others, all well-kenned gentlemen, had pleasure
-in his society. Lastly, to put all the elements of this affair before
-you, here is the testamentary letter itself, superscrived by the own
-hand of our departed brother.”
-
-He gave me the letter, which was addressed in these words: “To the hands
-of Ebenezer Balfour, Esquire, of Shaws, in his house of Shaws, these
-will be delivered by my son, David Balfour.” My heart was beating hard
-at this great prospect now suddenly opening before a lad of seventeen
-years of age, the son of a poor country dominie in the Forest of
-Ettrick.
-
-“Mr. Campbell,” I stammered, “and if you were in my shoes, would you
-go?”
-
-“Of a surety,” said the minister, “that would I, and without pause.
-A pretty lad like you should get to Cramond (which is near in by
-Edinburgh) in two days of walk. If the worst came to the worst, and
-your high relations (as I cannot but suppose them to be somewhat of your
-blood) should put you to the door, ye can but walk the two days back
-again and risp at the manse door. But I would rather hope that ye shall
-be well received, as your poor father forecast for you, and for anything
-that I ken come to be a great man in time. And here, Davie, laddie,” he
-resumed, “it lies near upon my conscience to improve this parting, and
-set you on the right guard against the dangers of the world.”
-
-Here he cast about for a comfortable seat, lighted on a big boulder
-under a birch by the trackside, sate down upon it with a very long,
-serious upper lip, and the sun now shining in upon us between two peaks,
-put his pocket-handkerchief over his cocked hat to shelter him. There,
-then, with uplifted forefinger, he first put me on my guard against a
-considerable number of heresies, to which I had no temptation, and urged
-upon me to be instant in my prayers and reading of the Bible. That done,
-he drew a picture of the great house that I was bound to, and how I
-should conduct myself with its inhabitants.
-
-“Be soople, Davie, in things immaterial,” said he. “Bear ye this in
-mind, that, though gentle born, ye have had a country rearing. Dinnae
-shame us, Davie, dinnae shame us! In yon great, muckle house, with all
-these domestics, upper and under, show yourself as nice, as circumspect,
-as quick at the conception, and as slow of speech as any. As for the
-laird--remember he’s the laird; I say no more: honour to whom honour.
-It’s a pleasure to obey a laird; or should be, to the young.”
-
-“Well, sir,” said I, “it may be; and I’ll promise you I’ll try to make
-it so.”
-
-“Why, very well said,” replied Mr. Campbell, heartily. “And now to come
-to the material, or (to make a quibble) to the immaterial. I have here
-a little packet which contains four things.” He tugged it, as he spoke,
-and with some great difficulty, from the skirt pocket of his coat. “Of
-these four things, the first is your legal due: the little pickle money
-for your father’s books and plenishing, which I have bought (as I have
-explained from the first) in the design of re-selling at a profit to
-the incoming dominie. The other three are gifties that Mrs. Campbell and
-myself would be blithe of your acceptance. The first, which is round,
-will likely please ye best at the first off-go; but, O Davie, laddie,
-it’s but a drop of water in the sea; it’ll help you but a step, and
-vanish like the morning. The second, which is flat and square and
-written upon, will stand by you through life, like a good staff for the
-road, and a good pillow to your head in sickness. And as for the last,
-which is cubical, that’ll see you, it’s my prayerful wish, into a better
-land.”
-
-With that he got upon his feet, took off his hat, and prayed a little
-while aloud, and in affecting terms, for a young man setting out into
-the world; then suddenly took me in his arms and embraced me very hard;
-then held me at arm’s length, looking at me with his face all working
-with sorrow; and then whipped about, and crying good-bye to me, set off
-backward by the way that we had come at a sort of jogging run. It might
-have been laughable to another; but I was in no mind to laugh. I watched
-him as long as he was in sight; and he never stopped hurrying, nor once
-looked back. Then it came in upon my mind that this was all his sorrow
-at my departure; and my conscience smote me hard and fast, because I,
-for my part, was overjoyed to get away out of that quiet country-side,
-and go to a great, busy house, among rich and respected gentlefolk of my
-own name and blood.
-
-“Davie, Davie,” I thought, “was ever seen such black ingratitude? Can
-you forget old favours and old friends at the mere whistle of a name?
-Fie, fie; think shame.”
-
-And I sat down on the boulder the good man had just left, and opened the
-parcel to see the nature of my gifts. That which he had called cubical,
-I had never had much doubt of; sure enough it was a little Bible, to
-carry in a plaid-neuk. That which he had called round, I found to be a
-shilling piece; and the third, which was to help me so wonderfully both
-in health and sickness all the days of my life, was a little piece of
-coarse yellow paper, written upon thus in red ink:
-
-
-“TO MAKE LILLY OF THE VALLEY WATER.--Take the flowers of lilly of the
-valley and distil them in sack, and drink a spooneful or two as there is
-occasion. It restores speech to those that have the dumb palsey. It is
-good against the Gout; it comforts the heart and strengthens the memory;
-and the flowers, put into a Glasse, close stopt, and set into ane hill
-of ants for a month, then take it out, and you will find a liquor which
-comes from the flowers, which keep in a vial; it is good, ill or well,
-and whether man or woman.”
-
-
-And then, in the minister’s own hand, was added:
-
-“Likewise for sprains, rub it in; and for the cholic, a great spooneful
-in the hour.”
-
-
-To be sure, I laughed over this; but it was rather tremulous laughter;
-and I was glad to get my bundle on my staff’s end and set out over the
-ford and up the hill upon the farther side; till, just as I came on the
-green drove-road running wide through the heather, I took my last look
-of Kirk Essendean, the trees about the manse, and the big rowans in the
-kirkyard where my father and my mother lay.
-
-
-CHAPTER II
-
-I COME TO MY JOURNEY’S END
-
-
-On the forenoon of the second day, coming to the top of a hill, I saw
-all the country fall away before me down to the sea; and in the midst
-of this descent, on a long ridge, the city of Edinburgh smoking like
-a kiln. There was a flag upon the castle, and ships moving or lying
-anchored in the firth; both of which, for as far away as they were, I
-could distinguish clearly; and both brought my country heart into my
-mouth.
-
-Presently after, I came by a house where a shepherd lived, and got a
-rough direction for the neighbourhood of Cramond; and so, from one to
-another, worked my way to the westward of the capital by Colinton, till
-I came out upon the Glasgow road. And there, to my great pleasure and
-wonder, I beheld a regiment marching to the fifes, every foot in time;
-an old red-faced general on a grey horse at the one end, and at the
-other the company of Grenadiers, with their Pope’s-hats. The pride of
-life seemed to mount into my brain at the sight of the red coats and the
-hearing of that merry music.
-
-A little farther on, and I was told I was in Cramond parish, and began
-to substitute in my inquiries the name of the house of Shaws. It was a
-word that seemed to surprise those of whom I sought my way. At first I
-thought the plainness of my appearance, in my country habit, and that
-all dusty from the road, consorted ill with the greatness of the place
-to which I was bound. But after two, or maybe three, had given me the
-same look and the same answer, I began to take it in my head there was
-something strange about the Shaws itself.
-
-The better to set this fear at rest, I changed the form of my inquiries;
-and spying an honest fellow coming along a lane on the shaft of his
-cart, I asked him if he had ever heard tell of a house they called the
-house of Shaws.
-
-He stopped his cart and looked at me, like the others.
-
-“Ay” said he. “What for?”
-
-“It’s a great house?” I asked.
-
-“Doubtless,” says he. “The house is a big, muckle house.”
-
-“Ay,” said I, “but the folk that are in it?”
-
-“Folk?” cried he. “Are ye daft? There’s nae folk there--to call folk.”
-
-“What?” say I; “not Mr. Ebenezer?”
-
-“Ou, ay” says the man; “there’s the laird, to be sure, if it’s him
-you’re wanting. What’ll like be your business, mannie?”
-
-“I was led to think that I would get a situation,” I said, looking as
-modest as I could.
-
-“What?” cries the carter, in so sharp a note that his very horse
-started; and then, “Well, mannie,” he added, “it’s nane of my affairs;
-but ye seem a decent-spoken lad; and if ye’ll take a word from me, ye’ll
-keep clear of the Shaws.”
-
-The next person I came across was a dapper little man in a beautiful
-white wig, whom I saw to be a barber on his rounds; and knowing well
-that barbers were great gossips, I asked him plainly what sort of a man
-was Mr. Balfour of the Shaws.
-
-“Hoot, hoot, hoot,” said the barber, “nae kind of a man, nae kind of a
-man at all;” and began to ask me very shrewdly what my business was;
-but I was more than a match for him at that, and he went on to his next
-customer no wiser than he came.
-
-I cannot well describe the blow this dealt to my illusions. The more
-indistinct the accusations were, the less I liked them, for they left
-the wider field to fancy. What kind of a great house was this, that all
-the parish should start and stare to be asked the way to it? or what
-sort of a gentleman, that his ill-fame should be thus current on the
-wayside? If an hour’s walking would have brought me back to Essendean, I
-had left my adventure then and there, and returned to Mr. Campbell’s.
-But when I had come so far a way already, mere shame would not suffer me
-to desist till I had put the matter to the touch of proof; I was bound,
-out of mere self-respect, to carry it through; and little as I liked
-the sound of what I heard, and slow as I began to travel, I still kept
-asking my way and still kept advancing.
-
-It was drawing on to sundown when I met a stout, dark, sour-looking
-woman coming trudging down a hill; and she, when I had put my usual
-question, turned sharp about, accompanied me back to the summit she had
-just left, and pointed to a great bulk of building standing very bare
-upon a green in the bottom of the next valley. The country was pleasant
-round about, running in low hills, pleasantly watered and wooded, and
-the crops, to my eyes, wonderfully good; but the house itself appeared
-to be a kind of ruin; no road led up to it; no smoke arose from any of
-the chimneys; nor was there any semblance of a garden. My heart sank.
-“That!” I cried.
-
-The woman’s face lit up with a malignant anger. “That is the house of
-Shaws!” she cried. “Blood built it; blood stopped the building of it;
-blood shall bring it down. See here!” she cried again--“I spit upon
-the ground, and crack my thumb at it! Black be its fall! If ye see the
-laird, tell him what ye hear; tell him this makes the twelve hunner and
-nineteen time that Jennet Clouston has called down the curse on him
-and his house, byre and stable, man, guest, and master, wife, miss, or
-bairn--black, black be their fall!”
-
-And the woman, whose voice had risen to a kind of eldritch sing-song,
-turned with a skip, and was gone. I stood where she left me, with my
-hair on end. In those days folk still believed in witches and trembled
-at a curse; and this one, falling so pat, like a wayside omen, to arrest
-me ere I carried out my purpose, took the pith out of my legs.
-
-I sat me down and stared at the house of Shaws. The more I looked,
-the pleasanter that country-side appeared; being all set with hawthorn
-bushes full of flowers; the fields dotted with sheep; a fine flight of
-rooks in the sky; and every sign of a kind soil and climate; and yet the
-barrack in the midst of it went sore against my fancy.
-
-Country folk went by from the fields as I sat there on the side of the
-ditch, but I lacked the spirit to give them a good-e’en. At last the sun
-went down, and then, right up against the yellow sky, I saw a scroll of
-smoke go mounting, not much thicker, as it seemed to me, than the smoke
-of a candle; but still there it was, and meant a fire, and warmth, and
-cookery, and some living inhabitant that must have lit it; and this
-comforted my heart.
-
-So I set forward by a little faint track in the grass that led in my
-direction. It was very faint indeed to be the only way to a place
-of habitation; yet I saw no other. Presently it brought me to stone
-uprights, with an unroofed lodge beside them, and coats of arms upon
-the top. A main entrance it was plainly meant to be, but never finished;
-instead of gates of wrought iron, a pair of hurdles were tied across
-with a straw rope; and as there were no park walls, nor any sign of
-avenue, the track that I was following passed on the right hand of the
-pillars, and went wandering on toward the house.
-
-The nearer I got to that, the drearier it appeared. It seemed like the
-one wing of a house that had never been finished. What should have been
-the inner end stood open on the upper floors, and showed against the sky
-with steps and stairs of uncompleted masonry. Many of the windows were
-unglazed, and bats flew in and out like doves out of a dove-cote.
-
-The night had begun to fall as I got close; and in three of the lower
-windows, which were very high up and narrow, and well barred, the
-changing light of a little fire began to glimmer. Was this the palace
-I had been coming to? Was it within these walls that I was to seek
-new friends and begin great fortunes? Why, in my father’s house on
-Essen-Waterside, the fire and the bright lights would show a mile away,
-and the door open to a beggar’s knock!
-
-I came forward cautiously, and giving ear as I came, heard some one
-rattling with dishes, and a little dry, eager cough that came in fits;
-but there was no sound of speech, and not a dog barked.
-
-The door, as well as I could see it in the dim light, was a great piece
-of wood all studded with nails; and I lifted my hand with a faint heart
-under my jacket, and knocked once. Then I stood and waited. The house
-had fallen into a dead silence; a whole minute passed away, and nothing
-stirred but the bats overhead. I knocked again, and hearkened again.
-By this time my ears had grown so accustomed to the quiet, that I
-could hear the ticking of the clock inside as it slowly counted out the
-seconds; but whoever was in that house kept deadly still, and must have
-held his breath.
-
-I was in two minds whether to run away; but anger got the upper hand,
-and I began instead to rain kicks and buffets on the door, and to shout
-out aloud for Mr. Balfour. I was in full career, when I heard the cough
-right overhead, and jumping back and looking up, beheld a man’s head
-in a tall nightcap, and the bell mouth of a blunderbuss, at one of the
-first-storey windows.
-
-“It’s loaded,” said a voice.
-
-“I have come here with a letter,” I said, “to Mr. Ebenezer Balfour of
-Shaws. Is he here?”
-
-“From whom is it?” asked the man with the blunderbuss.
-
-“That is neither here nor there,” said I, for I was growing very wroth.
-
-“Well,” was the reply, “ye can put it down upon the doorstep, and be off
-with ye.”
-
-“I will do no such thing,” I cried. “I will deliver it into Mr.
-Balfour’s hands, as it was meant I should. It is a letter of
-introduction.”
-
-“A what?” cried the voice, sharply.
-
-I repeated what I had said.
-
-“Who are ye, yourself?” was the next question, after a considerable
-pause.
-
-“I am not ashamed of my name,” said I. “They call me David Balfour.”
-
-At that, I made sure the man started, for I heard the blunderbuss rattle
-on the window-sill; and it was after quite a long pause, and with a
-curious change of voice, that the next question followed:
-
-“Is your father dead?”
-
-I was so much surprised at this, that I could find no voice to answer,
-but stood staring.
-
-“Ay,” the man resumed, “he’ll be dead, no doubt; and that’ll be what
-brings ye chapping to my door.” Another pause, and then defiantly,
-“Well, man,” he said, “I’ll let ye in;” and he disappeared from the
-window.
-
-
-CHAPTER III
-
-I MAKE ACQUAINTANCE OF MY UNCLE
-
-
-Presently there came a great rattling of chains and bolts, and the
-door was cautiously opened and shut to again behind me as soon as I had
-passed.
-
-“Go into the kitchen and touch naething,” said the voice; and while the
-person of the house set himself to replacing the defences of the door, I
-groped my way forward and entered the kitchen.
-
-The fire had burned up fairly bright, and showed me the barest room I
-think I ever put my eyes on. Half-a-dozen dishes stood upon the shelves;
-the table was laid for supper with a bowl of porridge, a horn spoon, and
-a cup of small beer. Besides what I have named, there was not another
-thing in that great, stone-vaulted, empty chamber but lockfast chests
-arranged along the wall and a corner cupboard with a padlock.
-
-As soon as the last chain was up, the man rejoined me. He was a mean,
-stooping, narrow-shouldered, clay-faced creature; and his age might have
-been anything between fifty and seventy. His nightcap was of flannel,
-and so was the nightgown that he wore, instead of coat and waistcoat,
-over his ragged shirt. He was long unshaved; but what most distressed
-and even daunted me, he would neither take his eyes away from me nor
-look me fairly in the face. What he was, whether by trade or birth, was
-more than I could fathom; but he seemed most like an old, unprofitable
-serving-man, who should have been left in charge of that big house upon
-board wages.
-
-“Are ye sharp-set?” he asked, glancing at about the level of my knee.
-“Ye can eat that drop parritch?”
-
-I said I feared it was his own supper.
-
-“O,” said he, “I can do fine wanting it. I’ll take the ale, though, for
-it slockens[1] my cough.” He drank the cup about half out, still
-keeping an eye upon me as he drank; and then suddenly held out his
-hand. “Let’s see the letter,” said he.
-
-    [1] moistens
-
-I told him the letter was for Mr. Balfour; not for him.
-
-“And who do ye think I am?” says he. “Give me Alexander’s letter.”
-
-“You know my father’s name?”
-
-“It would be strange if I didnae,” he returned, “for he was my born
-brother; and little as ye seem to like either me or my house, or my good
-parritch, I’m your born uncle, Davie, my man, and you my born nephew. So
-give us the letter, and sit down and fill your kyte.”
-
-If I had been some years younger, what with shame, weariness, and
-disappointment, I believe I had burst into tears. As it was, I could
-find no words, neither black nor white, but handed him the letter, and
-sat down to the porridge with as little appetite for meat as ever a
-young man had.
-
-Meanwhile, my uncle, stooping over the fire, turned the letter over and
-over in his hands.
-
-“Do ye ken what’s in it?” he asked, suddenly.
-
-“You see for yourself, sir,” said I, “that the seal has not been
-broken.”
-
-“Ay,” said he, “but what brought you here?”
-
-“To give the letter,” said I.
-
-“No,” says he, cunningly, “but ye’ll have had some hopes, nae doubt?”
-
-“I confess, sir,” said I, “when I was told that I had kinsfolk
-well-to-do, I did indeed indulge the hope that they might help me in
-my life. But I am no beggar; I look for no favours at your hands, and
-I want none that are not freely given. For as poor as I appear, I have
-friends of my own that will be blithe to help me.”
-
-“Hoot-toot!” said Uncle Ebenezer, “dinnae fly up in the snuff at me.
-We’ll agree fine yet. And, Davie, my man, if you’re done with that bit
-parritch, I could just take a sup of it myself. Ay,” he continued,
-as soon as he had ousted me from the stool and spoon, “they’re fine,
-halesome food--they’re grand food, parritch.” He murmured a little grace
-to himself and fell to. “Your father was very fond of his meat, I mind;
-he was a hearty, if not a great eater; but as for me, I could never
-do mair than pyke at food.” He took a pull at the small beer, which
-probably reminded him of hospitable duties, for his next speech ran
-thus: “If ye’re dry ye’ll find water behind the door.”
-
-To this I returned no answer, standing stiffly on my two feet, and
-looking down upon my uncle with a mighty angry heart. He, on his part,
-continued to eat like a man under some pressure of time, and to throw
-out little darting glances now at my shoes and now at my home-spun
-stockings. Once only, when he had ventured to look a little higher, our
-eyes met; and no thief taken with a hand in a man’s pocket could have
-shown more lively signals of distress. This set me in a muse, whether
-his timidity arose from too long a disuse of any human company; and
-whether perhaps, upon a little trial, it might pass off, and my uncle
-change into an altogether different man. From this I was awakened by his
-sharp voice.
-
-“Your father’s been long dead?” he asked.
-
-“Three weeks, sir,” said I.
-
-“He was a secret man, Alexander--a secret, silent man,” he continued.
-“He never said muckle when he was young. He’ll never have spoken muckle
-of me?”
-
-“I never knew, sir, till you told it me yourself, that he had any
-brother.”
-
-“Dear me, dear me!” said Ebenezer. “Nor yet of Shaws, I dare say?”
-
-“Not so much as the name, sir,” said I.
-
-“To think o’ that!” said he. “A strange nature of a man!” For all that,
-he seemed singularly satisfied, but whether with himself, or me, or
-with this conduct of my father’s, was more than I could read. Certainly,
-however, he seemed to be outgrowing that distaste, or ill-will, that he
-had conceived at first against my person; for presently he jumped up,
-came across the room behind me, and hit me a smack upon the shoulder.
-“We’ll agree fine yet!” he cried. “I’m just as glad I let you in. And
-now come awa’ to your bed.”
-
-To my surprise, he lit no lamp or candle, but set forth into the dark
-passage, groped his way, breathing deeply, up a flight of steps, and
-paused before a door, which he unlocked. I was close upon his heels,
-having stumbled after him as best I might; and then he bade me go in,
-for that was my chamber. I did as he bid, but paused after a few steps,
-and begged a light to go to bed with.
-
-“Hoot-toot!” said Uncle Ebenezer, “there’s a fine moon.”
-
-“Neither moon nor star, sir, and pit-mirk,”[2] said I. “I cannae see
-the bed.”
-
-     [2] Dark as the pit.
-
-“Hoot-toot, hoot-toot!” said he. “Lights in a house is a thing I dinnae
-agree with. I’m unco feared of fires. Good-night to ye, Davie, my man.”
- And before I had time to add a further protest, he pulled the door to,
-and I heard him lock me in from the outside.
-
-I did not know whether to laugh or cry. The room was as cold as a well,
-and the bed, when I had found my way to it, as damp as a peat-hag; but
-by good fortune I had caught up my bundle and my plaid, and rolling
-myself in the latter, I lay down upon the floor under lee of the big
-bedstead, and fell speedily asleep.
-
-With the first peep of day I opened my eyes, to find myself in a great
-chamber, hung with stamped leather, furnished with fine embroidered
-furniture, and lit by three fair windows. Ten years ago, or perhaps
-twenty, it must have been as pleasant a room to lie down or to awake in
-as a man could wish; but damp, dirt, disuse, and the mice and spiders
-had done their worst since then. Many of the window-panes, besides, were
-broken; and indeed this was so common a feature in that house, that I
-believe my uncle must at some time have stood a siege from his indignant
-neighbours--perhaps with Jennet Clouston at their head.
-
-Meanwhile the sun was shining outside; and being very cold in that
-miserable room, I knocked and shouted till my gaoler came and let me
-out. He carried me to the back of the house, where was a draw-well, and
-told me to “wash my face there, if I wanted;” and when that was done,
-I made the best of my own way back to the kitchen, where he had lit the
-fire and was making the porridge. The table was laid with two bowls and
-two horn spoons, but the same single measure of small beer. Perhaps my
-eye rested on this particular with some surprise, and perhaps my uncle
-observed it; for he spoke up as if in answer to my thought, asking me if
-I would like to drink ale--for so he called it.
-
-I told him such was my habit, but not to put himself about.
-
-“Na, na,” said he; “I’ll deny you nothing in reason.”
-
-He fetched another cup from the shelf; and then, to my great surprise,
-instead of drawing more beer, he poured an accurate half from one cup
-to the other. There was a kind of nobleness in this that took my breath
-away; if my uncle was certainly a miser, he was one of that thorough
-breed that goes near to make the vice respectable.
-
-When we had made an end of our meal, my uncle Ebenezer unlocked a
-drawer, and drew out of it a clay pipe and a lump of tobacco, from which
-he cut one fill before he locked it up again. Then he sat down in the
-sun at one of the windows and silently smoked. From time to time his
-eyes came coasting round to me, and he shot out one of his questions.
-Once it was, “And your mother?” and when I had told him that she, too,
-was dead, “Ay, she was a bonnie lassie!” Then, after another long pause,
-“Whae were these friends o’ yours?”
-
-I told him they were different gentlemen of the name of Campbell;
-though, indeed, there was only one, and that the minister, that had ever
-taken the least note of me; but I began to think my uncle made too light
-of my position, and finding myself all alone with him, I did not wish
-him to suppose me helpless.
-
-He seemed to turn this over in his mind; and then, “Davie, my man,” said
-he, “ye’ve come to the right bit when ye came to your uncle Ebenezer.
-I’ve a great notion of the family, and I mean to do the right by you;
-but while I’m taking a bit think to mysel’ of what’s the best thing to
-put you to--whether the law, or the meenistry, or maybe the army, whilk
-is what boys are fondest of--I wouldnae like the Balfours to be humbled
-before a wheen Hieland Campbells, and I’ll ask you to keep your tongue
-within your teeth. Nae letters; nae messages; no kind of word to
-onybody; or else--there’s my door.”
-
-“Uncle Ebenezer,” said I, “I’ve no manner of reason to suppose you mean
-anything but well by me. For all that, I would have you to know that I
-have a pride of my own. It was by no will of mine that I came seeking
-you; and if you show me your door again, I’ll take you at the word.”
-
-He seemed grievously put out. “Hoots-toots,” said he, “ca’ cannie,
-man--ca’ cannie! Bide a day or two. I’m nae warlock, to find a fortune
-for you in the bottom of a parritch bowl; but just you give me a day or
-two, and say naething to naebody, and as sure as sure, I’ll do the right
-by you.”
-
-“Very well,” said I, “enough said. If you want to help me, there’s no
-doubt but I’ll be glad of it, and none but I’ll be grateful.”
-
-It seemed to me (too soon, I dare say) that I was getting the upper
-hand of my uncle; and I began next to say that I must have the bed and
-bedclothes aired and put to sun-dry; for nothing would make me sleep in
-such a pickle.
-
-“Is this my house or yours?” said he, in his keen voice, and then all of
-a sudden broke off. “Na, na,” said he, “I didnae mean that. What’s mine
-is yours, Davie, my man, and what’s yours is mine. Blood’s thicker than
-water; and there’s naebody but you and me that ought the name.” And
-then on he rambled about the family, and its ancient greatness, and his
-father that began to enlarge the house, and himself that stopped the
-building as a sinful waste; and this put it in my head to give him
-Jennet Clouston’s message.
-
-“The limmer!” he cried. “Twelve hunner and fifteen--that’s every day
-since I had the limmer rowpit![3] Dod, David, I’ll have her roasted on red
-peats before I’m by with it! A witch--a proclaimed witch! I’ll aff and
-see the session clerk.”
-
-     [3] Sold up.
-
-And with that he opened a chest, and got out a very old and
-well-preserved blue coat and waistcoat, and a good enough beaver hat,
-both without lace. These he threw on any way, and taking a staff from
-the cupboard, locked all up again, and was for setting out, when a
-thought arrested him.
-
-“I cannae leave you by yoursel’ in the house,” said he. “I’ll have to
-lock you out.”
-
-The blood came to my face. “If you lock me out,” I said, “it’ll be the
-last you’ll see of me in friendship.”
-
-He turned very pale, and sucked his mouth in.
-
-“This is no the way,” he said, looking wickedly at a corner of the
-floor--“this is no the way to win my favour, David.”
-
-“Sir,” says I, “with a proper reverence for your age and our common
-blood, I do not value your favour at a boddle’s purchase. I was brought
-up to have a good conceit of myself; and if you were all the uncle, and
-all the family, I had in the world ten times over, I wouldn’t buy your
-liking at such prices.”
-
-Uncle Ebenezer went and looked out of the window for awhile. I could
-see him all trembling and twitching, like a man with palsy. But when he
-turned round, he had a smile upon his face.
-
-“Well, well,” said he, “we must bear and forbear. I’ll no go; that’s all
-that’s to be said of it.”
-
-“Uncle Ebenezer,” I said, “I can make nothing out of this. You use me
-like a thief; you hate to have me in this house; you let me see it,
-every word and every minute: it’s not possible that you can like me; and
-as for me, I’ve spoken to you as I never thought to speak to any man.
-Why do you seek to keep me, then? Let me gang back--let me gang back to
-the friends I have, and that like me!”
-
-“Na, na; na, na,” he said, very earnestly. “I like you fine; we’ll agree
-fine yet; and for the honour of the house I couldnae let you leave the
-way ye came. Bide here quiet, there’s a good lad; just you bide here
-quiet a bittie, and ye’ll find that we agree.”
-
-“Well, sir,” said I, after I had thought the matter out in silence,
-“I’ll stay awhile. It’s more just I should be helped by my own blood
-than strangers; and if we don’t agree, I’ll do my best it shall be
-through no fault of mine.”
-
-
-CHAPTER IV
-
-I RUN A GREAT DANGER IN THE HOUSE OF SHAWS
-
-
-For a day that was begun so ill, the day passed fairly well. We had the
-porridge cold again at noon, and hot porridge at night; porridge and
-small beer was my uncle’s diet. He spoke but little, and that in the
-same way as before, shooting a question at me after a long silence; and
-when I sought to lead him to talk about my future, slipped out of it
-again. In a room next door to the kitchen, where he suffered me to go,
-I found a great number of books, both Latin and English, in which I took
-great pleasure all the afternoon. Indeed, the time passed so lightly in
-this good company, that I began to be almost reconciled to my residence
-at Shaws; and nothing but the sight of my uncle, and his eyes playing
-hide and seek with mine, revived the force of my distrust.
-
-One thing I discovered, which put me in some doubt. This was an entry on
-the fly-leaf of a chap-book (one of Patrick Walker’s) plainly written
-by my father’s hand and thus conceived: “To my brother Ebenezer on his
-fifth birthday`;
+  window.BOOKS_FULL[289]=`The Wind in the Willows
+
+by Kenneth Grahame
+
+Author Of “The Golden Age,” “Dream Days,” Etc.
+
+
+Contents
+
+ CHAPTER I. THE RIVER BANK
+ CHAPTER II. THE OPEN ROAD
+ CHAPTER III. THE WILD WOOD
+ CHAPTER IV. MR. BADGER
+ CHAPTER V. DULCE DOMUM
+ CHAPTER VI. MR. TOAD
+ CHAPTER VII. THE PIPER AT THE GATES OF DAWN
+ CHAPTER VIII. TOAD’S ADVENTURES
+ CHAPTER IX. WAYFARERS ALL
+ CHAPTER X. THE FURTHER ADVENTURES OF TOAD
+ CHAPTER XI. “LIKE SUMMER TEMPESTS CAME HIS TEARS”
+ CHAPTER XII. THE RETURN OF ULYSSES
+
+
+I.
+THE RIVER BANK
+
+
+The Mole had been working very hard all the morning, spring-cleaning
+his little home. First with brooms, then with dusters; then on ladders
+and steps and chairs, with a brush and a pail of whitewash; till he had
+dust in his throat and eyes, and splashes of whitewash all over his
+black fur, and an aching back and weary arms. Spring was moving in the
+air above and in the earth below and around him, penetrating even his
+dark and lowly little house with its spirit of divine discontent and
+longing. It was small wonder, then, that he suddenly flung down his
+brush on the floor, said “Bother!” and “O blow!” and also “Hang
+spring-cleaning!” and bolted out of the house without even waiting to
+put on his coat. Something up above was calling him imperiously, and he
+made for the steep little tunnel which answered in his case to the
+gravelled carriage-drive owned by animals whose residences are nearer
+to the sun and air. So he scraped and scratched and scrabbled and
+scrooged and then he scrooged again and scrabbled and scratched and
+scraped, working busily with his little paws and muttering to himself,
+“Up we go! Up we go!” till at last, pop! his snout came out into the
+sunlight, and he found himself rolling in the warm grass of a great
+meadow.
+
+“This is fine!” he said to himself. “This is better than whitewashing!”
+The sunshine struck hot on his fur, soft breezes caressed his heated
+brow, and after the seclusion of the cellarage he had lived in so long
+the carol of happy birds fell on his dulled hearing almost like a
+shout. Jumping off all his four legs at once, in the joy of living and
+the delight of spring without its cleaning, he pursued his way across
+the meadow till he reached the hedge on the further side.
+
+“Hold up!” said an elderly rabbit at the gap. “Sixpence for the
+privilege of passing by the private road!” He was bowled over in an
+instant by the impatient and contemptuous Mole, who trotted along the
+side of the hedge chaffing the other rabbits as they peeped hurriedly
+from their holes to see what the row was about. “Onion-sauce!
+Onion-sauce!” he remarked jeeringly, and was gone before they could
+think of a thoroughly satisfactory reply. Then they all started
+grumbling at each other. “How _stupid_ you are! Why didn’t you tell
+him——” “Well, why didn’t _you_ say——” “You might have reminded him——”
+and so on, in the usual way; but, of course, it was then much too late,
+as is always the case.
+
+It all seemed too good to be true. Hither and thither through the
+meadows he rambled busily, along the hedgerows, across the copses,
+finding everywhere birds building, flowers budding, leaves
+thrusting—everything happy, and progressive, and occupied. And instead
+of having an uneasy conscience pricking him and whispering “whitewash!”
+he somehow could only feel how jolly it was to be the only idle dog
+among all these busy citizens. After all, the best part of a holiday is
+perhaps not so much to be resting yourself, as to see all the other
+fellows busy working.
+
+He thought his happiness was complete when, as he meandered aimlessly
+along, suddenly he stood by the edge of a full-fed river. Never in his
+life had he seen a river before—this sleek, sinuous, full-bodied
+animal, chasing and chuckling, gripping things with a gurgle and
+leaving them with a laugh, to fling itself on fresh playmates that
+shook themselves free, and were caught and held again. All was a-shake
+and a-shiver—glints and gleams and sparkles, rustle and swirl, chatter
+and bubble. The Mole was bewitched, entranced, fascinated. By the side
+of the river he trotted as one trots, when very small, by the side of a
+man who holds one spell-bound by exciting stories; and when tired at
+last, he sat on the bank, while the river still chattered on to him, a
+babbling procession of the best stories in the world, sent from the
+heart of the earth to be told at last to the insatiable sea.
+
+As he sat on the grass and looked across the river, a dark hole in the
+bank opposite, just above the water’s edge, caught his eye, and
+dreamily he fell to considering what a nice snug dwelling-place it
+would make for an animal with few wants and fond of a bijou riverside
+residence, above flood level and remote from noise and dust. As he
+gazed, something bright and small seemed to twinkle down in the heart
+of it, vanished, then twinkled once more like a tiny star. But it could
+hardly be a star in such an unlikely situation; and it was too
+glittering and small for a glow-worm. Then, as he looked, it winked at
+him, and so declared itself to be an eye; and a small face began
+gradually to grow up round it, like a frame round a picture.
+
+A brown little face, with whiskers.
+
+A grave round face, with the same twinkle in its eye that had first
+attracted his notice.
+
+Small neat ears and thick silky hair.
+
+It was the Water Rat!
+
+Then the two animals stood and regarded each other cautiously.
+
+“Hullo, Mole!” said the Water Rat.
+
+“Hullo, Rat!” said the Mole.
+
+“Would you like to come over?” enquired the Rat presently.
+
+“Oh, its all very well to _talk_,” said the Mole, rather pettishly, he
+being new to a river and riverside life and its ways.
+
+The Rat said nothing, but stooped and unfastened a rope and hauled on
+it; then lightly stepped into a little boat which the Mole had not
+observed. It was painted blue outside and white within, and was just
+the size for two animals; and the Mole’s whole heart went out to it at
+once, even though he did not yet fully understand its uses.
+
+The Rat sculled smartly across and made fast. Then he held up his
+forepaw as the Mole stepped gingerly down. “Lean on that!” he said.
+“Now then, step lively!” and the Mole to his surprise and rapture found
+himself actually seated in the stern of a real boat.
+
+“This has been a wonderful day!” said he, as the Rat shoved off and
+took to the sculls again. “Do you know, I’ve never been in a boat
+before in all my life.”
+
+“What?” cried the Rat, open-mouthed: “Never been in a—you never—well
+I—what have you been doing, then?”
+
+“Is it so nice as all that?” asked the Mole shyly, though he was quite
+prepared to believe it as he leant back in his seat and surveyed the
+cushions, the oars, the rowlocks, and all the fascinating fittings, and
+felt the boat sway lightly under him.
+
+“Nice? It’s the _only_ thing,” said the Water Rat solemnly, as he leant
+forward for his stroke. “Believe me, my young friend, there is
+_nothing_—absolute nothing—half so much worth doing as simply messing
+about in boats. Simply messing,” he went on dreamily:
+“messing—about—in—boats; messing——”
+
+“Look ahead, Rat!” cried the Mole suddenly.
+
+It was too late. The boat struck the bank full tilt. The dreamer, the
+joyous oarsman, lay on his back at the bottom of the boat, his heels in
+the air.
+
+“—about in boats—or _with_ boats,” the Rat went on composedly, picking
+himself up with a pleasant laugh. “In or out of ’em, it doesn’t matter.
+Nothing seems really to matter, that’s the charm of it. Whether you get
+away, or whether you don’t; whether you arrive at your destination or
+whether you reach somewhere else, or whether you never get anywhere at
+all, you’re always busy, and you never do anything in particular; and
+when you’ve done it there’s always something else to do, and you can do
+it if you like, but you’d much better not. Look here! If you’ve really
+nothing else on hand this morning, supposing we drop down the river
+together, and have a long day of it?”
+
+The Mole waggled his toes from sheer happiness, spread his chest with a
+sigh of full contentment, and leaned back blissfully into the soft
+cushions. “_What_ a day I’m having!” he said. “Let us start at once!”
+
+“Hold hard a minute, then!” said the Rat. He looped the painter through
+a ring in his landing-stage, climbed up into his hole above, and after
+a short interval reappeared staggering under a fat, wicker
+luncheon-basket.
+
+“Shove that under your feet,” he observed to the Mole, as he passed it
+down into the boat. Then he untied the painter and took the sculls
+again.
+
+“What’s inside it?” asked the Mole, wriggling with curiosity.
+
+“There’s cold chicken inside it,” replied the Rat briefly; “
+coldtonguecoldhamcoldbeefpickledgherkinssaladfrenchrollscresssandwiches
+pottedme atgingerbeerlemonadesodawater——”
+
+“O stop, stop,” cried the Mole in ecstacies: “This is too much!”
+
+“Do you really think so?” enquired the Rat seriously. “It’s only what I
+always take on these little excursions; and the other animals are
+always telling me that I’m a mean beast and cut it _very_ fine!”
+
+The Mole never heard a word he was saying. Absorbed in the new life he
+was entering upon, intoxicated with the sparkle, the ripple, the scents
+and the sounds and the sunlight, he trailed a paw in the water and
+dreamed long waking dreams. The Water Rat, like the good little fellow
+he was, sculled steadily on and forebore to disturb him.
+
+“I like your clothes awfully, old chap,” he remarked after some half an
+hour or so had passed. “I’m going to get a black velvet smoking-suit
+myself some day, as soon as I can afford it.”
+
+“I beg your pardon,” said the Mole, pulling himself together with an
+effort. “You must think me very rude; but all this is so new to me.
+So—this—is—a—River!”
+
+“_The_ River,” corrected the Rat.
+
+“And you really live by the river? What a jolly life!”
+
+“By it and with it and on it and in it,” said the Rat. “It’s brother
+and sister to me, and aunts, and company, and food and drink, and
+(naturally) washing. It’s my world, and I don’t want any other. What it
+hasn’t got is not worth having, and what it doesn’t know is not worth
+knowing. Lord! the times we’ve had together! Whether in winter or
+summer, spring or autumn, it’s always got its fun and its excitements.
+When the floods are on in February, and my cellars and basement are
+brimming with drink that’s no good to me, and the brown water runs by
+my best bedroom window; or again when it all drops away and, shows
+patches of mud that smells like plum-cake, and the rushes and weed clog
+the channels, and I can potter about dry shod over most of the bed of
+it and find fresh food to eat, and things careless people have dropped
+out of boats!”
+
+“But isn’t it a bit dull at times?” the Mole ventured to ask. “Just you
+and the river, and no one else to pass a word with?”
+
+“No one else to—well, I mustn’t be hard on you,” said the Rat with
+forbearance. “You’re new to it, and of course you don’t know. The bank
+is so crowded nowadays that many people are moving away altogether: O
+no, it isn’t what it used to be, at all. Otters, kingfishers,
+dabchicks, moorhens, all of them about all day long and always wanting
+you to _do_ something—as if a fellow had no business of his own to
+attend to!”
+
+“What lies over _there?_” asked the Mole, waving a paw towards a
+background of woodland that darkly framed the water-meadows on one side
+of the river.
+
+“That? O, that’s just the Wild Wood,” said the Rat shortly. “We don’t
+go there very much, we river-bankers.”
+
+“Aren’t they—aren’t they very _nice_ people in there?” said the Mole, a
+trifle nervously.
+
+“W-e-ll,” replied the Rat, “let me see. The squirrels are all right.
+_And_ the rabbits—some of ’em, but rabbits are a mixed lot. And then
+there’s Badger, of course. He lives right in the heart of it; wouldn’t
+live anywhere else, either, if you paid him to do it. Dear old Badger!
+Nobody interferes with _him_. They’d better not,” he added
+significantly.
+
+“Why, who _should_ interfere with him?” asked the Mole.
+
+“Well, of course—there—are others,” explained the Rat in a hesitating
+sort of way.
+
+“Weasels—and stoats—and foxes—and so on. They’re all right in a way—I’m
+very good friends with them—pass the time of day when we meet, and all
+that—but they break out sometimes, there’s no denying it, and
+then—well, you can’t really trust them, and that’s the fact.”
+
+The Mole knew well that it is quite against animal-etiquette to dwell
+on possible trouble ahead, or even to allude to it; so he dropped the
+subject.
+
+“And beyond the Wild Wood again?” he asked: “Where it’s all blue and
+dim, and one sees what may be hills or perhaps they mayn’t, and
+something like the smoke of towns, or is it only cloud-drift?”
+
+“Beyond the Wild Wood comes the Wide World,” said the Rat. “And that’s
+something that doesn’t matter, either to you or me. I’ve never been
+there, and I’m never going, nor you either, if you’ve got any sense at
+all. Don’t ever refer to it again, please. Now then! Here’s our
+backwater at last, where we’re going to lunch.”
+
+Leaving the main stream, they now passed into what seemed at first
+sight like a little land-locked lake. Green turf sloped down to either
+edge, brown snaky tree-roots gleamed below the surface of the quiet
+water, while ahead of them the silvery shoulder and foamy tumble of a
+weir, arm-in-arm with a restless dripping mill-wheel, that held up in
+its turn a grey-gabled mill-house, filled the air with a soothing
+murmur of sound, dull and smothery, yet with little clear voices
+speaking up cheerfully out of it at intervals. It was so very beautiful
+that the Mole could only hold up both forepaws and gasp, “O my! O my! O
+my!”
+
+The Rat brought the boat alongside the bank, made her fast, helped the
+still awkward Mole safely ashore, and swung out the luncheon-basket.
+The Mole begged as a favour to be allowed to unpack it all by himself;
+and the Rat was very pleased to indulge him, and to sprawl at full
+length on the grass and rest, while his excited friend shook out the
+table-cloth and spread it, took out all the mysterious packets one by
+one and arranged their contents in due order, still gasping, “O my! O
+my!” at each fresh revelation. When all was ready, the Rat said, “Now,
+pitch in, old fellow!” and the Mole was indeed very glad to obey, for
+he had started his spring-cleaning at a very early hour that morning,
+as people _will_ do, and had not paused for bite or sup; and he had
+been through a very great deal since that distant time which now seemed
+so many days ago.
+
+“What are you looking at?” said the Rat presently, when the edge of
+their hunger was somewhat dulled, and the Mole’s eyes were able to
+wander off the table-cloth a little.
+
+“I am looking,” said the Mole, “at a streak of bubbles that I see
+travelling along the surface of the water. That is a thing that strikes
+me as funny.”
+
+“Bubbles? Oho!” said the Rat, and chirruped cheerily in an inviting
+sort of way.
+
+A broad glistening muzzle showed itself above the edge of the bank, and
+the Otter hauled himself out and shook the water from his coat.
+
+“Greedy beggars!” he observed, making for the provender. “Why didn’t
+you invite me, Ratty?”
+
+“This was an impromptu affair,” explained the Rat. “By the way—my
+friend Mr. Mole.”
+
+“Proud, I’m sure,” said the Otter, and the two animals were friends
+forthwith.
+
+“Such a rumpus everywhere!” continued the Otter. “All the world seems
+out on the river to-day. I came up this backwater to try and get a
+moment’s peace, and then stumble upon you fellows!—At least—I beg
+pardon—I don’t exactly mean that, you know.”
+
+There was a rustle behind them, proceeding from a hedge wherein last
+year’s leaves still clung thick, and a stripy head, with high shoulders
+behind it, peered forth on them.
+
+“Come on, old Badger!” shouted the Rat.
+
+The Badger trotted forward a pace or two; then grunted, “H’m! Company,”
+and turned his back and disappeared from view.
+
+“That’s _just_ the sort of fellow he is!” observed the disappointed
+Rat. “Simply hates Society! Now we shan’t see any more of him to-day.
+Well, tell us, _who’s_ out on the river?”
+
+“Toad’s out, for one,” replied the Otter. “In his brand-new wager-boat;
+new togs, new everything!”
+
+The two animals looked at each other and laughed.
+
+“Once, it was nothing but sailing,” said the Rat, “Then he tired of
+that and took to punting. Nothing would please him but to punt all day
+and every day, and a nice mess he made of it. Last year it was
+house-boating, and we all had to go and stay with him in his
+house-boat, and pretend we liked it. He was going to spend the rest of
+his life in a house-boat. It’s all the same, whatever he takes up; he
+gets tired of it, and starts on something fresh.”
+
+“Such a good fellow, too,” remarked the Otter reflectively: “But no
+stability—especially in a boat!”
+
+From where they sat they could get a glimpse of the main stream across
+the island that separated them; and just then a wager-boat flashed into
+view, the rower—a short, stout figure—splashing badly and rolling a
+good deal, but working his hardest. The Rat stood up and hailed him,
+but Toad—for it was he—shook his head and settled sternly to his work.
+
+“He’ll be out of the boat in a minute if he rolls like that,” said the
+Rat, sitting down again.
+
+“Of course he will,” chuckled the Otter. “Did I ever tell you that good
+story about Toad and the lock-keeper? It happened this way. Toad....”
+
+An errant May-fly swerved unsteadily athwart the current in the
+intoxicated fashion affected by young bloods of May-flies seeing life.
+A swirl of water and a “cloop!” and the May-fly was visible no more.
+
+Neither was the Otter.
+
+The Mole looked down. The voice was still in his ears, but the turf
+whereon he had sprawled was clearly vacant. Not an Otter to be seen, as
+far as the distant horizon.
+
+But again there was a streak of bubbles on the surface of the river.
+
+The Rat hummed a tune, and the Mole recollected that animal-etiquette
+forbade any sort of comment on the sudden disappearance of one’s
+friends at any moment, for any reason or no reason whatever.
+
+“Well, well,” said the Rat, “I suppose we ought to be moving. I wonder
+which of us had better pack the luncheon-basket?” He did not speak as
+if he was frightfully eager for the treat.
+
+“O, please let me,” said the Mole. So, of course, the Rat let him.
+
+Packing the basket was not quite such pleasant work as unpacking the
+basket. It never is. But the Mole was bent on enjoying everything, and
+although just when he had got the basket packed and strapped up tightly
+he saw a plate staring up at him from the grass, and when the job had
+been done again the Rat pointed out a fork which anybody ought to have
+seen, and last of all, behold! the mustard pot, which he had been
+sitting on without knowing it—still, somehow, the thing got finished at
+last, without much loss of temper.
+
+The afternoon sun was getting low as the Rat sculled gently homewards
+in a dreamy mood, murmuring poetry-things over to himself, and not
+paying much attention to Mole. But the Mole was very full of lunch, and
+self-satisfaction, and pride, and already quite at home in a boat (so
+he thought) and was getting a bit restless besides: and presently he
+said, “Ratty! Please, _I_ want to row, now!”
+
+The Rat shook his head with a smile. “Not yet, my young friend,” he
+said—“wait till you’ve had a few lessons. It’s not so easy as it
+looks.”
+
+The Mole was quiet for a minute or two. But he began to feel more and
+more jealous of Rat, sculling so strongly and so easily along, and his
+pride began to whisper that he could do it every bit as well. He jumped
+up and seized the sculls, so suddenly, that the Rat, who was gazing out
+over the water and saying more poetry-things to himself, was taken by
+surprise and fell backwards off his seat with his legs in the air for
+the second time, while the triumphant Mole took his place and grabbed
+the sculls with entire confidence.
+
+“Stop it, you _silly_ ass!” cried the Rat, from the bottom of the boat.
+“You can’t do it! You’ll have us over!”
+
+The Mole flung his sculls back with a flourish, and made a great dig at
+the water. He missed the surface altogether, his legs flew up above his
+head, and he found himself lying on the top of the prostrate Rat.
+Greatly alarmed, he made a grab at the side of the boat, and the next
+moment—Sploosh!
+
+Over went the boat, and he found himself struggling in the river.
+
+O my, how cold the water was, and O, how _very_ wet it felt. How it
+sang in his ears as he went down, down, down! How bright and welcome
+the sun looked as he rose to the surface coughing and spluttering! How
+black was his despair when he felt himself sinking again! Then a firm
+paw gripped him by the back of his neck. It was the Rat, and he was
+evidently laughing—the Mole could _feel_ him laughing, right down his
+arm and through his paw, and so into his—the Mole’s—neck.
+
+The Rat got hold of a scull and shoved it under the Mole’s arm; then he
+did the same by the other side of him and, swimming behind, propelled
+the helpless animal to shore, hauled him out, and set him down on the
+bank, a squashy, pulpy lump of misery.
+
+When the Rat had rubbed him down a bit, and wrung some of the wet out
+of him, he said, “Now, then, old fellow! Trot up and down the
+towing-path as hard as you can, till you’re warm and dry again, while I
+dive for the luncheon-basket.”
+
+So the dismal Mole, wet without and ashamed within, trotted about till
+he was fairly dry, while the Rat plunged into the water again,
+recovered the boat, righted her and made her fast, fetched his floating
+property to shore by degrees, and finally dived successfully for the
+luncheon-basket and struggled to land with it.
+
+When all was ready for a start once more, the Mole, limp and dejected,
+took his seat in the stern of the boat; and as they set off, he said in
+a low voice, broken with emotion, “Ratty, my generous friend! I am very
+sorry indeed for my foolish and ungrateful conduct. My heart quite
+fails me when I think how I might have lost that beautiful
+luncheon-basket. Indeed, I have been a complete ass, and I know it.
+Will you overlook it this once and forgive me, and let things go on as
+before?”
+
+“That’s all right, bless you!” responded the Rat cheerily. “What’s a
+little wet to a Water Rat? I’m more in the water than out of it most
+days. Don’t you think any more about it; and, look here! I really think
+you had better come and stop with me for a little time. It’s very plain
+and rough, you know—not like Toad’s house at all—but you haven’t seen
+that yet; still, I can make you comfortable. And I’ll teach you to row,
+and to swim, and you’ll soon be as handy on the water as any of us.”
+
+The Mole was so touched by his kind manner of speaking that he could
+find no voice to answer him; and he had to brush away a tear or two
+with the back of his paw. But the Rat kindly looked in another
+direction, and presently the Mole’s spirits revived again, and he was
+even able to give some straight back-talk to a couple of moorhens who
+were sniggering to each other about his bedraggled appearance.
+
+When they got home, the Rat made a bright fire in the parlour, and
+planted the Mole in an arm-chair in front of it, having fetched down a
+dressing-gown and slippers for him, and told him river stories till
+supper-time. Very thrilling stories they were, too, to an
+earth-dwelling animal like Mole. Stories about weirs, and sudden
+floods, and leaping pike, and steamers that flung hard bottles—at least
+bottles were certainly flung, and _from_ steamers, so presumably _by_
+them; and about herons, and how particular they were whom they spoke
+to; and about adventures down drains, and night-fishings with Otter, or
+excursions far a-field with Badger. Supper was a most cheerful meal;
+but very shortly afterwards a terribly sleepy Mole had to be escorted
+upstairs by his considerate host, to the best bedroom, where he soon
+laid his head on his pillow in great peace and contentment, knowing
+that his new-found friend the River was lapping the sill of his window.
+
+This day was only the first of many similar ones for the emancipated
+Mole, each of them longer and full of interest as the ripening summer
+moved onward. He learnt to swim and to row, and entered into the joy of
+running water; and with his ear to the reed-stems he caught, at
+intervals, something of what the wind went whispering so constantly
+among them.
+
+
+II.
+THE OPEN ROAD
+
+
+“Ratty,” said the Mole suddenly, one bright summer morning, “if you
+please, I want to ask you a favour.”
+
+The Rat was sitting on the river bank, singing a little song. He had
+just composed it himself, so he was very taken up with it, and would
+not pay proper attention to Mole or anything else. Since early morning
+he had been swimming in the river, in company with his friends the
+ducks. And when the ducks stood on their heads suddenly, as ducks will,
+he would dive down and tickle their necks, just under where their chins
+would be if ducks had chins, till they were forced to come to the
+surface again in a hurry, spluttering and angry and shaking their
+feathers at him, for it is impossible to say quite _all_ you feel when
+your head is under water. At last they implored him to go away and
+attend to his own affairs and leave them to mind theirs. So the Rat
+went away, and sat on the river bank in the sun, and made up a song
+about them, which he called
+
+“DUCKS’ DITTY.”
+
+All along the backwater,
+Through the rushes tall,
+Ducks are a-dabbling,
+Up tails all!
+Ducks’ tails, drakes’ tails,
+Yellow feet a-quiver,
+Yellow bills all out of sight
+Busy in the river!
+
+Slushy green undergrowth
+Where the roach swim—
+Here we keep our larder,
+Cool and full and dim.
+
+Everyone for what he likes!
+_We_ like to be
+Heads down, tails up,
+Dabbling free!
+
+High in the blue above
+Swifts whirl and call—
+_We_ are down a-dabbling
+Uptails all!
+
+
+“I don’t know that I think so _very_ much of that little song, Rat,”
+observed the Mole cautiously. He was no poet himself and didn’t care
+who knew it; and he had a candid nature.
+
+“Nor don’t the ducks neither,” replied the Rat cheerfully. “They say,
+‘_Why_ can’t fellows be allowed to do what they like _when_ they like
+and _as_ they like, instead of other fellows sitting on banks and
+watching them all the time and making remarks and poetry and things
+about them? What _nonsense_ it all is!’ That’s what the ducks say.”
+
+“So it is, so it is,” said the Mole, with great heartiness.
+
+“No, it isn’t!” cried the Rat indignantly.
+
+“Well then, it isn’t, it isn’t,” replied the Mole soothingly. “But what
+I wanted to ask you was, won’t you take me to call on Mr. Toad? I’ve
+heard so much about him, and I do so want to make his acquaintance.”
+
+“Why, certainly,” said the good-natured Rat, jumping to his feet and
+dismissing poetry from his mind for the day. “Get the boat out, and
+we’ll paddle up there at once. It’s never the wrong time to call on
+Toad. Early or late he’s always the same fellow. Always good-tempered,
+always glad to see you, always sorry when you go!”
+
+“He must be a very nice animal,” observed the Mole, as he got into the
+boat and took the sculls, while the Rat settled himself comfortably in
+the stern.
+
+“He is indeed the best of animals,” replied Rat. “So simple, so
+good-natured, and so affectionate. Perhaps he’s not very clever—we
+can’t all be geniuses; and it may be that he is both boastful and
+conceited. But he has got some great qualities, has Toady.”
+
+Rounding a bend in the river, they came in sight of a handsome,
+dignified old house of mellowed red brick, with well-kept lawns
+reaching down to the water’s edge.
+
+“There’s Toad Hall,” said the Rat; “and that creek on the left, where
+the notice-board says, ‘Private. No landing allowed,’ leads to his
+boat-house, where we’ll leave the boat. The stables are over there to
+the right. That’s the banqueting-hall you’re looking at now—very old,
+that is. Toad is rather rich, you know, and this is really one of the
+nicest houses in these parts, though we never admit as much to Toad.”
+
+They glided up the creek, and the Mole shipped his sculls as they
+passed into the shadow of a large boat-house. Here they saw many
+handsome boats, slung from the cross beams or hauled up on a slip, but
+none in the water; and the place had an unused and a deserted air.
+
+The Rat looked around him. “I understand,” said he. “Boating is played
+out. He’s tired of it, and done with it. I wonder what new fad he has
+taken up now? Come along and let’s look him up. We shall hear all about
+it quite soon enough.”
+
+They disembarked, and strolled across the gay flower-decked lawns in
+search of Toad, whom they presently happened upon resting in a wicker
+garden-chair, with a pre-occupied expression of face, and a large map
+spread out on his knees.
+
+“Hooray!” he cried, jumping up on seeing them, “this is splendid!” He
+shook the paws of both of them warmly, never waiting for an
+introduction to the Mole. “How _kind_ of you!” he went on, dancing
+round them. “I was just going to send a boat down the river for you,
+Ratty, with strict orders that you were to be fetched up here at once,
+whatever you were doing. I want you badly—both of you. Now what will
+you take? Come inside and have something! You don’t know how lucky it
+is, your turning up just now!”
+
+“Let’s sit quiet a bit, Toady!” said the Rat, throwing himself into an
+easy chair, while the Mole took another by the side of him and made
+some civil remark about Toad’s “delightful residence.”
+
+“Finest house on the whole river,” cried Toad boisterously. “Or
+anywhere else, for that matter,” he could not help adding.
+
+Here the Rat nudged the Mole. Unfortunately the Toad saw him do it, and
+turned very red. There was a moment’s painful silence. Then Toad burst
+out laughing. “All right, Ratty,” he said. “It’s only my way, you know.
+And it’s not such a very bad house, is it? You know you rather like it
+yourself. Now, look here. Let’s be sensible. You are the very animals I
+wanted. You’ve got to help me. It’s most important!”
+
+“It’s about your rowing, I suppose,” said the Rat, with an innocent
+air. “You’re getting on fairly well, though you splash a good bit
+still. With a great deal of patience, and any quantity of coaching, you
+may——”
+
+“O, pooh! boating!” interrupted the Toad, in great disgust. “Silly
+boyish amusement. I’ve given that up _long_ ago. Sheer waste of time,
+that’s what it is. It makes me downright sorry to see you fellows, who
+ought to know better, spending all your energies in that aimless
+manner. No, I’ve discovered the real thing, the only genuine occupation
+for a life time. I propose to devote the remainder of mine to it, and
+can only regret the wasted years that lie behind me, squandered in
+trivialities. Come with me, dear Ratty, and your amiable friend also,
+if he will be so very good, just as far as the stable-yard, and you
+shall see what you shall see!”
+
+He led the way to the stable-yard accordingly, the Rat following with a
+most mistrustful expression; and there, drawn out of the coach house
+into the open, they saw a gipsy caravan, shining with newness, painted
+a canary-yellow picked out with green, and red wheels.
+
+“There you are!” cried the Toad, straddling and expanding himself.
+“There’s real life for you, embodied in that little cart. The open
+road, the dusty highway, the heath, the common, the hedgerows, the
+rolling downs! Camps, villages, towns, cities! Here to-day, up and off
+to somewhere else to-morrow! Travel, change, interest, excitement! The
+whole world before you, and a horizon that’s always changing! And mind!
+this is the very finest cart of its sort that was ever built, without
+any exception. Come inside and look at the arrangements. Planned ’em
+all myself, I did!”
+
+The Mole was tremendously interested and excited, and followed him
+eagerly up the steps and into the interior of the caravan. The Rat only
+snorted and thrust his hands deep into his pockets, remaining where he
+was.
+
+It was indeed very compact and comfortable. Little sleeping bunks—a
+little table that folded up against the wall—a cooking-stove, lockers,
+bookshelves, a bird-cage with a bird in it; and pots, pans, jugs and
+kettles of every size and variety.
+
+“All complete!” said the Toad triumphantly, pulling open a locker. “You
+see—biscuits, potted lobster, sardines—everything you can possibly
+want. Soda-water here—baccy there—letter-paper, bacon, jam, cards and
+dominoes—you’ll find,” he continued, as they descended the steps again,
+“you’ll find that nothing what ever has been forgotten, when we make
+our start this afternoon.”
+
+“I beg your pardon,” said the Rat slowly, as he chewed a straw, “but
+did I overhear you say something about ‘_we_,’ and ‘_start_,’ and
+‘_this afternoon?_’”
+
+“Now, you dear good old Ratty,” said Toad, imploringly, “don’t begin
+talking in that stiff and sniffy sort of way, because you know you’ve
+_got_ to come. I can’t possibly manage without you, so please consider
+it settled, and don’t argue—it’s the one thing I can’t stand. You
+surely don’t mean to stick to your dull fusty old river all your life,
+and just live in a hole in a bank, and _boat?_ I want to show you the
+world! I’m going to make an _animal_ of you, my boy!”
+
+“I don’t care,” said the Rat, doggedly. “I’m not coming, and that’s
+flat. And I _am_ going to stick to my old river, _and_ live in a hole,
+_and_ boat, as I’ve always done. And what’s more, Mole’s going to stick
+to me and do as I do, aren’t you, Mole?”
+
+“Of course I am,” said the Mole, loyally. “I’ll always stick to you,
+Rat, and what you say is to be—has got to be. All the same, it sounds
+as if it might have been—well, rather fun, you know!” he added,
+wistfully. Poor Mole! The Life Adventurous was so new a thing to him,
+and so thrilling; and this fresh aspect of it was so tempting; and he
+had fallen in love at first sight with the canary-coloured cart and all
+its little fitments.
+
+The Rat saw what was passing in his mind, and wavered. He hated
+disappointing people, and he was fond of the Mole, and would do almost
+anything to oblige him. Toad was watching both of them closely.
+
+“Come along in, and have some lunch,” he said, diplomatically, “and
+we’ll talk it over. We needn’t decide anything in a hurry. Of course,
+_I_ don’t really care. I only want to give pleasure to you fellows.
+‘Live for others!’ That’s my motto in life.”
+
+During luncheon—which was excellent, of course, as everything at Toad
+Hall always was—the Toad simply let himself go. Disregarding the Rat,
+he proceeded to play upon the inexperienced Mole as on a harp.
+Naturally a voluble animal, and always mastered by his imagination, he
+painted the prospects of the trip and the joys of the open life and the
+roadside in such glowing colours that the Mole could hardly sit in his
+chair for excitement. Somehow, it soon seemed taken for granted by all
+three of them that the trip was a settled thing; and the Rat, though
+still unconvinced in his mind, allowed his good-nature to over-ride his
+personal objections. He could not bear to disappoint his two friends,
+who were already deep in schemes and anticipations, planning out each
+day’s separate occupation for several weeks ahead.
+
+When they were quite ready, the now triumphant Toad led his companions
+to the paddock and set them to capture the old grey horse, who, without
+having been consulted, and to his own extreme annoyance, had been told
+off by Toad for the dustiest job in this dusty expedition. He frankly
+preferred the paddock, and took a deal of catching. Meantime Toad
+packed the lockers still tighter with necessaries, and hung nosebags,
+nets of onions, bundles of hay, and baskets from the bottom of the
+cart. At last the horse was caught and harnessed, and they set off, all
+talking at once, each animal either trudging by the side of the cart or
+sitting on the shaft, as the humour took him. It was a golden
+afternoon. The smell of the dust they kicked up was rich and
+satisfying; out of thick orchards on either side the road, birds called
+and whistled to them cheerily; good-natured wayfarers, passing them,
+gave them “Good-day,” or stopped to say nice things about their
+beautiful cart; and rabbits, sitting at their front doors in the
+hedgerows, held up their fore-paws, and said, “O my! O my! O my!”
+
+Late in the evening, tired and happy and miles from home, they drew up
+on a remote common far from habitations, turned the horse loose to
+graze, and ate their simple supper sitting on the grass by the side of
+the cart. Toad talked big about all he was going to do in the days to
+come, while stars grew fuller and larger all around them, and a yellow
+moon, appearing suddenly and silently from nowhere in particular, came
+to keep them company and listen to their talk. At last they turned in
+to their little bunks in the cart; and Toad, kicking out his legs,
+sleepily said, “Well, good night, you fellows! This is the real life
+for a gentleman! Talk about your old river!”
+
+“I _don’t_ talk about my river,” replied the patient Rat. “You _know_ I
+don’t, Toad. But I _think_ about it,” he added pathetically, in a lower
+tone: “I think about it—all the time!”
+
+The Mole reached out from under his blanket, felt for the Rat’s paw in
+the darkness, and gave it a squeeze. “I’ll do whatever you like,
+Ratty,” he whispered. “Shall we run away to-morrow morning, quite
+early—_very_ early—and go back to our dear old hole on the river?”
+
+“No, no, we’ll see it out,” whispered back the Rat. “Thanks awfully,
+but I ought to stick by Toad till this trip is ended. It wouldn’t be
+safe for him to be left to himself. It won’t take very long. His fads
+never do. Good night!”
+
+The end was indeed nearer than even the Rat suspected.
+
+After so much open air and excitement the Toad slept very soundly, and
+no amount of shaking could rouse him out of bed next morning. So the
+Mole and Rat turned to, quietly and manfully, and while the Rat saw to
+the horse, and lit a fire, and cleaned last night’s cups and platters,
+and got things ready for breakfast, the Mole trudged off to the nearest
+village, a long way off, for milk and eggs and various necessaries the
+Toad had, of course, forgotten to provide. The hard work had all been
+done, and the two animals were resting, thoroughly exhausted, by the
+time Toad appeared on the scene, fresh and gay, remarking what a
+pleasant easy life it was they were all leading now, after the cares
+and worries and fatigues of housekeeping at home.
+
+They had a pleasant ramble that day over grassy downs and along narrow
+by-lanes, and camped as before, on a common, only this time the two
+guests took care that Toad should do his fair share of work. In
+consequence, when the time came for starting next morning, Toad was by
+no means so rapturous about the simplicity of the primitive life, and
+indeed attempted to resume his place in his bunk, whence he was hauled
+by force. Their way lay, as before, across country by narrow lanes, and
+it was not till the afternoon that they came out on the high-road,
+their first high-road; and there disaster, fleet and unforeseen, sprang
+out on them—disaster momentous indeed to their expedition, but simply
+overwhelming in its effect on the after-career of Toad.
+
+They were strolling along the high-road easily, the Mole by the horse’s
+head, talking to him, since the horse had complained that he was being
+frightfully left out of it, and nobody considered him in the least; the
+Toad and the Water Rat walking behind the cart talking together—at
+least Toad was talking, and Rat was saying at intervals, “Yes,
+precisely; and what did _you_ say to _him?_”—and thinking all the time
+of something very different, when far behind them they heard a faint
+warning hum; like the drone of a distant bee. Glancing back, they saw a
+small cloud of dust, with a dark centre of energy, advancing on them at
+incredible speed, while from out the dust a faint “Poop-poop!” wailed
+like an uneasy animal in pain. Hardly regarding it, they turned to
+resume their conversation, when in an instant (as it seemed) the
+peaceful scene was changed, and with a blast of wind and a whirl of
+sound that made them jump for the nearest ditch, It was on them! The
+“Poop-poop” rang with a brazen shout in their ears, they had a moment’s
+glimpse of an interior of glittering plate-glass and rich morocco, and
+the magnificent motor-car, immense, breath-snatching, passionate, with
+its pilot tense and hugging his wheel, possessed all earth and air for
+the fraction of a second, flung an enveloping cloud of dust that
+blinded and enwrapped them utterly, and then dwindled to a speck in the
+far distance, changed back into a droning bee once more.
+
+The old grey horse, dreaming, as he plodded along, of his quiet
+paddock, in a new raw situation such as this simply abandoned himself
+to his natural emotions. Rearing, plunging, backing steadily, in spite
+of all the Mole’s efforts at his head, and all the Mole’s lively
+language directed at his better feelings, he drove the cart backwards
+towards the deep ditch at the side of the road. It wavered an
+instant—then there was a heartrending crash—and the canary-coloured
+cart, their pride and their joy, lay on its side in the ditch, an
+irredeemable wreck.
+
+The Rat danced up and down in the road, simply transported with
+passion. “You villains!” he shouted, shaking both fists, “You
+scoundrels, you highwaymen, you—you—roadhogs!—I’ll have the law of you!
+I’ll report you! I’ll take you through all the Courts!” His
+home-sickness had quite slipped away from him, and for the moment he
+was the skipper of the canary-coloured vessel driven on a shoal by the
+reckless jockeying of rival mariners, and he was trying to recollect
+all the fine and biting things he used to say to masters of
+steam-launches when their wash, as they drove too near the bank, used
+to flood his parlour-carpet at home.
+
+Toad sat straight down in the middle of the dusty road, his legs
+stretched out before him, and stared fixedly in the direction of the
+disappearing motor-car. He breathed short, his face wore a placid
+satisfied expression, and at intervals he faintly murmured “Poop-poop!”
+
+The Mole was busy trying to quiet the horse, which he succeeded in
+doing after a time. Then he went to look at the cart, on its side in
+the ditch. It was indeed a sorry sight. Panels and windows smashed,
+axles hopelessly bent, one wheel off, sardine-tins scattered over the
+wide world, and the bird in the bird-cage sobbing pitifully and calling
+to be let out.
+
+The Rat came to help him, but their united efforts were not sufficient
+to right the cart. “Hi! Toad!” they cried. “Come and bear a hand, can’t
+you!”
+
+The Toad never answered a word, or budged from his seat in the road; so
+they went to see what was the matter with him. They found him in a sort
+of a trance, a happy smile on his face, his eyes still fixed on the
+dusty wake of their destroyer. At intervals he was still heard to
+murmur “Poop-poop!”
+
+The Rat shook him by the shoulder. “Are you coming to help us, Toad?”
+he demanded sternly.
+
+“Glorious, stirring sight!” murmured Toad, never offering to move. “The
+poetry of motion! The _real_ way to travel! The _only_ way to travel!
+Here to-day—in next week to-morrow! Villages skipped, towns and cities
+jumped—always somebody else’s horizon! O bliss! O poop-poop! O my! O
+my!”
+
+“O _stop_ being an ass, Toad!” cried the Mole despairingly.
+
+“And to think I never _knew!_” went on the Toad in a dreamy monotone.
+“All those wasted years that lie behind me, I never knew, never even
+_dreamt!_ But _now_—but now that I know, now that I fully realise! O
+what a flowery track lies spread before me, henceforth! What
+dust-clouds shall spring up behind me as I speed on my reckless way!
+What carts I shall fling carelessly into the ditch in the wake of my
+magnificent onset! Horrid little carts—common carts—canary-coloured
+carts!”
+
+“What are we to do with him?” asked the Mole of the Water Rat.
+
+“Nothing at all,” replied the Rat firmly. “Because there is really
+nothing to be done. You see, I know him from of old. He is now
+possessed. He has got a new craze, and it always takes him that way, in
+its first stage. He’ll continue like that for days now, like an animal
+walking in a happy dream, quite useless for all practical purposes.
+Never mind him. Let’s go and see what there is to be done about the
+cart.”
+
+A careful inspection showed them that, even if they succeeded in
+righting it by themselves, the cart would travel no longer. The axles
+were in a hopeless state, and the missing wheel was shattered into
+pieces.
+
+The Rat knotted the horse’s reins over his back and took him by the
+head, carrying the bird cage and its hysterical occupant in the other
+hand. “Come on!” he said grimly to the Mole. “It’s five or six miles to
+the nearest town, and we shall just have to walk it. The sooner we make
+a start the better.”
+
+“But what about Toad?” asked the Mole anxiously, as they set off
+together. “We can’t leave him here, sitting in the middle of the road
+by himself, in the distracted state he’s in! It’s not safe. Supposing
+another Thing were to come along?”
+
+“O, _bother_ Toad,” said the Rat savagely; “I’ve done with him!`;
   window.BOOKS_FULL[3836]=`Produced by Anne Wingate
 
 
