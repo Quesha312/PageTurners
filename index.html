@@ -2307,7 +2307,10 @@ async function fetchPages(id){
     }catch(_){}
   }
   if(!txt||txt.length<500)return null;
+  txt=txt.replace(/\r\n/g,'\n').replace(/\r/g,'\n');
   txt=stripGB(txt);
+  txt=txt.replace(/\[Illustration[^\]]*\]/gi,'');
+  txt=txt.replace(/_([^_]+)_/g,'$1');
   if(!txt||txt.length<300)return null;
   return paginate(txt);
 }
@@ -2379,9 +2382,17 @@ function stripGB(raw){
   return raw.slice(s,e).trim();
 }
 function paginate(txt){
-  const paras=txt.split(/\n{2,}/)
+  txt=(txt||'').replace(/\r\n/g,'\n').replace(/\r/g,'\n');
+  let paras=txt.split(/\n{2,}/)
     .map(p=>p.replace(/[\r\n]+/g,' ').replace(/\s{2,}/g,' ').trim())
     .filter(p=>p.length>12);
+  if(paras.length<2){
+    // Fallback: no blank-line breaks detected — split by sentence groups instead
+    const sents=txt.replace(/\s+/g,' ').trim().split(/(?<=[.!?])\s+/);
+    paras=[];let buf=[];let bc=0;
+    for(const s of sents){buf.push(s);bc++;if(bc>=6){paras.push(buf.join(' '));buf=[];bc=0;}}
+    if(buf.length)paras.push(buf.join(' '));
+  }
   const pages=[];let cur=[],wc=0;
   for(const p of paras){
     const w=p.split(/\s+/).length;
